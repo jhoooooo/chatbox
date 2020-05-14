@@ -1,17 +1,17 @@
 {
     "message-box-margin": {
-        "label": "Margin Between User Message",
+        "label": "Spacing Between User",
         "type": "slider",
-        "name": "Margin Between User Message",
+        "name": "Spacing Between User",
         "value": 5,
         "max": 30,
         "min": 0,
         "steps": 1
     },
     "meta-box-margin": {
-        "label": "Meta Margin  (Username + Badge)",
+        "label": "Spacing Between Username And Message",
         "type": "slider",
-        "name": "Meta Margin",
+        "name": "Spacing Between Username And Message",
         "value": 5,
         "max": 30,
         "min": 0,
@@ -38,13 +38,22 @@
     "name-font-color": {
         "label": "Username Color",
         "type": "colorpicker",
-        "value": "#000EF0"
+        "value": "#FFFFFF"
     },
     "name-bg-color": {
         "label": "Username Background Color",
         "type": "colorpicker",
-        "value": "#00f0da"
+        "value": "#000000"
     },
+    "name-transform": {
+       "label": "Username Text Transform",
+       "type": "dropdown",
+       "options": {
+           "none": "None",
+           "uppercase": "Uppercase"
+       },
+       "value": "none"
+   },
     "name-padding-tb": {
         "label": "Username Top/Bottom Padding",
         "type": "slider",
@@ -64,33 +73,33 @@
         "steps": 1
     },
     "name-border": {
-        "label": "Name Border Size",
+        "label": "Username Box Border Size",
         "type": "slider",
         "name": "Name Border Size",
-        "value": 2,
+        "value": 1,
         "max": 10,
         "min": 0,
         "steps": 1
     },
     "name-border-color": {
-        "label": "Name Border Color",
+        "label": "Username Box Border Color",
         "type": "colorpicker",
         "value": "#000000"
     },
     "name-border-radius": {
-        "label": "Name Border Radius",
+        "label": "Username Box Border Radius",
         "type": "slider",
-        "name": "Message Border Radius",
-        "value": 5,
+        "name": "Username Border Radius",
+        "value": 0,
         "max": 15,
         "min": 0,
         "steps": 1
     },
     "name-skew": {
-        "label": "Username Skew",
+        "label": "Username Box Skew",
         "type": "slider",
-        "name": "Username Skew",
-        "value": 20,
+        "name": "Username Box Skew",
+        "value": 0,
         "max": 20,
         "min": 0,
         "steps": 1
@@ -98,13 +107,22 @@
     "message-font-color": {
         "label": "Message Color",
         "type": "colorpicker",
-        "value": "#ffffff"
+        "value": "#000000"
     },
     "message-bg-color": {
         "label": "Message Background Color",
         "type": "colorpicker",
-        "value": "#294bfa"
+        "value": "#FFFFFF"
     },
+    "message-transform": {
+       "label": "Message Text Transform",
+       "type": "dropdown",
+       "options": {
+           "none": "None",
+           "uppercase": "Uppercase"
+       },
+       "value": "none"
+   },
     "message-padding-tb": {
         "label": "Message Top/Bottom Padding",
         "type": "slider",
@@ -123,34 +141,43 @@
         "min": 0,
         "steps": 1
     },
+    "message-box-offset": {
+        "label": "Message Box Offset",
+        "type": "slider",
+        "name": "Message Box Offset",
+        "value": 0,
+        "max": 30,
+        "min": 0,
+        "steps": 1
+    },
     "message-border": {
-        "label": "Message Border Size",
+        "label": "Message Box Border Size",
         "type": "slider",
         "name": "Message Border Size",
-        "value": 2,
+        "value": 1,
         "max": 10,
         "min": 0,
         "steps": 1
     },
     "message-border-color": {
-        "label": "Message Border Color",
+        "label": "Message Box Border Color",
         "type": "colorpicker",
         "value": "#000000"
     },
     "message-border-radius": {
-        "label": "Message Border Radius",
+        "label": "Message Box Border Radius",
         "type": "slider",
         "name": "Message Border Radius",
-        "value": 5,
+        "value": 0,
         "max": 15,
         "min": 0,
         "steps": 1
     },
     "message-skew": {
-        "label": "Username Skew",
+        "label": "Message Box Skew",
         "type": "slider",
-        "name": "Username Skew",
-        "value": 20,
+        "name": "Message Box Skew",
+        "value": 0,
         "max": 20,
         "min": 0,
         "steps": 1
