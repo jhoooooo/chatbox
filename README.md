@@ -2,6 +2,8 @@
 # streamlabs-chat
 Customizable theme for Streamlabs Twitch chat widget.
 
+![](https://media.giphy.com/media/ekM9pBSlA9laAQ7DjT/giphy.gif)
+
 ## Feature
 - Smoothscrolling Chat
 - Easy to customize
