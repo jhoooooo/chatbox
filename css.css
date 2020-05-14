@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: {background_color};
+  font-family: 'Open Sans';
+  font-weight: {font-weight};
+  font-size: {font-size}px;
+  line-height: 1.5em;
+}
+
+.colon {
+  display: none;
+}
+
+#log {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 10px 10px 10px;
+  width: 100%;
+}
+
+#log>div.deleted {
+  visibility: hidden;
+}
+
+#log>div {
+  margin-bottom: {message-box-margin}px;
+}
+
+.meta  {
+  display: inline-block;
+}
+
+.crown {
+  display: inline-block;
+}
+
+.badge {
+  display: inline-block;
+  margin: 0 0.2em;
+  position: relative;
+  height: fit-content;
+  vertical-align: middle;
+}
+
+.username-box {
+  margin-bottom: {meta-box-margin}px;
+  display: inline-block;
+  background-color: {name-bg-color};
+  border: {name-border}px solid {name-border-color};
+  border-radius: {name-border-radius}px;
+  -ms-transform: skewX(-{name-skew}deg); /* IE 9 */
+   -webkit-transform: skewX(-{name-skew}deg); /* Safari */
+   transform: skewX(-{name-skew}deg);
+}
+.name {
+  display: inline-block;
+  color: {name-font-color};
+  padding: {name-padding-tb}px {name-padding-lr}px ;
+  -ms-transform: skewX({name-skew}deg); /* IE 9 */
+   -webkit-transform: skewX({name-skew}deg); /* Safari */
+   transform: skewX({name-skew}deg);
+}
+
+.message-box {
+  background-color: {message-bg-color};
+  border: {message-border}px solid {message-border-color};
+  border-radius: {message-border-radius}px;
+  -ms-transform: skewX(-{message-skew}deg); /* IE 9 */
+   -webkit-transform: skewX(-{message-skew}deg); /* Safari */
+   transform: skewX(-{message-skew}deg);
+}
+
+.message {
+  display: block;
+  color: {message-font-color};
+  padding: {message-padding-tb}px {message-padding-lr}px ;
+  word-wrap: break-word;
+  -ms-transform: skewX({message-skew}deg); /* IE 9 */
+   -webkit-transform: skewX({message-skew}deg); /* Safari */
+   transform: skewX({message-skew}deg);
+}
+
+#log .emote {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 0.4em 0.2em;
+  position: relative;
+}
+
+#log .emote img {
+  display: inline-block;
+  height: 1em;
+  opacity: 0;
+}
