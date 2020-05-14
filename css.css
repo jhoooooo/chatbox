@@ -67,6 +67,7 @@ body {
 .name {
   display: inline-block;
   color: {name-font-color};
+  text-transform: {name-transform};
   padding: {name-padding-tb}px {name-padding-lr}px ;
   -ms-transform: skewX({name-skew}deg); /* IE 9 */
    -webkit-transform: skewX({name-skew}deg); /* Safari */
@@ -74,6 +75,7 @@ body {
 }
 
 .message-box {
+  margin-left: {message-box-offset};
   background-color: {message-bg-color};
   border: {message-border}px solid {message-border-color};
   border-radius: {message-border-radius}px;
@@ -85,6 +87,7 @@ body {
 .message {
   display: block;
   color: {message-font-color};
+  text-transform: {message-transform};
   padding: {message-padding-tb}px {message-padding-lr}px ;
   word-wrap: break-word;
   -ms-transform: skewX({message-skew}deg); /* IE 9 */
