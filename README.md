@@ -26,7 +26,7 @@ Twitch provide specific color for each user. To use this color, you have to incl
     <div class="username-box" style="background: {color}">
     <div class="message-box" style="border-color: {color}"> 
     
-`{color}` does not work on the css file/code. Must be put inline on to the html file/code as shown. It will overwrite the css if used.
+`{color}` does not work on the css file/code afaik. Must be put inline on to the html file/code as shown. It will overwrite the css if used.
 
 ### Smoothscrolling
 
