@@ -28,6 +28,7 @@ body {
   left: 0;
   padding: 0 10px 10px 10px;
   width: 100%;
+  opacity: {widget-opacity};
 }
 
 #log>div.deleted {
@@ -52,6 +53,7 @@ body {
   position: relative;
   height: fit-content;
   vertical-align: middle;
+  margin-top: -2px;
 }
 
 .username-box {
