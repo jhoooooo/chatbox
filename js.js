@@ -6,10 +6,12 @@ document.addEventListener('onLoad', function(obj) {
 
 document.addEventListener('onEventReceived', function(obj) {
     // obj will contain information about the event
-    $('#log>div:last-child').css({
-        'opacity': '0',
-        'display': 'none'
-    }).slideDown(300).animate({
-        opacity: 1
-    }, 300);
+    if (obj['detail']['command'] === 'PRIVMSG') {
+        $('#log>div:last-child').css({
+            'opacity': '0',
+            'display': 'none'
+        }).slideDown(300).animate({
+            opacity: 1
+        }, 300);
+    }
 });
