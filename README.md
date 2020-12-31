@@ -4,34 +4,34 @@ Customizable theme for Streamlabs Twitch chat widget.
 
 ![](https://media.giphy.com/media/ekM9pBSlA9laAQ7DjT/giphy.gif)
 
-## Feature
-- Smoothscrolling Chat
-- Easy to customize
 
 ## How To Use
 
-- Copy all the code/files needed (html,js,css,custom-field) to your Streamlabs widget dashboard ([https://streamlabs.com/dashboard#/chatbox](https://streamlabs.com/dashboard#/chatbox))
+- Copy all the files needed to their respective field in your Streamlabs widget dashboard. ([https://streamlabs.com/dashboard#/chatbox](https://streamlabs.com/dashboard#/chatbox))
+- Custom field can be enable by clicking on 'Add Custom Fields' on the bottom right of the page. You have to edit and update the page with the new code.
 
 ## Customization
 
 Most of the features can be customize using the '*custom fields*' section on your widget dashboard.
 
-## Specific Customization:
 
-### Twitch Colorful Color/Background Color
+### Twitch User Color
 
-Twitch provide specific color for each user. To use this color, you have to include it manually on the html file/code as needed. The variable is `{color}`. For example:
+Twitch user can set their own color in the site. To use this color in this overlay, you have to include it manually on the html code as needed. The variable is `{color}`. For example:
 
     <div class="name" style="color: {color}">
     <div class="username-box" style="background: {color}">
-    <div class="message-box" style="border-color: {color}"> 
-    
-`{color}` does not work on the css file/code afaik. Must be put inline on to the html file/code as shown. It will overwrite the css if used.
+    <div class="message-box" style="border-color: {color}">
+
+`{color}` does not work on the css as far as I know. It must be put inline on to the html file and will overwrite the css if used.
 
 ### Smoothscrolling
 
-To disable smoothscrolling, simply remove the javascript file/code or restore the original code.
- 
+Smooth scrolling might not be suitable if chat is moving too fast. To disable smoothscrolling, simply remove the javascript code or restore the original code.
+
+## Premade theme
+
+This repo also included some premade theme in the premade folder. This themes is less customizable than the main overlay unless you edit the css manually.
 
 ## License
 [![MIT license](https://badgen.net/badge/License/MIT/blue)](https://github.com/metadotmy/streamlabs-chat/blob/master/LICENSE)

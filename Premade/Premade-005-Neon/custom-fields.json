@@ -1,0 +1,16 @@
+{
+  "first-color": {
+    "label": "Color",
+    "type": "colorpicker",
+    "value": "#9146FF"
+  },
+  "usn-size": {
+      "label": "Font Size",
+      "type": "slider",
+      "name": "",
+      "value": 14,
+      "max": 60,
+      "min": 10,
+      "steps": 1
+  }
+}
