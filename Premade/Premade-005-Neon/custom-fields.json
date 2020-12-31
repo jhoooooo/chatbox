@@ -1,11 +1,25 @@
 {
-  "first-color": {
-    "label": "Color",
+  "neon-first-color": {
+    "label": "Username Color",
     "type": "colorpicker",
-    "value": "#9146FF"
+    "value": "#ff4400"
   },
   "usn-size": {
-      "label": "Font Size",
+      "label": "Username Font Size",
+      "type": "slider",
+      "name": "",
+      "value": 14,
+      "max": 60,
+      "min": 10,
+      "steps": 1
+  },
+  "neon-second-color": {
+    "label": "Message Color",
+    "type": "colorpicker",
+    "value": "#0088ff"
+  },
+  "msg-size": {
+      "label": "Message Font Size",
       "type": "slider",
       "name": "",
       "value": 14,

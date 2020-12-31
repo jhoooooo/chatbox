@@ -1,15 +1,10 @@
 /* META.MY - 2020
 
-- Premade 003 'Twitch'
-- Last Update: 01 Jan 2021
+- Premade 002 'Colorful'
+- Last Update: 01 Jan 2020
 - https://github.com/metadotmy/streamlabs-chat
 
 */
-:root {
-  --color-white: #fff;
-  --color-twitch: {first-color};
-}
-
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
@@ -67,43 +62,37 @@ body {
 }
 
 .username-box {
+  margin-left: 5px;
+  margin-bottom: -10px;
   display: inline-block;
-  color: var(--color-twitch);
-  border-radius: 10px;
-  box-sizing: border-box;
-  outline: none;
-  margin-bottom: 5px;
+  border-radius: {name-border-radius}px;
 }
 
 .name {
   display: inline-block;
-  background-color: var(--color-white);
-  border: 5px solid var(--color-twitch);
-  border-radius: 10px;
-  font-weight: 800;
+  color: {first-color};
+  font-weight: 600;
   letter-spacing: 1px;
   text-transform: Uppercase;
-  padding: 2px 8px;
+  padding: 2px 8px ;
   font-size: {usn-size}px;
 }
 
 .message-box {
-  display: inline-block;
-  background-color: var(--color-twitch);
-  border: 5px solid var(--color-twitch);
-  border-radius: 10px;
-  box-sizing: border-box;
-  outline: none;
+  border: none;
+  padding-top: 5px;
+  background-color: #FFFFFF;
+  border-radius: {msg-border-radius}px;
 }
 
 .message {
   display: block;
-  color: var(--color-white);
+  color: {sec-color};
   letter-spacing: 0.9px;
-  padding: 2px 8px;
-  margin-left: 4px;
+  margin-left: 5px;
+  padding: 6px 6px ;
   word-wrap: break-word;
-  font-size: {usn-size}px;
+  font-size: {msg-size}px;
 }
 
 #log .emote {

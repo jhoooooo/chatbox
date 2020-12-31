@@ -15,9 +15,9 @@ Customizable theme for Streamlabs Twitch chat widget.
 Most of the features can be customize using the '*custom fields*' section on your widget dashboard.
 
 
-### Twitch User Color
+## Twitch User Color
 
-Twitch user can set their own color in the site. To use this color in this overlay, you have to include it manually on the html code as needed. The variable is `{color}`. For example:
+Twitch user can set their own color on the site. To use this color in this overlay, you have to include it manually on the html code as needed. The variable is `{color}`. For example:
 
     <div class="name" style="color: {color}">
     <div class="username-box" style="background: {color}">

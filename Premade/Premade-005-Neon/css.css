@@ -12,8 +12,8 @@
   --white: #fff;
   --neon-fir: {neon-first-color};
   --neon-sec: {neon-second-color};
-  --usn-ft-size: {usn-size};
-  --msg-ft-size: {msg-size};
+  --usn-ft-size: {usn-size}px;
+  --msg-ft-size: {msg-size}px;
 }
 
 * {
