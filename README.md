@@ -25,7 +25,7 @@ Twitch user can set their own color on the site. To use this color in this overl
 
 `{color}` does not work on the css as far as I know. It must be put inline on to the html file and will overwrite the css if used.
 
-### Smoothscrolling
+## Smoothscrolling
 
 Smooth scrolling might not be suitable if chat is moving too fast. To disable smoothscrolling, simply remove the javascript code or restore the original code.
 
