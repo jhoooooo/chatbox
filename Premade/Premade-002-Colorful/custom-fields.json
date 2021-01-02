@@ -23,7 +23,7 @@
       "steps": 1
   },
   "sec-color": {
-    "label": "Username Color",
+    "label": "Message Color",
     "type": "colorpicker",
     "value": "#000000"
   },
@@ -44,5 +44,14 @@
       "max": 15,
       "min": 0,
       "steps": 1
+  },
+  "badge-display": {
+      "label": "Display User Badges?",
+      "type": "dropdown",
+      "options": {
+          "none": "No",
+          "inline-block": "Yes"
+      },
+      "value": "none"
   }
 }
