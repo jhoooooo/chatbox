@@ -1,13 +1,13 @@
 /* META.MY - 2020
 
 - Premade 003 'Twitch'
-- Last Update: 01 Jan 2021
+- Last Update: 27 March 2021
 - https://github.com/metadotmy/streamlabs-chat
 
 */
 :root {
   --color-white: #fff;
-  --color-twitch: {first-color};
+  --color-twitch: {twitch-color};
 }
 
 
@@ -47,6 +47,8 @@ body {
 
 #log>div {
   margin-bottom: 5px;
+  animation: fadeInUp 0.3s ease forwards, fadeOut 0.5s ease {message_hide_delay} forwards;
+  -webkit-animation: fadeInUp 0.3s ease forwards, fadeOut 0.5s ease {message_hide_delay} forwards;
 }
 
 .meta  {
@@ -54,7 +56,7 @@ body {
 }
 
 .crown {
-  display: inline-block;
+  display: {badges};
 }
 
 .badge {
@@ -77,20 +79,19 @@ body {
 
 .name {
   display: inline-block;
-  background-color: var(--color-white);
-  border: 5px solid var(--color-twitch);
+  color: var(--color-white);
+  background-color: var(--color-twitch);
   border-radius: 10px;
   font-weight: 800;
   letter-spacing: 1px;
   text-transform: Uppercase;
-  padding: 2px 8px;
+  padding: 4px 8px;
   font-size: {usn-size}px;
 }
 
 .message-box {
   display: inline-block;
-  background-color: var(--color-twitch);
-  border: 5px solid var(--color-twitch);
+  background-color: var(--color-white);
   border-radius: 10px;
   box-sizing: border-box;
   outline: none;
@@ -98,12 +99,13 @@ body {
 
 .message {
   display: block;
-  color: var(--color-white);
+  color: var(--color-twitch);
   letter-spacing: 0.9px;
-  padding: 2px 8px;
+  padding: 4px 8px;
   margin-left: 4px;
   word-wrap: break-word;
-  font-size: {usn-size}px;
+  font-weight: 600;
+  font-size: {msg-size}px;
 }
 
 #log .emote {

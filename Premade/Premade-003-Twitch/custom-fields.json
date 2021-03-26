@@ -1,8 +1,17 @@
 {
-  "neon-first-color": {
-    "label": "Username Color",
+  "twitch-color": {
+    "label": "Theme Color",
     "type": "colorpicker",
-    "value": "#ff4400"
+    "value": "#9146FF"
+  },
+  "badges": {
+    "label": "Display badges?",
+    "type": "dropdown",
+    "options": {
+        "none": "No",
+        "inline-block": "Yes"
+    },
+    "value": "none"
   },
   "usn-size": {
       "label": "Username Font Size",
@@ -12,11 +21,6 @@
       "max": 60,
       "min": 10,
       "steps": 1
-  },
-  "neon-second-color": {
-    "label": "Message Color",
-    "type": "colorpicker",
-    "value": "#0088ff"
   },
   "msg-size": {
       "label": "Message Font Size",

@@ -1,4 +1,13 @@
-{
+{ 
+  "name-display": {
+    "label": "Hide Chatter's Name?",
+    "type": "dropdown",
+    "options": {
+        "none": "Yes",
+        "inline-block": "No"
+    },
+    "value": "inline-block"
+  },
   "first-color": {
     "label": "Username Color",
     "type": "colorpicker",
@@ -44,14 +53,6 @@
       "max": 15,
       "min": 0,
       "steps": 1
-  },
-  "badge-display": {
-      "label": "Display User Badges?",
-      "type": "dropdown",
-      "options": {
-          "none": "No",
-          "inline-block": "Yes"
-      },
-      "value": "none"
   }
 }
+

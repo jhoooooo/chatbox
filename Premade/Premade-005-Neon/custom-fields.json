@@ -1,4 +1,12 @@
-{
+{ "badges": {
+  "label": "Display badges?",
+  "type": "dropdown",
+  "options": {
+      "none": "No",
+      "inline-block": "Yes"
+  },
+  "value": "none"
+},
   "neon-first-color": {
     "label": "Username Color",
     "type": "colorpicker",

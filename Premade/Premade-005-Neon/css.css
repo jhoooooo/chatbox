@@ -50,6 +50,8 @@ body {
 
 #log>div {
   margin-bottom: 5px;
+  animation: fadeInUp 0.3s ease forwards, fadeOut 0.5s ease {message_hide_delay} forwards;
+  -webkit-animation: fadeInUp 0.3s ease forwards, fadeOut 0.5s ease {message_hide_delay} forwards;
 }
 
 .meta  {
@@ -57,7 +59,7 @@ body {
 }
 
 .crown {
-  display: inline-block;
+  display: {badges};
 }
 
 .badge {
