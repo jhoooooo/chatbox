@@ -1,0 +1,167 @@
+/* META.MY - 2020
+
+- Premade 008 'Waving Colorful'
+- https://github.com/metadotmy/streamlabs-chat
+- Last Update: 24 March 2021
+
+-- Basicly same as premade 02, but the boxes is waving cuz why not.
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Open Sans';
+  line-height: 1.5em;
+}
+
+.colon {
+  display: none;
+}
+
+#log {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 10px 10px 10px;
+  width: 100%;
+  opacity: 1;
+}
+
+#log>div.deleted {
+  visibility: hidden;
+}
+
+#log>div {
+  margin-bottom: 5px;
+  -webkit-animation: diving 3s ease-in-out infinite, diving-rotate 3s ease-in-out infinite;
+          animation: diving 3s ease-in-out infinite, diving-rotate 3s ease-in-out infinite;
+}
+  
+@-webkit-keyframes diving {
+  0% {
+    margin-top: 5px;
+  }
+  50% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 5px;
+  }
+}
+@keyframes diving {
+  0% {
+    margin-top: 5px;
+  }
+  50% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 5px;
+  }
+}
+@-webkit-keyframes diving-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0.2eg);
+  }
+  75% {
+    transform: rotate(-0.2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes diving-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0.2deg);
+  }
+  75% {
+    transform: rotate(-0.2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.meta  {
+  display: inline-block;
+}
+
+.badges {
+  display: inline-block;
+}
+
+.badge {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    height: fit-content;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+
+.username-box {
+  margin-left: 5px;
+  margin-bottom: -10px;
+  display: {name-display};
+  border-radius: {name-border-radius}px;
+}
+
+.name {
+  display: inline-block;
+  color: {first-color};
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: Uppercase;
+  padding: 2px 8px ;
+  font-size: {usn-size}px;
+}
+
+.message-box {
+  border: none;
+  padding-top: 5px;
+  background-color: #FFFFFF;
+  border-radius: {msg-border-radius}px;
+}
+
+.message {
+  display: block;
+  color: {sec-color};
+  letter-spacing: 0.9px;
+  margin-left: 5px;
+  padding: 6px 6px ;
+  word-wrap: break-word;
+  font-size: {msg-size}px;
+}
+
+#log .emote {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 0.4em 0.2em;
+  position: relative;
+}
+
+#log .emote img {
+  display: inline-block;
+  height: 1em;
+  opacity: 0;
+}
+

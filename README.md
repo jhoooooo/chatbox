@@ -12,10 +12,33 @@ Customizable theme for Streamlabs Twitch chat widget.
 
 ## Customization
 
-Most of the features can be customize using the '*custom fields*' section on your widget dashboard.
+Most of the features can be customize using the '*custom fields*' section on your widget dashboard. Further customization can be done by editing the css file directly.
 
+### Fonts
 
-## Twitch User Color
+Fonts can be change by using [Google Fonts](https://fonts.google.com/). Edit the css file by changing the @import url and font-family.
+
+``` 
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap');
+font-family: 'KoHo', sans-serif;
+
+```
+
+### Badges
+
+Badges can be hidden by using Streamlabs built-in settings.
+
+### Color Opacity
+
+Streamlabs color picker does not support opacity. You have to manually edit the css file and use RGBA or 8 digits HEX codes.
+
+```
+  background: rgba(0, 255, 0, 0.5);
+  background: #00ff0080;
+
+```
+
+## Twitch User Colors
 
 Twitch user can set their own color on the site. To use this color in this overlay, you have to include it manually on the html code as needed. The variable is `{color}`. For example:
 
@@ -27,7 +50,7 @@ Twitch user can set their own color on the site. To use this color in this overl
 
 ## Smoothscrolling
 
-Smooth scrolling might not be suitable if chat is moving too fast. To disable smoothscrolling, simply remove the javascript code or restore the original code.
+Smooth scrolling might not be suitable if chat is moving too fast. To disable smoothscrolling, simply remove the javascript code or restore the original javascript code.
 
 ## Premade theme
 
@@ -44,3 +67,7 @@ This repo also included some premade theme in the premade folder. This themes is
 ## Screenshot
 
 ![image](https://user-images.githubusercontent.com/65335648/81983309-c0e02600-9665-11ea-9041-06ccda72d384.png)
+
+## Contact
+
+You can contact me on [Twitter](https://twitter.com/JHOOOOOOOOOOOOQ) if needed.
