@@ -3,7 +3,7 @@
 Customizable theme for Streamlabs Twitch chat widget.
 
 
-https://user-images.githubusercontent.com/65335648/118496278-8d434a80-b756-11eb-83fa-42125c71412b.mp4es.githubusercontent.com/65335648/1184962
+https://user-images.githubusercontent.com/65335648/118496278-8d434a80-b756-11eb-83fa-42125c71412b.mp4
 
 
 ## How To Use
