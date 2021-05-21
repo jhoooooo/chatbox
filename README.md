@@ -3,13 +3,18 @@
 Customizable theme for Streamlabs Twitch chat widget.
 
 
-https://user-images.githubusercontent.com/65335648/118496278-8d434a80-b756-11eb-83fa-42125c71412b.mp4es.githubusercontent.com/65335648/1184962
+https://user-images.githubusercontent.com/65335648/118496278-8d434a80-b756-11eb-83fa-42125c71412b.mp4
 
 
 ## How To Use
 
 - Copy all the files needed to their respective field in your Streamlabs widget dashboard. ([https://streamlabs.com/dashboard#/chatbox](https://streamlabs.com/dashboard#/chatbox))
 - Custom field can be enable by clicking on 'Add Custom Fields' on the bottom right of the page. You have to edit and update the page with the new code.
+
+## Warning
+
+- Checking 'Disable Message Animations' option is recommended.
+- DO NOT ENABLE 'Hide Common Chat Bots' and ' commands starting with `!` ' option as the animation will still trigger even if the message is not displayed.
 
 ## Customization
 
@@ -22,7 +27,6 @@ Fonts can be change by using [Google Fonts](https://fonts.google.com/). Edit the
 ``` 
 @import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap');
 font-family: 'KoHo', sans-serif;
-
 ```
 
 ### Badges
@@ -36,7 +40,6 @@ Streamlabs color picker does not support opacity. You have to manually edit the 
 ```
   background: rgba(0, 255, 0, 0.5);
   background: #00ff0080;
-
 ```
 
 ## Twitch User Colors
