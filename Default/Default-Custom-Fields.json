@@ -1,0 +1,185 @@
+{
+    "message-box-margin": {
+        "label": "Spacing Between User",
+        "type": "slider",
+        "name": "Spacing Between User",
+        "value": 5,
+        "max": 30,
+        "min": 0,
+        "steps": 1
+    },
+    "meta-box-margin": {
+        "label": "Spacing Between Username And Message",
+        "type": "slider",
+        "name": "Spacing Between Username And Message",
+        "value": 5,
+        "max": 30,
+        "min": 0,
+        "steps": 1
+    },
+    "font-size": {
+        "label": "Font Size",
+        "type": "slider",
+        "name": "",
+        "value": 14,
+        "max": 60,
+        "min": 10,
+        "steps": 1
+    },
+    "font-weight": {
+        "label": "Font Weight",
+        "type": "slider",
+        "name": "",
+        "value": 397,
+        "max": 900,
+        "min": 100,
+        "steps": 100
+    },
+    "name-font-color": {
+        "label": "Username Color",
+        "type": "colorpicker",
+        "value": "#fca311"
+    },
+    "name-bg-color": {
+        "label": "Username Background Color",
+        "type": "colorpicker",
+        "value": "#14213d"
+    },
+    "name-transform": {
+       "label": "Username Text Transform",
+       "type": "dropdown",
+       "options": {
+           "none": "None",
+           "uppercase": "Uppercase"
+       },
+       "value": "none"
+   },
+    "name-padding-tb": {
+        "label": "Username Top/Bottom Padding",
+        "type": "slider",
+        "name": "",
+        "value": 5,
+        "max": 30,
+        "min": 0,
+        "steps": 1
+    },
+    "name-padding-lr": {
+        "label": "Username Left/Right Padding",
+        "type": "slider",
+        "name": "",
+        "value": 5,
+        "max": 30,
+        "min": 0,
+        "steps": 1
+    },
+    "name-border": {
+        "label": "Username Box Border Size",
+        "type": "slider",
+        "name": "Name Border Size",
+        "value": 0,
+        "max": 10,
+        "min": 0,
+        "steps": 1
+    },
+    "name-border-color": {
+        "label": "Username Box Border Color",
+        "type": "colorpicker",
+        "value": "#000000"
+    },
+    "name-border-radius": {
+        "label": "Username Box Border Radius",
+        "type": "slider",
+        "name": "Username Border Radius",
+        "value": 3,
+        "max": 15,
+        "min": 0,
+        "steps": 1
+    },
+    "name-skew": {
+        "label": "Username Box Skew",
+        "type": "slider",
+        "name": "Username Box Skew",
+        "value": 0,
+        "max": 20,
+        "min": 0,
+        "steps": 1
+    },
+    "message-font-color": {
+        "label": "Message Color",
+        "type": "colorpicker",
+        "value": "#14213d"
+    },
+    "message-bg-color": {
+        "label": "Message Background Color",
+        "type": "colorpicker",
+        "value": "#fca311"
+    },
+    "message-transform": {
+       "label": "Message Text Transform",
+       "type": "dropdown",
+       "options": {
+           "none": "None",
+           "uppercase": "Uppercase"
+       },
+       "value": "none"
+   },
+    "message-padding-tb": {
+        "label": "Message Top/Bottom Padding",
+        "type": "slider",
+        "name": "Message Top/Bottom Padding",
+        "value": 5,
+        "max": 30,
+        "min": 0,
+        "steps": 1
+    },
+    "message-padding-lr": {
+        "label": "Message Padding Left/Right",
+        "type": "slider",
+        "name": "Message Padding Left/Right",
+        "value": 5,
+        "max": 30,
+        "min": 0,
+        "steps": 1
+    },
+    "message-box-offset": {
+        "label": "Message Box Offset",
+        "type": "slider",
+        "name": "Message Box Offset",
+        "value": 0,
+        "max": 30,
+        "min": 0,
+        "steps": 1
+    },
+    "message-border": {
+        "label": "Message Box Border Size",
+        "type": "slider",
+        "name": "Message Border Size",
+        "value": 0,
+        "max": 10,
+        "min": 0,
+        "steps": 1
+    },
+    "message-border-color": {
+        "label": "Message Box Border Color",
+        "type": "colorpicker",
+        "value": "#000000"
+    },
+    "message-border-radius": {
+        "label": "Message Box Border Radius",
+        "type": "slider",
+        "name": "Message Border Radius",
+        "value": 3,
+        "max": 15,
+        "min": 0,
+        "steps": 1
+    },
+    "message-skew": {
+        "label": "Message Box Skew",
+        "type": "slider",
+        "name": "Message Box Skew",
+        "value": 0,
+        "max": 20,
+        "min": 0,
+        "steps": 1
+    }
+}

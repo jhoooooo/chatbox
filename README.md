@@ -1,25 +1,21 @@
 
-# streamlabs-chat
-Customizable theme for Streamlabs Twitch chat widget.
-
+# streamlabs Chatbox Widget
+This repo provide easy to customize theme/overlay for Streamlabs Chatbox widget. This repo is meant for general consumer usage with options that is enough for most people. If you need help or something specific to fit your stream style for example, you can contact me on Twitter.
 
 https://user-images.githubusercontent.com/65335648/118496278-8d434a80-b756-11eb-83fa-42125c71412b.mp4
 
 
 ## How To Use
 
-- Copy all the files needed to their respective field in your Streamlabs widget dashboard. ([https://streamlabs.com/dashboard#/chatbox](https://streamlabs.com/dashboard#/chatbox))
-- Custom field can be enable by clicking on 'Add Custom Fields' on the bottom right of the page. You have to edit and update the page with the new code.
+1. Go to your Streamlabs dashboard > All Widgets > [Chat Box](https://streamlabs.com/dashboard#/chatbox).
+2. Follow this [instruction]().
+3. The code files is in 'Default' folder.
+4. For preview and testing purpose, you can add `?simulate=1` after your widget url to simulate users.
+`https://streamlabs.com/widgets/chat-box/v1/XXXCODEXXXXX?simulate=1`
 
-## Warning
+## Advanced Customization
 
-- Checking 'Disable Message Animations' option is recommended.
-- DO NOT ENABLE 'Hide Common Chat Bots' and ' commands starting with `!` ' option as the animation will still trigger even if the message is not displayed.
-
-## Customization
-
-Most of the features can be customize using the '*custom fields*' section on your widget dashboard. Further customization can be done by editing the css file directly.
-
+Most of the features can be customize using the '*custom fields*' section on your widget dashboard. Further customization can be done by editing the files directly, especially the js file. Alot more can be done with javascript. There's a folder with some basic code snippets of examples of things that you can do.
 ### Fonts
 
 Fonts can be change by using [Google Fonts](https://fonts.google.com/). Edit the css file by changing the @import url and font-family.
@@ -35,14 +31,14 @@ Badges can be hidden by using Streamlabs built-in settings.
 
 ### Color Opacity
 
-Streamlabs color picker does not support opacity. You have to manually edit the css file and use RGBA or 8 digits HEX codes.
+Streamlabs color picker does not support opacity. You have to manually edit the css file and use RGBA or 8 digits HEX codes. OBS does not support css background blur/backdrop-filter.
 
 ```
   background: rgba(0, 255, 0, 0.5);
   background: #00ff0080;
 ```
 
-## Twitch User Colors
+### Twitch User Colors
 
 Twitch user can set their own color on the site. To use this color in this overlay, you have to include it manually on the html code as needed. The variable is `{color}`. For example:
 
@@ -50,28 +46,29 @@ Twitch user can set their own color on the site. To use this color in this overl
     <div class="username-box" style="background: {color}">
     <div class="message-box" style="border-color: {color}">
 
-`{color}` does not work on the css as far as I know. It must be put inline on to the html file and will overwrite the css if used.
+The `{color}` variable does not work on the css file as far as I'm aware. It must be put inline on to the html file and will overwrite the css if used. Or you can hook and append it using javascript `obj.detail.tags.color`.
 
 ## Smoothscrolling
 
-Smooth scrolling might not be suitable if chat is moving too fast. To disable smoothscrolling, simply remove the javascript code or restore the original javascript code.
+Smooth scrolling might not be suitable if chat is moving too fast. To disable smoothscrolling, simply remove the javascript code or restore the original javascript code. 
 
-## Premade theme
+## Premade themes
 
-This repo also included some premade theme in the premade folder. This themes is less customizable than the main overlay unless you edit the css manually.
+This repo also included some premade theme in the premade folder. This themes is less customizable than the main overlay unless you edit the files manually. The purpose is to vary the design, test more functionalities, showcase what you can do or poc that cannot be included in the default design. 
 
 ## License
+
 [![MIT license](https://badgen.net/badge/License/MIT/blue)](https://github.com/metadotmy/streamlabs-chat/blob/master/LICENSE)
+
+## Disclaimer
+
+I'm not a web developers in any capacity. Everythings here is self-learned, scuffed, messy and amateurish especially the javascript parts. Feel free to fix my mistakes.
 
 
 ## Donate
-[![KOFI Donate](https://badgen.net/badge/Kofi/Donate/red?icon=kofi)](https://ko-fi.com/metadotmy)
 
-
-## Screenshot
-
-![image](https://user-images.githubusercontent.com/65335648/81983309-c0e02600-9665-11ea-9041-06ccda72d384.png)
+[Kofi](https://ko-fi.com/metadotmy)
 
 ## Contact
 
-You can contact me on [Twitter](https://twitter.com/JHOOOOOOOOOOOOQ) if needed.
+You can contact me on [Twitter](https://twitter.com/JHOOOOOOOOOOOOQ) if needed. I will try my best to help.
