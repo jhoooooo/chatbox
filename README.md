@@ -1,3 +1,5 @@
+! 23rd May 2021. I've learned a lot since i started this repo so I'm gonna remake a lot of stuff, update some things so if you can please wait a bit until then.
+
 
 # streamlabs Chatbox Widget
 This repo provide easy to customize theme/overlay for Streamlabs Chatbox widget. This repo is meant for general consumer usage with options that is enough for most people. If you need help or something specific to fit your stream style for example, you can contact me on Twitter.
