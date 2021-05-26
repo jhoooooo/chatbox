@@ -1,4 +1,4 @@
-# streamlabs Chatbox Widget
+# Streamlabs Chatbox Widget
 This repo provide easy to customize theme/overlay for Streamlabs Chatbox widget. This repo is meant for general consumer usage with options that is enough for most people. If you need help or something specific to fit your stream style for example, you can contact me on Twitter.
 
 https://user-images.githubusercontent.com/65335648/118496278-8d434a80-b756-11eb-83fa-42125c71412b.mp4
