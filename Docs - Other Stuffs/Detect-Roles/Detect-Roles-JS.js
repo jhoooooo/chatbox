@@ -35,6 +35,7 @@ document.addEventListener('onEventReceived', function(obj) {
             {
                 $(".username-box").last().addClass("newcode"); //append new class
                 $(".name").last().text("bot"); // replace the name
+                //$(".name").last().replaceWith("<span>New heading</span>"); //for whole code
             }
     }
   

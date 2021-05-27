@@ -15,7 +15,7 @@
         "id": "5e6875c1-e91c-4e52-a36b-8eba9fb94a3d",
         "mod": "1",
         "room-id": "106972596",
-        "subscriber": "0", // if sub = 1 // in event-list theres tier t1=1000,t2=2000,t3=3000. i can't check cause i'm not a streamer. i have no real users to check more stuff.
+        "subscriber": "0", // if sub = 1 - don't know if tier existed here.
         "tmi-sent-ts": "1622004827689",
         "turbo": "0",
         "user-id": "100135110",
