@@ -31,9 +31,10 @@ document.addEventListener('onEventReceived', function(obj) {
                 $(".username-box").last().addClass("broadcaster");
             }
             
-            if (obj.detail.tags. == "1") // If broadcaster, add new class.
+            if (obj.detail.tags["display-name"] == "StreamElements") // If name matched
             {
-                $(".username-box").last().addClass("broadcaster");
+                $(".username-box").last().addClass("newcode"); //append new class
+                $(".name").last().text("bot"); // replace the name
             }
     }
   

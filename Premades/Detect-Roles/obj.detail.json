@@ -4,7 +4,7 @@
     "pic": "",
     "from": "streamelements",
     "body": "@jhoooooooooooo, jhoooooooooooo has been offline for  1 month 15 days 11 hours",
-    "command": "PRIVMSG",
+    "command": "PRIVMSG", //PING, COMMAND, 
     "tags": {
         "badge-info": "",
         "badges": "moderator/1,partner/1",
