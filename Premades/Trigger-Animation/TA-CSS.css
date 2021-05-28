@@ -1,0 +1,239 @@
+/*
+- Pink with gif'
+- Last Update: 26 May 2021
+- https://github.com/metadotmy/streamlabs-chat
+- https://twitter.com/JHOOOOOOOOOOOOQ
+
+
+- Heart animation by remi - https://codepen.io/remsrob/pen/zjVQGx 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Open Sans';
+  line-height: 1.5em;
+}
+
+.colon {
+  display: none;
+}
+
+#log {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 10px 10px 10px;
+  width: 100%;
+}
+
+#log>div.deleted {
+  visibility: hidden;
+}
+
+#log>div {
+  z-index: 1;
+  margin-bottom: 5px;
+  animation: fadeOut 0.5s ease {message_hide_delay} forwards; 
+  -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
+  /* Fadeout animation is needed here because if user disable(untick)
+  'Disable Message Animations' in Streamlabs, 'Hide Message After'
+  option will not work. */
+}
+
+.meta  {
+  display: inline-block;
+}
+
+.badges {
+  display: inline-block;
+}
+
+.badge {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    height: fit-content;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+
+.username-box {
+  background-color: #f9cdad;
+  margin-left: 5px;
+  margin-bottom: -10px;
+  display: {name-display};
+  border-radius: 0px 10px 10px 10px;
+  z-index: 1; /* cause position relative @ .message-box */
+}
+
+.name {
+  display: inline-block;
+  color: {first-color};
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: Uppercase;
+  padding: 2px 8px ;
+  font-size: {usn-size}px;
+}
+
+.message-box {
+  border: none;
+  padding-top: 5px;
+  background-color: #ece5ce; /* sec color #83af9b */
+  border-radius: 0px 10px 10px 10px;
+  position: relative;
+  z-index: -1; /* cause position relative */
+}
+
+.message {
+  display: block;
+  color: {sec-color};
+  letter-spacing: 0.9px;
+  margin-left: 5px;
+  padding: 6px 6px ;
+  word-wrap: break-word;
+  font-size: {msg-size}px;
+}
+
+#log .emote {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 0.4em 0.2em;
+  position: relative;
+}
+
+#log .emote img {
+  display: inline-block;
+  height: 1em;
+  opacity: 0;
+}
+div.hearts {
+  width: 200px;
+  height: 600px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+div.heart {
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+  display: none;
+}
+div.heart i {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 1;
+  z-index: 2;
+}
+.colOne {
+  color: #fce473;
+}
+.colTwo {
+  color: #f68b39;
+}
+.colThree {
+  color: #ed6c63;
+}
+.colFour {
+  color: #847bb9;
+}
+.colFive {
+  color: #97cd76;
+}
+.colSix {
+  color: #35b1d1;
+}
+@keyframes flowOne {
+  0% {
+      opacity: 0;
+      bottom: 0;
+      left: 14%;
+ }
+  40% {
+      opacity: 0.8;
+ }
+  50% {
+      opacity: 1;
+      left: 0;
+ }
+  60% {
+      opacity: 0.2;
+ }
+  80% {
+      bottom: 80%;
+ }
+  100% {
+      opacity: 0;
+      bottom: 100%;
+      left: 18%;
+ }
+}
+@keyframes flowTwo {
+  0% {
+      opacity: 0;
+      bottom: 0;
+      left: 0;
+ }
+  40% {
+      opacity: 0.8;
+ }
+  50% {
+      opacity: 1;
+      left: 11%;
+ }
+  60% {
+      opacity: 0.2;
+ }
+  80% {
+      bottom: 60%;
+ }
+  100% {
+      opacity: 0;
+      bottom: 80%;
+      left: 0;
+ }
+}
+@keyframes flowThree {
+  0% {
+      opacity: 0;
+      bottom: 0;
+      left: 0;
+ }
+  40% {
+      opacity: 0.8;
+ }
+  50% {
+      opacity: 1;
+      left: 30%;
+ }
+  60% {
+      opacity: 0.2;
+ }
+  80% {
+      bottom: 70%;
+ }
+  100% {
+      opacity: 0;
+      bottom: 90%;
+      left: 0;
+ }
+}
