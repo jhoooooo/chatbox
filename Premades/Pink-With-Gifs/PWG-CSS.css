@@ -5,8 +5,9 @@
 - https://twitter.com/JHOOOOOOOOOOOOQ
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
+@import url('https://fonts.googleapis.com/css?family={font-choosen}'); 
+ 
 * {
   box-sizing: border-box;
 }
@@ -17,7 +18,7 @@ html, body {
 }
 
 body {
-  font-family: 'Open Sans';
+  font-family: '{font-choosen}', 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5em;
 }
 
@@ -66,10 +67,11 @@ body {
 }
 
 .username-box {
-  background-color: #f9cdad;
+  background-color: {first-bg-color};
   margin-left: 5px;
   margin-bottom: -10px;
-  display: {name-display};
+  display: inline-block;
+  border: {username-box-border}px solid {username-box-border-color};
   border-radius: 0px 10px 10px 10px;
   z-index: 1; /* cause position relative @ .message-box */
 }
@@ -77,17 +79,17 @@ body {
 .name {
   display: inline-block;
   color: {first-color};
-  font-weight: 600;
+  font-weight: {usn-weight};
   letter-spacing: 1px;
-  text-transform: Uppercase;
+  text-transform: {usn-transform};
   padding: 2px 8px ;
   font-size: {usn-size}px;
 }
 
 .message-box {
-  border: none;
+  border: {message-box-border}px solid {message-box-border-color};
   padding-top: 5px;
-  background-color: #ece5ce; /* sec color #83af9b */
+  background-color: {message-box-color}; /* sec color #83af9b */
   border-radius: 0px 10px 10px 10px;
   position: relative;
   z-index: -1; /* cause position relative */
@@ -95,7 +97,9 @@ body {
 
 .message-box::after {
   content: "";
-  background: url(https://i.postimg.cc/TwMcrQwH/wiggle.gif) no-repeat;
+  background: url({image-upload}) no-repeat; /* gifs image */
+  /* background: url(https://i.postimg.cc/TwMcrQwH/wiggle.gif) no-repeat; */
+  background-size: contain;
   height: 30px;
   width: 30px;
   position: absolute;
@@ -107,10 +111,12 @@ body {
   display: block;
   color: {sec-color};
   letter-spacing: 0.9px;
+  text-transform: {msg-transform};
   margin-left: 5px;
   padding: 6px 6px ;
   word-wrap: break-word;
   font-size: {msg-size}px;
+  font-weight: {msg-weight};
 }
 
 #log .emote {
