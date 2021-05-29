@@ -15,9 +15,6 @@ https://user-images.githubusercontent.com/65335648/118496278-8d434a80-b756-11eb-
 ## Advanced Customization
 
 Most of the features can be customize using the '*custom fields*' section on your widget dashboard. Further customization can be done by editing the files directly, especially the js file. Alot more can be done with javascript. There's a folder with some basic code snippets of examples of things that you can do.
-### Fonts
-
-Fonts can be change by using [Google Fonts](https://fonts.google.com/). Edit the css file by changing the @import url and font-family.
 
 ``` 
 @import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap');

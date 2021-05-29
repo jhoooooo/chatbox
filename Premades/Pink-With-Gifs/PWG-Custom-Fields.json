@@ -1,40 +1,114 @@
 { 
-  "name-display": {
-    "label": "Hide Chatter's Name?",
+  "font-choosen": {
+    "label": "Font",
+    "type": "fontpicker",
+    "value": "Open Sans"
+  },
+  "usn-size": {
+    "label": "Username Text Size",
+    "type": "slider",
+    "name": "",
+    "value": 14,
+    "max": 60,
+    "min": 10,
+    "steps": 1
+  },
+  "usn-weight": {
+    "label": "Username Text Weight",
+    "type": "slider",
+    "name": "",
+    "value": 400,
+    "max": 900,
+    "min": 100,
+    "steps": 1
+  },
+  "usn-transform": {
+    "label": "Username Text Transform",
     "type": "dropdown",
     "options": {
-        "none": "Yes",
-        "inline-block": "No"
+        "none": "None",
+        "uppercase": "Uppercase"
     },
-    "value": "inline-block"
+    "value": "none"
   },
   "first-color": {
-    "label": "Username Color",
+    "label": "Username Text Color",
     "type": "colorpicker",
     "value": "#da7878"
   },
-  "usn-size": {
-      "label": "Username Font Size",
-      "type": "slider",
-      "name": "",
-      "value": 14,
-      "max": 60,
-      "min": 10,
-      "steps": 1
+  "first-bg-color": {
+    "label": "Username Background Color",
+    "type": "colorpicker",
+    "value": "#f9cdad"
+  },
+  "username-box-border": {
+    "label": "Username Box Border Size",
+    "type": "slider",
+    "name": "",
+    "value": 2,
+    "max": 10,
+    "min": 0,
+    "steps": 1
+  },
+  "username-box-border-color": {
+    "label": "Username Box Border Color",
+    "type": "colorpicker",
+    "value": "#da7878"
+  },
+  "msg-size": {
+    "label": "Message Text Size",
+    "type": "slider",
+    "name": "",
+    "value": 14,
+    "max": 60,
+    "min": 10,
+    "steps": 1
+  },
+  "msg-weight": {
+    "label": "Message Text Weight",
+    "type": "slider",
+    "name": "",
+    "value": 400,
+    "max": 900,
+    "min": 100,
+    "steps": 1
+  },
+  "msg-transform": {
+    "label": "Username Text Transform",
+    "type": "dropdown",
+    "options": {
+        "none": "None",
+        "uppercase": "Uppercase"
+    },
+    "value": "none"
   },
   "sec-color": {
-    "label": "Message Color",
+    "label": "Message Text Color",
     "type": "colorpicker",
     "value": "#000000"
   },
-  "msg-size": {
-      "label": "Message Font Size",
-      "type": "slider",
-      "name": "",
-      "value": 14,
-      "max": 60,
-      "min": 10,
-      "steps": 1
+  "message-box-color": {
+    "label": "Message Box Background Color",
+    "type": "colorpicker",
+    "value": "#ece5ce"
+  },
+  "message-box-border": {
+    "label": "Message Box Border Size",
+    "type": "slider",
+    "name": "",
+    "value": 2,
+    "max": 10,
+    "min": 0,
+    "steps": 1
+  },
+  "message-box-border-color": {
+    "label": "Message Box Border Color",
+    "type": "colorpicker",
+    "value": "#f9cdad"
+  },
+  "image-upload": {
+    "label": "Image / Gifs (will resize to 30px by 30px)",
+    "type": "image-input",
+    "value": null
   }
 }
-
