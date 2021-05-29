@@ -121,14 +121,14 @@ body {
   height: 1em;
   opacity: 0;
 }
-div.hearts {
+.hearts {
   width: 200px;
   height: 600px;
   position: absolute;
   bottom: 0;
   right: 0;
 }
-div.heart {
+.heart {
   width: 30px;
   height: 30px;
   opacity: 1;
@@ -136,32 +136,16 @@ div.heart {
   bottom: -50px;
   right: 0;
   display: none;
+  animation: flowOne 4s linear;
 }
-div.heart i {
+.heart i {
   position: absolute;
   right: 0;
   top: 0;
   opacity: 1;
   z-index: 2;
 }
-.colOne {
-  color: #fce473;
-}
-.colTwo {
-  color: #f68b39;
-}
-.colThree {
-  color: #ed6c63;
-}
-.colFour {
-  color: #847bb9;
-}
-.colFive {
-  color: #97cd76;
-}
-.colSix {
-  color: #35b1d1;
-}
+
 @keyframes flowOne {
   0% {
       opacity: 0;
@@ -185,55 +169,5 @@ div.heart i {
       opacity: 0;
       bottom: 100%;
       left: 18%;
- }
-}
-@keyframes flowTwo {
-  0% {
-      opacity: 0;
-      bottom: 0;
-      left: 0;
- }
-  40% {
-      opacity: 0.8;
- }
-  50% {
-      opacity: 1;
-      left: 11%;
- }
-  60% {
-      opacity: 0.2;
- }
-  80% {
-      bottom: 60%;
- }
-  100% {
-      opacity: 0;
-      bottom: 80%;
-      left: 0;
- }
-}
-@keyframes flowThree {
-  0% {
-      opacity: 0;
-      bottom: 0;
-      left: 0;
- }
-  40% {
-      opacity: 0.8;
- }
-  50% {
-      opacity: 1;
-      left: 30%;
- }
-  60% {
-      opacity: 0.2;
- }
-  80% {
-      bottom: 70%;
- }
-  100% {
-      opacity: 0;
-      bottom: 90%;
-      left: 0;
  }
 }
