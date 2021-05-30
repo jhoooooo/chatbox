@@ -1,0 +1,39 @@
+{ 
+    "font-choosen": {
+      "label": "Font",
+      "type": "fontpicker",
+      "value": "Open Sans"
+    },
+    "msg-size": {
+      "label": "Message Text Size",
+      "type": "slider",
+      "name": "",
+      "value": 14,
+      "max": 24,
+      "min": 10,
+      "steps": 1
+    },
+    "msg-weight": {
+      "label": "Message Text Weight",
+      "type": "slider",
+      "name": "",
+      "value": 400,
+      "max": 900,
+      "min": 100,
+      "steps": 100
+    },
+    "msg-transform": {
+      "label": "Username Text Transform",
+      "type": "dropdown",
+      "options": {
+          "none": "None",
+          "uppercase": "Uppercase"
+      },
+      "value": "none"
+    },
+    "sec-color": {
+      "label": "Message Text Color",
+      "type": "colorpicker",
+      "value": "#000000"
+    }
+  }
