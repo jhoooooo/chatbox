@@ -1,4 +1,4 @@
-{
+{ 
     "message-box-margin": {
         "label": "Spacing Between User",
         "type": "slider",
@@ -16,6 +16,11 @@
         "max": 30,
         "min": 0,
         "steps": 1
+    },
+    "font-choosen": {
+      "label": "Font",
+      "type": "fontpicker",
+      "value": "Open Sans"
     },
     "font-size": {
         "label": "Font Size",
@@ -36,7 +41,7 @@
         "steps": 100
     },
     "name-font-color": {
-        "label": "Username Color",
+        "label": "Username Text Color",
         "type": "colorpicker",
         "value": "#fca311"
     },
@@ -76,15 +81,10 @@
         "label": "Username Box Border Size",
         "type": "slider",
         "name": "Name Border Size",
-        "value": 0,
+        "value": 2,
         "max": 10,
         "min": 0,
         "steps": 1
-    },
-    "name-border-color": {
-        "label": "Username Box Border Color",
-        "type": "colorpicker",
-        "value": "#000000"
     },
     "name-border-radius": {
         "label": "Username Box Border Radius",
@@ -94,6 +94,11 @@
         "max": 15,
         "min": 0,
         "steps": 1
+    },
+    "name-border-color": {
+        "label": "Username Box Border Color",
+        "type": "colorpicker",
+        "value": "#fca311"
     },
     "name-skew": {
         "label": "Username Box Skew",
@@ -105,7 +110,7 @@
         "steps": 1
     },
     "message-font-color": {
-        "label": "Message Color",
+        "label": "Message Text Color",
         "type": "colorpicker",
         "value": "#14213d"
     },
@@ -154,15 +159,10 @@
         "label": "Message Box Border Size",
         "type": "slider",
         "name": "Message Border Size",
-        "value": 0,
+        "value": 2,
         "max": 10,
         "min": 0,
         "steps": 1
-    },
-    "message-border-color": {
-        "label": "Message Box Border Color",
-        "type": "colorpicker",
-        "value": "#000000"
     },
     "message-border-radius": {
         "label": "Message Box Border Radius",
@@ -172,6 +172,11 @@
         "max": 15,
         "min": 0,
         "steps": 1
+    },
+    "message-border-color": {
+        "label": "Message Box Border Color",
+        "type": "colorpicker",
+        "value": "#000000"
     },
     "message-skew": {
         "label": "Message Box Skew",

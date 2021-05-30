@@ -16,11 +16,6 @@ https://user-images.githubusercontent.com/65335648/118496278-8d434a80-b756-11eb-
 
 Most of the features can be customize using the '*custom fields*' section on your widget dashboard. Further customization can be done by editing the files directly, especially the js file. Alot more can be done with javascript. There's a folder with some basic code snippets of examples of things that you can do.
 
-``` 
-@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap');
-font-family: 'KoHo', sans-serif;
-```
-
 ### Badges
 
 Badges can be hidden by using Streamlabs built-in settings.
