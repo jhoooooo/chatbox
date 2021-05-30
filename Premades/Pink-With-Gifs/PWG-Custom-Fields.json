@@ -20,7 +20,7 @@
     "value": 400,
     "max": 900,
     "min": 100,
-    "steps": 1
+    "steps": 100
   },
   "usn-transform": {
     "label": "Username Text Transform",
@@ -71,7 +71,7 @@
     "value": 400,
     "max": 900,
     "min": 100,
-    "steps": 1
+    "steps": 100
   },
   "msg-transform": {
     "label": "Username Text Transform",

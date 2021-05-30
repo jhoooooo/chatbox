@@ -4,7 +4,8 @@
 - Last Update: 26 May 2021
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
+@import url('https://fonts.googleapis.com/css?family={font-choosen}'); 
 
 * {
   box-sizing: border-box;
@@ -16,7 +17,7 @@ html, body {
 }
 
 body {
-  font-family: 'Open Sans';
+  font-family: '{font-choosen}', 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5em;
 }
 
@@ -75,7 +76,7 @@ body {
 .name {
   display: inline-block;
   color: {first-color};
-  font-weight: 600;
+  font-weight: {usn-weight};
   letter-spacing: 1px;
   text-transform: Uppercase;
   padding: 2px 8px ;
@@ -97,6 +98,7 @@ body {
   padding: 6px 6px ;
   word-wrap: break-word;
   font-size: {msg-size}px;
+  font-weight: {msg-weight};
 }
 
 #log .emote {

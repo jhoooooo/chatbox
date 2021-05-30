@@ -1,4 +1,9 @@
-{ 
+{
+  "font-choosen": {
+    "label": "Font",
+    "type": "fontpicker",
+    "value": "Open Sans"
+  },
   "name-display": {
     "label": "Hide Chatter's Name?",
     "type": "dropdown",
@@ -9,7 +14,7 @@
     "value": "inline-block"
   },
   "first-color": {
-    "label": "Username Color",
+    "label": "Username Text Color",
     "type": "colorpicker",
     "value": "#FFFFFF"
   },
@@ -22,6 +27,15 @@
       "min": 10,
       "steps": 1
   },
+  "usn-weight": {
+    "label": "Username Text Weight",
+    "type": "slider",
+    "name": "",
+    "value": 400,
+    "max": 900,
+    "min": 100,
+    "steps": 100
+  },
   "name-border-radius": {
       "label": "Username Box Border Radius",
       "type": "slider",
@@ -32,7 +46,7 @@
       "steps": 1
   },
   "sec-color": {
-    "label": "Message Color",
+    "label": "Message Text Color",
     "type": "colorpicker",
     "value": "#000000"
   },
@@ -45,6 +59,15 @@
       "min": 10,
       "steps": 1
   },
+  "msg-weight": {
+    "label": "Message Text Weight",
+    "type": "slider",
+    "name": "",
+    "value": 400,
+    "max": 900,
+    "min": 100,
+    "steps": 100
+  },
   "msg-border-radius": {
       "label": "Message Box Border Radius",
       "type": "slider",
@@ -55,4 +78,3 @@
       "steps": 1
   }
 }
-

@@ -1,5 +1,10 @@
 {
-    "message-box-margin": {
+    "font-choosen": {
+        "label": "Font",
+        "type": "fontpicker",
+        "value": "Open Sans"
+    },
+      "message-box-margin": {
         "label": "Spacing Between User",
         "type": "slider",
         "name": "Spacing Between User",

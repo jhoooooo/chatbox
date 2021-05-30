@@ -5,7 +5,8 @@
 - https://twitter.com/JHOOOOOOOOOOOOQ
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
+@import url('https://fonts.googleapis.com/css?family={font-choosen}'); 
 
 * {
   box-sizing: border-box;
@@ -17,8 +18,8 @@ html, body {
 }
 
 body {
+  font-family: '{font-choosen}', 'Open Sans', 'Helvetica Neue', sans-serif;
   background: {background_color};
-  font-family: 'Open Sans';
   font-weight: {font-weight};
   font-size: {font-size}px;
 }
