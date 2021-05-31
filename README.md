@@ -22,10 +22,9 @@ Badges can be hidden by using Streamlabs built-in settings.
 
 ### Color Opacity
 
-Streamlabs color picker does not support opacity. You have to manually edit the css file and use RGBA or 8 digits HEX codes. OBS does not support css background blur/backdrop-filter.
+Enter 8 digits HEX code for color opacity. Last two represent the alpha channel (00 to FF). You can use this [guide](https://davidwalsh.name/hex-opacity). OBS does not support css background blur/backdrop-filter.
 
 ```
-  background: rgba(0, 255, 0, 0.5);
   background: #00ff0080;
 ```
 
