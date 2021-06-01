@@ -1,5 +1,5 @@
 # Streamlabs Chatbox Widget
-This repo provide easy to customize theme/overlay for Streamlabs Chatbox widget. This repo is meant for general consumer usage with options that is enough for most people. If you need help or something specific to fit your stream style for example, you can contact me on Twitter.
+This repo provide easy to customize theme/overlay for Streamlabs Chatbox widget. This repo is tailored to most people, therefore the options is limited. If you need help or something specific to fit your stream style for example, you can contact me on Twitter.
 
 https://user-images.githubusercontent.com/65335648/118496278-8d434a80-b756-11eb-83fa-42125c71412b.mp4
 
@@ -36,11 +36,11 @@ Twitch user can set their own color on the site. To use this color in this overl
     <div class="username-box" style="background: {color}">
     <div class="message-box" style="border-color: {color}">
 
-The `{color}` variable does not work on the css file as far as I'm aware. It must be put inline on to the html file and will overwrite the css if used. Or you can hook and append it using javascript `obj.detail.tags.color`.
+The `{color}` variable does not work on the css file as far as I'm aware. It must be put inline on to the html file and will overwrite any css for said element. Or you can hook and append it using javascript `obj.detail.tags.color`.
 
 ## Smoothscrolling
 
-Smooth scrolling might not be suitable if chat is moving too fast. To disable smoothscrolling, simply remove the javascript code or restore the original javascript code. 
+Smooth scrolling might not be suitable if chat is moving too fast. To disable smoothscrolling animation, simply remove the javascript code or restore the original javascript code. 
 
 ## Premade themes
 
@@ -52,12 +52,12 @@ This repo also included some premade theme in the premade folder. This themes is
 
 ## Disclaimer
 
-I'm not a web developers in any capacity. Everythings here is self-learned, scuffed, messy and amateurish especially the javascript parts. Feel free to fix my mistakes.
+I'm not a web developers. Excuse the scuffness.
 
 
 ## Donate
 
-[Kofi](https://ko-fi.com/metadotmy)
+[Kofi](https://ko-fi.com/jhooo)
 
 ## Contact
 
