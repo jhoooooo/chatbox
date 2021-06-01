@@ -1,5 +1,5 @@
 /* 
-- USer Color
+- Time is Now.
 - Last Update: 02 June 2021
 - https://github.com/jhoooooo/streamlabs-chat/
 - https://twitter.com/JHOOOOOOOOOOOOQ
@@ -19,7 +19,7 @@ html, body {
 
 body {
   font-family: '{font-choosen}', 'Open Sans', 'Helvetica Neue', sans-serif;
-  line-height: 1.5em;
+  line-height: 1.2em;
 }
 
 .colon {
@@ -68,8 +68,7 @@ body {
 }
 
 .username-box {
-  margin-left: 5px;
-  margin-bottom: -10px;
+  margin-top: 10px;
   display: {name-display};
   border-radius: {name-border-radius}px;
 }
@@ -78,25 +77,30 @@ body {
   display: inline-block;
   color: {first-color};
   font-weight: {usn-weight};
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   text-transform: Uppercase;
   padding: 2px 8px ;
   font-size: {usn-size}px;
+  text-shadow: 2px 2px 8px rgba(255,255,255, 0.9); /* Have to manually change this */
+}
+
+.time {
+    color: {time-color};
+    font-size: 10px;
 }
 
 .message-box {
-  border: none;
-  padding-top: 5px;
   background-color: #FFFFFF;
   border-radius: {msg-border-radius}px;
+  border: {msg-box-border-size}px solid {msg-box-border-color};
 }
 
 .message {
   display: block;
   color: {sec-color};
-  letter-spacing: 0.9px;
+  letter-spacing: 0.8px;
   margin-left: 5px;
-  padding: 6px 6px ;
+  padding: 6px 12px ;
   word-wrap: break-word;
   font-size: {msg-size}px;
   font-weight: {msg-weight};
@@ -114,4 +118,37 @@ body {
   display: inline-block;
   height: 1em;
   opacity: 0;
+}
+
+/* Pastel */
+
+.pastel-01 {
+  background-color: #fdc7d9;
+}
+.pastel-02 {
+  background-color: #bedada;
+}
+.pastel-03 {
+  background-color: #9ae3d2;
+}
+.pastel-04 {
+  background-color: #64d29d;
+}
+.pastel-05 {
+  background-color: #fae784;
+}
+.pastel-06 {
+  background-color: #eebab4;
+}
+.pastel-07 {
+  background-color: #89565f;
+}
+.pastel-08 {
+  background-color: #b38ca5;
+}
+.pastel-09 {
+  background-color: #ecbf9d;
+}
+.pastel-10 {
+  background-color: #6c7295;
 }

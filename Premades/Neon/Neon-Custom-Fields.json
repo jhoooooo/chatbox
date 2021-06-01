@@ -19,7 +19,7 @@
     "steps": 1
   },
   "neon-second-color": {
-    "label": "Message Color",
+    "label": "Message Text Color",
     "type": "colorpicker",
     "value": "#0088ff"
   },

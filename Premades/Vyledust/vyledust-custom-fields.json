@@ -69,7 +69,7 @@
         "steps": 1
     },
     "name-font-color": {
-        "label": "Username Color",
+        "label": "Username Text Color",
         "type": "colorpicker",
         "value": "#fca311"
     },
@@ -83,7 +83,7 @@
         "value": "none"
     },
     "message-font-color": {
-        "label": "Message Color",
+        "label": "Message Text Color",
         "type": "colorpicker",
         "value": "#e5e5e5"
     },
