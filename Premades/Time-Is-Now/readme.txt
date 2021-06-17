@@ -1,3 +1,10 @@
 Time is Now.
 
-First chat element might be missing timestamp or background-color.
+Details: 
+- First chat element might be missing timestamp or background-color.
+- Username does not have background thus, you have to play around text-shadow to ensure it is visible in all screen conditions, dark/light.
+
+Credits : 
+
+Luxon - A powerful, modern, and friendly wrapper for JavaScript dates and times.
+

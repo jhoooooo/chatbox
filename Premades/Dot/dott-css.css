@@ -43,8 +43,6 @@ body {
 
 #log>div {
   margin-bottom: {message-box-margin}px;
-  animation:  fadeOut 0.5s ease {message_hide_delay} forwards;
-  -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
 }
 
 .all-wrapper {
@@ -53,6 +51,7 @@ body {
     border: {wrapper-border-size}px solid {wrapper-border-color};
     padding: 5px {wrapper-padding}px;
     border-radius: {wrapper-border-radius}px;
+    overflow: visible;
 }
 
 .badge {

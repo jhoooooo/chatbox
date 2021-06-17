@@ -1,0 +1,1 @@
+Somehow fadeout animation (always show message option in streamlabs) is making bottom border flickering. It might be on my end only.

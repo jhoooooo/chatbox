@@ -44,7 +44,12 @@ Smooth scrolling might not be suitable if chat is moving too fast. To disable sm
 
 ## Premade themes
 
-This repo also included some premade theme in the premade folder. This themes is less customizable than the main overlay unless you edit the files manually. The purpose is to vary the design, test more functionalities, showcase what you can do or poc that cannot be included in the default design. 
+This repo also included some premade theme in the premade folder. This themes is less customizable than the main overlay unless you edit the files manually. The purpose is to vary the design, test more functionalities, showcase what you can do or poc that cannot be included in the default design.
+
+## Credits
+
+* [Luxon](https://moment.github.io/luxon/)
+* [Curtis Geiger](https://github.com/curtissimo41)
 
 ## License
 
@@ -53,7 +58,6 @@ This repo also included some premade theme in the premade folder. This themes is
 ## Disclaimer
 
 I'm not a web developers. Excuse the scuffness.
-
 
 ## Donate
 
