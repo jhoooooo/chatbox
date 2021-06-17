@@ -1,0 +1,121 @@
+//* 
+- Points
+- Last Update: 18 June 2021
+- https://github.com/jhoooooo/streamlabs-chat/
+- https://twitter.com/JHOOOOOOOOOOOOQ
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
+@import url('https://fonts.googleapis.com/css?family={font-choosen}'); 
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: '{font-choosen}', 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: {background_color};
+  font-weight: {font-weight};
+  font-size: {font-size}px;
+}
+
+div#custom_html {
+  height: 100%;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 26%, rgba(0,0,0,0) 100%);
+}
+
+.colon {
+  display: none;
+}
+
+#log {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 10px 10px 10px;
+  width: 100%;
+}
+
+#log>div.deleted {
+  visibility: hidden;
+}
+
+#log>div {
+  margin-bottom: {message-box-margin}px;
+  animation:  fadeOut 0.5s ease {message_hide_delay} forwards;
+  -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
+}
+
+#log::before {
+  content: '';
+  width: 0;
+  height: 100%;
+  position: absolute;
+  border: 1px solid #ffffff;
+  top: 0;
+  left: 10px;
+}
+
+.all-wrapper {
+    width: fit-content;
+    padding: 5px {wrapper-padding}px;
+    margin-left: -13px;
+}
+
+.all-wrapper::before { /* add the new bullet point */
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  -webkit-border-radius: 2.375rem;
+  border-radius: 2.375rem;
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+  background-color: #fff;
+  border: 4px solid #000;
+}
+
+.badge {
+  display: inline-block;
+  margin: 0 0.2em;
+  position: relative;
+  height: fit-content;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+
+.name {
+  display: inline-block;
+  color: {name-font-color};
+  text-transform: {name-transform};
+}
+
+.message {
+  display: inline;
+  color: {message-font-color};
+  text-transform: {message-transform};
+  word-wrap: break-word;
+   -webkit-box-decoration-break: clone;
+   box-decoration-break: clone;
+}
+
+#log .emote {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 0.4em 0.2em;
+  position: relative;
+}
+
+#log .emote img {
+  display: inline-block;
+  height: 1em;
+  opacity: 0;
+}
