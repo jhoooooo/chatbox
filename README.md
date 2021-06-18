@@ -3,6 +3,7 @@ This repo provide easy to customize theme/overlay for Streamlabs Chatbox widget.
 
 https://user-images.githubusercontent.com/65335648/118496278-8d434a80-b756-11eb-83fa-42125c71412b.mp4
 
+Video: Pink with Gifs in Premades folder.
 
 ## How To Use
 
@@ -53,7 +54,7 @@ This repo also included some premade theme in the premade folder. This themes is
 
 ## License
 
-[![MIT license](https://badgen.net/badge/License/MIT/blue)](https://github.com/metadotmy/streamlabs-chat/blob/master/LICENSE)
+MIT License [![MIT license](https://badgen.net/badge/License/MIT/blue)](https://github.com/metadotmy/streamlabs-chat/blob/master/LICENSE)
 
 ## Disclaimer
 
