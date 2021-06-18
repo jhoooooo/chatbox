@@ -4,6 +4,15 @@
     "type": "fontpicker",
     "value": "Open Sans"
   },
+  "box-spacing": {
+    "label": "Message Box Spacing",
+    "type": "slider",
+    "name": "",
+    "value": 5,
+    "max": 30,
+    "min": 0,
+    "steps": 1
+  },
   "usn-size": {
     "label": "Username Text Size",
     "type": "slider",

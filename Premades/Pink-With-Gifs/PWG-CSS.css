@@ -40,7 +40,7 @@ body {
 }
 
 #log>div {
-  margin-bottom: 5px;
+  margin-bottom: {box-spacing}px;
   animation: fadeOut 0.5s ease {message_hide_delay} forwards; 
   -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
   /* Fadeout animation is needed here because if user disable(untick)
@@ -72,7 +72,7 @@ body {
   margin-bottom: -10px;
   display: inline-block;
   border: {username-box-border}px solid {username-box-border-color};
-  border-radius: 0px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
   z-index: 1; /* cause position relative @ .message-box */
 }
 
@@ -90,7 +90,7 @@ body {
   border: {message-box-border}px solid {message-box-border-color};
   padding-top: 5px;
   background-color: {message-box-color}; /* sec color #83af9b */
-  border-radius: 0px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
   position: relative;
   z-index: -1; /* cause position relative */
 }

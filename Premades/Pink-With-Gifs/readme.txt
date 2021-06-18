@@ -1,6 +1,9 @@
 Gifs.
 
+- You might have to tinker with the image position, height and width in css accordingly or it will show up blurred.
+
+/////
+
 -- You can use css pseudo element ::before/::after to add images to the chatbox.
--- You have to increase the gifs size manually.
 -- You can also further customize using javascript, 
 for example to randomize the images for each messages shown.
