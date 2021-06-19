@@ -20,7 +20,7 @@ html, body {
 body {
   font-family: '{font-choosen}', 'Open Sans', 'Helvetica Neue', sans-serif;
   background: {background_color};
-  font-weight: {font-weight};
+  font-weight: {font-weight}!important;
   font-size: {font-size}px;
 }
 
@@ -40,7 +40,7 @@ div#custom_html {
   bottom: 0;
   left: 0;
   padding: 0 10px 10px 10px;
-  width: 100%;
+  width: 100vh;
 }
 
 #log>div.deleted {
@@ -64,14 +64,17 @@ div#custom_html {
 }
 
 .all-wrapper {
-    width: fit-content;
-    padding: 5px {wrapper-padding}px;
-    margin-left: -13px;
+  width: fit-content;
+  padding: 5px 5px;
+  margin-left: 10px;
+  text-shadow: 0px 1px 8px black;
+  display: inline-block;
+  position: relative;
+  top: 6px;
 }
 
 .all-wrapper::before { /* add the new bullet point */
   display: inline-block;
-  vertical-align: middle;
   content: '';
   -webkit-border-radius: 2.375rem;
   border-radius: 2.375rem;
@@ -79,7 +82,10 @@ div#custom_html {
   width: 10px;
   margin-right: 5px;
   background-color: #fff;
-  border: 4px solid #000;
+  border: 1px solid #000;
+  left: -15px;
+  position: absolute;
+  top: 8px;
 }
 
 .badge {
