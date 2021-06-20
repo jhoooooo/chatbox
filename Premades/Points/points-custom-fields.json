@@ -8,28 +8,10 @@
         "label": "Spacing Between User",
         "type": "slider",
         "name": "Spacing Between User",
-        "value": 5,
+        "value": 0,
         "max": 30,
         "min": 0,
         "steps": 1
-    },
-    "font-size": {
-        "label": "Font Size",
-        "type": "slider",
-        "name": "",
-        "value": 14,
-        "max": 60,
-        "min": 10,
-        "steps": 1
-    },
-    "font-weight": {
-        "label": "Font Weight",
-        "type": "slider",
-        "name": "",
-        "value": 397,
-        "max": 900,
-        "min": 100,
-        "steps": 100
     },
     "wrapper-padding": {
         "label": "Side Padding",
