@@ -59,15 +59,19 @@ This repo also included some premade theme in the premade folder. This themes is
 ## FAQ
 
 **Q. Do you take commission?**
+
 A. No. I'm not a dev/artist and everything here is self-learn. By taking payment, I feel like I'm responsible for the product and I don't think I'm knowledgeable enough for it. If you need specific design to fit your stream, feel free to reach out to me on Twitter. I will try to help you if I'm able to (no payment ofc).
 
 **Q. I'm an overlay maker, can i integrate and resell you work?**
+
 A. Yes. It's MIT licensed. Its a short and simple permissive license with conditions only requiring preservation of copyright and license notices.
 
 **Q. Your code is wrong / not optimized.**
+
 A. Please correct me.
 
 **Q. Can i still pay you?**
+
 A. You can donate to my kofi but don't demand anything from me because of it. Donating doesn't mean that I will help you.
 
 ## Donate
