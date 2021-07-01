@@ -1,5 +1,5 @@
 # Streamlabs Chatbox Widget
-This repo provide easy to customize theme/overlay for Streamlabs Chatbox widget. This repo is tailored to most people, therefore the options is limited. If you need help or something specific to fit your stream style for example, you can contact me on Twitter.
+This repo provide easy to customize theme/overlay for Streamlabs Chatbox widget. This repo is meant to be example of what you can do with the widget, provide more documentation for it, therefore the options is limited. If you need help or something specific to fit your stream style for example, you can contact me on Twitter.
 
 https://user-images.githubusercontent.com/65335648/118496278-8d434a80-b756-11eb-83fa-42125c71412b.mp4
 
@@ -54,11 +54,21 @@ This repo also included some premade theme in the premade folder. This themes is
 
 ## License
 
-MIT License [![MIT license](https://badgen.net/badge/License/MIT/blue)](https://github.com/metadotmy/streamlabs-chat/blob/master/LICENSE)
+[MIT license](https://github.com/metadotmy/streamlabs-chat/blob/master/LICENSE)
 
-## Disclaimer
+## FAQ
 
-I'm not a web developers. Excuse the scuffness.
+**Q. Do you take commission?**
+A. No. I'm not a dev/artist and everything here is self-learn. By taking payment, I feel like I'm responsible for the product and I don't think I'm knowledgeable enough for it. If you need specific design to fit your stream, feel free to reach out to me on Twitter. I will try to help you if I'm able to (no payment ofc).
+
+**Q. I'm an overlay maker, can i integrate and resell you work?**
+A. Yes. It's MIT licensed. Its a short and simple permissive license with conditions only requiring preservation of copyright and license notices.
+
+**Q. Your code is wrong / not optimized.**
+A. Please correct me.
+
+**Q. Can i still pay you?**
+A. You can donate to my kofi but don't demand anything from me because of it. Donating doesn't mean that I will help you.
 
 ## Donate
 
@@ -66,4 +76,4 @@ I'm not a web developers. Excuse the scuffness.
 
 ## Contact
 
-You can contact me on [Twitter](https://twitter.com/JHOOOOOOOOOOOOQ) if needed. I will try my best to help.
+[Twitter](https://twitter.com/JHOOOOOOOOOOOOQ)
