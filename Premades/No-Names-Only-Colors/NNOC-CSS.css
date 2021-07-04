@@ -9,12 +9,12 @@
 @import url('https://fonts.googleapis.com/css?family={font-choosen}'); 
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    overflow: hidden;
+  height: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -24,23 +24,23 @@ body {
 }
 
 .colon {
-    display: none;
+  display: none;
 }
 
 #log {
-    display: inline-block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 #log>div {
-    display: block;
+  display: block;
 }
 
 #log>div.deleted {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .chat-wrapper {

@@ -26,8 +26,8 @@
       "label": "Username Text Transform",
       "type": "dropdown",
       "options": {
-          "none": "None",
-          "uppercase": "Uppercase"
+        "none": "None",
+        "uppercase": "Uppercase"
       },
       "value": "none"
     },

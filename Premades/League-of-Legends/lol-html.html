@@ -4,18 +4,15 @@
 
 <!-- chat item -->
 <script type="text/template" id="chatlist_item">
-  <div class="wrapper" data-from="{from}" data-id="{messageId}">
-
-    <div class="meta">
-      <div class="username-box"> <!-- User color -->
-        <span class="badges"></span><span class="name">{from} <span class="time"></span></span>
+  <div data-from="{from}" data-id="{messageId}">
+    <div class="all-wrapper">
+      <div class="msg-wrapper">
+        <span class="time"></span>
+        <span class="name">[All] {from}</span>
+        <span class="hero"></span>
+        <span class="message">{message}</span>
       </div>
     </div>
-
-    <div class="message-box">
-      <span class="message">{message}</span>
-    </div>
-
   </div>
 </script>
 

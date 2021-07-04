@@ -1,99 +1,99 @@
 {
   "font-choosen": {
-      "label": "Font",
-      "type": "fontpicker",
-      "value": "Roboto"
+    "label": "Font",
+    "type": "fontpicker",
+    "value": "Roboto"
   },
   "name-display": {
-      "label": "Hide Chatter's Name?",
-      "type": "dropdown",
-      "options": {
-          "none": "Yes",
-          "inline-block": "No"
-      },
-      "value": "inline-block"
+    "label": "Hide Chatter's Name?",
+    "type": "dropdown",
+    "options": {
+      "none": "Yes",
+      "inline-block": "No"
+    },
+    "value": "inline-block"
   },
   "first-color": {
-      "label": "Username Text Color",
-      "type": "colorpicker",
-      "value": "#17242d"
+    "label": "Username Text Color",
+    "type": "colorpicker",
+    "value": "#17242d"
   },
   "time-color": {
-      "label": "Timestamp Text Color",
-      "type": "colorpicker",
-      "value": "#17242d"
+    "label": "Timestamp Text Color",
+    "type": "colorpicker",
+    "value": "#17242d"
   },
   "usn-size": {
-      "label": "Username Font Size",
-      "type": "slider",
-      "name": "",
-      "value": 14,
-      "max": 60,
-      "min": 10,
-      "steps": 1
+    "label": "Username Font Size",
+    "type": "slider",
+    "name": "",
+    "value": 14,
+    "max": 60,
+    "min": 10,
+    "steps": 1
   },
   "usn-weight": {
-      "label": "Username Text Weight",
-      "type": "slider",
-      "name": "",
-      "value": 900,
-      "max": 900,
-      "min": 100,
-      "steps": 100
+    "label": "Username Text Weight",
+    "type": "slider",
+    "name": "",
+    "value": 900,
+    "max": 900,
+    "min": 100,
+    "steps": 100
   },
   "name-border-radius": {
-      "label": "Username Box Border Radius",
-      "type": "slider",
-      "name": "Username Box Border Radius",
-      "value": 4,
-      "max": 15,
-      "min": 0,
-      "steps": 1
+    "label": "Username Box Border Radius",
+    "type": "slider",
+    "name": "Username Box Border Radius",
+    "value": 4,
+    "max": 15,
+    "min": 0,
+    "steps": 1
   },
   "sec-color": {
-      "label": "Message Text Color",
-      "type": "colorpicker",
-      "value": "#17242d"
+    "label": "Message Text Color",
+    "type": "colorpicker",
+    "value": "#17242d"
   },
   "msg-size": {
-      "label": "Message Font Size",
-      "type": "slider",
-      "name": "",
-      "value": 14,
-      "max": 60,
-      "min": 10,
-      "steps": 1
+    "label": "Message Font Size",
+    "type": "slider",
+    "name": "",
+    "value": 14,
+    "max": 60,
+    "min": 10,
+    "steps": 1
   },
   "msg-weight": {
-      "label": "Message Text Weight",
-      "type": "slider",
-      "name": "",
-      "value": 600,
-      "max": 900,
-      "min": 100,
-      "steps": 100
+    "label": "Message Text Weight",
+    "type": "slider",
+    "name": "",
+    "value": 600,
+    "max": 900,
+    "min": 100,
+    "steps": 100
   },
   "msg-border-radius": {
-      "label": "Message Box Border Radius",
-      "type": "slider",
-      "name": "Message Box Border Radius",
-      "value": 12,
-      "max": 15,
-      "min": 0,
-      "steps": 1
+    "label": "Message Box Border Radius",
+    "type": "slider",
+    "name": "Message Box Border Radius",
+    "value": 12,
+    "max": 15,
+    "min": 0,
+    "steps": 1
   },
   "msg-box-border-size": {
-      "label": "Message Box Border Size",
-      "type": "slider",
-      "name": "Message Box Border Size",
-      "value": 0,
-      "max": 10,
-      "min": 0,
-      "steps": 1
+    "label": "Message Box Border Size",
+    "type": "slider",
+    "name": "Message Box Border Size",
+    "value": 0,
+    "max": 10,
+    "min": 0,
+    "steps": 1
   },
   "msg-box-border-color": {
-      "label": "Message Box Border Color",
-      "type": "colorpicker",
-      "value": "#17242d"
+    "label": "Message Box Border Color",
+    "type": "colorpicker",
+    "value": "#17242d"
   }
 }

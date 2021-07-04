@@ -1,0 +1,11 @@
+{
+  "font-size": {
+    "label": "Font Size",
+    "type": "slider",
+    "name": "",
+    "value": 12,
+    "max": 60,
+    "min": 10,
+    "steps": 1
+  }
+}

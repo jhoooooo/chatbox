@@ -58,13 +58,13 @@ body {
 }
 
 .badge {
-    display: inline-block;
-    margin: 0;
-    position: relative;
-    height: fit-content;
-    vertical-align: middle;
-    margin-top: -2px;
-    margin-left: 5px;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  height: fit-content;
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-left: 5px;
 }
 
 .username-box {
@@ -85,8 +85,8 @@ body {
 }
 
 .time {
-    color: {time-color};
-    font-size: 10px;
+  color: {time-color};
+  font-size: 10px;
 }
 
 .message-box {
