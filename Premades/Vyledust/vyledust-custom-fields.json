@@ -34,7 +34,7 @@
   "wrapper-background-color": {
     "label": "Background Color",
     "type": "colorpicker",
-    "value": "#14213d"
+    "value": "#00000080"
   },
   "wrapper-border-size": {
     "label": "Border Size",
@@ -44,6 +44,15 @@
     "max": 10,
     "min": 0,
     "steps": 1
+  },
+  "wrapper-width": {
+    "label": "Message box's width. (Full width/Fit content)",
+    "type": "dropdown",
+    "options": {
+      "auto": "Full width",
+      "fit-content": "Fit Content"
+    },
+    "value": "auto"
   },
   "wrapper-padding": {
     "label": "Side Padding",

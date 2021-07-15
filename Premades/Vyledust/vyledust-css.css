@@ -1,12 +1,12 @@
-//* 
+/*
 - Vyledust
 - Last Update: 02 June 2021
 - https://github.com/jhoooooo/streamlabs-chat/
 - https://twitter.com/JHOOOOOOOOOOOOQ
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
-@import url('https://fonts.googleapis.com/css?family={font-choosen}'); 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family={font-choosen}');
 
 * {
   box-sizing: border-box;
@@ -34,7 +34,9 @@ body {
   bottom: 0;
   left: 0;
   padding: 0 10px 10px 10px;
-  width: 100%;
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
 }
 
 #log>div.deleted {
@@ -48,7 +50,7 @@ body {
 }
 
 .all-wrapper {
-  width: fit-content;
+  width: {wrapper-width};
   background: {wrapper-background-color};
   border: {wrapper-border-size}px solid {wrapper-border-color};
   padding: 5px {wrapper-padding}px;
