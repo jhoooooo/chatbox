@@ -45,8 +45,8 @@ body {
 
 #log>div {
   margin-bottom: {message-box-margin}px;
-  animation:  fadeOut 0.5s ease {message_hide_delay} forwards;
-  -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
+ /* animation:  fadeOut 0.5s ease {message_hide_delay} forwards;
+  -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards; */
 }
 
 .all-wrapper {
