@@ -1,4 +1,4 @@
-{ 
+{
     "message-box-margin": {
         "label": "Spacing Between User",
         "type": "slider",
@@ -18,9 +18,9 @@
         "steps": 1
     },
     "font-choosen": {
-      "label": "Font",
-      "type": "fontpicker",
-      "value": "Open Sans"
+        "label": "Font",
+        "type": "fontpicker",
+        "value": "Open Sans"
     },
     "font-size": {
         "label": "Font Size",
@@ -35,7 +35,7 @@
         "label": "Font Weight",
         "type": "slider",
         "name": "",
-        "value": 397,
+        "value": 600,
         "max": 900,
         "min": 100,
         "steps": 100
@@ -43,22 +43,22 @@
     "name-font-color": {
         "label": "Username Text Color",
         "type": "colorpicker",
-        "value": "#fca311"
+        "value": "#515E63"
     },
     "name-bg-color": {
         "label": "Username Background Color",
         "type": "colorpicker",
-        "value": "#14213d"
+        "value": "#F1ECC3"
     },
     "name-transform": {
-       "label": "Username Text Transform",
-       "type": "dropdown",
-       "options": {
-           "none": "None",
-           "uppercase": "Uppercase"
-       },
-       "value": "none"
-   },
+        "label": "Username Text Transform",
+        "type": "dropdown",
+        "options": {
+            "none": "None",
+            "uppercase": "Uppercase"
+        },
+        "value": "none"
+    },
     "name-padding-tb": {
         "label": "Username Top/Bottom Padding",
         "type": "slider",
@@ -72,7 +72,7 @@
         "label": "Username Left/Right Padding",
         "type": "slider",
         "name": "",
-        "value": 5,
+        "value": 10,
         "max": 30,
         "min": 0,
         "steps": 1
@@ -98,7 +98,7 @@
     "name-border-color": {
         "label": "Username Box Border Color",
         "type": "colorpicker",
-        "value": "#fca311"
+        "value": "#515E63"
     },
     "name-skew": {
         "label": "Username Box Skew",
@@ -112,22 +112,22 @@
     "message-font-color": {
         "label": "Message Text Color",
         "type": "colorpicker",
-        "value": "#14213d"
+        "value": "#57837B"
     },
     "message-bg-color": {
         "label": "Message Background Color",
         "type": "colorpicker",
-        "value": "#fca311"
+        "value": "#C9D8B6"
     },
     "message-transform": {
-       "label": "Message Text Transform",
-       "type": "dropdown",
-       "options": {
-           "none": "None",
-           "uppercase": "Uppercase"
-       },
-       "value": "none"
-   },
+        "label": "Message Text Transform",
+        "type": "dropdown",
+        "options": {
+            "none": "None",
+            "uppercase": "Uppercase"
+        },
+        "value": "none"
+    },
     "message-padding-tb": {
         "label": "Message Top/Bottom Padding",
         "type": "slider",
@@ -141,7 +141,7 @@
         "label": "Message Padding Left/Right",
         "type": "slider",
         "name": "Message Padding Left/Right",
-        "value": 5,
+        "value": 10,
         "max": 30,
         "min": 0,
         "steps": 1
@@ -176,7 +176,7 @@
     "message-border-color": {
         "label": "Message Box Border Color",
         "type": "colorpicker",
-        "value": "#000000"
+        "value": "#515E63"
     },
     "message-skew": {
         "label": "Message Box Skew",
@@ -186,5 +186,32 @@
         "max": 20,
         "min": 0,
         "steps": 1
-    }
+    },
+    "smoothscroll": {
+        "label": "Smoothscroll Animation?",
+        "type": "dropdown",
+        "options": {
+          "false": "Disable",
+          "true": "Enable"
+        },
+        "value": "true"
+      },
+      "limit-enable": {
+        "label": "Limit Message Shown?",
+        "type": "dropdown",
+        "options": {
+          "false": "Disable",
+          "true": "Enable"
+        },
+        "value": "true"
+      },
+      "msg-limit": {
+        "label": "No. of Message Shown",
+        "type": "slider",
+        "name": "",
+        "value": 3,
+        "max": 999,
+        "min": 1,
+        "steps": 1
+      }
 }
