@@ -1,3 +1,7 @@
+Each file can be open with notepad (right click > open with > notepad).
+
+-------------------------------------
+
 intented for fullscreen usage.
 
 ! animation is jerky, might be verticle aligning trying to align.

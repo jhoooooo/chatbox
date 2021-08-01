@@ -209,7 +209,7 @@
         "label": "No. of Message Shown",
         "type": "slider",
         "name": "",
-        "value": 3,
+        "value": 10,
         "max": 999,
         "min": 1,
         "steps": 1

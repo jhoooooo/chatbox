@@ -1,4 +1,9 @@
 {
+  "font-choosen": {
+    "label": "Font",
+    "type": "fontpicker",
+    "value": "Bona Nova"
+  },
   "font-size": {
     "label": "Font Size",
     "type": "slider",
@@ -6,6 +11,60 @@
     "value": 12,
     "max": 60,
     "min": 10,
+    "steps": 1
+  },
+  "time-enable": {
+    "label": "Show timestamp?",
+    "type": "dropdown",
+    "options": {
+      "false": "Disable",
+      "true": "Enable"
+    },
+    "value": "true"
+  },
+  "hero-enable": {
+    "label": "Show champion name?",
+    "type": "dropdown",
+    "options": {
+      "false": "Disable",
+      "true": "Enable"
+    },
+    "value": "true"
+  },
+  "alltext-enable": {
+    "label": "Show [All]?",
+    "type": "dropdown",
+    "options": {
+      "false": "Disable",
+      "true": "Enable"
+    },
+    "value": "true"
+  },
+  "smoothscroll": {
+    "label": "Smoothscroll Animation?",
+    "type": "dropdown",
+    "options": {
+      "false": "Disable",
+      "true": "Enable"
+    },
+    "value": "true"
+  },
+  "limit-enable": {
+    "label": "Limit Message Shown?",
+    "type": "dropdown",
+    "options": {
+      "false": "Disable",
+      "true": "Enable"
+    },
+    "value": "true"
+  },
+  "msg-limit": {
+    "label": "No. of Message Shown",
+    "type": "slider",
+    "name": "",
+    "value": 10,
+    "max": 999,
+    "min": 1,
     "steps": 1
   }
 }

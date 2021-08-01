@@ -1,5 +1,7 @@
 // Default Template.
 
+// You can open each file using notepad (can even rename the file to .txt).
+
 This default template is targeted at those who want to spend lots of time to customize every little things.
 It has the most options but it will look bad if you mindlessly alter all options and don't have a style in mind.
 If you only want to change simple things, try other themes instead.
