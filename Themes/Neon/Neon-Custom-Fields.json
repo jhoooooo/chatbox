@@ -1,0 +1,35 @@
+{
+  "font-choosen": {
+    "label": "Font",
+    "type": "fontpicker",
+    "value": "Open Sans"
+  },
+  "neon-first-color": {
+    "label": "Username Color",
+    "type": "colorpicker",
+    "value": "#ff4400"
+  },
+  "usn-size": {
+    "label": "Username Font Size",
+    "type": "slider",
+    "name": "",
+    "value": 14,
+    "max": 60,
+    "min": 10,
+    "steps": 1
+  },
+  "neon-second-color": {
+    "label": "Message Text Color",
+    "type": "colorpicker",
+    "value": "#0088ff"
+  },
+  "msg-size": {
+    "label": "Message Font Size",
+    "type": "slider",
+    "name": "",
+    "value": 14,
+    "max": 60,
+    "min": 10,
+    "steps": 1
+  }
+}
