@@ -11,9 +11,18 @@ document.addEventListener('onEventReceived', function(obj) {
 
     //smoothscroll animation
     const smoothscroll = {smoothscroll};
+    //character limit
+    const charLimit = {char-limit};
 
-    if (smoothscroll == true) {
-        if (obj.detail.command === "PRIVMSG") { // Prevent animation for ping events - Curtis Geiger
+    if (obj.detail.command === "PRIVMSG") { // Prevent animation for ping events - Curtis Geiger
+        // Limit character
+        if (obj.detail.body.length > charLimit) {
+            obj.detail.body = obj.detail.body.slice(0, charLimit);
+            $(".message").last().append(obj.detail.body + '...');
+        } else {
+            $(".message").last().append(obj.detail.body);
+        }
+        if (smoothscroll == true) {
             $('#log>div').last().hide().slideToggle(600, "easeInOutQuart"); //New animation code
         }
     }
