@@ -1,12 +1,12 @@
-/* 
+/*
 - Default
-- Last Update: 02 June 2021
+- Last Update: 02 Aug 2021
 - https://github.com/jhoooooo/streamlabs-chat/
 - https://twitter.com/JHOOOOOOOOOOOOQ
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
-@import url('https://fonts.googleapis.com/css?family={font-choosen}'); 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family={font-choosen}');
 
 * {
   box-sizing: border-box;
@@ -44,7 +44,7 @@ body {
 
 #log>div {
   margin-bottom: {message-box-margin}px;
-  animation: fadeOut 0.5s ease {message_hide_delay} forwards; 
+  animation: fadeOut 0.5s ease {message_hide_delay} forwards;
   -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
   /* Fadeout animation is needed here because if user disable(untick)
   'Disable Message Animations' in Streamlabs, 'Hide Message After'
