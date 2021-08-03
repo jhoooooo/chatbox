@@ -43,9 +43,6 @@ body {
   margin-bottom: {box-spacing}px;
   animation: fadeOut 0.5s ease {message_hide_delay} forwards;
   -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
-  /* Fadeout animation is needed here because if user disable(untick)
-  'Disable Message Animations' in Streamlabs, 'Hide Message After'
-  option will not work. */
 }
 
 .meta  {

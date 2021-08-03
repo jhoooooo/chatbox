@@ -1,4 +1,4 @@
-{ 
+{
     "font-choosen": {
       "label": "Font",
       "type": "fontpicker",
@@ -35,5 +35,32 @@
       "label": "Message Text Color",
       "type": "colorpicker",
       "value": "#000000"
+    },
+    "smoothscroll": {
+      "label": "Smoothscroll Animation?",
+      "type": "dropdown",
+      "options": {
+        "false": "Disable",
+        "true": "Enable"
+      },
+      "value": "true"
+    },
+    "limit-enable": {
+      "label": "Limit Message Shown?",
+      "type": "dropdown",
+      "options": {
+        "false": "Disable",
+        "true": "Enable"
+      },
+      "value": "true"
+    },
+    "msg-limit": {
+      "label": "No. of Message Shown",
+      "type": "slider",
+      "name": "",
+      "value": 10,
+      "max": 999,
+      "min": 1,
+      "steps": 1
     }
   }

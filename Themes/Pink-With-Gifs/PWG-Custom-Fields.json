@@ -142,7 +142,7 @@
     "label": "No. of Message Shown",
     "type": "slider",
     "name": "",
-    "value": 3,
+    "value": 10,
     "max": 999,
     "min": 1,
     "steps": 1
@@ -151,8 +151,8 @@
     "label": "Message character limit",
     "type": "slider",
     "name": "",
-    "value": 125,
-    "max": 999,
+    "value": 510,
+    "max": 510,
     "min": 1,
     "steps": 1
   }
