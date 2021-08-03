@@ -1,0 +1,32 @@
+.gifone::after {
+    content: "";
+    background: url(https://i.postimg.cc/RhDZ8xKZ/wiggle.gif) no-repeat; /* wiggle */
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: -20px;
+    right: 15px;
+}
+
+.giftwo::after {
+    content: "";
+    background: url(https://i.postimg.cc/9M0CZNwP/popcat3x.gif) no-repeat; /* popcat */
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: -20px;
+    right: 15px;
+}
+
+.gifthree::after {
+    content: "";
+    background: url(https://i.postimg.cc/6Qm5jXXb/blobdance.gif) no-repeat; /* blobdance */
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: -20px;
+    right: 15px;
+}
