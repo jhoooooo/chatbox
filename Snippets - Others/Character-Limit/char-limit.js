@@ -1,3 +1,6 @@
+//currently emotes are not parse only plain text message.
+//I can parse Twitch's (not added here yet) but haven't test ffz & bttv.
+
 const charLimit = {char-limit};
 
 if (obj.detail.command === "PRIVMSG") { // Prevent animation for ping events - Curtis Geiger
