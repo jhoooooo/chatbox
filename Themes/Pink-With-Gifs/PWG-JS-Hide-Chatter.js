@@ -14,20 +14,12 @@ document.addEventListener('onEventReceived', function (obj) {
     const limitEnable = {limit-enable};
     const msgLimit = {msg-limit};
     const msgParent = document.querySelector('.sl__chat__layout');
-    const charLimit = {char-limit};
 
     // Variables for Bot and Command check. This follows streamlabs' way of doing it.
     const isCommand = obj.detail.body.charAt(0);
     const botNames = ["nightbot", "moobot", "xanbot", "deepbot", "vivbot", "phantombot", "streamelements"];
 
     if (obj.detail.command === "PRIVMSG") {
-        // Limit character
-        if (obj.detail.body.length > charLimit) {
-            obj.detail.body = obj.detail.body.slice(0, charLimit);
-            $(".message").last().append(obj.detail.body + '...');
-        } else {
-            $(".message").last().append(obj.detail.body);
-        }
         // bot detection
         if (botNames.indexOf(obj.detail.from) == -1 && isCommand != "!") { // Prevent animation if bot
             if (smoothscroll == true) {

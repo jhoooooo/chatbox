@@ -146,14 +146,5 @@
     "max": 999,
     "min": 1,
     "steps": 1
-  },
-  "char-limit": {
-    "label": "Message character limit",
-    "type": "slider",
-    "name": "",
-    "value": 510,
-    "max": 510,
-    "min": 1,
-    "steps": 1
   }
 }
