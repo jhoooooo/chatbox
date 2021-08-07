@@ -144,7 +144,7 @@ body {
 }
 
 .straight-ani {
-  animation: 3s lease-in-out 0s 1 normal forwards running straight;
+  animation: 3s ease-in-out 0s 1 normal forwards running straight;
   -webkit-animation: 3s ease-in-out 0s 1 normal forwards running straight;
 }
 
