@@ -95,7 +95,6 @@ body {
 .message-box::after {
   content: "";
   background: url({image-upload}) no-repeat; /* gifs image */
-  /* background: url(https://i.postimg.cc/TwMcrQwH/wiggle.gif) no-repeat; */
   background-size: contain;
   height: 30px;
   width: 30px;
