@@ -1,0 +1,147 @@
+{
+    "font-choosen": {
+        "label": "Font",
+        "type": "fontpicker",
+        "value": "JetBrains Mono"
+    },
+    "box-spacing": {
+        "label": "Message Box Spacing",
+        "type": "slider",
+        "name": "",
+        "value": 5,
+        "max": 30,
+        "min": 0,
+        "steps": 1
+    },
+    "usn-size": {
+        "label": "Username Text Size",
+        "type": "slider",
+        "name": "",
+        "value": 14,
+        "max": 60,
+        "min": 10,
+        "steps": 1
+    },
+    "usn-weight": {
+        "label": "Username Text Weight",
+        "type": "slider",
+        "name": "",
+        "value": 600,
+        "max": 900,
+        "min": 100,
+        "steps": 100
+    },
+    "usn-transform": {
+        "label": "Username Text Transform",
+        "type": "dropdown",
+        "options": {
+            "none": "None",
+            "uppercase": "Uppercase"
+        },
+        "value": "none"
+    },
+    "username-box-border": {
+        "label": "Username Box Border Size",
+        "type": "slider",
+        "name": "",
+        "value": 2,
+        "max": 10,
+        "min": 0,
+        "steps": 1
+    },
+    "msg-size": {
+        "label": "Message Text Size",
+        "type": "slider",
+        "name": "",
+        "value": 14,
+        "max": 60,
+        "min": 10,
+        "steps": 1
+    },
+    "msg-weight": {
+        "label": "Message Text Weight",
+        "type": "slider",
+        "name": "",
+        "value": 600,
+        "max": 900,
+        "min": 100,
+        "steps": 100
+    },
+    "msg-transform": {
+        "label": "Message Text Transform",
+        "type": "dropdown",
+        "options": {
+            "none": "None",
+            "uppercase": "Uppercase"
+        },
+        "value": "none"
+    },
+    "message-box-border": {
+        "label": "Message Box Border Size",
+        "type": "slider",
+        "name": "",
+        "value": 2,
+        "max": 10,
+        "min": 0,
+        "steps": 1
+    },
+    "smoothscroll": {
+        "label": "Smoothscroll Animation?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "true"
+    },
+    "limit-enable": {
+        "label": "Limit Message Shown?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "true"
+    },
+    "msg-limit": {
+        "label": "No. of Message Shown",
+        "type": "slider",
+        "name": "",
+        "value": 6,
+        "max": 999,
+        "min": 1,
+        "steps": 1
+    },
+    "char-limit": {
+        "label": "Message character limit",
+        "type": "slider",
+        "name": "",
+        "value": 510,
+        "max": 510,
+        "min": 1,
+        "steps": 1
+    },
+    "custom-image": {
+        "label": "Replace heart with custom image?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "false"
+    },
+    "custom-image-uploaded": {
+        "label": "If yes upload image here.",
+        "type": "image-input",
+        "value": ""
+    },
+    "animation": {
+        "label": "Animation",
+        "type": "dropdown",
+        "options": {
+            "straight-ani": "Straight up",
+            "curve-ani": "Cubic bezier curve"
+        },
+        "value": "curve-ani"
+    }
+}
