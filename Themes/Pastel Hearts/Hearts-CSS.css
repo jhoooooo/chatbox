@@ -132,41 +132,6 @@ body {
   -webkit-animation: 3s ease-in-out 0s 1 normal forwards running straight;
 }
 
-@-webkit-keyframes straight {
-  0% {
-    opacity: 0;
-    transform: translate(0, 0%);
-  }
-
-  20% {
-    opacity: 0.8;
-    transform: translate(0, -20%);
-  }
-
-  100% {
-    opacity: 0;
-    transform: translate(0, -1000%);
-  }
-}
-
-@keyframes straight {
-  0% {
-    opacity: 0;
-    transform: translate(0, 0%);
-  }
-
-  20% {
-    opacity: 0.8;
-    transform: translate(0, -20%);
-  }
-
-  100% {
-    opacity: 0;
-    transform: translate(0, -1000%);
-  }
-}
-
-
 @-webkit-keyframes curve {
   0.0000% {
     -webkit-transform: translate(0.0px, 0.0px);
@@ -265,19 +230,18 @@ body {
   }
 }
 
-@-webkit-keyframes straight {
+@keyframes straight {
   0.0000% {
-    -webkit-transform: translate(0.0px, 0.0px);
+    transform: translate(0.0px, 0.0px);
     opacity: 0;
   }
 
-  24.9232% {
-    -webkit-transform: translate(0.0px, -30.0px);
+  25.0000% {
     opacity: 0.8;
   }
 
   100.0000% {
-    -webkit-transform: translate(0.0px, -250.0px);
+    transform: translate(0.0px, -250.0px);
     opacity: 0;
   }
 }
@@ -288,8 +252,8 @@ body {
     opacity: 0;
   }
 
-  24.9232% {
-    transform: translate(0.0px, -30.0px);
+  25.0000% {
+    opacity: 0.8;
   }
 
   100.0000% {
