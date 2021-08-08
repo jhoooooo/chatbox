@@ -62,4 +62,4 @@ The `{color}` variable does not work on the css file as far as I'm aware. It mus
 
 Copyright (c) Jho. All rights reserved.
 
-Licensed under the [MIT license].(https://github.com/metadotmy/streamlabs-chat/blob/master/LICENSE)
+Licensed under the [MIT license](https://github.com/metadotmy/streamlabs-chat/blob/master/LICENSE)
