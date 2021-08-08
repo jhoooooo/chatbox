@@ -12,7 +12,7 @@ Video: Pink with Gifs theme.
 ## How To Use
 
 1. Go to your Streamlabs dashboard > All Widgets > [Chat Box](https://streamlabs.com/dashboard#/chatbox).
-2. Follow this [instruction](https://user-images.githubusercontent.com/65335648/119599623-f93d4700-be17-11eb-82ae-848eb7adceb5.png).
+2. Recommended Streamlabs's [settings](https://user-images.githubusercontent.com/65335648/119599623-f93d4700-be17-11eb-82ae-848eb7adceb5.png).
 3. Choose your theme in the themes folder.
 4. Each files can be open with notepad.
 5. For preview/testing, you can add `?simulate=1` after your widget url to simulate users.
@@ -44,14 +44,10 @@ Twitch user can set their own color on the site. To use this color in this overl
 
 The `{color}` variable does not work on the css file as far as I'm aware. It must be put inline on to the html file and will overwrite any css for said element.
 
-## Credits
+## Credits & Contributor
 
-* [Luxon (Time Library)](https://moment.github.io/luxon/)
+* [Luxon.js (Time Library)](https://moment.github.io/luxon/)
 * [Curtis Geiger](https://github.com/curtissimo41)
-
-## License
-
-[MIT license](https://github.com/metadotmy/streamlabs-chat/blob/master/LICENSE)
 
 ## Support Me
 
@@ -60,3 +56,10 @@ The `{color}` variable does not work on the css file as far as I'm aware. It mus
 ## Contact
 
 [Twitter](https://twitter.com/JHOOOOOOOOOOOOQ)
+
+
+## License
+
+Copyright (c) Jho. All rights reserved.
+
+Licensed under the [MIT license].(https://github.com/metadotmy/streamlabs-chat/blob/master/LICENSE)
