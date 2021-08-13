@@ -9,6 +9,8 @@ You can do so by going into 'Manage Theme' in streamlabs website (create new the
 Each different theme have different url you can use as browser source.
 You can modified each of those theme's chatbox.
 
+Lastly, i'm not a profesional dev, i'm self learn and still learning. Therefore will update stuff as i learn.
+I will not post about updates nor fixes. Please check the repo yourself for updates or ask me on Twitter.
 
 -------------------------------------------------------------------------------------
 if you find this thing confusing, don't be scared to dm me on twitter. I'll help you if i'm able to.
@@ -19,12 +21,12 @@ if you find this thing confusing, don't be scared to dm me on twitter. I'll help
 -------------------------------------------------------------------------------------
 For overlay makers/designers.
 
-- You are allowed to use this overlay in your products, paid or not.
+- You are allowed to use this overlay in your commissions/products, paid or not.
 - Credits appreciated but is not required. Just don't go around claiming you make it.
 - No payment to me is needed.
 - If you want, you can tip me (1USD per customer is more than enough),
 if you want to help me as i'm trying to upgrade from my really slow laptop to a proper desktop pc.
-But it's not a big deal, i'm happy if more people use my scuff overlay.
+But it's not a big deal, i'm already happy if more people use my scuff overlay.
 
 
 Support me @ https://ko-fi.com/jhooo

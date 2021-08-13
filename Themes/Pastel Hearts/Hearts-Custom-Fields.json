@@ -2,7 +2,7 @@
     "font-choosen": {
         "label": "Font",
         "type": "fontpicker",
-        "value": "JetBrains Mono"
+        "value": ""
     },
     "box-spacing": {
         "label": "Message Box Spacing",
@@ -104,20 +104,11 @@
         "value": "true"
     },
     "msg-limit": {
-        "label": "No. of Message Shown",
+        "label": "* No. of Message Shown",
         "type": "slider",
         "name": "",
         "value": 6,
         "max": 999,
-        "min": 1,
-        "steps": 1
-    },
-    "char-limit": {
-        "label": "Message character limit",
-        "type": "slider",
-        "name": "",
-        "value": 510,
-        "max": 510,
         "min": 1,
         "steps": 1
     },
@@ -131,7 +122,7 @@
         "value": "false"
     },
     "custom-image-uploaded": {
-        "label": "If yes upload image here.",
+        "label": "* If yes upload image here.",
         "type": "image-input",
         "value": ""
     },
