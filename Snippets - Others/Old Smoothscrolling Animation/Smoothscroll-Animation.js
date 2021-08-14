@@ -29,4 +29,4 @@ $('#log>div').last().hide().slideToggle(600, "easeInOutQuart");
 
 //then append new class via js.
 
-$('#log>div').last().add('show'), 100);
+$('#log>div').last().addClass('show'), 100);
