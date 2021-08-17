@@ -1,3 +1,10 @@
+! Warning :
+
+Theme that doesn't have "xxx-hide-chatter.js" file in their folder
+does not support 'hide chatter' option in Streamlabs...yet.
+
+-------------------------------------------------------------------------------------
+
 Tips:
 
 Each file can be open with notepad (right click > open with > notepad).
