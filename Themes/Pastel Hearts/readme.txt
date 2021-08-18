@@ -5,7 +5,7 @@ Each file can be open with notepad (right click > open with > notepad).
 
  If you enabled the 'hide chatter option' in Streamlabs, use hide-chatter.js file.
  But you must enable both 'Hide Common Chat Bots' & 'Hide commands starting with `!`'
- If you enable only one of theme, manualy edit the js code. Look for
+ If you enable only one of them, manualy edit the js code. Look for
 
 --------------
 
