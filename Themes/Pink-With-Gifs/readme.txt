@@ -1,13 +1,15 @@
+Pink With Gifs
+==========
+
 Each file can be open with notepad (right click > open with > notepad).
 
--------------------------------------
+Description.
+==========
 
-Gifs.
+Image(static/gifs) can be appended to each messages. You might have to edit the image sizes if needed.
+You can also randomize the image if by using the code in snippets folder.
 
-- You might have to tinker with the image position, height and width in css accordingly or it will show up blurred.
 
-/////
-
--- You can use css pseudo element ::before/::after to add images to the chatbox.
--- You can also further customize using javascript,
-for example to randomize the images for each messages shown.
+! Warning
+==========
+If you enabled the 'hide chatter option' in Streamlabs, use themename-hide-chatter.js file instead of the normal themename.js file.

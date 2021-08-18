@@ -2,6 +2,7 @@ For overlay makers/designers
 ==========
 
 - You are allowed to use this overlay in your paid commissions.
+- You probably need to modified stuff to fit your customer style but please don't charge them excessively just cause you add this chat overlay in your comms.
 - Credits appreciated but is not required. Just don't go around claiming you make it.
 - My codes is bad but i'm proud of it.
 - No payment to me is needed.

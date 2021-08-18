@@ -1,3 +1,5 @@
-Does not support option to hide message after x seconds because it conflicted with message rendered. To be specific, the fadeout animation (animate.css) somehow (sometimes) makes the bottom of the message rendered (about 1px) hidden/flickered. Might be browser specific bug idk might be my laptop only.
+Made for vyledust.
+
+Does not support option to hide message after x seconds because it conflicted with message rendered. To be specific, the fadeout animation (animate.css) somehow (sometimes) makes the bottom of the message rendered (about 1px) hidden/flickered. Might be browser/resolution specific bug idk might be my laptop only.
 
 You can enable the option in css by commenting the code back in at line 48 and 49. If you don't know how to, ask me on Twitter.
