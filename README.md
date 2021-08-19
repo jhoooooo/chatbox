@@ -10,7 +10,7 @@ Video above: Pink with Gifs theme.
 
 ## How To Use
 1. Unzip the streamlab-chat-master.zip file to you desired folder.
-1. Open the folderthemes folder and choose your theme.
+1. Open the themes folder and choose your theme.
 2. Each files can be open with notepad (right click > open with > notepad).
 3. Go to your Streamlabs dashboard > All Widgets > [Chat Box](https://streamlabs.com/dashboard#/chatbox).
 4. Paste each code in their respective field.
