@@ -49,6 +49,12 @@
             background-color: #bc8e06 !important;
         }
 
+        .jho-bg-info {
+            color: #842029;
+            background-color: #f8d7da;
+            border-color: #f5c2c7;
+        }
+
         /* Tags CSS */
         .tags {
             display: flex;
@@ -181,7 +187,7 @@
                         <li>Chat Delay <span class="badge bg-secondary">Choose as you please</span></li>
                         <li>Hide Chatter <span class="badge bg-warning">Recommended to disable, or else use theme-name-hide-chatter.js</span></li>
                         <div class="container-fluid my-2 p-2 bg-dark border border-danger">
-                            <p>If you enabled this, use <strong>themename-hide-chatter.js</strong> file instead of the normal <strong>themename.js</strong> file because if not, it will ruin the smoothscroll animation. And you must enable both <kbd>Hide Common Chat Bots</kbd> & <kbd>Hide commands starting with `!`</kbd> option. If there is no <strong>themename-hide-chatter.js</strong> file in the theme folder, it is not supported yet.</p>
+                            <p>If you enabled this, use  <span class="fst-italic fw-bolder"><u>themename-hide-chatter.js</u></span> file instead of the normal <span class="fst-italic fw-bolder"><u>themename.js</u></span> file because if not, it will ruin the smoothscroll animation. And you must enable both <kbd>Hide Common Chat Bots</kbd> & <kbd>Hide commands starting with `!`</kbd> option. If there is no <strong>themename-hide-chatter.js</strong> file in the theme folder, it is not supported yet.</p>
 
                             <p>If you use custom bot names, you might also have to find the code below and add in the bot names.</p>
                             <pre><code>const botNames = ["nightbot","moobot","xanbot","deepbot","vivbot","phantombot","streamelements"];</code></pre>
@@ -203,15 +209,27 @@
                 </div>
             </div>
             <!-- Section 02 Ends-->
-            <!-- Alert Box -->
-            <div class="alert alert-info alert-dismissible fade show" role="alert">
-                <i class="bi bi-exclamation-triangle-fill"></i> Disclaimer: If you use this overlay, no announcement about updates or changelog will be given to you (I can't track who uses this anyway). Please check github or my Twitter for updates. I'm not a profesional developer. I'm still learning at beginner level. The codes are probably bad and amateurish. I will update or fix the code as I learn new stuff, so check back once in a while.
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            <!-- Warning -->
+            <div class="card jho-bg-info m-2 text-dark">
+                <div class="card-body">
+                    <span><i class="bi bi-exclamation-triangle-fill text-danger"></i> <span class="text-danger fw-bolder">Do testing!</span> This overlay are not made for you specificly. I don't know your setup. Please do proper testing to ensure everything ie animation is working. Recommended:</span>
+                    <ul>
+                        <li>Your own message.</li>
+                        <li>Commands (!test).</li>
+                        <li>Spams quick messages. It is recommended to disable the smoothscroll animation if your chat is fast. IMHO, the animation only looks good in slow chat.</li>
+                    </ul>
+                    <span>If something is broken, feel free to contact me on Twitter.</span>
+                </div>
             </div>
-            <!-- Alert Box ENDS -->
+            <div class="card jho-bg-info m-2 text-dark">
+                <div class="card-body">
+                    <i class="bi bi-exclamation-triangle-fill text-danger"></i> <span class="text-danger fw-bolder">Disclaimer:</span> If you use this overlay, please be aware that no announcement about updates or changelog will be given to you (I can't track who uses this overlay anyway). Please check github or my Twitter for updates. I'm not a profesional developer. I'm still learning at beginner level. The codes are probably bad and amateurish. I will update or fix the code as I learn new stuff, so check back once in a while.
+                </div>
+            </div>
+            <!-- End Warning -->
             <!-- Others Section -->
             <div class="container">
-                <p>FAQ:</p>
+                <h1 id='faq'>FAQ:</h1>
                 <dt>Do you provide support?</dt>
                 <dd>No, not really, kinda. Contact me on <a href="https://twitter.com/JHOOOOOOOOOOOOQ" target="_blank">Twitter</a> if you have problems or questions and I will answer them if I'm available or able to. No promises but I'm usually there. You tho, can support me @ <a href="https://ko-fi.com/jhooo?readme" target="_blank" rel="noopener noreferrer">ko-fi</a> if you want to help me as I'm trying to upgrade from my really slow laptop to a proper desktop pc.</dd>
                 <dt>Is there any preview for each theme?</dt>
@@ -234,10 +252,13 @@
             <div id="footer">
                 <!-- Copyright -->
                 <div class="py-3 text-center footer-copyright">
+                    <span>
                     <small>
+                        <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="18px">
                         Made by
-                        <a href="https://twitter.com/JHOOOOOOOOOOOOQ" target="_blank">Jho</a>. Thank you for using my overlay <i class="bi bi-heart-fill"></i>
+                        <a href="https://twitter.com/JHOOOOOOOOOOOOQ" target="_blank">Jho</a>. Thank you for using my overlay.
                     </small>
+                    </span>
                 </div>
                 <!-- Copyright -->
             </div>
