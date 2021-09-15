@@ -15,8 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
 
     <!-- Highlight JS Style -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/an-old-hope.min.css" integrity="sha512-t47CjkEB5hx4FojnE73dBLwgrgvLBpgsHvB40ycK3cYPkLwEp7qNHyRpRDA3/zVVAAOUPJwbMVJq3uJrBqpHVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/atom-one-dark-reasonable.min.css" integrity="sha512-RwXJS3k4Z0IK6TGoL3pgQlA9g2THFhKL7z9TYWdAI8u6xK0AUuMWieJuWgTRayywC9A94ifUj1RzjDa1NIlUIg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom styles -->
     <link href="web/files/style.css" rel="stylesheet" />
 </head>
@@ -59,7 +58,7 @@
         <div id="content" class="content container-fluid pt-4 p-md-5">
             <!-- Alert Box -->
             <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                <i class="bi bi-exclamation-triangle-fill"></i> This document is best viewed on desktop
+                <i class="bi bi-exclamation-triangle-fill"></i> This documentation is best viewed on desktop
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
             <!-- Alert Box ENDS -->
@@ -104,32 +103,29 @@
                 <div class="container-fluid">
                     <h1 id="settings">Streamlabs Settings</h1>
                     <ol class="list">
-                        <li>Themes <span class="badge bg-danger">Ignore</span></li>
-                        <li>Badges <span class="badge bg-secondary">Choose as you please</span></li>
-                        <li>Extra Emotes <span class="badge bg-success">Recommended to enable</span></li>
-                        <li>Background Color <span class="badge bg-danger">Ignore</span></li>
-                        <li>Text Color <span class="badge bg-danger">Ignore</span></li>
-                        <li>Font Size <span class="badge bg-danger">Ignore</span></li>
-                        <li>Hide Message After <span class="badge bg-warning">Recommended to disable - Some theme might not support this</span></li>
-                        <li>Chat Delay <span class="badge bg-secondary">Choose as you please</span></li>
-                        <li>Hide Chatter <span class="badge bg-warning">Recommended to disable, or else use theme-name-hide-chatter.js</span></li>
-                        <div class="container-fluid my-2 p-2 bg-dark border border-danger">
-                            <p>If you enabled this, use <span class="fst-italic fw-bolder"><u>themename-hide-chatter.js</u></span> file instead of the normal <span class="fst-italic fw-bolder"><u>themename.js</u></span> file because if not, it will ruin the smoothscroll animation. And you must enable both <kbd>Hide Common Chat Bots</kbd> & <kbd>Hide commands starting with `!`</kbd> option. If there is no <strong>themename-hide-chatter.js</strong> file in the theme folder, it is not supported yet.</p>
-
-                            <p>If you use custom bot names, you might also have to find the code below and add in the bot names.</p>
-                            <pre><code>const botNames = ["nightbot","moobot","xanbot","deepbot","vivbot","phantombot","streamelements"];</code></pre>
-
-                            <p> If you only want to use only one of the option, you have to edit the themename-hide-chatter.js file manually. I did not want include two more files just for it. Look for:</p>
-
+                        <li>Themes <span class="badge bg-ignore">Ignore</span></li>
+                        <li>Badges <span class="badge bg-ok">Choose as you please</span></li>
+                        <li>Extra Emotes <span class="badge bg-use">Recommended to enable</span></li>
+                        <li>Background Color <span class="badge bg-ignore">Ignore</span></li>
+                        <li>Text Color <span class="badge bg-ignore">Ignore</span></li>
+                        <li>Font Size <span class="badge bg-ignore">Ignore</span></li>
+                        <li>Hide Message After <span class="badge bg-recommended">Recommended to disable - Some theme might not support this</span></li>
+                        <li>Chat Delay <span class="badge bg-ok">Choose as you please</span></li>
+                        <li>Hide Chatter <span class="badge bg-recommended">Recommended to disable, or else use theme-name-hide-chatter.js</span></li>
+                        <div class="container-fluid my-2 border-ignore">
+                            <p>If you enabled this, use <strong>themename-hide-chatter.js</strong> file instead of the normal <strong>themename.js</strong> file. If there is no <strong>themename-hide-chatter.js</strong> file, it is not supported yet. But you must enable both 'Hide Common Chat Bots' & 'Hide commands starting with `!`'.</p>
+                            <p> If you only use one of the option, you have to edit the themename-hide-chatter.js file manually. I did not want include two more files just for it. Look for:</p>
+                            <div class="highlight">
                             <pre><code>if (botNames.indexOf(obj.detail.from) == -1 && isCommand != "!"){</code></pre>
-
-                            <p>Next, remove one of those according to what you enable, including <code>&&</code>. For example, if you enabled 'Hide Common Chat Bots' but disabled 'Hide commands starting with `!`', your code will look like this:</p>
+                            </div>
+                            <p>Next, remove one of those according to what you enable, including <code>&&</code>. For example, if you enable 'Hide Common Chat Bots' and disable 'Hide commands starting with `!`', your code will look like this:</p>
+                            <div class="highlight">
                             <pre><code>if (botNames.indexOf(obj.detail.from) == -1){</code></pre>
-
+                                </div>
                         </div>
-                        <li>Muted Chatters <span class="badge bg-warning">Recommended to disabled*</span></li>
-                        <li>Custom Bad Words <span class="badge bg-warning">Recommended to disabled*</span></li>
-                        <div class="container-fluid my-2 p-2 bg-dark border border-danger">
+                        <li>Muted Chatters <span class="badge bg-ignore">Recommended to disabled*</span></li>
+                        <li>Custom Bad Words <span class="badge bg-ignore">Recommended to disabled*</span></li>
+                        <div class="container-fluid my-2 border-ignore">
                             <p>* If you use both of this option, it might effect the chatbox animation (idk). I never bother with these options so I will not support or troubleshoot this option for you.</p>
                         </div>
                     </ol>
@@ -150,7 +146,7 @@
             </div>
             <div class="card jho-bg-info m-2 text-dark">
                 <div class="card-body">
-                    <i class="bi bi-exclamation-triangle-fill text-danger"></i> <span class="text-danger fw-bolder">Disclaimer:</span> If you use this overlay, please be aware that no announcement about updates or changelog will be given to you (I can't track who uses this overlay anyway). Please check github or my Twitter for updates. I'm not a profesional developer. I'm still learning at beginner level. The codes are probably bad and amateurish. I will update or fix the code as I learn new stuff, so check back once in a while.
+                    <i class="bi bi-exclamation-triangle-fill text-danger"></i> <span class="text-danger fw-bolder">Disclaimer:</span> If you use this overlay, please be aware that no announcement about updates or changelog will be given to you. Please check this webpage or my Twitter for updates or version number. I'm not a profesional developer. I'm still learning at beginner level. The codes are probably bad and amateurish. I will update or fix the code as I learn new stuff, so check back once in a while.
                 </div>
             </div>
             <!-- End Warning -->
@@ -176,6 +172,16 @@
                     <li>No payment to me is needed.</li>
                     <li>If you want, you can tip me @ <a href="https://ko-fi.com/jhooo?readme" target="_blank" rel="noopener noreferrer">ko-fi</a> if you want to help me as I'm trying to upgrade from my really slow laptop to a proper desktop pc. But it's not a big deal, I'm already happy if more people use my scuff overlay.</li>
             </div>
+            <!-- Toast -->
+            <div id="basicToast" class="toast position-fixed top-50 start-50 translate-middle  bg-dark text-light" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="1500">
+                <div class="d-flex">
+                    <div class="toast-body">
+                    Code copied to clipboard.
+                </div>
+                    <button type="button" class="btn-close bg-light me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+            </div>
+            <!-- Toast Body Ends-->
             <div id="footer">
                 <!-- Copyright -->
                 <div class="py-3 text-center footer-copyright">
@@ -183,7 +189,9 @@
                         <small>
                             <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="18px">
                             Made by
-                            <a href="https://twitter.com/JHOOOOOOOOOOOOQ" target="_blank">Jho</a>. Thank you for using my overlay.
+                            <a href="https://twitter.com/JHOOOOOOOOOOOOQ" target="_blank">Jho</a>
+                            <span class="px-1">·</span>
+                            <a href="https://jhoooooo.github.io/youtube/" target="_blank">Youtube OBS</a>
                         </small>
                     </span>
                 </div>
@@ -200,11 +208,7 @@
     <!-- Highlight JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- Custom scripts for all pages-->
-    <script>
-        // Highlight JS
-        hljs.highlightAll();
-    </script>
+    <script src="web/files/scripts.js"></script>
 
     <!-- Kofi -->
     <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>

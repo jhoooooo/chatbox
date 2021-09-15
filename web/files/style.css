@@ -26,8 +26,10 @@ body {
     max-width: 950px;
 }
 
-.border-danger {
+.border-ignore {
     border-radius: 4px;
+    border: 1px solid #383838;
+    padding: 20px;
 }
 
 .bg-warning {
@@ -35,9 +37,9 @@ body {
 }
 
 .jho-bg-info {
-    color: #842029;
-    background-color: #f8d7da;
-    border-color: #f5c2c7;
+    color: #c2adaf!important;
+    background-color: #c400128a;
+    border-color: #dc3545!important
 }
 
 /* Tags CSS */
@@ -78,20 +80,79 @@ body {
 
 /* tag end */
 
+
+/* Badges */
+
+.badge.bg-recommended {
+    background-color: #faa91633!important;
+    color: #faa916!important;
+}
+
+.badge.bg-ignore {
+    background-color: #f25f4c33!important;
+    color: #f25f4c!important;
+}
+
+.badge.bg-use {
+    background-color: #24be284d!important;
+    color: #24be28!important;
+}
+
+.badge.bg-ok {
+    background-color: #6c757d57!important;
+    color: #bebebe;
+}
+
+/* Badges Ends */
+
 /* Code Copy */
 
 kbd {
-    border: 1px solid rgb(66, 66, 66);
+    margin: 2px;
+    box-shadow: #464646 2px 2px;
 }
 
 pre {
-    border: 1px solid rgb(56 56 56);
+    border: 1px solid #383838;
     border-radius: 0.2em;
 }
 
 code {
     padding-left: 2em !important;
     padding-right: 2em !important;
+}
+
+.hljs {
+    background-color: #161925!important;
+}
+
+div.highlight {
+    position: relative;
+}
+
+div.highlight button {
+    color: #cccbcb;
+    box-sizing: border-box;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    user-select: none;
+    background: #0f0e17;
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0.2em;
+    margin: 5px;
+}
+
+div.highlight button:hover {
+    opacity: 0.8;
+}
+
+.bi-clipboard::before {
+    vertical-align: middle;
 }
 
 /* Scrollbar */
