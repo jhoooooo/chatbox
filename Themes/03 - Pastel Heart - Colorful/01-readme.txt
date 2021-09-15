@@ -1,8 +1,7 @@
-Pastel Hearts (Heart Bomb Version)
+Pastel Hearts
 ==========
 
 Each file can be open with notepad (right click > open with > notepad).
-CSS, HTML file are the same from normal theme. Use those.
 
 Description.
 ==========

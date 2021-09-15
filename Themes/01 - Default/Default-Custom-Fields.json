@@ -9,12 +9,12 @@
         "steps": 1
     },
     "meta-box-margin": {
-        "label": "Spacing Between Username And Message",
+        "label": "Spacing Between Username & Message",
         "type": "slider",
-        "name": "Spacing Between Username And Message",
+        "name": "Spacing Between Username & Message",
         "value": 5,
         "max": 30,
-        "min": 0,
+        "min": -30,
         "steps": 1
     },
     "font-choosen": {
@@ -191,27 +191,27 @@
         "label": "Smoothscroll Animation?",
         "type": "dropdown",
         "options": {
-          "false": "Disable",
-          "true": "Enable"
+            "false": "Disable",
+            "true": "Enable"
         },
         "value": "true"
-      },
-      "limit-enable": {
-        "label": "Limit Message Shown?",
-        "type": "dropdown",
-        "options": {
-          "false": "Disable",
-          "true": "Enable"
-        },
-        "value": "true"
-      },
-      "msg-limit": {
-        "label": "No. of Message Shown",
-        "type": "slider",
-        "name": "",
-        "value": 10,
-        "max": 999,
-        "min": 1,
-        "steps": 1
-      }
+    },
+    "limit-enable": {
+    "label": "Limit Message Shown?",
+    "type": "dropdown",
+    "options": {
+        "false": "Disable",
+        "true": "Enable"
+    },
+    "value": "true"
+    },
+    "msg-limit": {
+    "label": "No. of Message Shown",
+    "type": "slider",
+    "name": "",
+    "value": 10,
+    "max": 999,
+    "min": 1,
+    "steps": 1
+    }
 }

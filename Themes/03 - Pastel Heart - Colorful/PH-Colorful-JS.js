@@ -21,16 +21,15 @@ document.addEventListener('onEventReceived', function(obj) {
             for (let i = 0; i < str.length; i++) {
                 total += str.charCodeAt(i);
             }
-            return (total % 11); //color list - 1
+            return (total % 11); //amount of color list - 1
         }
-        bgId = assignNumber(str); //assign user a color based on their name.
+        let bgId = assignNumber(str); //assign user a color based on their name.
         $('.message-box').last().css("background-color", bgColor[bgId]); //append the color
 
         //smoothscroll
         if (smoothscroll == true) {
             $('#log>div').last().hide().slideToggle(600, "easeInOutQuart"); //New animation code
         }
-
 
         function bomb(){
             // On event received - Heart animation
@@ -70,7 +69,6 @@ document.addEventListener('onEventReceived', function(obj) {
             }
         }
     }
-
     // Limit message shown
     const limitEnable = {limit-enable};
     const msgLimit = {msg-limit};
@@ -80,5 +78,8 @@ document.addEventListener('onEventReceived', function(obj) {
         if (msgParent.children.length > msgLimit) {
             $('#log>div').not($('#log>div').slice(-msgLimit)).fadeOut();
         }
+    }
+    if (obj.detail.command === "CLEARCHAT") {
+        $('#log').empty();
     }
 });

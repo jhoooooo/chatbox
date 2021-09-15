@@ -1,12 +1,13 @@
-Pastel Hearts.
+Pastel Hearts - Default Version
 ==========
 
 Each file can be open with notepad (right click > open with > notepad).
+CSS, HTML file are the same from normal theme. Use those.
 
 Description.
 ==========
 
-Each message received will popup a heart. Theres two animation for the hearts.
+Each message received will popup a heart. Streamer and Mod can enter a command in chat to popup a bunch of hearts.
 
 ! Warning
 ==========

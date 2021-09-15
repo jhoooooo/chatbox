@@ -1,6 +1,6 @@
 /*
-- Default
-- Last Update: 02 Aug 2021
+- Default Theme
+- Last Update: 15 September 2021
 - https://github.com/jhoooooo/streamlabs-chat/
 - https://twitter.com/JHOOOOOOOOOOOOQ
 */
@@ -46,9 +46,6 @@ body {
   margin-bottom: {message-box-margin}px;
   animation: fadeOut 0.5s ease {message_hide_delay} forwards;
   -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
-  /* Fadeout animation is needed here because if user disable(untick)
-  'Disable Message Animations' in Streamlabs, 'Hide Message After'
-  option will not work. */
 }
 
 .meta  {
@@ -57,6 +54,8 @@ body {
 
 .crown {
   display: inline-block;
+  padding: 5px 5px 5px 0px;
+  margin-bottom: {meta-box-margin}px;
 }
 
 .badge {
@@ -74,18 +73,18 @@ body {
   background-color: {name-bg-color};
   border: {name-border}px solid {name-border-color};
   border-radius: {name-border-radius}px;
-  -ms-transform: skewX(-{name-skew}deg); /* IE 9 */
-   -webkit-transform: skewX(-{name-skew}deg); /* Safari */
-   transform: skewX(-{name-skew}deg);
+  -ms-transform: skewX(-{name-skew}deg);
+  -webkit-transform: skewX(-{name-skew}deg);
+  transform: skewX(-{name-skew}deg);
 }
 .name {
   display: inline-block;
   color: {name-font-color};
   text-transform: {name-transform};
   padding: {name-padding-tb}px {name-padding-lr}px ;
-  -ms-transform: skewX({name-skew}deg); /* IE 9 */
-   -webkit-transform: skewX({name-skew}deg); /* Safari */
-   transform: skewX({name-skew}deg);
+  -ms-transform: skewX({name-skew}deg);
+  -webkit-transform: skewX({name-skew}deg);
+  transform: skewX({name-skew}deg);
 }
 
 .message-box {
@@ -93,9 +92,9 @@ body {
   background-color: {message-bg-color};
   border: {message-border}px solid {message-border-color};
   border-radius: {message-border-radius}px;
-  -ms-transform: skewX(-{message-skew}deg); /* IE 9 */
-   -webkit-transform: skewX(-{message-skew}deg); /* Safari */
-   transform: skewX(-{message-skew}deg);
+  -ms-transform: skewX(-{message-skew}deg);
+  -webkit-transform: skewX(-{message-skew}deg);
+  transform: skewX(-{message-skew}deg);
 }
 
 .message {
@@ -104,9 +103,9 @@ body {
   text-transform: {message-transform};
   padding: {message-padding-tb}px {message-padding-lr}px ;
   word-wrap: break-word;
-  -ms-transform: skewX({message-skew}deg); /* IE 9 */
-   -webkit-transform: skewX({message-skew}deg); /* Safari */
-   transform: skewX({message-skew}deg);
+  -ms-transform: skewX({message-skew}deg);
+  -webkit-transform: skewX({message-skew}deg);
+  transform: skewX({message-skew}deg);
 }
 
 #log .emote {

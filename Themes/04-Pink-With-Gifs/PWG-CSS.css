@@ -1,6 +1,6 @@
 /*
 - Pink With Gifs
-- Last Update: 02 Aug 2021
+- Last Update: 15 September 2021
 - https://github.com/jhoooooo/streamlabs-chat/
 - https://twitter.com/JHOOOOOOOOOOOOQ
 */
@@ -51,6 +51,7 @@ body {
 
 .badges {
   display: inline-block;
+  padding: 4px 4px 2px 2px;
 }
 
 .badge {

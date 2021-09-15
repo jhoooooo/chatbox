@@ -27,5 +27,7 @@ document.addEventListener('onEventReceived', function(obj) {
             }
         }
     }
-
+    if (obj.detail.command === "CLEARCHAT") {
+        $('#log').empty();
+    }
 });

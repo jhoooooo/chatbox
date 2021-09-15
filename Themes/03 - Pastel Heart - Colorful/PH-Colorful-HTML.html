@@ -4,21 +4,16 @@
 
 <!-- chat item -->
 <script type="text/template" id="chatlist_item">
-  <div data-from="{from}" data-id="{messageId}">
+  <div class="wrapper" data-from="{from}" data-id="{messageId}">
 
     <div class="meta">
       <div class="username-box">
-        <span class="name">{from}</span>
+        <span class="badges"></span><span class="name">{from}</span>
       </div>
-    </div>
-
-    <div class="crown">
-   <span class="badges"></span>
     </div>
 
     <div class="message-box">
     <span class="message">{message}</span>
     </div>
-
   </div>
 </script>

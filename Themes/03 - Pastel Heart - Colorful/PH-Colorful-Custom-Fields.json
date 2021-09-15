@@ -5,12 +5,12 @@
         "value": ""
     },
     "box-spacing": {
-        "label": "Message Box Spacing",
+        "label": "Spacing between messages",
         "type": "slider",
         "name": "",
         "value": 5,
-        "max": 30,
-        "min": 0,
+        "max": 15,
+        "min": 2,
         "steps": 1
     },
     "usn-size": {
@@ -39,6 +39,16 @@
             "uppercase": "Uppercase"
         },
         "value": "none"
+    },
+    "username-text-color": {
+        "label": "Username Text Color",
+        "type": "colorpicker",
+        "value": "#1e1e1e"
+    },
+    "username-box-color": {
+        "label": "Username Background Color",
+        "type": "colorpicker",
+        "value": "#fce2a8"
     },
     "username-box-border": {
         "label": "Username Box Border Size",
@@ -76,6 +86,16 @@
         },
         "value": "none"
     },
+    "message-text-color": {
+        "label": "Username Text Color",
+        "type": "colorpicker",
+        "value": "#1e1e1e"
+    },
+    "message-box-color": {
+        "label": "Message Background Color",
+        "type": "colorpicker",
+        "value": "#fccba8"
+    },
     "message-box-border": {
         "label": "Message Box Border Size",
         "type": "slider",
@@ -104,7 +124,7 @@
         "value": "true"
     },
     "msg-limit": {
-        "label": "* No. of Message Shown",
+        "label": "― No. of Message Shown",
         "type": "slider",
         "name": "",
         "value": 6,
@@ -122,7 +142,7 @@
         "value": "false"
     },
     "custom-image-uploaded": {
-        "label": "* If yes upload image here.",
+        "label": "― Custom image",
         "type": "image-input",
         "value": ""
     },
@@ -141,7 +161,7 @@
         "value": "!love"
     },
     "bombCount": {
-        "label": "No. of Heart Bomb",
+        "label": "Number of Heart Bomb",
         "type": "slider",
         "name": "",
         "value": "100",

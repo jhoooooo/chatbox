@@ -1,12 +1,11 @@
 /*
-- Pastel Hearts
-- Last Update: 13 Aug 2021
+- Pastel Hearts - Default
+- Last Update: 15 September 2021
 - https://github.com/jhoooooo/streamlabs-chat/
 - https://twitter.com/JHOOOOOOOOOOOOQ
 */
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family={font-choosen}');
 
 * {
@@ -19,7 +18,7 @@ html, body {
 }
 
 body {
-  font-family: '{font-choosen}', 'JetBrains Mono', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: '{font-choosen}', 'JetBrains Mono', 'Helvetica Neue', sans-serif;
   line-height: 1.5em;
 }
 
@@ -57,6 +56,7 @@ body {
 .badge {
     display: inline-block;
     margin: 0;
+    padding: 4px 4px 2px 0px;
     position: relative;
     height: fit-content;
     vertical-align: middle;
@@ -65,7 +65,7 @@ body {
 }
 
 .username-box {
-  background-color: #eef2f1;
+  background-color: {username-box-color};
   margin-bottom: -10px;
   display: inline-block;
   border: {username-box-border}px solid #1E1E1E;
@@ -75,11 +75,11 @@ body {
 
 .name {
   display: inline-block;
-  color: #1E1E1E;
+  color: {username-text-color};
   font-weight: {usn-weight};
   letter-spacing: 1px;
   text-transform: {usn-transform};
-  padding: 2px 8px ;
+  padding: 2px 8px 2px 4px;
   font-size: {usn-size}px;
 }
 
@@ -94,7 +94,7 @@ body {
 
 .message {
   display: block;
-  color: #1E1E1E;
+  color: {message-text-color};
   letter-spacing: 0.9px;
   text-transform: {msg-transform};
   margin-left: 5px;
