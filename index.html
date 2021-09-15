@@ -5,8 +5,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Free Streamlabs Chat Box Widget Overlay" />
-    <meta name="author" content="JHO @" />
+    <meta name="description" content="Free Streamlabs Chat Box Widget Overlay / Twitch" />
+    <meta name="author" content="JHO" />
 
     <title>JHO</title>
 
@@ -18,125 +18,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/an-old-hope.min.css" integrity="sha512-t47CjkEB5hx4FojnE73dBLwgrgvLBpgsHvB40ycK3cYPkLwEp7qNHyRpRDA3/zVVAAOUPJwbMVJq3uJrBqpHVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" />
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-        html,
-        body {
-        height: 100%;
-        scroll-behavior: smooth;
-        }
-
-        body {
-        color: #c1c1c1;
-        background-color: #0a192f;
-        font-family: "Inter", "Ubuntu", Arial, sans-serif;
-        font-size: 16px;
-        text-rendering: geometricPrecision;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        }
-
-        /* content */
-        .content {
-        max-width: 950px;
-        }
-
-        .border-danger {
-        border-radius: 4px;
-        }
-
-        .bg-warning {
-        background-color: #bc8e06 !important;
-        }
-
-        .jho-bg-info {
-        color: #842029;
-        background-color: #f8d7da;
-        border-color: #f5c2c7;
-        }
-
-        /* Tags CSS */
-        .tags {
-        display: flex;
-        }
-
-        .tag {
-        align-items: center;
-        border-radius: 4px;
-        display: inline-flex;
-        font-size: 0.75rem;
-        height: 2em;
-        justify-content: center;
-        line-height: 1.5;
-        padding-left: 0.75em;
-        padding-right: 0.75em;
-        white-space: nowrap;
-        margin-bottom: 1rem;
-        text-transform: uppercase;
-        letter-spacing: 0.9px;
-        }
-
-        .tag:first-child {
-        border-bottom-right-radius: 0;
-        border-top-right-radius: 0;
-        background-color: #172b4d;
-        color: #f5f5f5;
-        }
-
-        .tag:last-child {
-        margin-left: 0px;
-        border-bottom-left-radius: 0;
-        border-top-left-radius: 0;
-        background-color: #395ecc;
-        color: #c1c1c1;
-        }
-
-        /* tag end */
-
-        /* Code Copy */
-
-        kbd {
-        border: 1px solid rgb(66, 66, 66);
-        }
-
-        pre {
-        border: 1px solid rgb(56 56 56);
-        border-radius: 0.2em;
-        }
-
-        code {
-        padding-left: 2em !important;
-        padding-right: 2em !important;
-        }
-
-        /* Scrollbar */
-
-        ::-webkit-scrollbar-track {
-        background-color: #f5f5f5;
-        }
-
-        ::-webkit-scrollbar {
-        width: 10px;
-        background-color: #f5f5f5;
-        }
-
-        ::-webkit-scrollbar-thumb {
-        background-color: #de4947;
-        }
-    </style>
+    <link href="web/files/style.css" rel="stylesheet" />
 </head>
 
 <body>
+    <!-- Hero -->
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-md-10 mx-auto col-lg-5">
+                <div id="carousel-hero" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="web/images/preview.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="web/images/preview.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">JHO // Streamlabs Chat Box Widget Overlay</h1>
+                <p class="lead">Free customizable overlay themes for Streamlabs chat box widget, with smoothscroll animation, custom animation triggers & more.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a class="btn btn-lg btn-primary me-md-2" href="https://gumroad.com/l/jxzKbA?wanted=true" target="_blank"><i class="bi bi-download me-1"></i>Download .ZIP</a>
+                        <a class="btn btn-lg btn-outline-light me-md-2" href="#content" ><i class="bi bi-file-text me-1"></i>Instruction</a>
+                </div>
+                <p class="fs-7 text-muted my-2">
+                    <span><strong>v15SEP2021</strong></span>
+                    <span class="px-1">·</span>
+                    <a href="#" class="link-secondary">View on Github</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Ends-->
     <!-- Wrapper -->
     <div class="d-flex" id="wrapper">
         <!-- Content -->
         <div id="content" class="content container-fluid pt-4 p-md-5">
-            <div class="download">
-                <a class="btn btn-primary mx-auto m-2" href="https://gumroad.com/l/jxzKbA?wanted=true" target="_blank"><i class="bi bi-download me-1"></i>Download</a>
-            </div>
             <!-- Alert Box -->
             <div class="alert alert-danger alert-dismissible fade show" role="alert">
                 <i class="bi bi-exclamation-triangle-fill"></i> This document is best viewed on desktop
@@ -194,7 +114,7 @@
                         <li>Chat Delay <span class="badge bg-secondary">Choose as you please</span></li>
                         <li>Hide Chatter <span class="badge bg-warning">Recommended to disable, or else use theme-name-hide-chatter.js</span></li>
                         <div class="container-fluid my-2 p-2 bg-dark border border-danger">
-                            <p>If you enabled this, use  <span class="fst-italic fw-bolder"><u>themename-hide-chatter.js</u></span> file instead of the normal <span class="fst-italic fw-bolder"><u>themename.js</u></span> file because if not, it will ruin the smoothscroll animation. And you must enable both <kbd>Hide Common Chat Bots</kbd> & <kbd>Hide commands starting with `!`</kbd> option. If there is no <strong>themename-hide-chatter.js</strong> file in the theme folder, it is not supported yet.</p>
+                            <p>If you enabled this, use <span class="fst-italic fw-bolder"><u>themename-hide-chatter.js</u></span> file instead of the normal <span class="fst-italic fw-bolder"><u>themename.js</u></span> file because if not, it will ruin the smoothscroll animation. And you must enable both <kbd>Hide Common Chat Bots</kbd> & <kbd>Hide commands starting with `!`</kbd> option. If there is no <strong>themename-hide-chatter.js</strong> file in the theme folder, it is not supported yet.</p>
 
                             <p>If you use custom bot names, you might also have to find the code below and add in the bot names.</p>
                             <pre><code>const botNames = ["nightbot","moobot","xanbot","deepbot","vivbot","phantombot","streamelements"];</code></pre>
@@ -260,11 +180,11 @@
                 <!-- Copyright -->
                 <div class="py-3 text-center footer-copyright">
                     <span>
-                    <small>
-                        <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="18px">
-                        Made by
-                        <a href="https://twitter.com/JHOOOOOOOOOOOOQ" target="_blank">Jho</a>. Thank you for using my overlay.
-                    </small>
+                        <small>
+                            <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="18px">
+                            Made by
+                            <a href="https://twitter.com/JHOOOOOOOOOOOOQ" target="_blank">Jho</a>. Thank you for using my overlay.
+                        </small>
                     </span>
                 </div>
                 <!-- Copyright -->
@@ -282,8 +202,8 @@
 
     <!-- Custom scripts for all pages-->
     <script>
-    // Highlight JS
-    hljs.highlightAll();
+        // Highlight JS
+        hljs.highlightAll();
     </script>
 
     <!-- Kofi -->
@@ -296,6 +216,7 @@
             'floating-chat.donateButton.text-color': '#fff'
         });
     </script>
+
 
 </body>
 
