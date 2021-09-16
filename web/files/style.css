@@ -42,6 +42,23 @@ body {
     border-color: #dc3545!important
 }
 
+dd {
+    color: #919191;
+}
+
+/* Buttons */
+
+.btn-documentation {
+    color: #c1c1c1;
+    border: 1px solid #c1c1c1;
+}
+
+.btn-documentation:hover {
+    color: #0a192f;
+    border: 1px solid #c1c1c1;
+    background-color: #c1c1c1;
+}
+
 /* Tags CSS */
 .tags {
     display: flex;
@@ -109,7 +126,7 @@ body {
 
 kbd {
     margin: 2px;
-    box-shadow: #464646 2px 2px;
+    border: 1px solid #424242;
 }
 
 pre {
@@ -158,12 +175,13 @@ div.highlight button:hover {
 /* Scrollbar */
 
 ::-webkit-scrollbar-track {
-    background-color: #f5f5f5;
+    width: 2px;
+    background-color: #0a192f;
 }
 
 ::-webkit-scrollbar {
     width: 10px;
-    background-color: #f5f5f5;
+    background-color: #0a192f;
 }
 
 ::-webkit-scrollbar-thumb {
