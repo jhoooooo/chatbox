@@ -22,12 +22,15 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97855652-3"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-97855652-3');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-97855652-3');
+    </script>
 </head>
 
 <body>
@@ -41,7 +44,7 @@
                             <img src="web/images/preview.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="web/images/preview.png" class="d-block w-100" alt="...">
+                            <img src="web/images/preview-02.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
                 </div>
@@ -50,8 +53,8 @@
                 <h1 class="display-5 fw-bold lh-1 mb-3">JHO // Streamlabs Chat Box Widget Overlay</h1>
                 <p class="lead">Free customizable overlay themes for Streamlabs chat box widget, with smoothscroll animation, custom animation triggers & more.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a class="btn btn-lg btn-primary me-md-2" href="https://gumroad.com/l/jxzKbA?wanted=true" target="_blank"><i class="bi bi-download me-1"></i>Download .ZIP</a>
-                        <a class="btn btn-lg btn-documentation me-md-2" href="#content" ><i class="bi bi-file-text me-1"></i>Instruction</a>
+                    <a class="btn btn-lg btn-primary me-md-2" href="https://gumroad.com/l/jxzKbA?wanted=true" target="_blank"><i class="bi bi-download me-1"></i>Download .ZIP</a>
+                    <a class="btn btn-lg btn-documentation me-md-2" href="#content"><i class="bi bi-file-text me-1"></i>Instruction</a>
                 </div>
                 <p class="fs-7 text-muted my-2">
                     <span><strong>v15SEP2021</strong></span>
@@ -92,7 +95,7 @@
                     <h1 id="getting-started">Getting Started</h1>
                     <small class="text-muted mb-2">For Streamlabs web dashboard, not Streamlabs OBS.</small>
                     <ol class="list py-3">
-                        <li>Choose your desired theme in the themes folder.</li>
+                        <li>Choose your theme.</li>
                         <li>Each theme have 4 main files, <strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript (JS)</strong> and <strong>Custom Fields</strong>.</li>
                         <li>Each files can be opened with notepad (right click > open with > notepad).</li>
                         <li>Go to your <a href="https://streamlabs.com/dashboard#/chatbox">Streamlabs dashboard > All Widgets > Chat Box.</a> </li>
@@ -123,20 +126,20 @@
                         <li>Chat Delay <span class="badge bg-ok">Choose as you please</span></li>
                         <li>Hide Chatter <span class="badge bg-recommended">Recommended to disable, or else use theme-name-hide-chatter.js</span></li>
                         <div class="container-fluid my-2 border-ignore">
-                            <p>If you enabled this, use  <span class="fst-italic fw-bolder"><u>themename-hide-chatter.js</u></span> file instead of the normal <span class="fst-italic fw-bolder"><u>themename.js</u></span> file because if not, it will ruin the smoothscroll animation. And you must enable both <kbd>Hide Common Chat Bots</kbd> & <kbd>Hide commands starting with `!`</kbd> option. If there is no <strong>themename-hide-chatter.js</strong> file in the theme folder, it is not supported yet.</p>
+                            <p>If you enabled this, use <span class="fst-italic fw-bolder"><u>themename-hide-chatter.js</u></span> file instead of the normal <span class="fst-italic fw-bolder"><u>themename.js</u></span> file because if not, it will ruin the smoothscroll animation. And you must enable both <kbd>Hide Common Chat Bots</kbd> & <kbd>Hide commands starting with `!`</kbd> option. If there is no <strong>themename-hide-chatter.js</strong> file in the theme folder, it is not supported yet.</p>
 
                             <p>If you use custom bot names, you might also have to find the code below and add in the bot names.</p>
                             <div class="highlight">
-                            <pre><code>const botNames = ["nightbot","moobot","xanbot","deepbot","vivbot","phantombot","streamelements"];</code></pre>
+                                <pre><code>const botNames = ["nightbot","moobot","xanbot","deepbot","vivbot","phantombot","streamelements"];</code></pre>
                             </div>
 
                             <p> If you only want to use only one of the option, you have to edit the themename-hide-chatter.js file manually. I did not want include two more files just for it. Look for:</p>
                             <div class="highlight">
-                            <pre><code>if (botNames.indexOf(obj.detail.from) == -1 && isCommand != "!"){</code></pre>
+                                <pre><code>if (botNames.indexOf(obj.detail.from) == -1 && isCommand != "!"){</code></pre>
                             </div>
                             <p>Next, remove one of those according to what you enable, including <code>&&</code>. For example, if you enabled 'Hide Common Chat Bots' but disabled 'Hide commands starting with `!`', your code will look like this:</p>
                             <div class="highlight">
-                            <pre><code>if (botNames.indexOf(obj.detail.from) == -1){</code></pre>
+                                <pre><code>if (botNames.indexOf(obj.detail.from) == -1){</code></pre>
                             </div>
 
                         </div>
@@ -149,8 +152,23 @@
                 </div>
             </div>
             <!-- Section 02 Ends-->
-            <!-- Warning -->
             <div class="card jho-bg-info m-2 text-dark">
+                <div class="card-body">
+                    <div class="row flex-lg-row align-items-center ">
+                        <div class="col-12 col-md-2 mx-auto">
+                            <i class="bi bi-exclamation-triangle-fill text-warning"></i> <span class="text-warning fw-bolder">Tips:</span>
+                            </div>
+                            <div class="col-12 col-md-5 mx-auto">
+                            <span>You can add transparency to color by using 8 digits hex color.</span>
+                        </div>
+                        <div class="col-12 col-md-5 mx-auto">
+                            <input value="#3399FF80" data-jscolor="{}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Warning -->
+            <div class="card jho-bg-danger m-2 text-dark">
                 <div class="card-body">
                     <span><i class="bi bi-exclamation-triangle-fill text-danger"></i> <span class="text-danger fw-bolder">Do testing!</span> This overlay are not made for you specificly. I don't know your setup. Please do proper testing to ensure everything such as animation is working. Recommended test:</span>
                     <ul>
@@ -161,14 +179,14 @@
                     <span>If something is broken, feel free to contact me on Twitter.</span>
                 </div>
             </div>
-            <div class="card jho-bg-info m-2 text-dark">
+            <div class="card jho-bg-danger m-2 text-dark">
                 <div class="card-body">
                     <i class="bi bi-exclamation-triangle-fill text-danger"></i> <span class="text-danger fw-bolder">Disclaimer:</span> If you use this overlay, please be aware that no announcement about updates or changelog will be given to you. Please check this webpage or my Twitter for updates or check the version number. I'm not a profesional developer. I'm still learning at beginner level. The codes are probably bad and amateurish. I will update or fix the code as I learn new stuff, so check back once in a while.
                 </div>
             </div>
             <!-- End Warning -->
             <!-- Others Section -->
-            <div class="container my-4">
+            <div class="container faq my-4">
                 <h1 id='faq'>FAQ:</h1>
                 <dt>Do you provide support?</dt>
                 <dd>No, not really, kinda. Contact me on <a href="https://twitter.com/JHOOOOOOOOOOOOQ" target="_blank">Twitter</a> if you have problems or questions and I will answer them if I'm available or able to. No promises but I'm usually there.</dd>
@@ -179,6 +197,7 @@
                 <dt>I like theme X but it doesn't have feature Y. You said we can mix match features. How?</dt>
                 <dd>You have to manually edit the code (usually the js). Most feature's code are in the snippets folder. If you need help, contact me on Twitter.</dd>
             </div>
+            <!--
             <h1>Other Stuffs</h1>
             <div class="container my-4">
                 <p>For overlay makers/designers:</p>
@@ -188,13 +207,13 @@
                     <li>Credits appreciated but is not required. Just don't go around claiming you make it. My codes is bad but I'm proud of it.</li>
                     <li>No payment to me is needed.</li>
                     <li>If you want, you can tip me @ <a href="https://ko-fi.com/jhooo?readme" target="_blank" rel="noopener noreferrer">ko-fi</a> if you want to help me as I'm trying to upgrade from my really slow laptop to a proper desktop pc. But it's not a big deal, I'm already happy if more people use my scuff overlay.</li>
-            </div>
+            </div> -->
             <!-- Toast -->
             <div id="basicToast" class="toast position-fixed top-50 start-50 translate-middle  bg-dark text-light" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="1500">
                 <div class="d-flex">
                     <div class="toast-body">
-                    Code copied to clipboard.
-                </div>
+                        Code copied to clipboard.
+                    </div>
                     <button type="button" class="btn-close bg-light me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
                 </div>
             </div>
@@ -224,6 +243,8 @@
 
     <!-- Highlight JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="web/files/jscolor.min.js"></script>
 
     <script src="web/files/scripts.js"></script>
 

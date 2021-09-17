@@ -21,6 +21,14 @@ body {
     font-size: 0.9rem;
 }
 
+/* carousel */
+
+.carousel-inner .carousel-item{
+    height:300px;
+    background-size:cover;
+    background-position: center center;
+    }
+
 /* content */
 .content {
     max-width: 950px;
@@ -36,13 +44,19 @@ body {
     background-color: #bc8e06 !important;
 }
 
-.jho-bg-info {
+.jho-bg-danger {
     color: #c2adaf!important;
     background-color: #c400128a;
     border-color: #dc3545!important
 }
 
-dd {
+.jho-bg-info {
+    color: #919191!important;
+    background-color: #79720e8a;
+    border-color: #c2ae00!important;
+}
+
+.faq dd {
     color: #919191;
 }
 
