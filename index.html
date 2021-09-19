@@ -85,7 +85,7 @@
             <div class="p-1 mb-2 rounded-3">
                 <div class="container-fluid">
                     <h1 id="introduction">Introduction</h1>
-                    <p>This is a collection of themes made for Streamlabs Chat Widget. But they are not exactly themes as they are more of an example of features that I'm trying to showcase as i learned how to code them. So each theme usually have different set of features. Code for each features are in the snippets folder. The aim is to help people get more example or documentation on how to design their own style of the widget. You can use the themes as is but you can also mix and match these features manually by editing the code. It's better if you make your own style that match your stream theme.</p>
+                    <p>This is a collection of themes made for Streamlabs Chat Widget. But they are not exactly themes as they are more of an example of features that I'm trying to showcase as i learned how to code them. So each theme usually have different set of features. Code for each features are in the snippets folder (on Github). The aim is to help people get more example or documentation on how to design their own style of the widget. You can use the themes as is but you can also mix and match these features manually by editing the code. It's better if you make your own style that match your stream theme.</p>
                 </div>
             </div>
             <!-- Section Title Ends-->
@@ -103,6 +103,21 @@
                         <li>Copy and paste each file to their respective field.</li>
                         <li>For <strong>Custom Field</strong>, if it's your first time, you have to click on <kbd>Add Custom Fields</kbd> > <kbd>Edit Custom Fields</kbd> > paste the code in and then click <kbd>Update</kbd>.</li>
                         <li>You can then edit the options in Custom Fields to modified the theme.</li>
+                        <div class="card jho-bg-info m-2 text-dark">
+                            <div class="card-body">
+                                <div class="row flex-lg-row align-items-center ">
+                                    <div class="col-12 col-md-2 mx-auto">
+                                        <i class="bi bi-exclamation-triangle-fill text-warning"></i> <span class="text-warning fw-bolder">Tips:</span>
+                                        </div>
+                                        <div class="col-12 col-md-5 mx-auto">
+                                        <span>You can add transparency to color by using 8 digits hex color.</span>
+                                    </div>
+                                    <div class="col-12 col-md-5 mx-auto">
+                                        <input value="#3399FF80" data-jscolor="{}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <li>Click <kbd>Save Settings</kbd> to save your theme.</li>
                         <li>Finally, you can copy the widget url and use it as browser source in OBS.</li>
                         <li>For testing, you can add <kbd>?simulate=1</kbd> after your widget url to simulate users.</li>
@@ -152,21 +167,6 @@
                 </div>
             </div>
             <!-- Section 02 Ends-->
-            <div class="card jho-bg-info m-2 text-dark">
-                <div class="card-body">
-                    <div class="row flex-lg-row align-items-center ">
-                        <div class="col-12 col-md-2 mx-auto">
-                            <i class="bi bi-exclamation-triangle-fill text-warning"></i> <span class="text-warning fw-bolder">Tips:</span>
-                            </div>
-                            <div class="col-12 col-md-5 mx-auto">
-                            <span>You can add transparency to color by using 8 digits hex color.</span>
-                        </div>
-                        <div class="col-12 col-md-5 mx-auto">
-                            <input value="#3399FF80" data-jscolor="{}">
-                        </div>
-                    </div>
-                </div>
-            </div>
             <!-- Warning -->
             <div class="card jho-bg-danger m-2 text-dark">
                 <div class="card-body">
@@ -188,6 +188,8 @@
             <!-- Others Section -->
             <div class="container faq my-4">
                 <h1 id='faq'>FAQ:</h1>
+                <dt>What's the difference between .zip and code on Github?</dt>
+                <dd>Github is connected to my code editor. Every little updates will get pushed there first. .zip on Gumroad is updated manually so updates is less frequently done.</dd>
                 <dt>Do you provide support?</dt>
                 <dd>No, not really, kinda. Contact me on <a href="https://twitter.com/JHOOOOOOOOOOOOQ" target="_blank">Twitter</a> if you have problems or questions and I will answer them if I'm available or able to. No promises but I'm usually there.</dd>
                 <dt>Is there any preview for each theme?</dt>
@@ -195,7 +197,12 @@
                 <dt>Do you accept commission?</dt>
                 <dd>No, I'm not a developer/designer. I'm self-learning and I don't think I'm qualified to go around selling my code or provide support for it. If you need help styling your chatbox, you can always contact me on Twitter. I will help you if as much as i can.</dd>
                 <dt>I like theme X but it doesn't have feature Y. You said we can mix match features. How?</dt>
-                <dd>You have to manually edit the code (usually the js). Most feature's code are in the snippets folder. If you need help, contact me on Twitter.</dd>
+                <dd>You have to manually edit the code (usually the js). Most feature's code, example, documentation are in the snippets folder on Github. If you need help, contact me on Twitter.</dd>
+            </div>
+            <div class="container changelog my-4">
+                <h1 id='changelog'>Changelog:</h1>
+                <dt>16 September 2021</dt>
+                <dd>Fixed /clear command for 'Default', 'Pastel Hearts' and 'Pink With Gifs'.</dd>
             </div>
             <!--
             <h1>Other Stuffs</h1>

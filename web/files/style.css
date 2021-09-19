@@ -51,12 +51,13 @@ body {
 }
 
 .jho-bg-info {
-    color: #919191!important;
+    color: #c2ae00!important
     background-color: #79720e8a;
     border-color: #c2ae00!important;
 }
 
-.faq dd {
+.faq dd,
+.changelog dd {
     color: #919191;
 }
 
