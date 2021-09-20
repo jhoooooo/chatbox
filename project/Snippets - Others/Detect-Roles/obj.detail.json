@@ -1,0 +1,121 @@
+// Streamelement OBJ
+{
+    "priority": 10,
+    "pic": "",
+    "from": "streamelements",
+    "body": "@jhoooooooooooo, jhoooooooooooo has been offline for  1 month 15 days 11 hours",
+    "command": "PRIVMSG", //PING, COMMAND, USERSTATE, JOIN, CAP, UNDEFINED, CLEARMSG
+    "tags": {
+        "badge-info": "",
+        "badges": "moderator/1,partner/1",
+        "color": "#5B99FF",
+        "display-name": "StreamElements",
+        "emotes": "",
+        "flags": "",
+        "id": "5e6875c1-e91c-4e52-a36b-8eba9fb94a3d",
+        "mod": "1",
+        "room-id": "106972596",
+        "subscriber": "0", // if sub = 1 - don't know if tier existed here.
+        "tmi-sent-ts": "1622004827689",
+        "turbo": "0",
+        "user-id": "100135110",
+        "user-type": "mod"
+    },
+    "payload": {
+        "raw": "@badge-info=;badges=moderator/1,partner/1;color=#5B99FF;display-name=StreamElements;emotes=;flags=;id=5e6875c1-e91c-4e52-a36b-8eba9fb94a3d;mod=1;room-id=106972596;subscriber=0;tmi-sent-ts=1622004827689;turbo=0;user-id=100135110;user-type=mod :streamelements!streamelements@streamelements.tmi.twitch.tv PRIVMSG #jhoooooooooooo :@jhoooooooooooo, jhoooooooooooo has been offline for  1 month 15 days 11 hours",
+        "tags": {
+            "badge-info": "",
+            "badges": "moderator/1,partner/1",
+            "color": "#5B99FF",
+            "display-name": "StreamElements",
+            "emotes": "",
+            "flags": "",
+            "id": "5e6875c1-e91c-4e52-a36b-8eba9fb94a3d",
+            "mod": "1",
+            "room-id": "106972596",
+            "subscriber": "0",
+            "tmi-sent-ts": "1622004827689",
+            "turbo": "0",
+            "user-id": "100135110",
+            "user-type": "mod"
+        },
+        "prefix": "streamelements!streamelements@streamelements.tmi.twitch.tv",
+        "command": "PRIVMSG",
+        "params": [
+            "#jhoooooooooooo"
+        ],
+        "crlf": "@jhoooooooooooo, jhoooooooooooo has been offline for  1 month 15 days 11 hours"
+    },
+    "owner": false,
+    "subscriber": false,
+    "userType": "mod",
+    "platform": "twitch_account",
+    "platformAccountId": null,
+    "messageId": "5e6875c1-e91c-4e52-a36b-8eba9fb94a3d",
+    "access_token": null,
+    "to": "#jhoooooooooooo"
+}
+
+
+// SIMULATED Pleb User OBJ
+
+{
+    "priority": 10,
+    "pic": "",
+    "from": "stauswave",
+    "body": "yea that's life",
+    "command": "PRIVMSG",
+    "tags": {
+        "color": "",
+        "display-name": "Stauswave",
+        "emotes": "",
+        "id": "831c3696-a2ca-46b2-b417-52b772103d83",
+        "mod": "0",
+        "room-id": "23161357",
+        "subscriber": "0",
+        "tmi-sent-ts": "1534527869717",
+        "turbo": "0",
+        "user-id": "164325527",
+        "user-type": ""
+    },
+    "payload": {},
+    "owner": false,
+    "subscriber": false,
+    "userType": "user",
+    "platform": "twitch_account",
+    "platformAccountId": null,
+    "messageId": null,
+    "access_token": null
+}
+
+// Simulated Turbo & Sub Users
+
+{
+    "priority": 10,
+    "pic": "",
+    "from": "z4nn1n",
+    "body": "you always think that...",
+    "command": "PRIVMSG",
+    "tags": {
+        "badges": "subscriber/48,premium/1",
+        "color": "#8A2BE2",
+        "display-name": "Z4NN1N",
+        "emotes": "",
+        "id": "e06e3a7b-fdfe-47ea-a01b-b62a52fbc7d2",
+        "mod": "0",
+        "room-id": "23161357",
+        "subscriber": "1",
+        "tmi-sent-ts": "1534527867531",
+        "turbo": "0",
+        "user-id": "36959654",
+        "user-type": ""
+    },
+    "payload": {},
+    "owner": false,
+    "subscriber": true,
+    "userType": "user",
+    "platform": "twitch_account",
+    "platformAccountId": null,
+    "messageId": null,
+    "access_token": null
+}

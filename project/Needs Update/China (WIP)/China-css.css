@@ -1,0 +1,67 @@
+/*
+- China
+- Last Update: 12 Aug 2021
+- https://github.com/jhoooooo/streamlabs-chat/
+- https://twitter.com/jhooo_o
+
+
+Real basic implementation. can be further refine later.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family={font-choosen}');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: '{font-choosen}', 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5em;
+  font-size: {font-size};
+  text-shadow: 0px 0px 12px #000000;
+}
+
+#log {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#log>div.deleted {
+  visibility: hidden;
+}
+
+#log>div {
+  position: absolute;
+  white-space: nowrap;
+  left: 100%;
+}
+
+#log .emote {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 0.4em 0.2em;
+  position: relative;
+}
+
+#log .emote img {
+  display: inline-block;
+  height: 1em;
+  opacity: 0;
+}
+
+.name,
+.message {
+  color: #000;
+}
+
+.marquee {
+  transition: -webkit-transform 9s linear 0s;
+}

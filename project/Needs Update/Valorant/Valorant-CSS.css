@@ -1,0 +1,72 @@
+/*
+- Valorant
+- https://github.com/jhoooooo/streamlabs-chat/
+- https://twitter.com/jhooo_o
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family={font-choosen}');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: {background_color};
+  font-family: '{font-choosen}', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+.colon {
+  display: none;
+}
+
+#log {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#log>div {
+  display: block;
+  animation:  fadeOut 0.5s ease {message_hide_delay} forwards;
+  -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
+}
+
+#log>div.deleted {
+  visibility: hidden;
+}
+
+.message-box {
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  background-color: #ffffff1a;
+  padding: 4px 0 4px 0;
+  border-left: 1px solid #ffffff;
+  font-size: {txt-size}px;
+  color: #fff;
+  background-image: linear-gradient(to right, #ffffff30, #ffffff00);
+  letter-spacing: 1px;
+  text-rendering: geometricPrecision;
+  margin-bottom: 2px;
+  text-transform: {txt-transform};
+}
+
+.name {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.message {
+  display: inline-block;
+  margin-right: 10px;
+  word-wrap: break-word;
+  font-weight: 100;
+}

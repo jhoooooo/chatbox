@@ -18,7 +18,7 @@ Video above: Pink with Gifs theme.
 [Kofi](https://ko-fi.com/jhooo)
 
 ## Contact
-[Twitter](https://twitter.com/JHOOOOOOOOOOOOQ)
+[Twitter](https://twitter.com/jhooo_o)
 
 ## License
 Copyright (c) Jho. All rights reserved.
