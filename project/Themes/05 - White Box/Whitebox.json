@@ -1,0 +1,67 @@
+{
+    "font-choosen": {
+        "label": "Font",
+        "type": "fontpicker",
+        "value": "Open Sans"
+    },
+    "messagebox_background": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#d7d7d7"
+    },
+    "name_color": {
+        "label": "Username Color",
+        "type": "colorpicker",
+        "value": "#000000"
+    },
+    "message_color": {
+        "label": "Message Color",
+        "type": "colorpicker",
+        "value": "#000000"
+    },
+    "border_radius": {
+        "label": "Border Radius",
+        "type": "slider",
+        "name": "",
+        "value": "4",
+        "max": 10,
+        "min": 0,
+        "steps": 1
+    },
+    "hide_name": {
+        "label": "Hide Username",
+        "type": "dropdown",
+        "options": {
+            "initial": "No",
+            "none": "Yes"
+        },
+        "value": "initial"
+    },
+    "smoothscroll": {
+        "label": "Smoothscroll Animation?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "true"
+    },
+    "limit_enable": {
+        "label": "Limit Message Shown?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "true"
+    },
+    "msg_limit": {
+        "label": "No. of Message Shown",
+        "type": "slider",
+        "name": "",
+        "value": 10,
+        "max": 999,
+        "min": 1,
+        "steps": 1
+    }
+}
