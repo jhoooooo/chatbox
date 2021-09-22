@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 html,
 body {
@@ -10,7 +10,7 @@ body {
 body {
     color: #c1c1c1;
     background-color: #0a192f;
-    font-family: "Inter", "Ubuntu", Arial, sans-serif;
+    font-family: "Source Sans Pro", Arial, sans-serif;
     font-size: 16px;
     text-rendering: geometricPrecision;
     -webkit-font-smoothing: antialiased;
@@ -34,9 +34,15 @@ body {
     max-width: 950px;
 }
 
+.border-recommended {
+    border-radius: 4px;
+    border: 1px solid #faa91660;
+    padding: 20px;
+}
+
 .border-ignore {
     border-radius: 4px;
-    border: 1px solid #383838;
+    border: 1px solid #c400128a;
     padding: 20px;
 }
 
@@ -140,8 +146,12 @@ body {
 /* Code Copy */
 
 kbd {
+    background-color: #4682b4;
+    color: #dfdfdf;
     margin: 2px;
-    border: 1px solid #424242;
+    font-size: 0.8em;
+    border: 1px solid #4b44a7;
+    font-family: JetBrains Mono, Arial, sans-serif;
 }
 
 pre {
@@ -150,8 +160,19 @@ pre {
 }
 
 code {
+    font-family: JetBrains Mono, Arial, sans-serif;
     padding-left: 2em !important;
     padding-right: 2em !important;
+}
+
+code::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #161925!important;
+}
+
+code::-webkit-scrollbar-track {
+    background-color: #161925!important;
 }
 
 .hljs {
@@ -201,4 +222,11 @@ div.highlight button:hover {
 
 ::-webkit-scrollbar-thumb {
     background-color: #de4947;
+}
+
+/* JS Color */
+
+.jscolor {
+    border-radius: 4px;
+    border: 0px;
 }

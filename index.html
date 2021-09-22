@@ -104,25 +104,19 @@
                         <li>For <strong>Custom Field</strong>, if it's your first time, you have to click on <kbd>Add Custom Fields</kbd> > <kbd>Edit Custom Fields</kbd> > paste the code in and then click <kbd>Update</kbd>.</li>
                         <li>You can then edit the options in Custom Fields to modified the theme.</li>
                         <div class="card jho-bg-info m-2 text-dark">
-                            <div class="card-body">
-                                <div class="row flex-lg-row align-items-center ">
-                                    <div class="col-12 col-md-2 mx-auto">
-                                        <i class="bi bi-exclamation-triangle-fill text-warning"></i> <span class="text-warning fw-bolder">Tips:</span>
-                                        </div>
-                                        <div class="col-12 col-md-5 mx-auto">
-                                        <span>You can add transparency to color by using 8 digits hex color.</span>
-                                    </div>
-                                    <div class="col-12 col-md-5 mx-auto">
-                                        <input value="#3399FF80" data-jscolor="{}">
-                                    </div>
-                                </div>
+                            <div class="card-header">
+                                <i class="bi bi-exclamation-triangle-fill text-warning"></i> <span class="text-warning fw-bolder">Tips: </span><span>You can add transparency to color by using 8 digits hex color.</span>
+                            </div>
+                            <div class="card-body text-center py-2">
+                                <input class="jscolor" value="#3399FF80" data-jscolor="{preset:'dark',}">
                             </div>
                         </div>
                         <li>Click <kbd>Save Settings</kbd> to save your theme.</li>
                         <li>Finally, you can copy the widget url and use it as browser source in OBS.</li>
                         <li>For testing, you can add <kbd>?simulate=1</kbd> after your widget url to simulate users.</li>
-                        <span class="mt-1">Example: <kbd>https://streamlabs.com/widgets/chat-box/v1/XXXCODEXXXXX?simulate=1</kbd></span>
-                    </ol>
+                        <li class="list-unstyled mt-1">Example: <kbd>https://streamlabs.com/widgets/chat-box/v1/XXXCODEXXXXX?simulate=1</kbd>
+                        </li>
+                        </ol>
                 </div>
             </div>
             <!-- Section 01 Ends-->
@@ -140,7 +134,7 @@
                         <li>Hide Message After <span class="badge bg-recommended">Recommended to disable - Some theme might not support this</span></li>
                         <li>Chat Delay <span class="badge bg-ok">Choose as you please</span></li>
                         <li>Hide Chatter <span class="badge bg-recommended">Recommended to disable, or else use theme-name-hide-chatter.js</span></li>
-                        <div class="container-fluid my-2 border-ignore">
+                        <div class="container-fluid my-2 border-recommended">
                             <p>If you enabled this, use <span class="fst-italic fw-bolder"><u>themename-hide-chatter.js</u></span> file instead of the normal <span class="fst-italic fw-bolder"><u>themename.js</u></span> file because if not, it will ruin the smoothscroll animation. And you must enable both <kbd>Hide Common Chat Bots</kbd> & <kbd>Hide commands starting with `!`</kbd> option. If there is no <strong>themename-hide-chatter.js</strong> file in the theme folder, it is not supported yet.</p>
 
                             <p>If you use custom bot names, you might also have to find the code below and add in the bot names.</p>
