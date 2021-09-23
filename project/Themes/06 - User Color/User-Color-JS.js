@@ -7,22 +7,22 @@ document.addEventListener('onLoad', function(obj) {
 document.addEventListener('onEventReceived', function (obj) {
     // obj will contain information about the event
     console.log(obj.detail); // OBJ Logs
-
-    //smoothscroll animation
     const smoothscroll = {smoothscroll};
     const limitEnable = {limit-enable};
     const msgLimit = {msg-limit};
     const msgParent = document.querySelector('.sl__chat__layout');
 
-    if (obj.detail.command === "PRIVMSG") { // Prevent animation for ping events - Curtis Geiger
+    if (obj.detail.command === "PRIVMSG") {
         if (smoothscroll == true) {
-            $('#log>div').last().hide().slideToggle(600, "easeInOutQuart"); //New animation code
+            $('#log>div').last().hide().slideToggle(600, "easeInOutQuart");
         }
-    // Limit message shown
         if (limitEnable == true) {
             if (msgParent.children.length > msgLimit) {
                 $('#log>div').not($('#log>div').slice(-msgLimit)).fadeOut();
             }
         }
+    }
+    if (obj.detail.command === "CLEARCHAT") {
+        $('#log').empty();
     }
 });

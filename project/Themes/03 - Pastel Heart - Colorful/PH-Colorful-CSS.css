@@ -9,48 +9,48 @@
 @import url('https://fonts.googleapis.com/css?family={font-choosen}');
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html, body {
-  height: 100%;
-  overflow: hidden;
+    height: 100%;
+    overflow: hidden;
 }
 
 body {
-  font-family: '{font-choosen}', 'JetBrains Mono', 'Helvetica Neue', sans-serif;
-  line-height: 1.5em;
+    font-family: '{font-choosen}', 'JetBrains Mono', 'Helvetica Neue', sans-serif;
+    line-height: 1.5em;
 }
 
 .colon {
-  display: none;
+    display: none;
 }
 
 #log {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 0 10px 10px 10px;
-  width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 10px 10px 10px;
+    width: 100%;
 }
 
 #log>div.deleted {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 #log>div {
-  margin-bottom: {box-spacing}px;
-  animation: fadeOut 0.5s ease {message_hide_delay} forwards;
-  -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
+    margin-bottom: {box-spacing}px;
+    animation: fadeOut 0.5s ease {message_hide_delay} forwards;
+    -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
 }
 
 .meta  {
-  display: inline-block;
+    display: inline-block;
 }
 
 .badges {
-  display: inline-block;
+    display: inline-block;
 }
 
 .badge {
@@ -65,57 +65,57 @@ body {
 }
 
 .username-box {
-  background-color: {username-box-color};
-  margin-bottom: -10px;
-  display: inline-block;
-  border: {username-box-border}px solid #1E1E1E;
-  border-radius: 0px 8px 8px 8px;
-  z-index: 1; /* cause position relative @ .message-box */
+    background-color: {username-box-color};
+    margin-bottom: -10px;
+    display: inline-block;
+    border: {username-box-border}px solid #1E1E1E;
+    border-radius: 0px 8px 8px 8px;
+    z-index: 1; /* cause position relative @ .message-box */
 }
 
 .name {
-  display: inline-block;
-  color: {username-text-color};
-  font-weight: {usn-weight};
-  letter-spacing: 1px;
-  text-transform: {usn-transform};
-  padding: 2px 8px 2px 4px;
-  font-size: {usn-size}px;
+    display: inline-block;
+    color: {username-text-color};
+    font-weight: {usn-weight};
+    letter-spacing: 1px;
+    text-transform: {usn-transform};
+    padding: 2px 8px 2px 4px;
+    font-size: {usn-size}px;
 }
 
 .message-box {
-  border: {message-box-border}px solid #1E1E1E;
-  padding-top: 5px;
-  background-color: {message-box-color};
-  border-radius: 0px 8px 8px 8px;
-  position: relative;
-  z-index: -1;
+    border: {message-box-border}px solid #1E1E1E;
+    padding-top: 5px;
+    background-color: {message-box-color};
+    border-radius: 0px 8px 8px 8px;
+    position: relative;
+    z-index: -1;
 }
 
 .message {
-  display: block;
-  color: {message-text-color};
-  letter-spacing: 0.9px;
-  text-transform: {msg-transform};
-  margin-left: 5px;
-  padding: 6px 6px ;
-  word-wrap: break-word;
-  font-size: {msg-size}px;
-  font-weight: {msg-weight};
+    display: block;
+    color: {message-text-color};
+    letter-spacing: 0.9px;
+    text-transform: {msg-transform};
+    margin-left: 5px;
+    padding: 6px 6px ;
+    word-wrap: break-word;
+    font-size: {msg-size}px;
+    font-weight: {msg-weight};
 }
 
 #log .emote {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  padding: 0.4em 0.2em;
-  position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 0.4em 0.2em;
+    position: relative;
 }
 
 #log .emote img {
-  display: inline-block;
-  height: 1em;
-  opacity: 0;
+    display: inline-block;
+    height: 1em;
+    opacity: 0;
 }
 
 .hearts {
@@ -123,141 +123,141 @@ body {
 }
 
 .curve-ani {
-  animation: 3s linear 0s 1 normal forwards running curve;
-  -webkit-animation: 3s linear 0s 1 normal forwards running curve;
+    animation: 3s linear 0s 1 normal forwards running curve;
+    -webkit-animation: 3s linear 0s 1 normal forwards running curve;
 }
 
 .straight-ani {
-  animation: 3s ease-in-out 0s 1 normal forwards running straight;
-  -webkit-animation: 3s ease-in-out 0s 1 normal forwards running straight;
+    animation: 3s ease-in-out 0s 1 normal forwards running straight;
+    -webkit-animation: 3s ease-in-out 0s 1 normal forwards running straight;
 }
 
 @-webkit-keyframes curve {
-  0.0000% {
-    -webkit-transform: translate(0.0px, 0.0px);
-    opacity: 0;
-  }
+    0.0000% {
+        -webkit-transform: translate(0.0px, 0.0px);
+        opacity: 0;
+    }
 
-  12.3479% {
-    -webkit-transform: translate(9.8px, -29.0px);
-  }
+    12.3479% {
+        -webkit-transform: translate(9.8px, -29.0px);
+    }
 
-  24.9232% {
-    -webkit-transform: translate(14.6px, -59.9px);
-    opacity: 0.8;
-  }
+    24.9232% {
+        -webkit-transform: translate(14.6px, -59.9px);
+        opacity: 0.8;
+    }
 
-  31.2963% {
-    -webkit-transform: translate(13.9px, -75.7px);
-  }
+    31.2963% {
+        -webkit-transform: translate(13.9px, -75.7px);
+    }
 
-  42.2367% {
-    -webkit-transform: translate(6.9px, -101.9px);
-  }
+    42.2367% {
+        -webkit-transform: translate(6.9px, -101.9px);
+    }
 
-  61.9984% {
-    -webkit-transform: translate(-15.1px, -145.7px);
-  }
+    61.9984% {
+        -webkit-transform: translate(-15.1px, -145.7px);
+    }
 
-  71.5374% {
-    -webkit-transform: translate(-20.5px, -168.8px);
-  }
+    71.5374% {
+        -webkit-transform: translate(-20.5px, -168.8px);
+    }
 
-  76.9530% {
-    -webkit-transform: translate(-20.0px, -182.2px);
-  }
+    76.9530% {
+        -webkit-transform: translate(-20.0px, -182.2px);
+    }
 
-  83.2478% {
-    -webkit-transform: translate(-16.6px, -197.4px);
-  }
+    83.2478% {
+        -webkit-transform: translate(-16.6px, -197.4px);
+    }
 
-  90.8059% {
-    -webkit-transform: translate(-9.8px, -214.9px);
-  }
+    90.8059% {
+        -webkit-transform: translate(-9.8px, -214.9px);
+    }
 
-  100.0000% {
-    -webkit-transform: translate(1.0px, -235.0px);
-    opacity: 0;
-  }
+    100.0000% {
+        -webkit-transform: translate(1.0px, -235.0px);
+        opacity: 0;
+    }
 }
 
 @keyframes curve {
-  0.0000% {
-    transform: translate(0.0px, 0.0px);
-    opacity: 0;
-  }
+    0.0000% {
+        transform: translate(0.0px, 0.0px);
+        opacity: 0;
+    }
 
-  12.3479% {
-    transform: translate(9.8px, -29.0px);
-  }
+    12.3479% {
+        transform: translate(9.8px, -29.0px);
+    }
 
-  24.9232% {
-    transform: translate(14.6px, -59.9px);
-    opacity: 0.8;
-  }
+    24.9232% {
+        transform: translate(14.6px, -59.9px);
+        opacity: 0.8;
+    }
 
-  31.2963% {
-    transform: translate(13.9px, -75.7px);
-  }
+    31.2963% {
+        transform: translate(13.9px, -75.7px);
+    }
 
-  42.2367% {
-    transform: translate(6.9px, -101.9px);
-  }
+    42.2367% {
+        transform: translate(6.9px, -101.9px);
+    }
 
-  61.9984% {
-    transform: translate(-15.1px, -145.7px);
-  }
+    61.9984% {
+        transform: translate(-15.1px, -145.7px);
+    }
 
-  71.5374% {
-    transform: translate(-20.5px, -168.8px);
-  }
+    71.5374% {
+        transform: translate(-20.5px, -168.8px);
+    }
 
-  76.9530% {
-    -webkit-transform: translate(-20.0px, -182.2px);
-  }
+    76.9530% {
+        -webkit-transform: translate(-20.0px, -182.2px);
+    }
 
-  83.2478% {
-    transform: translate(-16.6px, -197.4px);
-  }
+    83.2478% {
+        transform: translate(-16.6px, -197.4px);
+    }
 
-  90.8059% {
-    transform: translate(-9.8px, -214.9px);
-  }
+    90.8059% {
+        transform: translate(-9.8px, -214.9px);
+    }
 
-  100.0000% {
-    transform: translate(1.0px, -235.0px);
-    opacity: 0;
-  }
+    100.0000% {
+        transform: translate(1.0px, -235.0px);
+        opacity: 0;
+    }
 }
 
 @keyframes straight {
-  0.0000% {
-    transform: translate(0.0px, 0.0px);
-    opacity: 0;
-  }
+    0.0000% {
+        transform: translate(0.0px, 0.0px);
+        opacity: 0;
+    }
 
-  25.0000% {
-    opacity: 0.8;
-  }
+    25.0000% {
+        opacity: 0.8;
+    }
 
-  100.0000% {
-    transform: translate(0.0px, -250.0px);
-    opacity: 0;
-  }
+    100.0000% {
+        transform: translate(0.0px, -250.0px);
+        opacity: 0;
+    }
 }
 
 @-webkit-keyframes straight {
-  0.0000% {
-    transform: translate(0.0px, 0.0px);
-    opacity: 0;
-  }
+    0.0000% {
+        transform: translate(0.0px, 0.0px);
+        opacity: 0;
+    }
 
-  25.0000% {
-    opacity: 0.8;
-  }
+    25.0000% {
+        opacity: 0.8;
+    }
 
-  100.0000% {
-    transform: translate(0.0px, -250.0px);
-    opacity: 0;
-  }
+    100.0000% {
+        transform: translate(0.0px, -250.0px);
+        opacity: 0;
+    }
 }

@@ -1,0 +1,115 @@
+/*
+- USer Color
+- Last Update: 02 June 2021
+- https://github.com/jhoooooo/streamlabs-chat/
+- https://twitter.com/jhooo_o
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family={font-choosen}');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: '{font-choosen}', 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5em;
+}
+
+.colon {
+    display: none;
+}
+
+#log {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 10px 10px 10px;
+    width: 100%;
+    opacity: 1;
+}
+
+#log>div.deleted {
+    visibility: hidden;
+}
+
+#log>div {
+    margin-bottom: 5px;
+    animation: fadeOut 0.5s ease {message_hide_delay} forwards;
+    -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
+}
+
+.meta  {
+    display: inline-block;
+}
+
+.badges {
+    display: inline-block;
+    margin-top: 4px;
+}
+
+.badge {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    height: fit-content;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+
+.username-box {
+    margin-left: 5px;
+    margin-bottom: -10px;
+    display: {name-display};
+    border-radius: {name-border-radius}px;
+}
+
+.name {
+    display: inline-block;
+    color: {first-color};
+    font-weight: {usn-weight};
+    letter-spacing: 1px;
+    text-transform: Uppercase;
+    padding: 2px 8px ;
+    font-size: {usn-size}px;
+}
+
+.message-box {
+    border: none;
+    padding-top: 5px;
+    background-color: #FFFFFF;
+    border-radius: {msg-border-radius}px;
+}
+
+.message {
+    display: block;
+    color: {sec-color};
+    letter-spacing: 0.9px;
+    margin-left: 5px;
+    padding: 6px 6px ;
+    word-wrap: break-word;
+    font-size: {msg-size}px;
+    font-weight: {msg-weight};
+}
+
+#log .emote {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 0.4em 0.2em;
+    position: relative;
+}
+
+#log .emote img {
+    display: inline-block;
+    height: 1em;
+    opacity: 0;
+}
