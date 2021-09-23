@@ -36,13 +36,13 @@ body {
 
 .border-recommended {
     border-radius: 4px;
-    border: 1px solid #faa91660;
+    border: 2px solid #faa91660;
     padding: 20px;
 }
 
 .border-ignore {
     border-radius: 4px;
-    border: 1px solid #c400128a;
+    border: 2px solid #c400128a;
     padding: 20px;
 }
 
@@ -57,9 +57,12 @@ body {
 }
 
 .jho-bg-info {
-    color: #c2ae00!important;
     background-color: #79720e8a;
     border-color: #c2ae00!important;
+}
+
+.jho-text-info {
+    color: #c2ae00!important;
 }
 
 .faq dd,
