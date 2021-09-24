@@ -9,8 +9,8 @@ document.addEventListener('onEventReceived', function(obj) {
   	console.log(obj.detail); // OBJ Logs
     const botNames = ["nightbot","moobot","xanbot","deepbot","vivbot","phantombot","streamelements"];
     const smoothscroll = {smoothscroll};
-    const limitEnable = {limit-enable};
-    const msgLimit = {msg-limit};
+    const limitEnable = {limit_enabler};
+    const msgLimit = {message_limiter};
     const msgParent = document.querySelector('.sl__chat__layout');
 
     if (obj.detail.command === "PRIVMSG") {
