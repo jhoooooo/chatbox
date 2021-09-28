@@ -59,13 +59,14 @@ body {
 }
 
 .name {
-    margin-left: 10px;
+    margin-left: 5px;
     font-weight: 600;
 }
 
 .message {
     display: inline-block;
     margin-right: 10px;
+    margin-left: 5px;
     word-wrap: break-word;
     font-weight: 100;
 }
