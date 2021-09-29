@@ -1,0 +1,129 @@
+{
+    "box_width": {
+        "label": "Message Box Width",
+        "type": "dropdown",
+        "options": {
+            "auto": "Fit Content",
+            "-webkit-fill-available": "Full Width"
+        },
+        "value": "-webkit-fill-available"
+    },
+    "font_select": {
+        "label": "Font",
+        "type": "fontpicker",
+        "value": "Roboto"
+    },
+    "font_size": {
+        "label": "Text Size",
+        "type": "slider",
+        "name": "",
+        "value": 11,
+        "max": 24,
+        "min": 10,
+        "steps": 1
+    },
+    "box_width": {
+        "label": "Message Box Width",
+        "type": "dropdown",
+        "options": {
+            "auto": "Fit Content",
+            "-webkit-fill-available": "Full Width"
+        },
+        "value": "-webkit-fill-available"
+    },
+    "border_radius": {
+        "label": "Border Radius",
+        "type": "slider",
+        "name": "",
+        "value": 4,
+        "max": 25,
+        "min": 0,
+        "steps": 1
+    },
+    "text_transform": {
+        "label": "Text Transform",
+        "type": "dropdown",
+        "options": {
+            "none": "None",
+            "uppercase": "Uppercase"
+        },
+        "value": "none"
+    },
+    "background_color": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#170f22"
+    },
+    "name_color": {
+        "label": "Username Color",
+        "type": "colorpicker",
+        "value": "#dddddd"
+    },
+    "message_color": {
+        "label": "Message Color",
+        "type": "colorpicker",
+        "value": "#dddddd"
+    },
+    "streamer_color": {
+        "label": "Streamer Color",
+        "type": "colorpicker",
+        "value": "#e91916"
+    },
+    "moderator_color": {
+        "label": "Moderator Color",
+        "type": "colorpicker",
+        "value": "#00ad03"
+    },
+    "vip_color": {
+        "label": "VIP Color",
+        "type": "colorpicker",
+        "value": "#e005b9"
+    },
+    "subscriber_color": {
+        "label": "Subscriber Color",
+        "type": "colorpicker",
+        "value": "#7e25ff"
+    },
+    "pleb_color": {
+        "label": "Pleb Color",
+        "type": "colorpicker",
+        "value": "#365463"
+    },
+    "special_list": {
+        "label": "Special Username (all lowercase, separated by space)",
+        "type": "textfield",
+        "value": "jhoooooooooooo datsheppy"
+    },
+    "special_color": {
+        "label": "Special Color",
+        "type": "colorpicker",
+        "value": "#FFF100"
+    },
+    "smoothscroll": {
+        "label": "Smoothscroll Animation?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "true"
+    },
+    "limit_enabler": {
+        "label": "Limit Message Shown?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "true"
+    },
+    "message_limiter": {
+        "label": "No. of Message Shown",
+        "type": "slider",
+        "name": "",
+        "value": 10,
+        "max": 100,
+        "min": 1,
+        "steps": 1
+    }
+}
