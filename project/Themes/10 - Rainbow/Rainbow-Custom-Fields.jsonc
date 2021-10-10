@@ -1,0 +1,52 @@
+{
+    "font_select": {
+        "label": "Font",
+        "type": "fontpicker",
+        "value": "Inconsolata"
+    },
+    "font_size": {
+        "label": "Text Size",
+        "type": "slider",
+        "name": "",
+        "value": 14,
+        "max": 24,
+        "min": 10,
+        "steps": 1
+    },
+    "text_transform": {
+        "label": "Text Transform",
+        "type": "dropdown",
+        "options": {
+            "none": "None",
+            "uppercase": "Uppercase"
+        },
+        "value": "none"
+    },
+    "smoothscroll": {
+        "label": "Smoothscroll Animation?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "true"
+    },
+    "limit_enabler": {
+        "label": "Limit Message Shown?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "true"
+    },
+    "message_limiter": {
+        "label": "No. of Message Shown",
+        "type": "slider",
+        "name": "",
+        "value": 30,
+        "max": 300,
+        "min": 1,
+        "steps": 1
+    }
+}

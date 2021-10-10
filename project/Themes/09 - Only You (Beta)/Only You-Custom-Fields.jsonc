@@ -1,0 +1,45 @@
+{
+    "font_select": {
+        "label": "Font",
+        "type": "fontpicker",
+        "value": "Roboto"
+    },
+    "font_size": {
+        "label": "Text Size",
+        "type": "slider",
+        "name": "",
+        "value": 11,
+        "max": 24,
+        "min": 10,
+        "steps": 1
+    },
+    "text_transform": {
+        "label": "Text Transform",
+        "type": "dropdown",
+        "options": {
+            "none": "None",
+            "uppercase": "Uppercase"
+        },
+        "value": "none"
+    },
+    "wrapper_bg_color": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#170f22"
+    },
+    "text_color": {
+        "label": "Username Color",
+        "type": "colorpicker",
+        "value": "#dddddd"
+    },
+    "special_list": {
+        "label": "Special Username (all lowercase, separated by space)",
+        "type": "textfield",
+        "value": "jhoooooooooooo datsheppy"
+    },
+    "special_color": {
+        "label": "Special Color",
+        "type": "colorpicker",
+        "value": "#fee882"
+    }
+}
