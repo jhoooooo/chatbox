@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Free Streamlabs Chat Box Widget Overlay For Twitch Streamer" />
+    <meta name="author" content="JHO" />
+
+    <title>JHO</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <!-- Highlight JS Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/atom-one-dark-reasonable.min.css" integrity="sha512-RwXJS3k4Z0IK6TGoL3pgQlA9g2THFhKL7z9TYWdAI8u6xK0AUuMWieJuWgTRayywC9A94ifUj1RzjDa1NIlUIg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom styles -->
+    <link href="web/files/style.css" rel="stylesheet" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97855652-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-97855652-3');
+    </script>
+</head>
+
+<body>
+    <!-- Hero -->
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-md-10 mx-auto col-lg-5">
+                <div id="carousel-hero" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="web/images/preview.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="web/images/preview-02.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">JHO // Streamlabs Chat Box Widget Overlay</h1>
+                <p class="lead">Free customizable overlay themes for Streamlabs chat box widget, with smoothscroll animation, custom animation triggers & more.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <a class="btn btn-lg btn-primary me-md-2" href="https://gumroad.com/l/jxzKbA?wanted=true" target="_blank"><i class="bi bi-download me-1"></i>Download .ZIP</a>
+                    <a class="btn btn-lg btn-documentation me-md-2" href="#content"><i class="bi bi-file-text me-1"></i>Instruction</a>
+                </div>
+                <p class="fs-7 text-muted my-2">
+                    <span><strong>v29SEP2021</strong></span>
+                    <span class="px-1">·</span>
+                    <a href="https://github.com/jhoooooo/streamlabs-chat/" class="link-secondary" target="_blank">View on Github</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Ends-->
+    <!-- Wrapper -->
+    <div class="d-flex" id="wrapper">
+        <!-- Content -->
+        <div id="content" class="content container-fluid pt-4 p-md-5">
+            <!-- Alert Box
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <i class="bi bi-exclamation-triangle-fill"></i> Latest version will always be on Github.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            Alert Box ENDS -->
+            <!-- Tags
+            <div class="tags">
+                <span class="tag text-white">Last Update</span>
+                <span class="tag text-white">15 September 2021</span>
+            </div>
+            Tags End -->
+            <!-- Section Title -->
+            <div class="p-1 mb-2 rounded-3">
+                <div class="container-fluid">
+                    <h1 id="introduction">Introduction</h1>
+                    <p>Free themes made for Streamlabs Chat Widget. Click here for <a href="https://jhoo.gumroad.com/l/wCzIp">streamelements'</a> version.</p>
+                </div>
+            </div>
+            <!-- Section Title Ends-->
+            <!-- Section 01 -->
+            <div class="p-1 mb-2 rounded-3">
+                <div class="container-fluid">
+                    <h1 id="getting-started">Getting Started</h1>
+                    <small class="text-muted mb-2">For Streamlabs web dashboard, not Streamlabs OBS.</small>
+                    <ol class="list py-3">
+                        <li>Choose your theme.</li>
+                        <li>Each theme have 4 main files, <strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript (JS)</strong> and <strong>Custom Fields</strong>.</li>
+                        <li>Each files can be opened with notepad (right click > open with > notepad).</li>
+                        <li>Go to your <a href="https://streamlabs.com/dashboard#/chatbox">Streamlabs dashboard > All Widgets > Chat Box.</a> </li>
+                        <li>Enable Custom HTML/CSS.</li>
+                        <li>Copy and paste each file to their respective field.</li>
+                        <li>For <strong>Custom Field</strong>, if it's your first time, you have to click on <kbd>Add Custom Fields</kbd> > <kbd>Edit Custom Fields</kbd> > paste the code in and then click <kbd>Update</kbd>.</li>
+                        <li>You can then edit the options in Custom Fields to modified the theme.</li>
+                        <div class="card jho-bg-info m-2 jho-text-info">
+                            <div class="card-header">
+                                <i class="bi bi-brightness-high text-warning"></i>
+                                <span class="text-warning fw-bolder">Tips</span>
+                                <span>You can add transparency to color by using 8 digits hex color.</span>
+                            </div>
+                            <div class="card-body text-center py-2">
+                                <input class="jscolor" value="#3399FF80" data-jscolor="{preset:'dark',}">
+                            </div>
+                        </div>
+                        <li>Click <kbd>Save Settings</kbd> to save your theme.</li>
+                        <li>Finally, you can copy the widget url and use it as browser source in OBS.</li>
+                        <li>For testing, you can add <kbd>?simulate=1</kbd> after your widget url to simulate users.</li>
+                        <li class="list-unstyled mt-1">Example: <kbd>https://streamlabs.com/widgets/chat-box/v1/XXXCODEXXXXX?simulate=1</kbd>
+                        </li>
+                        </ol>
+                </div>
+            </div>
+            <!-- Section 01 Ends-->
+            <!-- Section 02 -->
+            <div class="p-1 mb-2 rounded-3">
+                <div class="container-fluid">
+                    <h1 id="settings">Streamlabs Settings</h1>
+                    <ol class="list">
+                        <li>Themes <span class="badge bg-ignore">Ignore</span></li>
+                        <li>Badges <span class="badge bg-ok">Choose as you please</span></li>
+                        <li>Extra Emotes <span class="badge bg-use">Recommended to enable</span></li>
+                        <li>Background Color <span class="badge bg-ignore">Ignore</span></li>
+                        <li>Text Color <span class="badge bg-ignore">Ignore</span></li>
+                        <li>Font Size <span class="badge bg-ignore">Ignore</span></li>
+                        <li>Hide Message After <span class="badge bg-recommended">Recommended to disable - Some theme might not support this</span></li>
+                        <li>Chat Delay <span class="badge bg-ok">Choose as you please</span></li>
+                        <li>Hide Chatter <span class="badge bg-recommended">Recommended to disable, or else use theme-name-hide-chatter.js</span></li>
+                        <div class="container-fluid my-2 border-recommended">
+                            <p>If you enabled this, use <span class="fst-italic fw-bolder"><u>themename-hide-chatter.js</u></span> file instead of the normal <span class="fst-italic fw-bolder"><u>themename.js</u></span> file because if not, it will ruin the smoothscroll animation. And you must enable both <kbd>Hide Common Chat Bots</kbd> & <kbd>Hide commands starting with `!`</kbd> option. If there is no <strong>themename-hide-chatter.js</strong> file in the theme folder, it is not supported yet.</p>
+
+                            <p>If you use custom bot names, you might also have to find the code below and add in the bot names.</p>
+                            <div class="highlight">
+                                <pre><code>const botNames = ["nightbot","moobot","xanbot","deepbot","vivbot","phantombot","streamelements"];</code></pre>
+                            </div>
+
+                            <p> If you only want to use only one of the option, you have to edit the themename-hide-chatter.js file manually. I did not want include two more files just for it. Look for:</p>
+                            <div class="highlight">
+                                <pre><code>if (botNames.indexOf(obj.detail.from) == -1 && isCommand != "!"){</code></pre>
+                            </div>
+                            <p>Next, remove one of those according to what you enable, including <code>&&</code>. For example, if you enabled 'Hide Common Chat Bots' but disabled 'Hide commands starting with `!`', your code will look like this:</p>
+                            <div class="highlight">
+                                <pre><code>if (botNames.indexOf(obj.detail.from) == -1){</code></pre>
+                            </div>
+
+                        </div>
+                        <li>Muted Chatters <span class="badge bg-ignore">Recommended to disabled*</span></li>
+                        <li>Custom Bad Words <span class="badge bg-ignore">Recommended to disabled*</span></li>
+                        <div class="container-fluid my-2 border-ignore">
+                            <span>* If you use both of this option, it might effect the chatbox animation (idk). I never bother with these options so I will not support or troubleshoot this option for you.</span>
+                        </div>
+                    </ol>
+                </div>
+            </div>
+            <!-- Section 02 Ends-->
+            <!-- Warning -->
+            <div class="card jho-bg-danger m-2 text-dark">
+                <div class="card-header">
+                    <i class="bi bi-exclamation-triangle-fill text-danger"></i>
+                    <span class="text-danger fw-bolder">Test yo stuff!</span>
+                </div>
+                <div class="card-body">
+                    <span>This overlay are not made for you specificly. I don't know your setup. Please do proper testing to ensure everything such as animation is working properly. Recommended test:</span>
+                    <ul>
+                        <li>Your own messages.</li>
+                        <li>Commands ie: !squad, /clear.</li>
+                        <li>Spams quick messages. It is recommended to disable the smoothscroll animation if your chat is fast. IMHO, the animation only looks good in slow chat.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card jho-bg-info m-2">
+                <div class="card-header">
+                    <i class="bi bi-brightness-high text-warning"></i>
+                    <span class="text-warning fw-bolder">Tips</span>
+                </div>
+                <div class="card-body py-2">
+                    <span>Once you done customizing the 'Custom Fields' section, click 'Edit Fields' once again and create a copy of the codes locally on your pc or screenshot it just incase you need to update the overlay later.</span>
+                </div>
+            </div>
+            <!-- End Warning -->
+            <!-- Others Section -->
+            <div class="container faq my-4">
+                <h1 id='faq'>Frequently Asked Questions:</h1>
+                <dt>What's the difference between files on Gumroad and files on Github?</dt>
+                <dd>Github is connected to my code editor. Every little updates will get pushed to Github first. Files on Gumroad is updated manually so only necessary updates will get pushed to Gumroad, small fixes like typo etc won't get pushed.</dd>
+                <dt>Do you provide support?</dt>
+                <dd>No, even if you paid/donate for it. Contact me on <a href="https://twitter.com/intent/follow?screen_name=jhooo_o" target="_blank">Twitter</a> if you have problems or questions and I will answer them if I'm available or able to. No promises but I'm usually there.</dd>
+                <dt>Is there any preview of each theme?</dt>
+                <dd>No.</dd>
+                <dt>Where is the rest of the themes you've made?</dt>
+                <dd>On Github, outdated. Might add them back later, or not.</dd>
+            </div>
+            <div class="container changelog my-4">
+                <h1 id='changelog'>Changelog:</h1>
+                <dt>29 September 2021</dt>
+                <dd>Added 'Dark Bordered Pleb' theme.</dd>
+                <dt>28 September 2021</dt>
+                <dd>Fixed wrapped text margin for 'Balorante' theme.</dd>
+                <dt>25 September 2021</dt>
+                <dd>Added 'Balorante' theme.</dd>
+                <dt>23 September 2021</dt>
+                <dd>Added 'Whitebox' theme. Re-added 'User Color' theme (fixed /clear).</dd>
+                <dt>16 September 2021</dt>
+                <dd>Fixed /clear command for 'Default', 'Pastel Hearts' and 'Pink With Gifs'.</dd>
+            </div>
+            <!-- Toast -->
+            <div id="basicToast" class="toast position-fixed top-50 start-50 translate-middle bg-dark text-light hide" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="1500">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        Code copied to clipboard.
+                    </div>
+                    <button type="button" class="btn-close bg-light me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+            </div>
+            <!-- Toast Body Ends-->
+            <div id="footer">
+                <!-- Copyright -->
+                <div class="py-3 text-center footer-copyright">
+                    <span>
+                        <small>
+                            <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="18px">
+                            Made by
+                            <a href="https://twitter.com/intent/follow?screen_name=jhooo_o" target="_blank">Jho</a>
+                            <span class="px-1">·</span>
+                            <a href="https://jhoooooo.github.io/youtube/" target="_blank">Youtube OBS</a>
+                        </small>
+                    </span>
+                </div>
+                <!-- Copyright -->
+            </div>
+        </div>
+        <!-- Content End -->
+    </div>
+    <!-- Wrapper End -->
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Highlight JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="web/files/jscolor.min.js"></script>
+
+    <script src="web/files/scripts.js"></script>
+
+    <!-- Kofi -->
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+        kofiWidgetOverlay.draw('jhooo', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Support me',
+            'floating-chat.donateButton.background-color': '#00b9fe',
+            'floating-chat.donateButton.text-color': '#fff'
+        });
+    </script>
+
+</body>
+
+</html>

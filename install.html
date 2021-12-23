@@ -8,7 +8,7 @@
     <meta name="description" content="Streamlabs Chat Box Widget Overlay For Twitch Streamer - Lorem Theme" />
     <meta name="author" content="JHO" />
 
-    <title>JHO // Lorem</title>
+    <title>JHO // Installation Guide</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
@@ -41,14 +41,20 @@
             <!-- Section Title -->
             <div class="p-1 mb-2 rounded-3">
                 <div class="container-fluid">
-                    <h1 id="introduction" class="fw-bolder">Lorem Installation Guide</h1>
+                    <h1 id="introduction" class="fw-bolder">SLCB // Installation Guide</h1>
                     <!-- Tags -->
                 <div class="tags mt-2">
-                    <span class="tag text-white">For version</span>
-                    <span class="tag text-white">1.0 - 20 December 2021</span>
+                    <span class="tag text-white">Last Update</span>
+                    <span class="tag text-white">23 December 2021</span>
                 </div>
                 <!-- Tags End -->
-                <small class="text-muted mt-2">This installation guide is for Streamlabs web dashboard, not Streamlabs Desktop (SLOBS).</small>
+                <small class="text-muted my-2">This installation guide is for Streamlabs web dashboard, not Streamlabs Desktop (SLOBS).</small>
+
+                <div class="my-2 alert bg-recommended text-recommended border-recommended alert-dismissible fade show" role="alert">
+                    <i class="bi bi-exclamation-triangle-fill me-1"></i>Each themes might have different options. Not all steps are required or applicable to each themes.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+
                 </div>
             </div>
             <!-- Section Title Ends-->
@@ -73,7 +79,7 @@
                                 <span class="fw-bolder">Hide Chatter Option</span>
                             </div>
                             <div class="card-body text-dark">
-                            <p>If you enable this option, later please make sure to use <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">Lorem-JS-Hide-Chatter</span> file instead of <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">Lorem-JS</span>. You must also enable both <i class="bi bi-check-square mx-1"></i><span class="fw-bold">Hide Common Chat Bots</span> &  <i class="bi bi-check-square mx-1"></i><span class="fw-bold">Hide commands starting with `!`</span> option.</p>
+                            <p>If you enable this option, later please make sure to use <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">Themename-JS-Hide-Chatter</span> file instead of <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">Themename-JS</span>. You must also enable both <i class="bi bi-check-square mx-1"></i><span class="fw-bold">Hide Common Chat Bots</span> &  <i class="bi bi-check-square mx-1"></i><span class="fw-bold">Hide commands starting with `!`</span> option.</p>
 
                             <p>If you use custom made/named bot, you have to find code snippet below in the <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">JS</span> file and add in your bot name(s).</p>
                             <div class="highlight">
@@ -98,14 +104,14 @@
             <!-- Section 02 -->
             <div class="p-1 mb-2 rounded-3">
                 <div class="container-fluid">
-                    <h2 id="settings">Lorem Settings</h2>
+                    <h2 id="settings">Theme Settings</h2>
                     <ol class="list py-3">
                         <li>After enabling Custom HTML/CSS, new field should appear like the image shown below.</li>
                         <img src="web/images/streamlabs_01.png" class="img-fluid rounded mx-auto d-block m-2" alt="...">
-                        <li>You can now open Lorem theme files (<i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">Lorem-HTML, CSS, JS & Custom-Field</span>).</li>
-                        <li>Click on each tab and replace the content with their respective code. <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">Lorem-HTML</span> on the HTML tab, <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">Lorem-CSS</span> on CSS tab and so on.</li>
+                        <li>You can now open the theme files (<i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">HTML, CSS, JS & Custom-Field</span>).</li>
+                        <li>Click on each tab and replace the content with their respective code. <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">HTML</span> on the HTML tab, <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">Lorem-CSS</span> on CSS tab and so on.</li>
                         <li>For <strong>Custom Fields</strong>, if it is your first time, you have to click on <kbd>Add Custom Fields</kbd> > <kbd>Edit Custom Fields</kbd> > paste the code in and then click <kbd>Update</kbd>.</li>
-                        <li>The Custom Fields tab should now look like the image shown below.</li>
+                        <li>The Custom Fields tab should now look like the example shown below.</li>
                         <img src="web/images/streamlabs_02.png" class="img-fluid rounded mx-auto d-block m-2" alt="...">
                         <li>You can modified each options in Custom Fields tab to customize your chatbox visual.</li>
                         <div class="card m-2 bg-recommended text-dark">
@@ -118,15 +124,6 @@
                                 <input class="jscolor border-recommended" value="#3399FF80" data-jscolor="{preset:'dark',}">
                             </div>
                         </div>
-                        <li>"Message Background Image" option is required. Recommended size is 200px height and 400px wide. Image lower than 200KB in size is recommended.</li>
-                        <div class="card m-2 bg-recommended text-dark">
-                            <div class="card-body py-2">
-                                <span><i class="bi bi-exclamation-triangle-fill text-recommended"></i> You might experience unresponsive page when uploading image or selecting image. Simply wait for a bit. If the problem persist, refresh the page, your image should already be there.</span>
-                            </div>
-                        </div>
-                        <li>For "Overlay Color" option, you can skip or replace the code. Default value darken the background a bit. The color is overlayed on top of the image for readability.</li>
-                        <li>If you choose to change it, my recommended site is <a href="https://cssgradient.io/" title="https://cssgradient.io/" target="_blank">https://cssgradient.io/</a>. The site defaulted to three color gradient, two is my preference. Please ensure opacity is not too high as it will cover/effect the background image. Copy only the value generated, <span class="fw-bold">not the whole code</span> as highlighted below (in blue). You can then replace the default value in "Overlay Color" 's text-field.</li>
-                        <img src="web/images/streamlabs_03.png" class="img-fluid rounded mx-auto d-block m-2" alt="...">
                         <li>Click <kbd>Save Settings</kbd> to save your theme.</li>
                         <li>Finally, you can copy the widget url located on top of the page and use it as browser source in your OBS.</li>
                         <li>For testing purposes, you can add <kbd>?simulate=1</kbd> after your widget url to simulate users.</li>
@@ -137,9 +134,19 @@
             </div>
             <!-- Section 02 Ends-->
             <div class="container changelog my-4">
-                <h2 id='changelog'>Changelog:</h2>
-                <dt>20 December 2021 - v1.0</dt>
-                <dd>Lorem is released.</dd>
+                <h1 id='changelog'>Changelog:</h1>
+                <dt>23 December 2021</dt>
+                <dd>Remade installation guide.</dd>
+                <dt>29 September 2021</dt>
+                <dd>Added 'Dark Bordered Pleb' theme.</dd>
+                <dt>28 September 2021</dt>
+                <dd>Fixed wrapped text margin for 'Balorante' theme.</dd>
+                <dt>25 September 2021</dt>
+                <dd>Added 'Balorante' theme.</dd>
+                <dt>23 September 2021</dt>
+                <dd>Added 'Whitebox' theme. Re-added 'User Color' theme (fixed /clear).</dd>
+                <dt>16 September 2021</dt>
+                <dd>Fixed /clear command for 'Default', 'Pastel Hearts' and 'Pink With Gifs'.</dd>
             </div>
             <!-- Toast -->
             <div id="basicToast" class="toast position-fixed top-50 start-50 translate-middle bg-dark text-light hide" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="1500">
