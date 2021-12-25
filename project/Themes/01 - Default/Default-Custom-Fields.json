@@ -1,191 +1,133 @@
 {
-    "message-box-margin": {
-        "label": "Spacing Between User",
-        "type": "slider",
-        "name": "Spacing Between User",
-        "value": 5,
-        "max": 30,
-        "min": 0,
-        "steps": 1
-    },
-    "meta-box-margin": {
-        "label": "Spacing Between Username & Message",
-        "type": "slider",
-        "name": "Spacing Between Username & Message",
-        "value": 5,
-        "max": 30,
-        "min": -30,
-        "steps": 1
-    },
-    "font-choosen": {
+    "font-picked": {
         "label": "Font",
         "type": "fontpicker",
-        "value": "Open Sans"
+        "value": "Open Sans",
+        "group": "◆ BASIC OPTIONS"
     },
-    "font-size": {
+    "font_size": {
         "label": "Font Size",
         "type": "slider",
         "name": "",
-        "value": 14,
-        "max": 60,
-        "min": 10,
-        "steps": 1
+        "value": "12",
+        "max": 24,
+        "min": 0,
+        "steps": 1,
+        "group": "◆ BASIC OPTIONS"
     },
-    "font-weight": {
-        "label": "Font Weight",
-        "type": "slider",
-        "name": "",
-        "value": 600,
-        "max": 900,
-        "min": 100,
-        "steps": 100
-    },
-    "name-font-color": {
-        "label": "Username Text Color",
-        "type": "colorpicker",
-        "value": "#515E63"
-    },
-    "name-bg-color": {
-        "label": "Username Background Color",
-        "type": "colorpicker",
-        "value": "#F1ECC3"
-    },
-    "name-transform": {
-        "label": "Username Text Transform",
+    "text_transform": {
+        "label": "Text Transform",
         "type": "dropdown",
         "options": {
             "none": "None",
-            "uppercase": "Uppercase"
+            "uppercase": "Uppercase",
+            "lowercase": "Lowercase",
+            "capitalize": "Capitalize"
         },
-        "value": "none"
+        "value": "none",
+        "group": "◆ BASIC OPTIONS"
     },
-    "name-padding-tb": {
-        "label": "Username Top/Bottom Padding",
+    "wrapper_background": {
+        "label": "Chatbox Background Color",
+        "type": "colorpicker",
+        "value": "#40365C",
+        "group": "◆ BASIC OPTIONS"
+    },
+    "wrapper_border_style": {
+        "label": "Chatbox Border Style",
+        "type": "dropdown",
+        "options": {
+            "solid": "Solid",
+            "dashed": "Dashed",
+            "dotted": "Dotted",
+            "double": "Double",
+            "groove": "Groove"
+        },
+        "value": "solid",
+        "group": "◆ BASIC OPTIONS"
+    },
+    "wrapper_border_color": {
+        "label": "Chatbox Border Color",
+        "type": "colorpicker",
+        "value": "#40365C00",
+        "group": "◆ BASIC OPTIONS"
+    },
+    "wrapper_border_width": {
+        "label": "Chatbox Border Width",
         "type": "slider",
         "name": "",
-        "value": 5,
-        "max": 30,
-        "min": 0,
-        "steps": 1
-    },
-    "name-padding-lr": {
-        "label": "Username Left/Right Padding",
-        "type": "slider",
-        "name": "",
-        "value": 10,
-        "max": 30,
-        "min": 0,
-        "steps": 1
-    },
-    "name-border": {
-        "label": "Username Box Border Size",
-        "type": "slider",
-        "name": "Name Border Size",
-        "value": 2,
+        "value": "0",
         "max": 10,
         "min": 0,
-        "steps": 1
+        "steps": 1,
+        "group": "◆ BASIC OPTIONS"
     },
-    "name-border-radius": {
-        "label": "Username Box Border Radius",
+    "wrapper_border_radius": {
+        "label": "Chatbox Border Radius",
         "type": "slider",
-        "name": "Username Border Radius",
-        "value": 3,
-        "max": 15,
-        "min": 0,
-        "steps": 1
-    },
-    "name-border-color": {
-        "label": "Username Box Border Color",
-        "type": "colorpicker",
-        "value": "#515E63"
-    },
-    "name-skew": {
-        "label": "Username Box Skew",
-        "type": "slider",
-        "name": "Username Box Skew",
-        "value": 0,
+        "name": "",
+        "value": "0",
         "max": 20,
         "min": 0,
-        "steps": 1
+        "steps": 1,
+        "group": "◆ BASIC OPTIONS"
     },
-    "message-font-color": {
-        "label": "Message Text Color",
-        "type": "colorpicker",
-        "value": "#57837B"
-    },
-    "message-bg-color": {
+    "message_background_color": {
         "label": "Message Background Color",
         "type": "colorpicker",
-        "value": "#C9D8B6"
+        "value": "#40365C00",
+        "group": "◆ MESSAGE OPTIONS"
     },
-    "message-transform": {
-        "label": "Message Text Transform",
+    "name_color": {
+        "label": "Username Color",
+        "type": "colorpicker",
+        "value": "#F1EEED",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_color": {
+        "label": "Message Color",
+        "type": "colorpicker",
+        "value": "#F1EEED",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_border_style": {
+        "label": "Message Border Style",
         "type": "dropdown",
         "options": {
-            "none": "None",
-            "uppercase": "Uppercase"
+            "solid": "Solid",
+            "dashed": "Dashed",
+            "dotted": "Dotted",
+            "double": "Double",
+            "groove": "Groove"
         },
-        "value": "none"
+        "value": "solid",
+        "group": "◆ MESSAGE OPTIONS"
     },
-    "message-padding-tb": {
-        "label": "Message Top/Bottom Padding",
-        "type": "slider",
-        "name": "Message Top/Bottom Padding",
-        "value": 5,
-        "max": 30,
-        "min": 0,
-        "steps": 1
+    "message_border_color": {
+        "label": "Message Border Color",
+        "type": "colorpicker",
+        "value": "#40365C00",
+        "group": "◆ MESSAGE OPTIONS"
     },
-    "message-padding-lr": {
-        "label": "Message Padding Left/Right",
+    "message_border_width": {
+        "label": "Message Border Width",
         "type": "slider",
-        "name": "Message Padding Left/Right",
-        "value": 10,
-        "max": 30,
-        "min": 0,
-        "steps": 1
-    },
-    "message-box-offset": {
-        "label": "Message Box Offset",
-        "type": "slider",
-        "name": "Message Box Offset",
-        "value": 0,
-        "max": 30,
-        "min": 0,
-        "steps": 1
-    },
-    "message-border": {
-        "label": "Message Box Border Size",
-        "type": "slider",
-        "name": "Message Border Size",
-        "value": 2,
+        "name": "",
+        "value": "0",
         "max": 10,
         "min": 0,
-        "steps": 1
+        "steps": 1,
+        "group": "◆ MESSAGE OPTIONS"
     },
-    "message-border-radius": {
-        "label": "Message Box Border Radius",
+    "message_border_radius": {
+        "label": "Message Border Radius",
         "type": "slider",
-        "name": "Message Border Radius",
-        "value": 3,
-        "max": 15,
-        "min": 0,
-        "steps": 1
-    },
-    "message-border-color": {
-        "label": "Message Box Border Color",
-        "type": "colorpicker",
-        "value": "#515E63"
-    },
-    "message-skew": {
-        "label": "Message Box Skew",
-        "type": "slider",
-        "name": "Message Box Skew",
-        "value": 0,
+        "name": "",
+        "value": "0",
         "max": 20,
         "min": 0,
-        "steps": 1
+        "steps": 1,
+        "group": "◆ MESSAGE OPTIONS"
     },
     "smoothscroll": {
         "label": "Smoothscroll Animation?",
@@ -194,24 +136,27 @@
             "false": "Disable",
             "true": "Enable"
         },
-        "value": "true"
+        "value": "true",
+        "group": "◆ OTHER OPTIONS"
     },
-    "limit-enable": {
-    "label": "Limit Message Shown?",
-    "type": "dropdown",
-    "options": {
-        "false": "Disable",
-        "true": "Enable"
+    "enable_limit": {
+        "label": "Limit Message Shown?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "false",
+        "group": "◆ OTHER OPTIONS"
     },
-    "value": "true"
-    },
-    "msg-limit": {
-    "label": "No. of Message Shown",
-    "type": "slider",
-    "name": "",
-    "value": 10,
-    "max": 999,
-    "min": 1,
-    "steps": 1
+    "message_limit": {
+        "label": "➜ No. of Message Shown",
+        "type": "slider",
+        "name": "",
+        "value": 10,
+        "max": 999,
+        "min": 1,
+        "steps": 1,
+        "group": "◆ OTHER OPTIONS"
     }
 }

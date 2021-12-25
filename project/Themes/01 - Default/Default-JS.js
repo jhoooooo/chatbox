@@ -8,10 +8,9 @@ document.addEventListener('onEventReceived', function (obj) {
     // obj will contain information about the event
     console.log(obj.detail); // OBJ Logs
 
-    //smoothscroll animation
     const smoothscroll = {smoothscroll};
-    const limitEnable = {limit-enable};
-    const msgLimit = {msg-limit};
+    const limitEnable = {enable_limit};
+    const msgLimit = {message_limit};
     const msgParent = document.querySelector('.sl__chat__layout');
 
     if (obj.detail.command === "PRIVMSG") {

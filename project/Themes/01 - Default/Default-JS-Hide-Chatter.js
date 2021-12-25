@@ -4,18 +4,20 @@ document.addEventListener('onLoad', function(obj) {
     // this will fire only once when the widget loads
 });
 
-document.addEventListener('onEventReceived', function(obj) {
+document.addEventListener('onEventReceived', function (obj) {
     // obj will contain information about the event
-  	console.log(obj.detail); // OBJ Logs
-    const botNames = ["nightbot","moobot","xanbot","deepbot","vivbot","phantombot","streamelements"];
+    console.log(obj.detail); // OBJ Logs
     const smoothscroll = {smoothscroll};
-    const limitEnable = {limit-enable};
-    const msgLimit = {msg-limit};
+    const limitEnable = {enable_limit};
+    const msgLimit = {message_limit};
     const msgParent = document.querySelector('.sl__chat__layout');
+
+    let isCommand = '';
+    const botNames = ["nightbot", "moobot", "xanbot", "deepbot", "vivbot", "phantombot", "streamelements"];
 
     if (obj.detail.command === "PRIVMSG") {
         let isCommand = obj.detail.body.charAt(0);
-        if (botNames.indexOf(obj.detail.from) == -1 && isCommand != "!"){
+        if (botNames.indexOf(obj.detail.from) == -1 && isCommand != "!") {
             if (smoothscroll == true) {
                 $('#log>div').last().hide().slideToggle(600, "easeInOutQuart");
             }
