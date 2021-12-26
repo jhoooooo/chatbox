@@ -1,164 +1,177 @@
 {
-    "font-choosen": {
+    "font_picked": {
         "label": "Font",
         "type": "fontpicker",
-        "value": ""
+        "value": "Overpass",
+        "group": "◆ BASIC OPTIONS"
     },
-    "box-spacing": {
+    "box_spacing": {
         "label": "Spacing between messages",
         "type": "slider",
         "name": "",
         "value": 5,
         "max": 15,
         "min": 2,
-        "steps": 1
+        "steps": 1,
+        "group": "◆ BASIC OPTIONS"
     },
-    "usn-size": {
-        "label": "Username Text Size",
+    "username_font_size": {
+        "label": "Username Font Size",
         "type": "slider",
         "name": "",
         "value": 14,
-        "max": 60,
+        "max": 32,
         "min": 10,
-        "steps": 1
+        "steps": 1,
+        "group": "◆ USERNAME OPTIONS"
     },
-    "usn-weight": {
-        "label": "Username Text Weight",
+    "username_font_weight": {
+        "label": "Username Font Weight (Thickness)",
         "type": "slider",
         "name": "",
         "value": 600,
         "max": 900,
         "min": 100,
-        "steps": 100
+        "steps": 100,
+        "group": "◆ USERNAME OPTIONS"
     },
-    "usn-transform": {
-        "label": "Username Text Transform",
+    "username_transform": {
+        "label": "Username Transform",
         "type": "dropdown",
         "options": {
             "none": "None",
             "uppercase": "Uppercase"
         },
-        "value": "none"
+        "value": "none",
+        "group": "◆ USERNAME OPTIONS"
     },
-    "username-text-color": {
-        "label": "Username Text Color",
+    "username_text_color": {
+        "label": "Username Color",
         "type": "colorpicker",
-        "value": "#1e1e1e"
+        "value": "#1e1e1e",
+        "group": "◆ USERNAME OPTIONS"
     },
-    "username-box-color": {
+    "username_box_background_color": {
         "label": "Username Background Color",
         "type": "colorpicker",
-        "value": "#fce2a8"
+        "value": "#fce2a8",
+        "group": "◆ USERNAME OPTIONS"
     },
-    "username-box-border": {
+    "username_box_border_color": {
+        "label": "Username Border Color",
+        "type": "colorpicker",
+        "value": "#1E1E1E",
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "username_box_border_width": {
         "label": "Username Box Border Size",
         "type": "slider",
         "name": "",
         "value": 2,
         "max": 10,
         "min": 0,
-        "steps": 1
+        "steps": 1,
+        "group": "◆ USERNAME OPTIONS"
     },
-    "msg-size": {
-        "label": "Message Text Size",
+    "username_box_border_style": {
+        "label": "Username Border Style",
+        "type": "dropdown",
+        "options": {
+            "solid": "Solid",
+            "dashed": "Dashed",
+            "dotted": "Dotted",
+            "double": "Double",
+            "groove": "Groove"
+        },
+        "value": "solid",
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "message_font_size": {
+        "label": "Message Font Size",
         "type": "slider",
         "name": "",
         "value": 14,
-        "max": 60,
+        "max": 32,
         "min": 10,
-        "steps": 1
+        "steps": 1,
+        "group": "◆ MESSAGE OPTIONS"
     },
-    "msg-weight": {
-        "label": "Message Text Weight",
+    "message_font_weight": {
+        "label": "Message Font Weight (Thickness)",
         "type": "slider",
         "name": "",
         "value": 600,
         "max": 900,
         "min": 100,
-        "steps": 100
+        "steps": 100,
+        "group": "◆ MESSAGE OPTIONS"
     },
-    "msg-transform": {
-        "label": "Message Text Transform",
+    "message_transform": {
+        "label": "Message Transform",
         "type": "dropdown",
         "options": {
             "none": "None",
             "uppercase": "Uppercase"
         },
-        "value": "none"
+        "value": "none",
+        "group": "◆ MESSAGE OPTIONS"
     },
-    "message-text-color": {
-        "label": "Username Text Color",
+    "message_text_color": {
+        "label": "Message Color",
         "type": "colorpicker",
-        "value": "#1e1e1e"
+        "value": "#1e1e1e",
+        "group": "◆ MESSAGE OPTIONS"
     },
-    "message-box-color": {
+    "message_box_background_color": {
         "label": "Message Background Color",
         "type": "colorpicker",
-        "value": "#fccba8"
+        "value": "#fccba8",
+        "group": "◆ MESSAGE OPTIONS"
     },
-    "message-box-border": {
-        "label": "Message Box Border Size",
+    "message_box_border_color": {
+        "label": "Message Border Color",
+        "type": "colorpicker",
+        "value": "#1E1E1E",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_box_border_width": {
+        "label": "Message Border Size",
         "type": "slider",
         "name": "",
         "value": 2,
         "max": 10,
         "min": 0,
-        "steps": 1
+        "steps": 1,
+        "group": "◆ MESSAGE OPTIONS"
     },
-    "smoothscroll": {
-        "label": "Smoothscroll Animation?",
+    "message_box_border_style": {
+        "label": "Message Border Style",
         "type": "dropdown",
         "options": {
-            "false": "Disable",
-            "true": "Enable"
+            "solid": "Solid",
+            "dashed": "Dashed",
+            "dotted": "Dotted",
+            "double": "Double",
+            "groove": "Groove"
         },
-        "value": "true"
-    },
-    "limit-enable": {
-        "label": "Limit Message Shown?",
-        "type": "dropdown",
-        "options": {
-            "false": "Disable",
-            "true": "Enable"
-        },
-        "value": "true"
-    },
-    "msg-limit": {
-        "label": "― No. of Message Shown",
-        "type": "slider",
-        "name": "",
-        "value": 6,
-        "max": 999,
-        "min": 1,
-        "steps": 1
-    },
-    "custom-image": {
-        "label": "Replace heart with custom image?",
-        "type": "dropdown",
-        "options": {
-            "false": "Disable",
-            "true": "Enable"
-        },
-        "value": "false"
-    },
-    "custom-image-uploaded": {
-        "label": "― Custom image",
-        "type": "image-input",
-        "value": ""
+        "value": "dotted",
+        "group": "◆ MESSAGE OPTIONS"
     },
     "animation": {
         "label": "Animation",
         "type": "dropdown",
         "options": {
-            "straight-ani": "Straight up",
-            "curve-ani": "Cubic bezier curve"
+            "straight_ani": "Straight up",
+            "curve_ani": "Cubic bezier curve"
         },
-        "value": "curve-ani"
+        "value": "curve_ani",
+        "group": "◆ BOMB OPTIONS 💖"
     },
     "trigger": {
-        "label": "Command for Heart Bomb",
+        "label": "Command for 💖 Bomb (For Owner/Mods Only)",
         "type": "textfield",
-        "value": "!love"
+        "value": "!love",
+        "group": "◆ BOMB OPTIONS 💖"
     },
     "bombCount": {
         "label": "Number of Heart Bomb",
@@ -167,6 +180,53 @@
         "value": "100",
         "max": 300,
         "min": 10,
-        "steps": 10
+        "steps": 10,
+        "group": "◆ BOMB OPTIONS 💖"
+    },
+    "custom_image": {
+        "label": "Replace 💖 with custom image?",
+        "type": "dropdown",
+        "options": {
+            "false": "False",
+            "true": "True"
+        },
+        "value": "false",
+        "group": "◆ BOMB OPTIONS 💖"
+    },
+    "custom_image_uploaded": {
+        "label": "➜ Custom image",
+        "type": "image-input",
+        "value": "",
+        "group": "◆ BOMB OPTIONS 💖"
+    },
+    "smoothscroll": {
+        "label": "Enable Smoothscroll Animation?",
+        "type": "dropdown",
+        "options": {
+            "false": "False",
+            "true": "True"
+        },
+        "value": "true",
+        "group": "◆ OTHER OPTIONS"
+    },
+    "enable_limit": {
+        "label": "Enable Limit Message Shown?",
+        "type": "dropdown",
+        "options": {
+            "false": "False",
+            "true": "True"
+        },
+        "value": "false",
+        "group": "◆ OTHER OPTIONS"
+    },
+    "message_limit": {
+        "label": "➜ No. of Message Shown",
+        "type": "slider",
+        "name": "",
+        "value": 6,
+        "max": 200,
+        "min": 1,
+        "steps": 1,
+        "group": "◆ OTHER OPTIONS"
     }
 }

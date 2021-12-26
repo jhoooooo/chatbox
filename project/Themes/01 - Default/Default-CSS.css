@@ -69,11 +69,12 @@ div#custom_html {
 
 .name {
     color: {name_color};
-    font-weight: 900;
+    font-weight: {name_weight};
 }
 
 .message {
     color: {message_color};
+    font-weight: {message_weight};
 }
 
 .badges {

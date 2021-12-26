@@ -8,14 +8,13 @@ document.addEventListener('onEventReceived', function(obj) {
     // obj will contain information about the event
     console.log(obj.detail); // OBJ Logs
 
-    //smoothscroll animation
     const smoothscroll = {smoothscroll};
 
-    if (obj.detail.command === "PRIVMSG") { // Prevent animation for ping events - Curtis Geiger
+    if (obj.detail.command === "PRIVMSG") {
 
         //smoothscroll
         if (smoothscroll == true) {
-            $('#log>div').last().hide().slideToggle(600, "easeInOutQuart"); //New animation code
+            $('#log>div').last().hide().slideToggle(600, "easeInOutQuart");
         }
 
         function bomb(){
@@ -28,11 +27,11 @@ document.addEventListener('onEventReceived', function(obj) {
             var size = randomNumber(15, 50);
             var heartsId = randomNumber(100, 50000);
             let defaultImage = "";
-            const customImage = {custom-image};
+            const customImage = {custom_image};
             let heartsAni = "{animation}";
 
             if(customImage == true) {
-                defaultImage = "{custom-image-uploaded}";
+                defaultImage = "{custom_image_uploaded}";
             } else {
                 defaultImage = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxOCI+PHJlY3QgaWQ9ImJhY2tncm91bmRyZWN0IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4PSIwIiB5PSIwIiBmaWxsPSJub25lIiBzdHJva2U9Im5vbmUiIGNsYXNzPSIiIHN0eWxlPSIiLz4KCQo8ZyBjbGFzcz0iY3VycmVudExheWVyIiBzdHlsZT0iIj48dGl0bGU+TGF5ZXIgMTwvdGl0bGU+PHBhdGggZmlsbD0iI2U1NmQ0MiIgZD0iTTEwLjAwMDAwMTgzMDIxMjI4OCwxNy41NTA1MTQ5NzQwNTk2MSBsLTEuMzUxMzA3NDcxMTA1NzQ0LC0xLjIzMDE1NTc2Njc5OTcxMTggYy00Ljc5OTQ3MTM2Mjg5MjgxNSwtNC4zNTIxNDE5OTMxNDc0NjUgLTcuOTY4MDU0Mzk4NTg5MDQzLC03LjIyMjUwNTQ0OTAxMzQ1OSAtNy45NjgwNTQzOTg1ODkwNDMsLTEwLjc0NTIyNDIzNTc1ODA4NyBjMCwtMi44NzAzNjM0NTU4NjU5OTQ1IDIuMjU1Mjg1NTcyNDY2MTM4LC01LjEyNTY0OTAyODMzMjEzMiA1LjEyNTY0OTAyODMzMjEzMiwtNS4xMjU2NDkwMjgzMzIxMzIgYzEuNjIxNTY4OTY1MzI2ODkzOSwwIDMuMTc3OTAyMzk3NTY1OTIyNCwwLjc1NDg2ODMxMTQ0NTI3NzMgNC4xOTM3MTI4NDEzNjI2NTQsMS45NDc3NDY2MzA3NjYyMTA0IGMxLjAxNTgxMDQ0Mzc5NjczMTUsLTEuMTkyODc4MzE5MzIwOTMyNSAyLjU3MjE0Mzg3NjAzNTc2MTMsLTEuOTQ3NzQ2NjMwNzY2MjEwNCA0LjE5MzcxMjg0MTM2MjY1NCwtMS45NDc3NDY2MzA3NjYyMTA0IGMyLjg3MDM2MzQ1NTg2NTk5NDUsMCA1LjEyNTY0OTAyODMzMjEzMiwyLjI1NTI4NTU3MjQ2NjEzOCA1LjEyNTY0OTAyODMzMjEzMiw1LjEyNTY0OTAyODMzMjEzMiBjMCwzLjUyMjcxODc4Njc0NDYyOTIgLTMuMTY4NTgzMDM1Njk2MjI3Miw2LjM5MzA4MjI0MjYxMDYyNCAtNy45NjgwNTQzOTg1ODkwNDMsMTAuNzU0NTQzNTk3NjI3NzgyIGwtMS4zNTEzMDc0NzExMDU3NDQsMS4yMjA4MzY0MDQ5MzAwMTY5IHoiIGlkPSJzdmdfMSIgY2xhc3M9IiIgZmlsbC1vcGFjaXR5PSIxIiBzdHJva2U9IiMyNDI0MjQiIHN0cm9rZS1vcGFjaXR5PSIxIi8+PC9nPjwvc3ZnPg==";
             }
@@ -57,8 +56,8 @@ document.addEventListener('onEventReceived', function(obj) {
         }
     }
     // Limit message shown
-    const limitEnable = {limit-enable};
-    const msgLimit = {msg-limit};
+    const limitEnable = {enable_limit};
+    const msgLimit = {message_limit};
     const msgParent = document.querySelector('.sl__chat__layout');
 
     if (limitEnable == true) {

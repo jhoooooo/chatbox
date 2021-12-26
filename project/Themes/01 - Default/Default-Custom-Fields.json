@@ -1,8 +1,8 @@
 {
-    "font-picked": {
+    "font_picked": {
         "label": "Font",
         "type": "fontpicker",
-        "value": "Open Sans",
+        "value": "Overpass",
         "group": "◆ BASIC OPTIONS"
     },
     "font_size": {
@@ -84,10 +84,30 @@
         "value": "#F1EEED",
         "group": "◆ MESSAGE OPTIONS"
     },
+    "name_weight": {
+        "label": "Name Weight (Thickness)",
+        "type": "slider",
+        "name": "",
+        "value": "0",
+        "max": 900,
+        "min": 100,
+        "steps": 100,
+        "group": "◆ MESSAGE OPTIONS"
+    },
     "message_color": {
         "label": "Message Color",
         "type": "colorpicker",
         "value": "#F1EEED",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_weight": {
+        "label": "Message Weight (Thickness)",
+        "type": "slider",
+        "name": "",
+        "value": "0",
+        "max": 900,
+        "min": 100,
+        "steps": 100,
         "group": "◆ MESSAGE OPTIONS"
     },
     "message_border_style": {
