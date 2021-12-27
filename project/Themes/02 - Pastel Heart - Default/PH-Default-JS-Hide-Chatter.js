@@ -44,22 +44,22 @@ document.addEventListener('onEventReceived', function(obj) {
         if (botNames.indexOf(obj.detail.from) == -1 && isCommand != "!"){
             //smoothscroll
             if (smoothscroll == true) {
-                $('#log>div').last().hide().slideToggle(600, "easeInOutQuart"); //New animation code
+                $('#log>div').last().hide().slideToggle(600, "easeInOutQuart");
             }
-            bomb(); //function called
+            bomb();
         }
 
-        const messageBody = obj.detail.body; //message body
-        let triggerWord = "{trigger}"; //custom field parameter. put text input there so easy for user to update.
+        const messageBody = obj.detail.body;
+        let triggerWord = "{trigger}";
         let bombCount = {bombCount};
-        if (obj.detail.tags.mod == "1" || obj.detail.owner == "1" ){ //detect if mod/streamer
+        if (obj.detail.tags.mod == "1" || obj.detail.owner == "1" ){
             if(messageBody.includes(triggerWord)){
-                (function delayBomb(i) { //function to ensure multiple popup don't stack.
+                (function delayBomb(i) {
                     setTimeout(function() {
-                    bomb(); //the heart popup function
+                    bomb();
                     if (--i) delayBomb(i);
-                    }, 100) //delay
-                })(bombCount);  //no of loop (hearts popup)
+                    }, 100)
+                })(bombCount);
             }
         }
     }
