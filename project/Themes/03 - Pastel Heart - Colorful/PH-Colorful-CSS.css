@@ -1,12 +1,9 @@
 /*
-- Pastel Hearts - Default
-- Last Update: 15 September 2021
-- https://github.com/jhoooooo/streamlabs-chat/
-- https://twitter.com/jhooo_o
+- Pastel Hearts - Colorful
+- Last Update: 27 December 2021
 */
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css?family={font-choosen}');
+@import url('https://fonts.googleapis.com/css?family={font_picked}');
 
 * {
     box-sizing: border-box;
@@ -18,7 +15,7 @@ html, body {
 }
 
 body {
-    font-family: '{font-choosen}', 'JetBrains Mono', 'Helvetica Neue', sans-serif;
+    font-family: '{font_picked}', 'Helvetica Neue', sans-serif;
     line-height: 1.5em;
 }
 
@@ -40,7 +37,7 @@ body {
 }
 
 #log>div {
-    margin-bottom: {box-spacing}px;
+    margin-bottom: {box_spacing}px;
     animation: fadeOut 0.5s ease {message_hide_delay} forwards;
     -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
 }
@@ -64,29 +61,29 @@ body {
     margin-left: 5px;
 }
 
-.username-box {
-    background-color: {username-box-color};
+.username_box {
+    background-color: {username_box_background_color};
     margin-bottom: -10px;
     display: inline-block;
-    border: {username-box-border}px solid #1E1E1E;
+    border: {username_box_border_size}px {username_border_style} #1E1E1E;
     border-radius: 0px 8px 8px 8px;
     z-index: 1; /* cause position relative @ .message-box */
 }
 
 .name {
     display: inline-block;
-    color: {username-text-color};
-    font-weight: {usn-weight};
+    color: {username_text_color};
+    font-weight: {username_font_weight};
     letter-spacing: 1px;
-    text-transform: {usn-transform};
+    text-transform: {username_transform};
     padding: 2px 8px 2px 4px;
-    font-size: {usn-size}px;
+    font-size: {username_font_size}px;
 }
 
-.message-box {
-    border: {message-box-border}px solid #1E1E1E;
+.message_box {
+    border: {message_box_border_size}px {message_border_style} #1E1E1E;
     padding-top: 5px;
-    background-color: {message-box-color};
+    background-color: {message_box_background_color};
     border-radius: 0px 8px 8px 8px;
     position: relative;
     z-index: -1;
@@ -94,14 +91,14 @@ body {
 
 .message {
     display: block;
-    color: {message-text-color};
+    color: {message_text_color};
     letter-spacing: 0.9px;
-    text-transform: {msg-transform};
+    text-transform: {message_transform};
     margin-left: 5px;
     padding: 6px 6px ;
     word-wrap: break-word;
-    font-size: {msg-size}px;
-    font-weight: {msg-weight};
+    font-size: {message_font_size}px;
+    font-weight: {message_font_weight};
 }
 
 #log .emote {
@@ -122,12 +119,12 @@ body {
     position: absolute;
 }
 
-.curve-ani {
+.curve_ani {
     animation: 3s linear 0s 1 normal forwards running curve;
     -webkit-animation: 3s linear 0s 1 normal forwards running curve;
 }
 
-.straight-ani {
+.straight_ani {
     animation: 3s ease-in-out 0s 1 normal forwards running straight;
     -webkit-animation: 3s ease-in-out 0s 1 normal forwards running straight;
 }
