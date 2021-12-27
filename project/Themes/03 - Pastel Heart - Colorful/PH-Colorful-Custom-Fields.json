@@ -68,7 +68,7 @@
         "group": "◆ USERNAME OPTIONS"
     },
     "username_border_style": {
-        "label": "USername Border Style",
+        "label": "Username Border Style",
         "type": "dropdown",
         "options": {
             "solid": "Solid",
