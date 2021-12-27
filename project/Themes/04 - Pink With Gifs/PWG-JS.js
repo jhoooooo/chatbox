@@ -12,13 +12,13 @@ document.addEventListener('onEventReceived', function(obj) {
     //smoothscroll animation
     const smoothscroll = {smoothscroll};
 
-    if (obj.detail.command === "PRIVMSG") { // Prevent animation for ping events - Curtis Geiger
+    if (obj.detail.command === "PRIVMSG") {
         if (smoothscroll == true) {
-            $('#log>div').last().hide().slideToggle(600, "easeInOutQuart"); //New animation code
+            $('#log>div').last().hide().slideToggle(600, "easeInOutQuart");
         }
         // Limit message shown
-        const limitEnable = {limit-enable};
-        const msgLimit = {msg-limit};
+        const limitEnable = {enable_limit};
+        const msgLimit = {message_limit};
         const msgParent = document.querySelector('.sl__chat__layout');
 
         if (limitEnable == true) {

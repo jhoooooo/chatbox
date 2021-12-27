@@ -1,12 +1,9 @@
 /*
 - Pink With Gifs
-- Last Update: 15 September 2021
-- https://github.com/jhoooooo/streamlabs-chat/
-- https://twitter.com/jhooo_o
+- Last Update: 28 December 2021
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family={font-choosen}');
+@import url('https://fonts.googleapis.com/css?family={font_picked}');
 
 * {
   box-sizing: border-box;
@@ -18,7 +15,7 @@ html, body {
 }
 
 body {
-  font-family: '{font-choosen}', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: '{font_picked}', 'Helvetica Neue', sans-serif;
   line-height: 1.5em;
 }
 
@@ -40,7 +37,7 @@ body {
 }
 
 #log>div {
-  margin-bottom: {box-spacing}px;
+  margin-bottom: {box_spacing}px;
   animation: fadeOut 0.5s ease {message_hide_delay} forwards;
   -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
 }
@@ -64,38 +61,38 @@ body {
     margin-left: 5px;
 }
 
-.username-box {
-  background-color: {first-bg-color};
+.username_box {
+  background-color: {username_background_color};
   margin-left: 5px;
   margin-bottom: -10px;
   display: inline-block;
-  border: {username-box-border}px solid {username-box-border-color};
-  border-radius: 10px 10px 10px 10px;
+  border: {username_border_width}px {username_border_style} {username_border_color};
+  border-radius: {username_border_radius}px;
   z-index: 1; /* cause position relative @ .message-box */
 }
 
 .name {
   display: inline-block;
-  color: {first-color};
-  font-weight: {usn-weight};
+  color: {username_text_color};
+  font-size: {username_font_size}px;
+  font-weight: {username_font_weight};
   letter-spacing: 1px;
-  text-transform: {usn-transform};
+  text-transform: {username_transform};
   padding: 2px 8px ;
-  font-size: {usn-size}px;
 }
 
-.message-box {
-  border: {message-box-border}px solid {message-box-border-color};
+.message_box {
+  border: {message_border_width}px {message_border_style} {message_border_color};
   padding-top: 5px;
-  background-color: {message-box-color}; /* sec color #83af9b */
-  border-radius: 10px 10px 10px 10px;
+  background-color: {message_background_color};
+  border-radius: {message_border_radius}px;
   position: relative;
   z-index: -1; /* cause position relative */
 }
 
-.message-box::after {
+.message_box::after {
   content: "";
-  background: url({image-upload}) no-repeat; /* gifs image */
+  background: url({image_upload}) no-repeat;
   background-size: contain;
   height: 30px;
   width: 30px;
@@ -106,14 +103,14 @@ body {
 
 .message {
   display: block;
-  color: {sec-color};
+  color: {message_text_color};
   letter-spacing: 0.9px;
-  text-transform: {msg-transform};
+  text-transform: {message_transform};
   margin-left: 5px;
   padding: 6px 6px ;
   word-wrap: break-word;
-  font-size: {msg-size}px;
-  font-weight: {msg-weight};
+  font-size: {message_font_size}px;
+  font-weight: {message_font_weight};
 }
 
 #log .emote {

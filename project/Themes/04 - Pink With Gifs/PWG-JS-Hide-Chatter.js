@@ -11,20 +11,18 @@ document.addEventListener('onEventReceived', function (obj) {
     //smoothscroll animation
     const smoothscroll = {smoothscroll};
     // Limit message shown
-    const limitEnable = {limit-enable};
-    const msgLimit = {msg-limit};
+    const limitEnable = {enable_limit};
+    const msgLimit = {message_limit};
     const msgParent = document.querySelector('.sl__chat__layout');
 
-    // Variables for Bot and Command check. This follows streamlabs' way of doing it.
-    let isCommand = '';
     const botNames = ["nightbot", "moobot", "xanbot", "deepbot", "vivbot", "phantombot", "streamelements"];
 
     if (obj.detail.command === "PRIVMSG") {
         // bot detection
         let isCommand = obj.detail.body.charAt(0);
-        if (botNames.indexOf(obj.detail.from) == -1 && isCommand != "!") { // Prevent animation if bot
+        if (botNames.indexOf(obj.detail.from) == -1 && isCommand != "!") {
             if (smoothscroll == true) {
-                $('#log>div').last().hide().slideToggle(600, "easeInOutQuart"); //New animation code
+                $('#log>div').last().hide().slideToggle(600, "easeInOutQuart");
             }
         }
         // Message limit
