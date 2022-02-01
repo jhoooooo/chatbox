@@ -19,7 +19,8 @@ document.addEventListener('onEventReceived', function (obj) {
             $(".message-box").last().addClass("special");
         }
     }
-    if (obj.detail.command === "CLEARCHAT") {
+    // clear whole chat but not /timeout /ban
+    if (obj.detail.command === "CLEARCHAT" && typeof obj.detail.body == "undefined") {
         $('#log').empty();
     }
 });

@@ -65,7 +65,8 @@ document.addEventListener('onEventReceived', function(obj) {
             $('#log>div').not($('#log>div').slice(-msgLimit)).fadeOut();
         }
     }
-    if (obj.detail.command === "CLEARCHAT") {
+    // clear whole chat but not /timeout /ban
+    if (obj.detail.command === "CLEARCHAT" && typeof obj.detail.body == "undefined") {
         $('#log').empty();
     }
 });
