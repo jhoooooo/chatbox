@@ -9,7 +9,7 @@ document.addEventListener('onEventReceived', function(obj) {
     console.log(obj.detail); // OBJ Logs
 
     // clear whole chat but not /timeout /ban
-    if (obj.detail.command === "CLEARCHAT" && typeof obj.detail.body == "undefined") {
+    if (obj.detail.command === "CLEARCHAT" && typeof obj.detail.body === "undefined") {
         $('#log').empty();
     }
 

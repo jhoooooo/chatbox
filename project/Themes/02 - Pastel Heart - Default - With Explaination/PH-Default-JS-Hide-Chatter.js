@@ -1,3 +1,4 @@
+//! mostly same comment/explaination as default js. refer there if needed. only bot detection part is commented here.
 // Please use event listeners to run functions.
 document.addEventListener('onLoad', function(obj) {
     // obj will be empty for chat widget
@@ -16,7 +17,7 @@ document.addEventListener('onEventReceived', function(obj) {
     //smoothscroll animation
     const smoothscroll = {smoothscroll};
     let isCommand = '';
-    const botNames = ["nightbot","moobot","xanbot","deepbot","vivbot","phantombot","streamelements"];
+    const botNames = ["nightbot","moobot","xanbot","deepbot","vivbot","phantombot","streamelements"]; //bot names
 
     if (obj.detail.command === "PRIVMSG") {
         function bomb(){
@@ -41,8 +42,10 @@ document.addEventListener('onEventReceived', function(obj) {
             setTimeout(function () { $(`.hearts-${heartsId}`).remove(); }, 3000);
         }
 
-        let isCommand = obj.detail.body.charAt(0);
+        //!bot detection part
+        let isCommand = obj.detail.body.charAt(0); //detect ! by querying first letter of message body. same method as SLOBS
         if (botNames.indexOf(obj.detail.from) == -1 && isCommand != "!"){
+            //if username matched bot name list, don't run smoothscroll animation
             //smoothscroll
             if (smoothscroll == true) {
                 $('#log>div').last().hide().slideToggle(600, "easeInOutQuart");

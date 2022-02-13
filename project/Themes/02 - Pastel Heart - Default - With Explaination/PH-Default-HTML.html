@@ -1,0 +1,19 @@
+<!-- item will be appened to this layout -->
+<div id="log" class="sl__chat__layout">
+</div>
+<!-- {from}, {messageId} and {message} are populated by SLOBS automaticly. They parse the emote automaticly. You can append all these data manually in js but have to parse emote yourself if you do so. -->
+<!-- chat item -->
+<script type="text/template" id="chatlist_item">
+  <div class="wrapper" data-from="{from}" data-id="{messageId}">
+
+    <div class="meta">
+      <div class="username_box">
+        <span class="badges"></span><span class="name">{from}</span>
+      </div>
+    </div>
+
+    <div class="message_box">
+    <span class="message">{message}</span>
+    </div>
+  </div>
+</script>

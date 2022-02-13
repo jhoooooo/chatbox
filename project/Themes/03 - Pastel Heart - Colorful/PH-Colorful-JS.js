@@ -80,7 +80,7 @@ document.addEventListener('onEventReceived', function(obj) {
         }
     }
     // clear whole chat but not /timeout /ban
-    if (obj.detail.command === "CLEARCHAT" && typeof obj.detail.body == "undefined") {
+    if (obj.detail.command === "CLEARCHAT" && typeof obj.detail.body === "undefined") {
         $('#log').empty();
     }
 });
