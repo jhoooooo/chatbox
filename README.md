@@ -11,8 +11,6 @@ Video above: Pink with Gifs theme.
 ## Contributor
 * [Curtis Geiger](https://github.com/curtissimo41)
 
-## Support Me
-[Kofi](https://ko-fi.com/jhooo)
 
 ## License
 Copyright (c) Jho. All rights reserved.
