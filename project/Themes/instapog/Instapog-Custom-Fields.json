@@ -1,0 +1,212 @@
+{
+    "font_picked": {
+        "label": "Font",
+        "type": "fontpicker",
+        "value": "Overpass",
+        "group": "◆ BASIC OPTIONS"
+    },
+    "box_spacing": {
+        "label": "Spacing between messages",
+        "type": "slider",
+        "name": "",
+        "value": 5,
+        "max": 15,
+        "min": 2,
+        "steps": 1,
+        "group": "◆ BASIC OPTIONS"
+    },
+    "display_badges": {
+        "label": "Display badges?",
+        "type": "dropdown",
+        "options": {
+            "none": "None",
+            "inline-block": "Yes"
+        },
+        "value": "none",
+        "group": "◆ BADGES OPTIONS"
+    },
+    "username_font_size": {
+        "label": "Username Font Size",
+        "type": "slider",
+        "name": "",
+        "value": 14,
+        "max": 22,
+        "min": 10,
+        "steps": 1,
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "username_font_weight": {
+        "label": "Username Font Weight (Thickness)",
+        "type": "slider",
+        "name": "",
+        "value": 600,
+        "max": 900,
+        "min": 100,
+        "steps": 100,
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "username_transform": {
+        "label": "Username Transform",
+        "type": "dropdown",
+        "options": {
+            "none": "None",
+            "uppercase": "Uppercase"
+        },
+        "value": "none",
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "username_text_color": {
+        "label": "Username Color",
+        "type": "colorpicker",
+        "value": "#ffffff",
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "username_box_background_color": {
+        "label": "Username Background Color",
+        "type": "colorpicker",
+        "value": "#00000000",
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "username_box_border_color": {
+        "label": "Username Border Color",
+        "type": "colorpicker",
+        "value": "#00000000",
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "username_box_border_width": {
+        "label": "Username Box Border Size",
+        "type": "slider",
+        "name": "",
+        "value": 0,
+        "max": 10,
+        "min": 0,
+        "steps": 1,
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "username_box_border_style": {
+        "label": "Username Border Style",
+        "type": "dropdown",
+        "options": {
+            "solid": "Solid",
+            "dashed": "Dashed",
+            "dotted": "Dotted",
+            "double": "Double",
+            "groove": "Groove"
+        },
+        "value": "solid",
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "message_font_size": {
+        "label": "Message Font Size",
+        "type": "slider",
+        "name": "",
+        "value": 14,
+        "max": 32,
+        "min": 10,
+        "steps": 1,
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_font_weight": {
+        "label": "Message Font Weight (Thickness)",
+        "type": "slider",
+        "name": "",
+        "value": 400,
+        "max": 900,
+        "min": 100,
+        "steps": 100,
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_transform": {
+        "label": "Message Transform",
+        "type": "dropdown",
+        "options": {
+            "none": "None",
+            "uppercase": "Uppercase"
+        },
+        "value": "none",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_text_color": {
+        "label": "Message Color",
+        "type": "colorpicker",
+        "value": "#ffffff90",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_box_background_color": {
+        "label": "Message Background Color",
+        "type": "colorpicker",
+        "value": "#00000000",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_box_border_color": {
+        "label": "Message Border Color",
+        "type": "colorpicker",
+        "value": "#00000000",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_box_border_width": {
+        "label": "Message Border Size",
+        "type": "slider",
+        "name": "",
+        "value": 0,
+        "max": 10,
+        "min": 0,
+        "steps": 1,
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_box_border_style": {
+        "label": "Message Border Style",
+        "type": "dropdown",
+        "options": {
+            "solid": "Solid",
+            "dashed": "Dashed",
+            "dotted": "Dotted",
+            "double": "Double",
+            "groove": "Groove"
+        },
+        "value": "dotted",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "heart_default_color": {
+        "label": "Default Heart Color",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+        "group": "◆ Heart OPTIONS"
+    },
+    "heart_subscriber_color": {
+        "label": "Subscriber Heart Color",
+        "type": "colorpicker",
+        "value": "#ff0000",
+        "group": "◆ Heart OPTIONS"
+    },
+    "smoothscroll": {
+        "label": "Enable Smoothscroll Animation?",
+        "type": "dropdown",
+        "options": {
+            "false": "False",
+            "true": "True"
+        },
+        "value": "true",
+        "group": "◆ OTHER OPTIONS"
+    },
+    "enable_limit": {
+        "label": "Enable Limit Message Shown?",
+        "type": "dropdown",
+        "options": {
+            "false": "False",
+            "true": "True"
+        },
+        "value": "false",
+        "group": "◆ OTHER OPTIONS"
+    },
+    "message_limit": {
+        "label": "➜ No. of Message Shown",
+        "type": "slider",
+        "name": "",
+        "value": 6,
+        "max": 200,
+        "min": 1,
+        "steps": 1,
+        "group": "◆ OTHER OPTIONS"
+    }
+}
