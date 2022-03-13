@@ -129,7 +129,16 @@ body {
 
 
 .border-twitter {
-    border-color: #1DA1F240;
+    border-color: #1a212540;
+    border-style: solid;
+}
+
+.bg-license {
+    background-color: #6a91a830;
+}
+
+.border-license {
+    border-color: #10121340;
     border-style: solid;
 }
 
