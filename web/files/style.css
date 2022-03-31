@@ -16,6 +16,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.index-container {
+    height: 100%;
+}
+
 /* content */
 .content {
     max-width: 950px;
@@ -232,4 +236,30 @@ div.highlight button:hover {
 .jscolor {
     border-radius: 4px;
     border: 0px;
+}
+
+/* colors */
+
+.streamlabs {
+    background-color: #80f5d2;
+    color: #212529;
+    border: 1px solid #212529;
+}
+
+.streamlabs:hover {
+    background-color: #212529;
+    color: #80f5d2;
+    border: 1px solid #80f5d2;
+}
+
+.streamelements {
+    background-color: #020923;
+    color: #ebebeb;
+    border: 1px solid #020923;
+}
+
+.streamelements:hover {
+    background-color: #ebebeb;
+    color: #020923;
+    border: #020923 1px solid;
 }
