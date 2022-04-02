@@ -26,8 +26,8 @@ body {
     max-width: 950px;
 }
 
-.btn-kofi:hover {
-    opacity: 0.9;
+.index {
+    font-size: 1.5rem;
 }
 
 /* Tags CSS */
@@ -242,25 +242,29 @@ div.highlight button:hover {
 /* colors */
 
 .streamlabs {
-    background-color: #212529;
+    background-color: #17242d;
     color: #80f5d2;
-    border: 1px solid #212529;
+    border: 1px solid #17242d;
+    font-weight: 600;
 }
 
 .streamlabs:hover {
-    background-color: #393d41;
+    background-color: #22313b;
     color: #80f5d2;
-    border: 1px solid #212529;
+    border: 1px solid #22313b;
+    font-weight: 600;
 }
 
 .streamelements {
     background-color: #020923;
-    color: #ebebeb;
+    color: #5684FD;
     border: 1px solid #020923;
+    font-weight: 600;
 }
 
 .streamelements:hover {
     background-color: #0a153b;
-    color: #ebebeb;
-    border: 1px solid #020923;
+    color: #5684FD;
+    border: 1px solid #0a153b;
+    font-weight: 600;
 }
