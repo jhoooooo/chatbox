@@ -1,4 +1,4 @@
-Open https://jhoooooo.github.io/streamlabs-chat/ on your web browser for instruction.
+Open https://jhoooooo.github.io/chatbox/ on your web browser for instruction.
 
 -----
 Each file in the theme folder can be open with notepad (right click > open with > notepad).

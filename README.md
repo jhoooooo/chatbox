@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/65335648/118496278-8d434a80-b756-11eb-
 Video above: Pink with Gifs theme.
 
 ## Download
-- [Download](https://jhoooooo.github.io/streamlabs-chat/)
+- [Download](https://jhoooooo.github.io/chatbox/)
 
 ## Contributor
 * [Curtis Geiger](https://github.com/curtissimo41)
@@ -15,4 +15,4 @@ Video above: Pink with Gifs theme.
 ## License
 Copyright (c) Jho. All rights reserved.
 
-Licensed under the [MIT license](https://github.com/metadotmy/streamlabs-chat/blob/master/LICENSE)
+Licensed under the [MIT license](https://github.com/metadotmy/chatbox/blob/master/LICENSE)
