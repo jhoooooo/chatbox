@@ -1,4 +1,3 @@
-// Code in Jquery cause SLOBS already added those in so why not, make the smoothscroll animation easier to do. I'm not a dev/ haven't even finish learning js on my own so idk what i'm doing most of the time lol.
 // Please use event listeners to run functions.
 document.addEventListener('onLoad', function(obj) {
     // obj will be empty for chat widget
@@ -35,7 +34,7 @@ document.addEventListener('onEventReceived', function(obj) {
             let defaultColor = '{heart_default_color}';
             let subscriberColor = '{heart_subscriber_color}';
 
-            if (obj.detail.tags.subscriber == "1" ){ //detect if mod/streamer. "obj.detail.
+            if (obj.detail.tags.subscriber == "1" ){ 
                 $("#custom_html").append('<span class="hearts' + ` hearts-${heartsId}` + ` ${heartsAni}"` + 'style="position: absolute; bottom:' + bottom + 'px; left:' + left + '%;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -4 24 24" width="' + size + '" fill="' + subscriberColor + '"><path d="M9.293 1.55l.707.708.707-.707a5 5 0 1 1 7.071 7.071l-7.07 7.071a1 1 0 0 1-1.415 0L2.222 8.622a5 5 0 1 1 7.07-7.071z"></path></svg></span>'); //append heart to chat container
                 setTimeout(function () { $(`.hearts-${heartsId}`).remove(); }, 3000);
             }
