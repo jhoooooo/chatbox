@@ -38,25 +38,27 @@
     <div class="d-flex" id="wrapper">
         <!-- Content -->
         <div id="content" class="content container-fluid pt-4 p-md-5">
+            <div class="border-bottom">
+            <h1 id="introduction" class="fw-bold">Streamlabs Chat Box Overlay Installation Guide</h1>
+            </div>
             <!-- Section Title -->
             <div class="p-1 mb-2 rounded-3">
                 <div class="container-fluid">
-                    <h1 id="introduction" class="fw-bolder">Installation Guide</h1>
                     <!-- Tags -->
                 <div class="tags mt-2">
                     <span class="tag text-white">Last Update</span>
                     <span class="tag text-white">13 March 2022</span>
                 </div>
+                
                 <!-- Tags End -->
-                <small class="text-muted my-2">This installation guide is for Streamlabs web dashboard, not Streamlabs Desktop (SLOBS).</small>
+                <small class="text-muted my-2">This installation guide is for Streamlabs web dashboard, not Streamlabs Desktop (SLOBS) application.</small>
 
                 <div class="my-2 alert bg-recommended text-recommended border-recommended alert-dismissible fade show" role="alert">
                     <i class="bi bi-exclamation-triangle-fill me-1"></i>Each themes might have different options. Not all steps are required or applicable to each themes.
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
 
-                <script src="https://gumroad.com/js/gumroad.js"></script>
-                <a class="gumroad-button" href="https://jhoo.gumroad.com/l/jxzKbA?wanted=true">Download on</a>
+
 
                 </div>
             </div>
@@ -111,9 +113,9 @@
                     <ol class="list py-3">
                         <li>After enabling Custom HTML/CSS, new field should appear like the image shown below.</li>
                         <img src="web/images/streamlabs_01.png" class="img-fluid rounded mx-auto d-block m-2" alt="...">
-                        <li>You can now open the theme files (<i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">HTML, CSS, JS & Custom-Field</span>).</li>
-                        <li>Click on each tab and replace the content with their respective code. <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">HTML</span> on the HTML tab, <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">CSS</span> on CSS tab and so on.</li>
-                        <li>For <strong>Custom Fields</strong>, if it is your first time, you have to click on <kbd>Add Custom Fields</kbd> > <kbd>Edit Custom Fields</kbd> > paste the code in and then click <kbd>Update</kbd>.</li>
+                        <li>You can now open/extract the zip file. It contains the codes needed (<i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">HTML, CSS, JS & Custom-Field</span>). These files can be open using notepad.</li>
+                        <li>On the widget page, click on each tab and replace the content with their respective code. <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">HTML</span> on the HTML tab, <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">CSS</span> on CSS tab and so on.</li>
+                        <li>For <strong>Custom Fields</strong>, if it is your first time editing it, you have to click on <kbd>Add Custom Fields</kbd> > <kbd>Edit Custom Fields</kbd> > paste the code in and then click <kbd>Update</kbd>.</li>
                         <li>The Custom Fields tab should now look like the example shown below.</li>
                         <img src="web/images/streamlabs_02.png" class="img-fluid rounded mx-auto d-block m-2" alt="...">
                         <li>You can modify each options in Custom Fields tab to customize your chatbox visual.</li>
@@ -126,6 +128,18 @@
                             <div class="card-body text-center py-2">
                                 <input class="jscolor border-recommended" value="#3399FF80" data-jscolor="{preset:'dark',}">
                             </div>
+                        </div>
+                        <div class="card m-2 bg-recommended text-dark">
+                            <div class="card-header">
+                                <i class="bi bi-brightness-high-fill text-recommended"></i>
+                                <span class="fw-bold">Tips:</span>
+                                <span>Don't just randomly choose a color. It is recommended to have a set of color palette for your whole stream overlay. And then match those while making this chat box so that they compliment each other.</span>
+                                <ul>
+                                    <li><a href="https://www.happyhues.co/" title="Happy Hue" class="text-decoration-none" target="_blank">Happy Hue Palettes</a></li>
+                                    <li><a href="https://coolors.co/palettes/trending" title="Coolors" class="text-decoration-none" target="_blank">Coolors Palettes Generators</a></li>
+                                </ul>
+                            </div>
+                            
                         </div>
                         <li>Click <kbd>Save Settings</kbd> to save your theme.</li>
                         <li>Finally, you can copy the widget url located on top of the page and use it as browser source in your OBS.</li>
@@ -170,12 +184,12 @@
             <div id="footer">
                 <div class="card m-2">
                     <div class="card-body py-2 bg-twitter border-twitter border-1 rounded">
-                        <span><i class="bi bi-twitter mx-1 text-twitter"></i>Please report any issues, help needed, questions on Twitter <a href="https://twitter.com/jhooo_o" title="https://twitter.com/jhooo_o" class="text-decoration-none" target="_blank">@jhooo_o</a>.</span>
+                        <span><i class="bi bi-twitter mx-1 text-twitter"></i>Please report any issues, help needed, questions on Twitter <a href="https://twitter.com/messages/compose?recipient_id=921976194953650176&text=Hi!" title="https://twitter.com/jhooo_o" class="text-decoration-none" target="_blank">@jhooo_o</a>.</span>
                     </div>
                 </div> 
                 <div class="card m-2">
                     <div class="card-body py-2 bg-license border-license border-1 rounded">
-                        <span><i class="bi bi-info-circle-fill mx-1 "></i><a href="https://github.com/jhoooooo/streamlabs-chat/blob/master/LICENSE" title="https://github.com/jhoooooo/streamlabs-chat/blob/master/LICENSE" class="text-decoration-none" target="_blank">MIT License</a>. You can use, copy, modify, merge, publish, distribute, sublicense, sell and/or be happy. Streamelements version are not on Github but share the same license.</span>
+                        <span><i class="bi bi-info-circle-fill mx-1 "></i><a href="https://github.com/jhoooooo/streamlabs-chat/blob/master/LICENSE" title="https://github.com/jhoooooo/streamlabs-chat/blob/master/LICENSE" class="text-decoration-none" target="_blank">MIT License</a>. You can use, copy, be happy, modify, merge, publish, distribute, sublicense, and/or sell. Streamelements version are not on Github but share the same license.</span>
                     </div>
                 </div> 
                 <!-- Copyright -->
