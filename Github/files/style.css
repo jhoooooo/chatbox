@@ -257,14 +257,14 @@ div.highlight button:hover {
 
 .streamelements {
     background-color: #020923;
-    color: #5684FD;
+    color: #fcb743;
     border: 1px solid #020923;
     font-weight: 600;
 }
 
 .streamelements:hover {
-    background-color: #0a153b;
-    color: #5684FD;
-    border: 1px solid #0a153b;
+    background-color: #0f1941;
+    color: #fcb743;
+    border: 1px solid #0f1941;
     font-weight: 600;
 }
