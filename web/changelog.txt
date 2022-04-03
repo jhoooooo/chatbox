@@ -1,6 +1,0 @@
-Changelog:
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-16 September 2021
-+ Fixed /clear command for 'Default', 'Pastel Hearts' and 'Pink With Gifs'.

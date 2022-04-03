@@ -1,0 +1,110 @@
+{
+    "chatBackgroundColor": {
+        "type": "colorpicker",
+        "label": "Chat Background Color:",
+        "value": "#fce2a8",
+        "group": "Customization"
+    },
+    "chatBorderColor": {
+        "type": "colorpicker",
+        "label": "Chat Background Color:",
+        "value": "#c2a76a",
+        "group": "Customization"
+    },
+    "borderSize": {
+        "type": "slider",
+        "label": "Border Size:",
+        "value": 2,
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "group": "Customization"
+    },
+    "font": {
+        "type": "googleFont",
+        "label": "Font:",
+        "value": "Source Sans Pro",
+        "group": "Customization"
+    },
+    "fontSize": {
+        "type": "slider",
+        "label": "Font Size:",
+        "value": 12,
+        "min": 8,
+        "max": 30,
+        "step": 1,
+        "group": "Customization"
+    },
+    "usernameColor": {
+        "type": "colorpicker",
+        "label": "Username Color:",
+        "value": "#1e1e1e",
+        "group": "Customization"
+    },
+    "usernameFontWeight": {
+        "label": "Username Font Weight:",
+        "type": "dropdown",
+        "value": "900",
+        "options": {
+            "100": "Thin (100)",
+            "200": "Extra-light (200)",
+            "300": "Light (300)",
+            "400": "Regular (400)",
+            "500": "Medium (500)",
+            "600": "Semi-bold (600)",
+            "700": "Bold (700)",
+            "800": "Extra-bold (800)",
+            "900": "Black (900)"
+        },
+        "group": "Customization"
+    },
+    "messageColor": {
+        "type": "colorpicker",
+        "label": "Message Color:",
+        "value": "#1e1e1e",
+        "group": "Customization"
+    },
+    "messageFontWeight": {
+        "label": "Message Font Weight:",
+        "type": "dropdown",
+        "value": "400",
+        "options": {
+            "100": "Thin (100)",
+            "200": "Extra-light (200)",
+            "300": "Light (300)",
+            "400": "Regular (400)",
+            "500": "Medium (500)",
+            "600": "Semi-bold (600)",
+            "700": "Bold (700)",
+            "800": "Extra-bold (800)",
+            "900": "Black (900)"
+        },
+        "group": "Customization"
+    },
+    "hideBots": {
+        "type": "dropdown",
+        "label": "Hide Bots & Commands:",
+        "value": "false",
+        "options": {
+          "true": "True",
+          "false": "False"
+        },
+        "group": "Customization"
+    },
+    "botNames": {
+        "type": "text",
+        "label": "Bot Names - Separated by a space",
+        "value": "nightbot moobot xanbot deepbot vivbot phantombot streamelements",
+        "group": "Customization"
+    },
+    "widgetName": {
+        "type": "hidden",
+        "value": "Custom Chatbox Widget",
+        "group": "Customization"
+    },
+    "widgetAuthor": {
+        "type": "hidden",
+        "value": "@jhooo_o",
+        "group": "Customization"
+    }
+}

@@ -1,0 +1,27 @@
+//
+
+1. Go to https://streamelements.com/dashboard/overlays?section=all and choose your overlay (or make new one if you have none).
+
+2. Click on '+' button, then 'static/custom' and then choose 'custom widget'.
+
+3. Click on 'settings', then 'open editor'.
+
+4. Paste each file to their respective field, delete and replace all existing code.
+
+5. Click done, once your are done.
+
+6. You'll notice on the sidebar, new 'customization' tab is now appeared. Click on the dropdown icon to access it.
+
+7. Customize to your liking.
+
+8. You can change the chatbox size by using Stremelements built-in setting ('Position, size and style')'s tab.
+
+9. Click save and then copy your overlay url, use it on the obs browser source.
+
+
+!! Some fonts does not support certain weights & changing size/weight might change badges placement.
+!! You can add more bots or people names to the bot list to hdie them.
+====================================================================
+
+// Contact @jhooo_o on Twitter.
+

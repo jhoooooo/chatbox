@@ -1,0 +1,62 @@
+{
+    "listener": "message",
+    "event": {
+        "service": "twitch",
+        "data": {
+            "time": 1638760876839,
+            "tags": {
+                "badge-info": "",
+                "badges": "broadcaster/1,glhf-pledge/1",
+                "color": "#DAA520",
+                "display-name": "jhoooooooooooo",
+                "emotes": "emotesv2_64739521f0d2461ead113f151bc08b09:21-29",
+                "first-msg": "0",
+                "flags": "",
+                "id": "141849c6-d78d-4091-919b-afe37c9b0b2a",
+                "mod": "0",
+                "room-id": "106972596",
+                "subscriber": "0",
+                "tmi-sent-ts": "1638760875633",
+                "turbo": "0",
+                "user-id": "106972596",
+                "user-type": ""
+            },
+            "nick": "jhoooooooooooo",
+            "userId": "106972596",
+            "displayName": "jhoooooooooooo",
+            "displayColor": "#DAA520",
+            "badges": [
+                {
+                    "type": "broadcaster",
+                    "version": "1",
+                    "url": "https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/3"
+                },
+                {
+                    "type": "glhf-pledge",
+                    "version": "1",
+                    "url": "https://static-cdn.jtvnw.net/badges/v1/3158e758-3cb4-43c5-94b3-7639810451c5/3"
+                }
+            ],
+            "channel": "jhoooooooooooo",
+            "text": "orem ipsum dolor sit hjuneWAVE",
+            "isAction": false,
+            "emotes": [
+                {
+                    "type": "twitch",
+                    "name": "hjuneWAVE",
+                    "id": "emotesv2_64739521f0d2461ead113f151bc08b09",
+                    "gif": false,
+                    "urls": {
+                        "1": "https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_64739521f0d2461ead113f151bc08b09/default/dark/1.0",
+                        "2": "https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_64739521f0d2461ead113f151bc08b09/default/dark/2.0",
+                        "4": "https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_64739521f0d2461ead113f151bc08b09/default/dark/3.0"
+                    },
+                    "start": 21,
+                    "end": 29
+                }
+            ],
+            "msgId": "141849c6-d78d-4091-919b-afe37c9b0b2a"
+        },
+        "renderedText": "lorem ipsum dolor sit <img src=\"https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_64739521f0d2461ead113f151bc08b09/default/dark/1.0\" srcset=\"https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_64739521f0d2461ead113f151bc08b09/default/dark/1.0 1x, https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_64739521f0d2461ead113f151bc08b09/default/dark/2.0 2x, https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_64739521f0d2461ead113f151bc08b09/default/dark/3.0 4x\" title=\"hjuneWAVE\" class=\"emote\">"
+    }
+}
