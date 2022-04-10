@@ -171,13 +171,13 @@
         "label": "Default Heart Color",
         "type": "colorpicker",
         "value": "#FFFFFF",
-        "group": "◆ Heart OPTIONS"
+        "group": "◆ HEART OPTIONS"
     },
     "heart_subscriber_color": {
         "label": "Subscriber Heart Color",
         "type": "colorpicker",
         "value": "#ff0000",
-        "group": "◆ Heart OPTIONS"
+        "group": "◆ HEART OPTIONS"
     },
     "heartCount": {
         "label": "Number of Heart Per Message",
@@ -187,7 +187,7 @@
         "max": 10,
         "min": 1,
         "steps": 1,
-        "group": "◆ Heart OPTIONS"
+        "group": "◆ HEART OPTIONS"
     },
     "smoothscroll": {
         "label": "Enable Smoothscroll Animation?",

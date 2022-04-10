@@ -163,33 +163,61 @@ body {
 
 /* heart popup animation part */
 .curve_ani {
-    animation: 3s linear 0s 1 normal forwards running curve;
-    -webkit-animation: 3s linear 0s 1 normal forwards running curve;
+    animation: linear 0s 1 normal forwards running curve;
+    -webkit-animation:  linear 0s 1 normal forwards running curve;
 }
 
 .curve_ani2 {
-    animation: 3s linear 0s 1 normal forwards running curve2;
-    -webkit-animation: 3s linear 0s 1 normal forwards running curve2;
+    animation:  linear 0s 1 normal forwards running curve2;
+    -webkit-animation:  linear 0s 1 normal forwards running curve2;
 }
 
 .curve_ani3 {
-    animation: 3s linear 0s 1 normal forwards running curve3;
-    -webkit-animation: 3s linear 0s 1 normal forwards running curve3;
+    animation:  linear 0s 1 normal forwards running curve3;
+    -webkit-animation:  linear 0s 1 normal forwards running curve3;
 }
 
 .curve_ani4 {
-    animation: 3s linear 0s 1 normal forwards running curve3;
-    -webkit-animation: 3s linear 0s 1 normal forwards running curve3;
+    animation:  linear 0s 1 normal forwards running curve4;
+    -webkit-animation:  linear 0s 1 normal forwards running curve4;
 }
 
 .curve_ani5 {
-    animation: 3s linear 0s 1 normal forwards running curve3;
-    -webkit-animation: 3s linear 0s 1 normal forwards running curve3;
+    animation:  linear 0s 1 normal forwards running curve5;
+    -webkit-animation:  linear 0s 1 normal forwards running curve5;
 }
 
 .curve_ani6 {
-    animation: 3s linear 0s 1 normal forwards running curve3;
-    -webkit-animation: 3s linear 0s 1 normal forwards running curve3;
+    animation: linear 0s 1 normal forwards running curve6;
+    -webkit-animation: linear 0s 1 normal forwards running curve6;
+}
+
+.dur_1 {
+    animation-duration: 1200ms;
+}
+
+.dur_2 {
+    animation-duration: 1500ms;
+}
+
+.dur_3 {
+    animation-duration: 1800ms;
+}
+
+.dur_4 {
+    animation-duration: 2000ms;
+}
+
+.dur_5 {
+    animation-duration: 2200ms;
+}
+
+.dur_6 {
+    animation-duration: 2500ms;
+}
+
+.dur_7 {
+    animation-duration: 2800ms;
 }
 
 @-webkit-keyframes curve {
