@@ -179,6 +179,16 @@
         "value": "#ff0000",
         "group": "◆ Heart OPTIONS"
     },
+    "heartCount": {
+        "label": "Number of Heart Per Message",
+        "type": "slider",
+        "name": "",
+        "value": 5,
+        "max": 10,
+        "min": 1,
+        "steps": 1,
+        "group": "◆ Heart OPTIONS"
+    },
     "smoothscroll": {
         "label": "Enable Smoothscroll Animation?",
         "type": "dropdown",

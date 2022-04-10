@@ -45,32 +45,18 @@ document.addEventListener('onEventReceived', function(obj) {
         }
 
         //normal message heart animation
-        var randomNumber = function(max, min) {
-            return Math.floor(Math.random() * (max - min + 1)) + min;
-        };
-        let delayRandom = randomNumber(90, 150); 
-        let heartCount = 5;
-        (function delayBomb(i) { //function to ensure loop/multiple popup don't stack.
-            setTimeout(function() {
-            bomb(); //calling the heart popup function once each loop.
-            if (--i) delayBomb(i);
-            }, delayRandom) //delay
-        })(heartCount);
-
-        //heart bomb animation
-        const messageBody = obj.detail.body; //message body
-        let triggerWord = "{trigger}"; //custom field parameter. put text input there so easy for user to update.
-        let bombCount = {bombCount}; //heart count from SLOBS custom fields
-        if (obj.detail.tags.mod == "1" || obj.detail.owner == "1" ){ //detect if mod/streamer. "obj.detail.tags.subscriber" for sub)
-            if(messageBody.includes(triggerWord)){
-                (function delayBomb(i) { //function to ensure loop/multiple popup don't stack.
-                    setTimeout(function() {
-                    bomb(); //calling the heart popup function once each loop.
-                    if (--i) delayBomb(i);
-                    }, 100) //delay
-                })(bombCount);  //no of loop (hearts popup)/100 will call 100 animation making it a 'bomb'.
-            }
+        let heartCount = {heartCount};
+        let round = 0;
+        
+        function loopGame() {
+          round++;
+          if (round < heartCount) {
+            setTimeout(loopGame, 100)
+            bomb();
+          }
         }
+        loopGame();
+
     }
     // Limit message shown
     const limitEnable = {enable_limit}; //enable limit number of message shown
