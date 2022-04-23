@@ -104,6 +104,16 @@
         "value": "nightbot moobot xanbot deepbot vivbot phantombot streamelements",
         "group": "Customization"
     },
+    "disableAnimation": {
+        "type": "dropdown",
+        "label": "Disable animation",
+        "value": "false",
+        "options": {
+          "true": "True",
+          "false": "False"
+        },
+        "group": "Customization"
+    },
     "widgetName": {
         "type": "hidden",
         "value": "Custom Chatbox Widget - Plain",

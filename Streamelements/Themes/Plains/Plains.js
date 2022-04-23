@@ -14,6 +14,7 @@ window.addEventListener('onEventReceived', function (obj) {
         const botNames = '{{botNames}}';
         const botNamesArray = botNames.split(' ');
         let isCommand = obj.detail.event.renderedText.charAt(0);
+        const disableAnimation = {{disableAnimation}};
         const useUserColor = {{useUserColor}};
         let userColor = '';
         if ( useUserColor === true ){
@@ -42,12 +43,16 @@ window.addEventListener('onEventReceived', function (obj) {
             else {
                 $(".chatbox").append(renderedMessage);
                 //* Animation - Normal 600 is somehow have stutter in the beginning of the animation unlike SL.
-                $(".chatbox>div").last().hide().slideToggle(200, "swing");
+                if(disableAnimation === false){
+                    $(".chatbox>div").last().hide().slideToggle(200, "swing");
+                }
             }
         } else {
             $(".chatbox").append(renderedMessage);
             //* Animation - Normal 600 is somehow have stutter in the beginning of the animation unlike SL.
-            $(".chatbox>div").last().hide().slideToggle(200, "swing");
+            if(disableAnimation === false){
+                $(".chatbox>div").last().hide().slideToggle(200, "swing");
+            }
         }
 
     }
