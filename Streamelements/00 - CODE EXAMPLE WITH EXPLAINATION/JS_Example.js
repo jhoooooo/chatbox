@@ -36,15 +36,6 @@ window.addEventListener('onEventReceived', function (obj) {
     // Chat Messages Handler
     if (obj.detail.listener === "message") {
 
-        //Using Event Data With Chat Messages 
-        //So not only you can detect who in your chat is mod, subs, vip etc(via normal message obj details), you can also detect latest subscriber, follower, raider etc(via event obj details) and do whatever with that info. Example below
-
-        if (obj.detail.event.data.displayName === latestSubName){
-            //do stuff here. Add a heart icon next to their name for example. Bold their name etc
-        }
-        //END Using Event Data With Chat Messages
-
-
         //Normal Messages Handler
         //Data and settings from Field section.
         let chatUsername = obj.detail.event.data.displayName;
@@ -76,7 +67,17 @@ window.addEventListener('onEventReceived', function (obj) {
         //* Combine all
         let renderedMessage = `<div class="messages" data-msgId="${msgId}" data-userId="${userId}"><div class="badges">${urlsArray}</div><div class="name" style="color:${userColor};">${chatUsername}</div><div class="message">${chatMessage}</div></div>`;
 
-        //* Append Chat Messages
+        // ============================================================== //
+        //Using Event Data With Chat Messages 
+        //So not only you can detect who in your chat is mod, subs, vip etc(via normal message obj details), you can also detect latest subscriber, follower, raider etc(via event obj details) and do whatever with that info. Example below
+
+        if (obj.detail.event.data.displayName === latestSubName){
+            //do stuff here. Add a heart icon next to their name, Bold their name, add new classes to rendered message above etc.
+        }
+        //END Using Event Data With Chat Messages
+        // ============================================================== //
+
+        //* Append Chat Messages To Chatbox
         if (hideBotsCommands === true ){
             if (botNamesArray.includes(obj.detail.event.data.nick) || isCommand === "!"){
                 console.log('Message skipped');
