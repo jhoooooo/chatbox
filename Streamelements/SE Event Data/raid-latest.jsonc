@@ -1,0 +1,41 @@
+{
+    "listener": "raid-latest",
+    "event": {
+        "type": "raid",
+        "name": "Tallia",
+        "amount": 25,
+        "count": 1,
+        "isTest": true,
+        "tier": "prime",
+        "gifted": false,
+        "bulkGifted": false,
+        "sender": "Adora",
+        "items": [
+            {
+                "name": "Shirt",
+                "price": 24
+            },
+            {
+                "name": "Hat",
+                "price": 46
+            },
+            {
+                "name": "Mug",
+                "price": 38
+            },
+            {
+                "name": "Hoodie",
+                "price": 39
+            },
+            {
+                "name": "Protein powder",
+                "price": 43
+            }
+        ],
+        "subExtension": false,
+        "month": "July",
+        "message": "Born too late to explore the Earth, born too early to explore the universe, born perfectly to explore dank memes",
+        "sessionTop": false,
+        "originalEventName": "raid-latest"
+    }
+}
