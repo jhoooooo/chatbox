@@ -72,7 +72,8 @@ window.addEventListener('onEventReceived', function (obj) {
         //So not only you can detect who in your chat is mod, subs, vip etc(via normal message obj details), you can also detect latest subscriber, follower, raider etc(via event obj details) and do whatever with that info. Example below
 
         if (obj.detail.event.data.displayName === latestSubName){
-            //do stuff here. Add a heart icon next to their name, Bold their name, add new classes to rendered message above etc.
+            //do stuff here. In example below, latest subsriber messages will have a different background color compared to other messages in chat. (new class latest-subscriber added)
+            renderedMessage = `<div class="messages latest-subscriber" data-msgId="${msgId}" data-userId="${userId}"><div class="badges">${urlsArray}</div><div class="name" style="color:${userColor};">${chatUsername}</div><div class="message">${chatMessage}</div></div>`;
         }
         //END Using Event Data With Chat Messages
         // ============================================================== //

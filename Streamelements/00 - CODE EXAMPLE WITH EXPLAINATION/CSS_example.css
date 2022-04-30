@@ -110,3 +110,9 @@ img.emote {
     height: 1.2em;
     vertical-align: sub;
 }
+
+.latest-subscriber {
+    border: 2px solid #585858;
+    border-radius: 4px;
+    background: #ffffff33;
+}
