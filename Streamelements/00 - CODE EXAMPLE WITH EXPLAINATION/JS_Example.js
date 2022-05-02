@@ -38,6 +38,7 @@ window.addEventListener('onEventReceived', function (obj) {
 
         //Normal Messages Handler
         //Data and settings from Field section.
+        //! some of this settings should be moved to global
         let chatUsername = obj.detail.event.data.displayName;
         let chatMessage = obj.detail.event.renderedText;
         let msgId = obj.detail.event.data.msgId;
