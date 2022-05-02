@@ -1,0 +1,123 @@
+/*
+- Lorem
+- Last Update: 20 December 2021
+- https://twitter.com/jhooo_o
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family={font_picked}');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: '{font_picked}', 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5em;
+}
+
+.colon {
+    display: none;
+}
+
+#log {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 10px 10px 10px;
+    width: 100%;
+    opacity: 1;
+}
+
+#log>div.deleted {
+    visibility: hidden;
+}
+
+#log>div {
+    margin-bottom: {message_spacing}px;
+    animation: fadeOut 0.5s ease {message_hide_delay} forwards;
+    -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
+}
+
+.meta  {
+    display: inline-block;
+    bottom: 20px;
+    position: relative;
+}
+
+.badges {
+    display: inline-block;
+    margin-top: 4px;
+}
+
+.badge {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    height: fit-content;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+
+.username-box {
+    background: {username_bg_color};
+    margin-left: 5px;
+    display: inline-block;
+    border-radius: {username_border_radius}px;
+}
+
+.name {
+    display: inline-block;
+    color: {username_color};
+    font-weight: {username_font_weight};
+    letter-spacing: 1px;
+    text-transform: Uppercase;
+    padding: 4px 8px;
+    font-size: {username_font_size}px;
+}
+
+.message-box {
+    border: {message_border_size}px solid {message_border_color};
+    background-color: #f5f5f5; /* default color if no image present */
+    border-radius: {message_border_radius}px;
+    background: {message_overlay_gradient}, url({message_bg_image}); /* 200px by 400px rec */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: {message_bg_position};
+    margin-left: 30px;
+    padding-bottom: 40px;
+    margin-bottom: -20px;
+}
+
+.message {
+    display: block;
+    color: {message_color};
+    text-shadow: 2px 2px 6px {message_shadow_color};
+    padding: 4px 10px ;
+    word-wrap: break-word;
+    font-size: {message_font_size}px;
+    font-weight: {message_font_weight};
+    letter-spacing: 0.6px;
+    overflow: hidden;
+}
+
+#log .emote {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 0.4em 0.2em;
+    position: relative;
+}
+
+#log .emote img {
+    display: inline-block;
+    height: 1em;
+    opacity: 0;
+}

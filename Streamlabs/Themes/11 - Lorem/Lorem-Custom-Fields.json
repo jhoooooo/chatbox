@@ -1,0 +1,177 @@
+{
+    "font_picked": {
+        "label": "Font",
+        "type": "fontpicker",
+        "value": "Open Sans",
+        "group": "◆ BASIC OPTIONS"
+    },
+    "message_spacing": {
+        "label": "Spacing Between Messages",
+        "type": "slider",
+        "name": "",
+        "value": -8,
+        "max": 0,
+        "min": -8,
+        "steps": 1,
+        "group": "◆ BASIC OPTIONS"
+    },
+    "username_bg_color": {
+        "label": "Username Background Color",
+        "type": "colorpicker",
+        "value": "#746cf7",
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "username_color": {
+        "label": "Username Text Color",
+        "type": "colorpicker",
+        "value": "#eaeaea",
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "username_font_size": {
+        "label": "Username Font Size",
+        "type": "slider",
+        "name": "",
+        "value": 14,
+        "max": 32,
+        "min": 10,
+        "steps": 1,
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "username_font_weight": {
+        "label": "Username Text Weight (Thickness)",
+        "type": "slider",
+        "name": "",
+        "value": 600,
+        "max": 900,
+        "min": 100,
+        "steps": 100,
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "username_border_radius": {
+        "label": "Username Border Radius",
+        "type": "slider",
+        "name": "",
+        "value": 8,
+        "max": 10,
+        "min": 0,
+        "steps": 1,
+        "group": "◆ USERNAME OPTIONS"
+    },
+    "message_color": {
+        "label": "Message Text Color",
+        "type": "colorpicker",
+        "value": "#eaeaea",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_shadow_color": {
+        "label": "Message Shadow Color",
+        "type": "colorpicker",
+        "value": "#eaeaea",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_font_size": {
+        "label": "Message Font Size",
+        "type": "slider",
+        "name": "",
+        "value": 14,
+        "max": 32,
+        "min": 10,
+        "steps": 1,
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_font_weight": {
+        "label": "Message Text Weight",
+        "type": "slider",
+        "name": "",
+        "value": 600,
+        "max": 900,
+        "min": 100,
+        "steps": 100,
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_border_size": {
+        "label": "Message Border Size",
+        "type": "slider",
+        "name": "Username Border Size",
+        "value": 0,
+        "max": 10,
+        "min": 0,
+        "steps": 1,
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_border_color": {
+        "label": "Message Border Color",
+        "type": "colorpicker",
+        "value": "#eaeaea",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_border_radius": {
+        "label": "Message Box Border Radius",
+        "type": "slider",
+        "name": "Message Border Radius",
+        "value": 12,
+        "max": 24,
+        "min": 0,
+        "steps": 1,
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_bg_image": {
+        "label": "Message Background Image",
+        "type": "image-input",
+        "value": null,
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_bg_position": {
+        "label": "Message Background Position",
+        "type": "dropdown",
+        "options": {
+            "top left": "Top Left",
+            "top center": "Top Center",
+            "top right": "Top Right",
+            "center left": "Center Left",
+            "center": "Center",
+            "center right": "Center Right",
+            "bottom left": "Bottom Left",
+            "bottom center": "Bottom Center",
+            "bottom right": "Bottom Right"
+        },
+        "value": "center",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_overlay_gradient": {
+        "label": "Overlay Color (use https://cssgradient.io/)",
+        "type": "textfield",
+        "value": "linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%)",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "smoothscroll": {
+        "label": "Enable Smoothscroll Animation?",
+        "type": "dropdown",
+        "options": {
+            "false": "False",
+            "true": "True"
+        },
+        "value": "true",
+        "group": "◆ OTHER OPTIONS"
+    },
+    "enable_limit": {
+        "label": "Enable Limit Message Shown?",
+        "type": "dropdown",
+        "options": {
+            "false": "False",
+            "true": "True"
+        },
+        "value": "true",
+        "group": "◆ OTHER OPTIONS"
+    },
+    "message_limit": {
+        "label": "➜ No. of Message Shown",
+        "type": "slider",
+        "name": "",
+        "value": 10,
+        "max": 200,
+        "min": 1,
+        "steps": 1,
+        "group": "◆ OTHER OPTIONS"
+    }
+}
