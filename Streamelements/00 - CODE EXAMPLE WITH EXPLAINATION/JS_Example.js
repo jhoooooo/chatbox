@@ -2,17 +2,26 @@ window.addEventListener('onWidgetLoad', function (obj) {
 
 });
 
-//* Console styling
+// Version
 const consoleStyle = 'background-color: yellow; color: black; padding:4px; font-size:14px; font-weight:900;'
 console.log("%cJho Chatbox - Version 20 APRIL 2022 @ 05.25 PM", consoleStyle);
 
 
-//Event data variables
+// Event Variables
 let latestSubName, latestFolName, latestHostName, latestCheerName, latestTipName, latestRaidName;
 
+// User Config
+const hideBotsCommands = {{hideBots}};
+const botNames = '{{botNames}}';
+const disableAnimation = {{disableAnimation}};
+const useUserColor = {{useUserColor}};
+let userColor;
+
+// Event Listener
 window.addEventListener('onEventReceived', function (obj) {
     console.log(obj.detail); //obj logger
-    //* Latest Event Data - Assign to respective variable.
+
+    // Assigning Event Data
     switch (obj.detail.listener) {
         case "subscriber-latest":
             latestSubName = obj.detail.event.name;
@@ -33,24 +42,19 @@ window.addEventListener('onEventReceived', function (obj) {
             latestRaidName = obj.detail.event.name;
             break
     }
-    // Chat Messages Handler
+    /* Chat Message Handler
+        * @param {{example}} is from FIELDS section. SE will autopopulate.
+        * ! some of this settings should be moved to global
+    */
     if (obj.detail.listener === "message") {
-
-        //Normal Messages Handler
-        //Data and settings from Field section.
-        //! some of this settings should be moved to global
         let chatUsername = obj.detail.event.data.displayName;
         let chatMessage = obj.detail.event.renderedText;
         let msgId = obj.detail.event.data.msgId;
         let userId = obj.detail.event.data.userId;
-        const hideBotsCommands = {{hideBots}};
-        const botNames = '{{botNames}}'; //{{example}} is data from field section
         const botNamesArray = botNames.split(' ');
         let isCommand = obj.detail.event.renderedText.charAt(0);
-        const disableAnimation = {{disableAnimation}};
-        const useUserColor = {{useUserColor}};
-        let userColor = '';
-        if ( useUserColor === true ){
+
+        if (useUserColor === true) {
             userColor = obj.detail.event.data.displayColor;
         } else {
             userColor = '';
@@ -65,41 +69,49 @@ window.addEventListener('onEventReceived', function (obj) {
             urlsArray += `<img src="${url}" class="badge ${type}"></img>`;
         }
 
-        //* Combine all
+        //* Updated Rendered Message
         let renderedMessage = `<div class="messages" data-msgId="${msgId}" data-userId="${userId}"><div class="badges">${urlsArray}</div><div class="name" style="color:${userColor};">${chatUsername}</div><div class="message">${chatMessage}</div></div>`;
 
-        // ============================================================== //
-        //Using Event Data With Chat Messages 
-        //So not only you can detect who in your chat is mod, subs, vip etc(via normal message obj details), you can also detect latest subscriber, follower, raider etc(via event obj details) and do whatever with that info. Example below
+        /*
+        Using Event Data With Chat Messages
+        -----------------------------------
+        Usually, rendered message above is enough for normal chatbox overlay. But you can extend
+        with more data from events. So not only you can detect who in your chat is mod, subs, vip
+        etc(via message obj.details), you can also detect latest subscriber, follower, raider
+        etc(via event obj.details) and do whatever with that info. Example below, I added new CSS class
+        if the chatter is a the latest subscriber.
+        */
 
-        if (obj.detail.event.data.displayName === latestSubName){
-            //do stuff here. In example below, latest subsriber messages will have a different background color compared to other messages in chat. (new class latest-subscriber added)
+        if (obj.detail.event.data.displayName === latestSubName) {
             renderedMessage = `<div class="messages latest-subscriber" data-msgId="${msgId}" data-userId="${userId}"><div class="badges">${urlsArray}</div><div class="name" style="color:${userColor};">${chatUsername}</div><div class="message">${chatMessage}</div></div>`;
         }
-        //END Using Event Data With Chat Messages
-        // ============================================================== //
 
-        //* Append Chat Messages To Chatbox
+        /* Append Final Rendered Message
+        
+        Append final message to chat overlay with animation & event/command skipper.
+        ! Animation is basically the same as the one I use on Streamlabs but somehow have stutter in the
+        beginning of the animation unlike Streamlabs. IDK why.
+
+        */
         if (hideBotsCommands === true ){
             if (botNamesArray.includes(obj.detail.event.data.nick) || isCommand === "!"){
                 console.log('Message skipped');
             }
             else {
                 $(".chatbox").append(renderedMessage);
-                //* Animation - Normal 600 is somehow have stutter in the beginning of the animation unlike SL.
                 if(disableAnimation === false){
                     $(".chatbox>div").last().hide().slideToggle(200, "swing");
                 }
             }
         } else {
             $(".chatbox").append(renderedMessage);
-            //* Animation - Normal 600 is somehow have stutter in the beginning of the animation unlike SL.
             if(disableAnimation === false){
                 $(".chatbox>div").last().hide().slideToggle(200, "swing");
             }
         }
 
     }
+
     //* Delete messages & timeouts
     if (obj.detail.listener === "delete-message") {
         let delMsgId =  obj.detail.event.msgId;
