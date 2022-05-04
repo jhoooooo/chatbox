@@ -10,7 +10,12 @@ console.log("%cJho Chatbox - Version 20 APRIL 2022 @ 05.25 PM", consoleStyle);
 // Event Variables
 let latestSubName, latestFolName, latestHostName, latestCheerName, latestTipName, latestRaidName;
 
-// User Config
+/* User Config
+
+@param {{example}} is from FIELDS section. SE will autopopulate.
+
+*/
+
 const hideBotsCommands = {{hideBots}};
 const botNames = '{{botNames}}';
 const disableAnimation = {{disableAnimation}};
@@ -42,10 +47,7 @@ window.addEventListener('onEventReceived', function (obj) {
             latestRaidName = obj.detail.event.name;
             break
     }
-    /* Chat Message Handler
-        * @param {{example}} is from FIELDS section. SE will autopopulate.
-        * ! some of this settings should be moved to global
-    */
+    //* Chat Message Handler
     if (obj.detail.listener === "message") {
         let chatUsername = obj.detail.event.data.displayName;
         let chatMessage = obj.detail.event.renderedText;
