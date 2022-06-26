@@ -4,6 +4,7 @@ document.addEventListener('onLoad', function(obj) {
     // this will fire only once when the widget loads
 });
 
+
 document.addEventListener('onEventReceived', function (obj) {
     // obj will contain information about the event
     console.log(obj.detail); // OBJ Logs
@@ -27,4 +28,19 @@ document.addEventListener('onEventReceived', function (obj) {
     if (obj.detail.command === "CLEARCHAT" && typeof obj.detail.body === "undefined") {
         $('#log').empty();
     }
+    // Append Announcement To Chatbox (Default Theme)
+    if (obj.detail.command === "USERNOTICE" && obj.detail.tags["msg-id"] === "announcement") {
+        let message_body = obj.detail.body;
+        let user_name = obj.detail.tags["display-name"];
+        let data_id = obj.detail["messageId"];
+        let announcement_color = obj.detail.tags["msg-param-color"] || 'PRIMARY';
+        let node = document.createElement('div');
+        node.classList.add('wrapper');
+        node.innerHTML = `<div class="wrapper" data-from="${user_name}" data-id="${data_id}" style=""><div class="message-box ${announcement_color}"><div class="child meta"><span class="badges"><span class="name">${user_name}</span></div><span class="child message">: ${message_body}</span></div></div>`;
+        document.getElementById("log").appendChild(node);
+        if (smoothscroll == true) {
+            $('#log>div').last().hide().slideToggle(600, "easeInOutQuart");
+        }
+    }
 });
+
