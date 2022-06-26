@@ -36,7 +36,9 @@ document.addEventListener('onEventReceived', function (obj) {
         let announcement_color = obj.detail.tags["msg-param-color"] || 'PRIMARY';
         let node = document.createElement('div');
         node.classList.add('wrapper');
-        node.innerHTML = `<div class="wrapper" data-from="${user_name}" data-id="${data_id}" style=""><div class="message-box ${announcement_color}"><div class="child meta"><span class="badges"><span class="name">${user_name}</span></div><span class="child message">: ${message_body}</span></div></div>`;
+        node.setAttribute("data-from", user_name);
+        node.setAttribute("data-id", data_id);
+        node.innerHTML = `<div class="message-box ${announcement_color}"><div class="child meta"><span class="badges"><span class="name">${user_name}</span></div><span class="child message">: ${message_body}</span></div>`;
         document.getElementById("log").appendChild(node);
         if (smoothscroll == true) {
             $('#log>div').last().hide().slideToggle(600, "easeInOutQuart");
