@@ -100,3 +100,43 @@ div#custom_html {
     height: 1em;
     opacity: 0;
 }
+
+/* Annoucnement */
+
+.announcement {
+    padding: 4px 4px 4px 25px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.announcement:before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg enable-background='new 0 0 490.1 490.1' viewBox='0 0 490.1 490.1' xml:space='preserve' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m454.7 4.665c-177.7 102.4-260.2 117-282.3 119-5.1 0.4-65.5 0.3-65.5 0.3-59.1 0.1-106.9 47.8-106.9 107s47.8 106.9 106.9 106.9h38.4v129.8c0 11.4 9.3 20.8 20.8 20.8s20.8-9.3 20.8-19.7v-128.8c33.9 5.9 116.5 28.7 267.3 115.8 13.4 8.6 35.9 4.6 35.9-14v-419.5c-0.1-19-22.3-24.9-35.4-17.6zm-310.4 292.7h-37.4c-36.3 0-66.4-30.1-66.4-66.4s30.1-66.4 66.4-66.4h37.4v132.8zm302.1 107.9c-145-81-223.4-100.6-258.5-105.8v-137.3c36.3-5.7 115.9-27.2 258.5-106.6v349.7z'/%3E%3C/svg%3E");
+    background-size: 16px;
+    position: absolute;
+    left: 14px;
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.announcement-primary {
+    background: #1a1826;
+}
+
+.announcement-blue {
+    background: blue; /* temporary */
+}
+
+.announcement-green {
+    background: blue; /* temporary */
+}
+
+.announcement-orange {
+    background: blue; /* temporary */
+}
+
+.announcement-purple {
+    background: blue; /* temporary */
+}
