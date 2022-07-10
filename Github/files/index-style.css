@@ -1,0 +1,165 @@
+:root {
+    --dark-01: #272b3bff;
+    --dark-02: #303446ff;
+    --light-01: #e0e0e0ff;
+    --light-02: #ebedefff;
+    --red-01: #de9584ff;
+    --red-02: #d17864ff;
+    --yellow-01: #fee882ff;
+    --yellow-02: #eed66aff;
+    --blue-01: #c5c5feff;
+    --blue-02: #b9b9f8ff;
+    --green-01: #99ddb9ff;
+    --tgreen-02: #a2e0bfff;
+    --orange-01: #e77c4bff;
+    --orange-02: #e9885bff;
+    --purple-01: #907effff;
+    --purple-02: #9a8affff;
+}
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/* Style */
+
+html,
+body {
+    background: var(--light-02);
+    color: var(--dark-01);
+    font-family: "Rubik", Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Index page */
+
+.homepage {
+    min-height: 100vh;
+}
+
+.jho-title {
+    color: var(--dark-02);
+}
+
+.btn-download {
+    background: var(--red-01);
+    color: var(--light-02);
+    border: none;
+}
+
+.btn-download:hover {
+    background: var(--red-02);
+    color: var(--light-01);
+    border: none;
+}
+
+.streamlabs {
+    background: var(--yellow-01);
+}
+
+.streamlabs-title {
+    color: var(--dark-02);
+    font-weight: 900;
+    text-align: center;
+}
+
+.streamlabs a.btn.btn-sm {
+    background: var(--yellow-02);
+    color: var(--dark-02);
+    border: none !important;
+    padding: 0.5em;
+}
+
+.streamelements {
+    background: var(--blue-01);
+}
+
+.streamelements-title {
+    color: var(--dark-02);
+    text-align: center;
+    font-weight: 900;
+}
+
+.streamelements a.btn.btn-sm {
+    background: var(--blue-02);
+    color: var(--dark-02);
+    border: none !important;
+    padding: 0.5em;
+}
+
+.streamlabs a.btn.btn-sm:hover,
+.streamelements a.btn.btn-sm:hover {
+    opacity: 0.8;
+}
+
+/* Index page end */
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--yellow-01);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--yellow-02);
+}
