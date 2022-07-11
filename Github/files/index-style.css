@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 :root {
     --dark-01: #272b3bff;
     --dark-02: #303446ff;
@@ -17,62 +20,6 @@
     --purple-02: #9a8affff;
 }
 
-/*
-  Josh's Custom CSS Reset
-  https://www.joshwcomeau.com/css/custom-css-reset/
-*/
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-* {
-    margin: 0;
-}
-
-html,
-body {
-    height: 100%;
-}
-
-body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-}
-
-img,
-picture,
-video,
-canvas,
-svg {
-    display: block;
-    max-width: 100%;
-}
-
-input,
-button,
-textarea,
-select {
-    font: inherit;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    overflow-wrap: break-word;
-}
-
-#root,
-#__next {
-    isolation: isolate;
-}
-
 /* Style */
 
 html,
@@ -84,9 +31,14 @@ body {
 }
 
 /* Index page */
-
 .homepage {
-    min-height: 100vh;
+    min-height: 70vh;
+}
+
+@media screen and (min-width: 992px) {
+    .homepage {
+        min-height: 100vh;
+    }
 }
 
 .jho-title {
@@ -94,9 +46,11 @@ body {
 }
 
 .btn-download {
+    display: none;
     background: var(--red-01);
     color: var(--light-02);
     border: none;
+    padding: 8px 20px 8px 20px;
 }
 
 .btn-download:hover {
@@ -105,13 +59,19 @@ body {
     border: none;
 }
 
+@media screen and (min-width: 992px) {
+    .btn-download {
+        display: initial;
+    }
+}
+
 .streamlabs {
     background: var(--yellow-01);
 }
 
 .streamlabs-title {
     color: var(--dark-02);
-    font-weight: 900;
+    font-weight: 700;
     text-align: center;
 }
 
