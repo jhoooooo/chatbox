@@ -1,6 +1,11 @@
+/*
+Jho.
+Last modified: Sunday, 17th July 2022, 6:21:19 pm
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+ 
 :root {
     --dark-01: #272b3bff;
     --dark-02: #303446ff;
@@ -159,9 +164,15 @@ body {
 
 
 /* Card */
+img {
+    margin-top: 1em!important;
+    margin-bottom: 1em!important;
+}
 
 .card {
     color: var(--dark-01)!important;
+    margin-top: 1em!important;
+    margin-bottom: 1em!important;
 }
 
 

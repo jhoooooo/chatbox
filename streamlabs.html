@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- 
+    Jho.
+    Last modified: Sunday, 17th July 2022, 6:26:56 pm
+-->
 
 <head>
     <meta charset="utf-8" />
@@ -38,7 +42,7 @@
                 </div>
                 
                 <!-- Tags End -->
-                <small class="text-muted my-2">This installation guide is for Streamlabs web dashboard, not Streamlabs Desktop (SLOBS) application. Make sure you have downloaded the theme files from  <a href="https://jhoo.gumroad.com/l/streamlabs?wanted=true" title="Download" target="_blank">Gumroad</a>. If you prefer one click installation instead, go to <a href="https://jhoooooo.github.io/chatbox/streamlabs_oneclick" title="One click install" target="_blank">here</a></small>.
+                <small class="text-muted my-2">This installation guide is for Streamlabs web dashboard, not Streamlabs Desktop (SLOBS) application. Make sure you have downloaded the files required from  <a href="https://jhoo.gumroad.com/l/streamlabs?wanted=true" title="Download" target="_blank">Gumroad</a>. If you prefer one click installation instead, click <a href="https://jhoooooo.github.io/chatbox/streamlabs_oneclick" title="One click install" target="_blank">here</a> instead.</small>
 
                 <div class="my-2 alert alert-dismissible fade show" role="alert">
                     <i class="bi bi-exclamation-triangle-fill me-1"></i>Each themes might have different options. Not all steps are required or applicable to each themes.
@@ -52,7 +56,7 @@
             <div class="p-1 mb-2 rounded-3">
                 <div class="container-fluid">
                     <h2 id="getting-started">Streamlabs Settings</h2>
-                    <small class="text-muted mb-2">Visit your Streamlabs web dashboard and proceed to <a href="https://streamlabs.com/dashboard#/chatbox" title="https://streamlabs.com/dashboard#/chatbox" target="_blank">chat widget section.</a> Setup your options as shown below.</small>
+                    <small class="text-muted mb-2">Open your Streamlabs web dashboard and proceed to <a href="https://streamlabs.com/dashboard#/chatbox" title="https://streamlabs.com/dashboard#/chatbox" target="_blank">chat widget section.</a> Setup your options as shown below.</small>
                     <ol class="list mt-2">
                         <li>Themes <span class="badge badge-ignore">Ignore</span></li>
                         <li>Badges <span class="badge badge-ok">Choose as you please</span></li>
@@ -63,15 +67,15 @@
                         <li>Hide Message After <span class="badge badge-ok"><i class="bi bi-check-square me-1"></i>Always show messages</span></li>
                         <li>Chat Delay <span class="badge badge-ok">Choose as you please</span></li>
                         <li>Hide Chatter <span class="badge badge-ignore"><i class="bi bi-exclamation-triangle-fill me-1"></i>Recommended to disable</span></li>
-                        <div class="card border-0 m-2 badge-ignore">
+                        <div class="card border-0  badge-ignore">
                             <div class="card-body">
                                 <h5 class="card-title">
                                     <i class="bi bi-exclamation-triangle-fill"></i>
                                     <span class="fw-bolder">Hide Chatter Option</span>
                                 </h5>
-                            <p>If you enable this option, later please make sure to use <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">Themename-JS-Hide-Chatter</span> file instead of <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">Themename-JS</span>. You must also enable both <i class="bi bi-check-square mx-1"></i><span class="fw-bold">Hide Common Chat Bots</span> &  <i class="bi bi-check-square mx-1"></i><span class="fw-bold">Hide commands starting with `!`</span> option.</p>
+                            <p>If you choose to enable this option, please make sure to use <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">JS-Hide-Chatter</span> file instead of normal <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">JS</span> file. You must also enable both <i class="bi bi-check-square mx-1"></i><span class="fw-bold">Hide Common Chat Bots</span> &  <i class="bi bi-check-square mx-1"></i><span class="fw-bold">Hide commands starting with `!`</span> option.</p>
 
-                            <p>If you use custom made/named bot, you have to find code snippet below in the <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">JS</span> file and add in your bot name(s).</p>
+                            <p>If you use custom made or named bot, you have to find code snippet below in the <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">JS</span> file and insert your bot name(s) into it.</p>
                             <div class="highlight">
                                 <pre><code>const botNames = ["nightbot","moobot","xanbot","deepbot","vivbot","phantombot","streamelements"];</code></pre>
                             </div>
@@ -80,7 +84,7 @@
                         </div>
                         <li>Muted Chatters <span class="badge badge-ignore"><i class="bi bi-exclamation-triangle-fill me-1"></i>Recommended to disable</span></li>
                         <li>Custom Bad Words <span class="badge badge-ignore"><i class="bi bi-exclamation-triangle-fill me-1"></i>Recommended to disable</span></li>
-                       <!-- <div class="card border-0 m-2 badge-ignore">
+                       <!-- <div class="card border-0 badge-ignore">
                             <div class="card-body">
                             <span><i class="bi bi-exclamation-triangle-fill me-1"></i>These options should not effect anything. If you have any problems, please contact me.</span>
                             </div>
@@ -96,15 +100,15 @@
                 <div class="container-fluid">
                     <h2 id="settings">Theme Settings</h2>
                     <ol class="list py-3">
-                        <li>After enabling Custom HTML/CSS, new field should appear like the image shown below.</li>
-                        <img src="Github/images/streamlabs_01.png" class="img-fluid rounded mx-auto d-block m-2" alt="Streamlabs code fields" title="Streamlabs code fields">
-                        <li>You can now open/extract the zip file. It contains the codes needed (<i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">HTML, CSS, JS & Custom-Field</span>). These code files can be open using notepad.</li>
-                        <li>On the widget page, click on each tab and replace the content with their respective code. <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">HTML</span> on the HTML tab, <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">CSS</span> on CSS tab and so on.</li>
-                        <li>For <strong>Custom Fields</strong>, if it is your first time editing it, you have to click on <kbd>Add Custom Fields</kbd> > <kbd>Edit Custom Fields</kbd> > paste the code in and then click <kbd>Update</kbd>.</li>
+                        <li>After enabling Custom HTML/CSS, new field should appears like the image shown below.</li>
+                        <img src="Github/images/streamlabs_01.png" class="img-fluid rounded mx-auto d-block" alt="Streamlabs code fields" title="Streamlabs code fields">
+                        <li>You can now extract the zip file you downloaded from Gumroad. It contains the codes needed which is (<i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">HTML, CSS, JS & Custom-Field</span>). These code files can be open using notepad or any other text editor.</li>
+                        <li>On Streamlabs widget page, click on each tab and replace the content with their respective code. <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">HTML</span> on the HTML tab, <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">CSS</span> on CSS tab and so on.</li>
+                        <li>For <strong>Custom Fields</strong>, if it is your first time editing this field, you have to click on <kbd>Add Custom Fields</kbd> > <kbd>Edit Custom Fields</kbd> > paste the code in and then click <kbd>Update</kbd>.</li>
                         <li>The Custom Fields tab should now look like the example shown below.</li>
-                        <img src="Github/images/streamlabs_02.png" class="img-fluid rounded mx-auto d-block m-2" alt="Custom field's tab interface" title="Custom field's tab interface">
-                        <li>You can modify each options in Custom Fields tab to customize your chatbox visual. This project is here to help you create your own unique theme. Take your time customizing it. <a href="https://twitter.com/messages/compose?recipient_id=921976194953650176&text=Hi!" title="https://twitter.com/jhooo_o" class="text-decoration-none" target="_blank">Ask for help if needed.</a></li>
-                        <div class="card border-0 m-2 bg-recommended">
+                        <img src="Github/images/streamlabs_02.png" class="img-fluid rounded mx-auto d-block" alt="Custom field's tab interface" title="Custom field's tab interface">
+                        <li>You can modify each options in Custom Fields tab to customize your chatbox visual. This project is here to help you create your own unique theme. Take your time customizing it. Further customization can be done by manually editing the source code <a href="https://twitter.com/messages/compose?recipient_id=921976194953650176&text=Hi!" title="https://twitter.com/jhooo_o" class="text-decoration-none" target="_blank">Don't be afraid to ask for help if needed.</a></li>
+                        <div class="card border-0 bg-recommended">
                             <div class="card-body py-2">
                                 <h6 class="card-title">
                                     <i class="bi bi-brightness-high-fill"></i>
@@ -116,7 +120,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card border-0 m-2 bg-recommended">
+                        <div class="card border-0 bg-recommended">
                             <div class="card-body py-2">
                                 <h6 class="card-title">
                                     <i class="bi bi-brightness-high-fill"></i>
@@ -130,7 +134,7 @@
                             </div>
                             
                         </div>
-                        <li>Click <kbd>Save Settings</kbd> to save your theme.</li>
+                        <li>Click on <kbd>Save Settings</kbd> to save your theme.</li>
                         <li>Finally, you can copy the widget url located on top of the page and use it as browser source in your OBS.</li>
                         <li>For testing purposes, you can add <kbd>?simulate=1</kbd> after your widget url to simulate users.</li>
                         <li class="list-unstyled mt-1">Example: <kbd>https://streamlabs.com/widgets/chat-box/v1/XXXCODEXXXXX?simulate=1</kbd>
@@ -140,7 +144,7 @@
             </div>
             <!-- Section 02 Ends-->
             <div class="container changelog my-4">
-                <h1 id='changelog'>Changelog:</h1>
+                <h1 id='changelog'>Changelogs:</h1>
                 <dt>13 March 2022</dt>
                 <dd>Added a beta theme, 'Instapog' that is inspired by Instagram live UI.</dd> 
                 <dt>01 February 2022</dt>
@@ -171,12 +175,12 @@
             </div>
             <!-- Toast Body Ends-->
             <div id="footer">
-                <div class="card m-2 bg-copy border-0">
+                <div class="card bg-copy border-0">
                     <div class="card-body py-2 rounded">
                         <span><i class="bi bi-twitter mx-1"></i>Please report any issues, help needed, questions on Twitter <a href="https://twitter.com/messages/compose?recipient_id=921976194953650176&text=Hi!" title="https://twitter.com/jhooo_o" class="text-decoration-none" target="_blank">@jhooo_o</a>.</span>
                     </div>
                 </div> 
-                <div class="card m-2 bg-copy border-0">
+                <div class="card bg-copy border-0">
                     <div class="card-body py-2 rounded">
                         <span><i class="bi bi-info-circle-fill mx-1 "></i><a href="https://github.com/jhoooooo/chatbox/blob/master/LICENSE" title="https://github.com/jhoooooo/chatbox/blob/master/LICENSE" class="text-decoration-none" target="_blank">MIT License</a>. You can use, copy, modify, merge, publish, be happy, distribute, sublicense, and/or sell. You can support the project via Gumroad. Thank you.</span>
                     </div>
