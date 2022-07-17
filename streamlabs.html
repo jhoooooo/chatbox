@@ -11,13 +11,12 @@
     <title>Streamlabs Custom Chat Box Widget Overlay - Installation Guide</title>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-
-    <!-- Highlight JS Style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- Highlight JS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/atom-one-dark-reasonable.min.css" integrity="sha512-RwXJS3k4Z0IK6TGoL3pgQlA9g2THFhKL7z9TYWdAI8u6xK0AUuMWieJuWgTRayywC9A94ifUj1RzjDa1NIlUIg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom styles -->
-    <link href="Github/files/style.css" rel="stylesheet" />
+    <link href="Github/files/index-style.css" rel="stylesheet" />
 
 </head>
 
@@ -34,14 +33,14 @@
                 <div class="container-fluid">
                     <!-- Tags -->
                 <div class="tags mt-2">
-                    <span class="tag text-white">Last Update</span>
-                    <span class="tag text-white">03 April 2022</span>
+                    <span class="tag">Last Update</span>
+                    <span class="tag">03 April 2022</span>
                 </div>
                 
                 <!-- Tags End -->
-                <small class="text-muted my-2">This installation guide is for Streamlabs web dashboard, not Streamlabs Desktop (SLOBS) application. Make sure you have downloaded the theme files from  <a href="https://jhoo.gumroad.com/l/streamlabs?wanted=true" title="Download" target="_blank">Gumroad</a>. If you prefer one click installtion instead, go to <a href="https://jhoooooo.github.io/chatbox/streamlabs_oneclick" title="One click install" target="_blank">here</a></small>.
+                <small class="text-muted my-2">This installation guide is for Streamlabs web dashboard, not Streamlabs Desktop (SLOBS) application. Make sure you have downloaded the theme files from  <a href="https://jhoo.gumroad.com/l/streamlabs?wanted=true" title="Download" target="_blank">Gumroad</a>. If you prefer one click installation instead, go to <a href="https://jhoooooo.github.io/chatbox/streamlabs_oneclick" title="One click install" target="_blank">here</a></small>.
 
-                <div class="my-2 alert bg-recommended text-recommended border-recommended alert-dismissible fade show" role="alert">
+                <div class="my-2 alert alert-dismissible fade show" role="alert">
                     <i class="bi bi-exclamation-triangle-fill me-1"></i>Each themes might have different options. Not all steps are required or applicable to each themes.
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
@@ -55,21 +54,21 @@
                     <h2 id="getting-started">Streamlabs Settings</h2>
                     <small class="text-muted mb-2">Visit your Streamlabs web dashboard and proceed to <a href="https://streamlabs.com/dashboard#/chatbox" title="https://streamlabs.com/dashboard#/chatbox" target="_blank">chat widget section.</a> Setup your options as shown below.</small>
                     <ol class="list mt-2">
-                        <li>Themes <span class="badge bg-ignore text-ignore border-ignore border-1">Ignore</span></li>
-                        <li>Badges <span class="badge bg-ok text-ok border-ok border-1">Choose as you please</span></li>
-                        <li>Extra Emotes <span class="badge bg-use text-use border-use border-1">Recommended to enable</span></li>
-                        <li>Background Color <span class="badge bg-ignore text-ignore border-ignore border-1">Ignore</span></li>
-                        <li>Text Color <span class="badge bg-ignore text-ignore border-ignore border-1">Ignore</span></li>
-                        <li>Font Size <span class="badge bg-ignore text-ignore border-ignore border-1">Ignore</span></li>
-                        <li>Hide Message After <span class="badge bg-recommended text-recommended border-recommended border-1"><i class="bi bi-check-square me-1"></i>Always show messages</span></li>
-                        <li>Chat Delay <span class="badge bg-ok text-ok border-ok border-1">Choose as you please</span></li>
-                        <li>Hide Chatter <span class="badge bg-ignore text-ignore border-ignore border-1"><i class="bi bi-exclamation-triangle-fill text-ignore me-1"></i>Recommended to disable</span></li>
-                        <div class="card m-2 bg-ignore">
-                            <div class="card-header">
-                                <i class="bi bi-exclamation-triangle-fill text-ignore"></i>
-                                <span class="fw-bolder">Hide Chatter Option</span>
-                            </div>
-                            <div class="card-body text-dark">
+                        <li>Themes <span class="badge badge-ignore">Ignore</span></li>
+                        <li>Badges <span class="badge badge-ok">Choose as you please</span></li>
+                        <li>Extra Emotes <span class="badge badge-use">Recommended to enable</span></li>
+                        <li>Background Color <span class="badge badge-ignore">Ignore</span></li>
+                        <li>Text Color <span class="badge badge-ignore">Ignore</span></li>
+                        <li>Font Size <span class="badge badge-ignore">Ignore</span></li>
+                        <li>Hide Message After <span class="badge badge-ok"><i class="bi bi-check-square me-1"></i>Always show messages</span></li>
+                        <li>Chat Delay <span class="badge badge-ok">Choose as you please</span></li>
+                        <li>Hide Chatter <span class="badge badge-ignore"><i class="bi bi-exclamation-triangle-fill me-1"></i>Recommended to disable</span></li>
+                        <div class="card border-0 m-2 badge-ignore">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="bi bi-exclamation-triangle-fill"></i>
+                                    <span class="fw-bolder">Hide Chatter Option</span>
+                                </h5>
                             <p>If you enable this option, later please make sure to use <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">Themename-JS-Hide-Chatter</span> file instead of <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">Themename-JS</span>. You must also enable both <i class="bi bi-check-square mx-1"></i><span class="fw-bold">Hide Common Chat Bots</span> &  <i class="bi bi-check-square mx-1"></i><span class="fw-bold">Hide commands starting with `!`</span> option.</p>
 
                             <p>If you use custom made/named bot, you have to find code snippet below in the <i class="bi bi-file-earmark-code mx-1"></i><span class="fw-bold">JS</span> file and add in your bot name(s).</p>
@@ -79,14 +78,14 @@
                         </div>
 
                         </div>
-                        <li>Muted Chatters <span class="badge bg-recommended text-recommended border-recommended border-1"><i class="bi bi-exclamation-triangle-fill text-recommended me-1"></i>Recommended to disable</span></li>
-                        <li>Custom Bad Words <span class="badge bg-recommended text-recommended border-recommended border-1"><i class="bi bi-exclamation-triangle-fill text-recommended me-1"></i>Recommended to disable</span></li>
-                        <div class="card m-2 bg-recommended text-recommended border-recommended border-1">
-                            <div class="card-body text-dark">
-                            <span><i class="bi bi-exclamation-triangle-fill text-recommended me-1"></i>These options should not effect anything. If you have any problems, please contact me.</span>
+                        <li>Muted Chatters <span class="badge badge-ignore"><i class="bi bi-exclamation-triangle-fill me-1"></i>Recommended to disable</span></li>
+                        <li>Custom Bad Words <span class="badge badge-ignore"><i class="bi bi-exclamation-triangle-fill me-1"></i>Recommended to disable</span></li>
+                       <!-- <div class="card border-0 m-2 badge-ignore">
+                            <div class="card-body">
+                            <span><i class="bi bi-exclamation-triangle-fill me-1"></i>These options should not effect anything. If you have any problems, please contact me.</span>
                             </div>
-                        </div>
-                        <li>Enable Custom HTML/CSS <span class="badge bg-use text-use border-use border-1">Enabled</span></li>
+                        </div> -->
+                        <li>Enable Custom HTML/CSS <span class="badge badge-use">Enabled</span></li>
                     </ol>
 
                 </div>
@@ -105,21 +104,25 @@
                         <li>The Custom Fields tab should now look like the example shown below.</li>
                         <img src="Github/images/streamlabs_02.png" class="img-fluid rounded mx-auto d-block m-2" alt="Custom field's tab interface" title="Custom field's tab interface">
                         <li>You can modify each options in Custom Fields tab to customize your chatbox visual. This project is here to help you create your own unique theme. Take your time customizing it. <a href="https://twitter.com/messages/compose?recipient_id=921976194953650176&text=Hi!" title="https://twitter.com/jhooo_o" class="text-decoration-none" target="_blank">Ask for help if needed.</a></li>
-                        <div class="card m-2 bg-recommended text-dark">
-                            <div class="card-header">
-                                <i class="bi bi-brightness-high-fill text-recommended"></i>
-                                <span class="fw-bold">Tips:</span>
-                                <span>You can add transparency to color by using 8 digits hex color.</span>
-                            </div>
-                            <div class="card-body text-center py-2">
-                                <input class="jscolor border-recommended" value="#3399FF80" data-jscolor="{preset:'dark',}">
+                        <div class="card border-0 m-2 bg-recommended">
+                            <div class="card-body py-2">
+                                <h6 class="card-title">
+                                    <i class="bi bi-brightness-high-fill"></i>
+                                    <span class="fw-bold">Tips:</span>
+                                    <spa>You can add transparency to color by using 8 digits hex color.</span>
+                                </h6>
+                                <div class="text-center">
+                                <input class="jscolor" text-center"" value="#3399FF80" data-jscolor="{preset:'dark',}">
+                                </div>
                             </div>
                         </div>
-                        <div class="card m-2 bg-recommended text-dark">
-                            <div class="card-header">
-                                <i class="bi bi-brightness-high-fill text-recommended"></i>
-                                <span class="fw-bold">Tips:</span>
-                                <span>Don't just randomly choose a color. It is recommended to have a set of color palette for your whole stream overlay. And then match those while making this chat box so that they compliment each other.</span>
+                        <div class="card border-0 m-2 bg-recommended">
+                            <div class="card-body py-2">
+                                <h6 class="card-title">
+                                    <i class="bi bi-brightness-high-fill"></i>
+                                    <span class="fw-bold">Tips:</span>
+                                    <span>It is recommended to have a set of color palette for your whole stream overlay that compliment each element of your stream.</span>
+                                </h6>
                                 <ul>
                                     <li><a href="https://www.happyhues.co/" title="Happy Hue" class="text-decoration-none" target="_blank">Happy Hue Palettes</a></li>
                                     <li><a href="https://coolors.co/palettes/trending" title="Coolors" class="text-decoration-none" target="_blank">Coolors Palettes Generators</a></li>
@@ -168,13 +171,13 @@
             </div>
             <!-- Toast Body Ends-->
             <div id="footer">
-                <div class="card m-2">
-                    <div class="card-body py-2 bg-twitter border-twitter border-1 rounded">
-                        <span><i class="bi bi-twitter mx-1 text-twitter"></i>Please report any issues, help needed, questions on Twitter <a href="https://twitter.com/messages/compose?recipient_id=921976194953650176&text=Hi!" title="https://twitter.com/jhooo_o" class="text-decoration-none" target="_blank">@jhooo_o</a>.</span>
+                <div class="card m-2 bg-copy border-0">
+                    <div class="card-body py-2 rounded">
+                        <span><i class="bi bi-twitter mx-1"></i>Please report any issues, help needed, questions on Twitter <a href="https://twitter.com/messages/compose?recipient_id=921976194953650176&text=Hi!" title="https://twitter.com/jhooo_o" class="text-decoration-none" target="_blank">@jhooo_o</a>.</span>
                     </div>
                 </div> 
-                <div class="card m-2">
-                    <div class="card-body py-2 bg-license border-license border-1 rounded">
+                <div class="card m-2 bg-copy border-0">
+                    <div class="card-body py-2 rounded">
                         <span><i class="bi bi-info-circle-fill mx-1 "></i><a href="https://github.com/jhoooooo/chatbox/blob/master/LICENSE" title="https://github.com/jhoooooo/chatbox/blob/master/LICENSE" class="text-decoration-none" target="_blank">MIT License</a>. You can use, copy, modify, merge, publish, be happy, distribute, sublicense, and/or sell. You can support the project via Gumroad. Thank you.</span>
                     </div>
                 </div> 
