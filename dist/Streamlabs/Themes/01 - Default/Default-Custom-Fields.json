@@ -1,0 +1,182 @@
+{
+    "font_picked": {
+        "label": "Font",
+        "type": "fontpicker",
+        "value": "Overpass",
+        "group": "◆ BASIC OPTIONS"
+    },
+    "font_size": {
+        "label": "Font Size",
+        "type": "slider",
+        "name": "",
+        "value": "12",
+        "max": 24,
+        "min": 0,
+        "steps": 1,
+        "group": "◆ BASIC OPTIONS"
+    },
+    "text_transform": {
+        "label": "Text Transform",
+        "type": "dropdown",
+        "options": {
+            "none": "None",
+            "uppercase": "Uppercase",
+            "lowercase": "Lowercase",
+            "capitalize": "Capitalize"
+        },
+        "value": "none",
+        "group": "◆ BASIC OPTIONS"
+    },
+    "wrapper_background": {
+        "label": "Chatbox Background Color",
+        "type": "colorpicker",
+        "value": "#40365C",
+        "group": "◆ BASIC OPTIONS"
+    },
+    "wrapper_border_style": {
+        "label": "Chatbox Border Style",
+        "type": "dropdown",
+        "options": {
+            "solid": "Solid",
+            "dashed": "Dashed",
+            "dotted": "Dotted",
+            "double": "Double",
+            "groove": "Groove"
+        },
+        "value": "solid",
+        "group": "◆ BASIC OPTIONS"
+    },
+    "wrapper_border_color": {
+        "label": "Chatbox Border Color",
+        "type": "colorpicker",
+        "value": "#40365C00",
+        "group": "◆ BASIC OPTIONS"
+    },
+    "wrapper_border_width": {
+        "label": "Chatbox Border Width",
+        "type": "slider",
+        "name": "",
+        "value": "0",
+        "max": 10,
+        "min": 0,
+        "steps": 1,
+        "group": "◆ BASIC OPTIONS"
+    },
+    "wrapper_border_radius": {
+        "label": "Chatbox Border Radius",
+        "type": "slider",
+        "name": "",
+        "value": "0",
+        "max": 20,
+        "min": 0,
+        "steps": 1,
+        "group": "◆ BASIC OPTIONS"
+    },
+    "message_background_color": {
+        "label": "Message Background Color",
+        "type": "colorpicker",
+        "value": "#40365C00",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "name_color": {
+        "label": "Username Color",
+        "type": "colorpicker",
+        "value": "#F1EEED",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "name_weight": {
+        "label": "Name Weight (Thickness)",
+        "type": "slider",
+        "name": "",
+        "value": "0",
+        "max": 900,
+        "min": 100,
+        "steps": 100,
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_color": {
+        "label": "Message Color",
+        "type": "colorpicker",
+        "value": "#F1EEED",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_weight": {
+        "label": "Message Weight (Thickness)",
+        "type": "slider",
+        "name": "",
+        "value": "0",
+        "max": 900,
+        "min": 100,
+        "steps": 100,
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_border_style": {
+        "label": "Message Border Style",
+        "type": "dropdown",
+        "options": {
+            "solid": "Solid",
+            "dashed": "Dashed",
+            "dotted": "Dotted",
+            "double": "Double",
+            "groove": "Groove"
+        },
+        "value": "solid",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_border_color": {
+        "label": "Message Border Color",
+        "type": "colorpicker",
+        "value": "#40365C00",
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_border_width": {
+        "label": "Message Border Width",
+        "type": "slider",
+        "name": "",
+        "value": "0",
+        "max": 10,
+        "min": 0,
+        "steps": 1,
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "message_border_radius": {
+        "label": "Message Border Radius",
+        "type": "slider",
+        "name": "",
+        "value": "0",
+        "max": 20,
+        "min": 0,
+        "steps": 1,
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "smoothscroll": {
+        "label": "Smoothscroll Animation?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "true",
+        "group": "◆ OTHER OPTIONS"
+    },
+    "enable_limit": {
+        "label": "Limit Message Shown?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "false",
+        "group": "◆ OTHER OPTIONS"
+    },
+    "message_limit": {
+        "label": "➜ No. of Message Shown",
+        "type": "slider",
+        "name": "",
+        "value": 10,
+        "max": 999,
+        "min": 1,
+        "steps": 1,
+        "group": "◆ OTHER OPTIONS"
+    }
+}

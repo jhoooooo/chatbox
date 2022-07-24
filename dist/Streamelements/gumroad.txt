@@ -1,0 +1,39 @@
+Streamelements custom chatbox widget for your Twitch overlay with basic customization options. First theme I made for Streamelements, so only small customization available, might add more as I learn their system.
+
+✨ Changelogs:
+
+09 December 2021
+Fixed animation triggering on other stream events.
+Changed default font.
+
+07 December 2021
+Fixed Google font selection.
+
+06 December 2021
+First iteration.
+
+✨ What can you customize?
+
+Font, font size & weight.
+
+Username & message color.
+
+Message background & border color.
+
+✨ Question?
+
+Will this theme get updates with more options?
+I don't know yet. Sold as is. No promises for any future things.
+
+But I need more customization.
+You can manually edit the code [css, javascript, html] yourself if you desired.
+
+I need help installing the widget.
+The instruction is included in the folder. You can contact me on Twitter for further help but I will only respond when I'm free or able to.
+
+Does this theme supports Facebook, Youtube or Trovo?
+I don't know. Tested for Twitch only.
+
+For Streamlabs Chatbox -> https://jhoo.gumroad.com/l/jxzKbA
+
+Report issues -> https://twitter.com/jhooo_o
