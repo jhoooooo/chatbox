@@ -22,7 +22,7 @@
 /*
 
 Announcement have 5 different colors attached to it. (Primary, Blue, Green, Purple & Orange).
-Announcement from third party apps (eg: Chatterino) might not have any color attached to it. JS code will automaticly fallback these to Primary's color.
+Announcement from third party apps (eg: Chatterino) might not have any color attached to it. Coded to automaticly fallback these to Primary's color.
 
 */
 .announcement_primary {

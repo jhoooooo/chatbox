@@ -1,0 +1,21 @@
+<!-- Last modified: Sunday, 31st July 2022, 11:50:38 am
+-->
+<!--item will be appened to this layout -->
+<div id="log" class="sl__chat__layout"></div>
+
+<!-- chat item -->
+<script type="text/template" id="chatlist_item">
+<!-- data for message management -->
+<div class="wrapper" data-from="{from}" data-id="{messageId}">
+
+  <div class="message_container">
+    <div class="message_meta">
+      <span class="badges"></span>
+      <span class="name">{from}</span>
+    </div>
+    <!--  {message} is processed by Streamlabs to populate emotes. So it is removed below as we manually process it ourselve in js !emote therefore will not work. -->
+    <span class="message_body">: </span>
+  </div>
+
+</div>
+</script>

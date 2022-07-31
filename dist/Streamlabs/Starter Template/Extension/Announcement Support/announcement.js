@@ -4,7 +4,7 @@ if (obj.detail.command === "USERNOTICE" && obj.detail.tags["msg-id"] === "announ
     let message_body = obj.detail.body;
     let display_name = obj.detail.tags["display-name"];
     let data_id = obj.detail["messageId"];
-    let announcement_color = obj.detail.tags["msg-param-color"] || 'PRIMARY';
+    let announcement_color = obj.detail.tags["msg-param-color"] || 'PRIMARY'; //default to primary if null
     let announcement_color_css = announcement_color.toLowerCase();
     // create element
     let elem = document.createElement('div');

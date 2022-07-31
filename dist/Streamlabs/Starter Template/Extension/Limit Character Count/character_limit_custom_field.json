@@ -1,0 +1,10 @@
+
+"character_limit": {
+    "label": "Message character limit",
+    "type": "slider",
+    "name": "",
+    "value": 510,
+    "max": 510,
+    "min": 1,
+    "steps": 1
+}
