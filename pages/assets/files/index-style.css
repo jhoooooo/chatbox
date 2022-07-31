@@ -1,6 +1,6 @@
 /*
 Jho.
-Last modified: Sunday, 17th July 2022, 6:21:19 pm
+Last modified: Sunday, 31st July 2022, 4:24:29 pm
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -26,9 +26,9 @@ Last modified: Sunday, 17th July 2022, 6:21:19 pm
     --green-03: #004643;
     --orange-01: #e77c4bff;
     --orange-02: #e9885bff;
+    --orange-03: #efd2b5;
     --purple-01: #907effff;
     --purple-02: #9a8affff;
-    --purple-03: #c8b8db;
     --gray-01: #ececee;
 }
 
@@ -205,7 +205,7 @@ img {
 }
 
 .bg-copy {
-    background: var(--purple-03);
+    background: var(--orange-03);
 }
 
 /* Code Copy */
