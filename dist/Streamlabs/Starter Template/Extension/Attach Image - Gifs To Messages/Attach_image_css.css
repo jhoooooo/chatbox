@@ -1,0 +1,25 @@
+/* only relevant code is added here */
+
+.message_box {
+    border: {message_border_width}px {message_border_style} {message_border_color};
+    padding-top: 5px;
+    background-color: {message_background_color};
+    border-radius: {message_border_radius}px;
+    position: relative;
+    z-index: -1; /* needed because position: relative */
+  }
+  
+
+  /* {image_upload} is for custom field key
+  sizes and position is set here.
+  */
+  .message_box::after {
+    content: "";
+    background: url({image_upload}) no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: -20px;
+    right: 15px;
+  }
