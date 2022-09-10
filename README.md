@@ -1,3 +1,5 @@
+[![Preview](https://i.imgur.com/gvQN5dM.png)](https://youtu.be/-hHBEYGTS5g)
+
 # Twitch Chatbox Widget Overlay
 Free open source customizable theme, template, custom coded CSS for Twitch, Streamlabs, Streamelemens chat box widget & overlay.
 
