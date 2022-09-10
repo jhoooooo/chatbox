@@ -1,12 +1,7 @@
-[![Preview](https://i.imgur.com/gvQN5dM.png)](https://youtu.be/-hHBEYGTS5g)
+[Preview](https://user-images.githubusercontent.com/65335648/189489996-99d663ec-ef7b-4e9a-ad10-e9ced9146554.mp4)
 
 # Twitch Chatbox Widget Overlay
 Free open source customizable theme, template, custom coded CSS for Twitch, Streamlabs, Streamelemens chat box widget & overlay.
-
-<!--
-https://user-images.githubusercontent.com/65335648/118496278-8d434a80-b756-11eb-83fa-42125c71412b.mp4
-
-Video above: Pink with Gifs theme. -->
 
 ## Features
 - Smoothscroll chat animation
