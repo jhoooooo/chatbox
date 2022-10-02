@@ -183,3 +183,79 @@
     "access_token": null,
     "to": "#jhoooooooooooo"
   }
+
+
+  // Reply object
+
+  {
+    "priority": 10,
+    "pic": "",
+    "from": "jhoooooooooooo",
+    "body": "@jhooooooooobot this is a reply",
+    "command": "PRIVMSG",
+    "tags": {
+      "badge-info": "",
+      "badges": "broadcaster/1,glhf-pledge/1",
+      "client-nonce": "2460cc4329cb3fd02e6eb4a9ac58a8c5",
+      "color": "#DAA520",
+      "display-name": "jhoooooooooooo",
+      "emotes": "",
+      "first-msg": "0",
+      "flags": "",
+      "id": "3491ad34-f6d6-4d19-bd5b-44527e38c8d8",
+      "mod": "0",
+      "reply-parent-display-name": "jhooooooooobot",
+      "reply-parent-msg-body": "lorem\\sipsum",
+      "reply-parent-msg-id": "c1ef3be6-0f54-4531-ac1f-f03ddd4f4b06",
+      "reply-parent-user-id": "674193841",
+      "reply-parent-user-login": "jhooooooooobot",
+      "returning-chatter": "0",
+      "room-id": "106972596",
+      "subscriber": "0",
+      "tmi-sent-ts": "1664542438839",
+      "turbo": "0",
+      "user-id": "106972596",
+      "user-type": ""
+    },
+    "payload": {
+      "raw": "@badge-info=;badges=broadcaster/1,glhf-pledge/1;client-nonce=2460cc4329cb3fd02e6eb4a9ac58a8c5;color=#DAA520;display-name=jhoooooooooooo;emotes=;first-msg=0;flags=;id=3491ad34-f6d6-4d19-bd5b-44527e38c8d8;mod=0;reply-parent-display-name=jhooooooooobot;reply-parent-msg-body=lorem\\sipsum;reply-parent-msg-id=c1ef3be6-0f54-4531-ac1f-f03ddd4f4b06;reply-parent-user-id=674193841;reply-parent-user-login=jhooooooooobot;returning-chatter=0;room-id=106972596;subscriber=0;tmi-sent-ts=1664542438839;turbo=0;user-id=106972596;user-type= :jhoooooooooooo!jhoooooooooooo@jhoooooooooooo.tmi.twitch.tv PRIVMSG #jhoooooooooooo :@jhooooooooobot this is a reply",
+      "tags": {
+        "badge-info": "",
+        "badges": "broadcaster/1,glhf-pledge/1",
+        "client-nonce": "2460cc4329cb3fd02e6eb4a9ac58a8c5",
+        "color": "#DAA520",
+        "display-name": "jhoooooooooooo",
+        "emotes": "",
+        "first-msg": "0",
+        "flags": "",
+        "id": "3491ad34-f6d6-4d19-bd5b-44527e38c8d8",
+        "mod": "0",
+        "reply-parent-display-name": "jhooooooooobot",
+        "reply-parent-msg-body": "lorem\\sipsum",
+        "reply-parent-msg-id": "c1ef3be6-0f54-4531-ac1f-f03ddd4f4b06",
+        "reply-parent-user-id": "674193841",
+        "reply-parent-user-login": "jhooooooooobot",
+        "returning-chatter": "0",
+        "room-id": "106972596",
+        "subscriber": "0",
+        "tmi-sent-ts": "1664542438839",
+        "turbo": "0",
+        "user-id": "106972596",
+        "user-type": ""
+      },
+      "prefix": "jhoooooooooooo!jhoooooooooooo@jhoooooooooooo.tmi.twitch.tv",
+      "command": "PRIVMSG",
+      "params": [
+        "#jhoooooooooooo"
+      ],
+      "crlf": "@jhooooooooobot this is a reply"
+    },
+    "owner": true,
+    "subscriber": false,
+    "userType": "",
+    "platform": "twitch_account",
+    "platformAccountId": null,
+    "messageId": "3491ad34-f6d6-4d19-bd5b-44527e38c8d8",
+    "access_token": null,
+    "to": "#jhoooooooooooo"
+  }
