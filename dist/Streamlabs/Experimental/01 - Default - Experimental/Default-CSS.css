@@ -1,6 +1,6 @@
 /*
 - Default Theme
-- Last modified: Sunday, 2nd October 2022, 5:00:07 pm
+- Last modified: Sunday, 2nd October 2022, 6:38:34 pm
 */
 
 @import url('https://fonts.googleapis.com/css?family={font_picked}');
@@ -78,7 +78,7 @@ div#custom_html {
 }
 
 .reply_to {
-    display: inline-flex;
+    display: inline-block;
     opacity: 0.6;
     padding: 2px 8px; /* similar to message-box */
     margin-bottom: -5px;
@@ -87,6 +87,16 @@ div#custom_html {
 .border {
     border:1px solid #ffffff24;
     border-radius: 6px;
+}
+.reply_svg {
+    margin-right: 0.2em;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 300px) {
+    .reply_svg {
+        display: none !important;
+    }
 }
 
 .badges {
