@@ -13,7 +13,7 @@ document.addEventListener('onEventReceived', function (obj) {
     const msgLimit = {message_limit};
     const msgParent = document.querySelector('.sl__chat__layout');
 
-    if (obj.detail.command === "PRIVMSG") {
+    if (obj.detail.command === "PRIVMSG" || "youtube#liveChatMessage") {
         if (smoothscroll == true) {
             $('#log>div').last().hide().slideToggle(600, "easeInOutQuart");
         }
