@@ -259,3 +259,55 @@
     "access_token": null,
     "to": "#jhoooooooooooo"
   }
+
+  // Youtube chat obj
+  {
+    "priority": 10,
+    "pic": "",
+    "from": "jho",
+    "body": "hello, this is a message with emotes:yt:",
+    "command": "youtube#liveChatMessage",
+    "tags": {
+      "channelId": "UC_xm_5jkapl4sanxuGgSfwA",
+      "channelUrl": "http://www.youtube.com/channel/UC_xm_5jkapl4sanxuGgSfwA",
+      "displayName": "jho",
+      "profileImageUrl": "https://yt3.ggpht.com/7-f9opE9P9T0IwYPkUihM3c9zAc0z1OYernj5PiGLwaftWgfywJ1nLF8b6Mc4TyfBfOCqEOmUw=s88-c-k-c0x00ffffff-no-rj",
+      "isVerified": false,
+      "isChatOwner": true,
+      "isChatSponsor": false,
+      "isChatModerator": false
+    },
+    "payload": {
+      "kind": "youtube#liveChatMessage",
+      "etag": "2QTJVVaS4FkjlflqHFl5dxPM2tg",
+      "id": "LCC.CikqJwoYVUNfeG1fNWprYXBsNHNhbnh1R2dTZndBEgswbWM0VG1VVjhZYxI5ChpDSVhoNXRlYnhQb0NGV0laZlFvZExIRUMtdxIbQ0lmdTVNZWJ4UG9DRlkyZTJBVWR0SlFIZ0Ew",
+      "snippet": {
+        "type": "textMessageEvent",
+        "liveChatId": "KicKGFVDX3htXzVqa2FwbDRzYW54dUdnU2Z3QRILMG1jNFRtVVY4WWM",
+        "authorChannelId": "UC_xm_5jkapl4sanxuGgSfwA",
+        "publishedAt": "2022-10-03T13:57:55.299507+00:00",
+        "hasDisplayContent": true,
+        "displayMessage": "hello, this is a message with emotes:yt:",
+        "textMessageDetails": {
+          "messageText": "hello, this is a message with emotes:yt:"
+        }
+      },
+      "authorDetails": {
+        "channelId": "UC_xm_5jkapl4sanxuGgSfwA",
+        "channelUrl": "http://www.youtube.com/channel/UC_xm_5jkapl4sanxuGgSfwA",
+        "displayName": "jho",
+        "profileImageUrl": "https://yt3.ggpht.com/7-f9opE9P9T0IwYPkUihM3c9zAc0z1OYernj5PiGLwaftWgfywJ1nLF8b6Mc4TyfBfOCqEOmUw=s88-c-k-c0x00ffffff-no-rj",
+        "isVerified": false,
+        "isChatOwner": true,
+        "isChatSponsor": false,
+        "isChatModerator": false
+      }
+    },
+    "owner": true,
+    "subscriber": false,
+    "userType": "",
+    "platform": "youtube_account",
+    "platformAccountId": null,
+    "messageId": null,
+    "access_token": null
+  }
