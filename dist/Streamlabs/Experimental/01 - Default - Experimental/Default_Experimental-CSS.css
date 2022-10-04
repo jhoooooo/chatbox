@@ -1,6 +1,6 @@
 /*
 - Default Theme
-- Last modified: Sunday, 2nd October 2022, 6:38:34 pm
+- Last modified: Tuesday, 4th October 2022, 9:49:07 pm
 */
 
 @import url('https://fonts.googleapis.com/css?family={font_picked}');
@@ -49,7 +49,7 @@ div#custom_html {
 }
 
 #log>div {
-    margin-bottom: 5px;
+    margin-bottom: {message_spacing}px;
     animation: fadeOut 0.5s ease {message_hide_delay} forwards;
     -webkit-animation: fadeOut 0.5s ease {message_hide_delay} forwards;
 }
@@ -88,6 +88,7 @@ div#custom_html {
     border:1px solid #ffffff24;
     border-radius: 6px;
 }
+
 .reply_svg {
     margin-right: 0.2em;
     vertical-align: middle;

@@ -149,6 +149,16 @@
         "steps": 1,
         "group": "◆ MESSAGE OPTIONS"
     },
+    "message_spacing": {
+        "label": "Spacing Between Messages (px)",
+        "type": "slider",
+        "name": "",
+        "value": "5",
+        "max": 10,
+        "min": 0,
+        "steps": 1,
+        "group": "◆ MESSAGE OPTIONS"
+    },
     "smoothscroll": {
         "label": "Smoothscroll Animation?",
         "type": "dropdown",

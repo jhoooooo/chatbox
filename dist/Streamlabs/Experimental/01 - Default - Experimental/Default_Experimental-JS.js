@@ -14,9 +14,6 @@ document.addEventListener('onEventReceived', function (obj) {
     const msgParent = document.querySelector('.sl__chat__layout');
 
     if (obj.detail.command === "PRIVMSG" || "youtube#liveChatMessage") {
-        if (smoothscroll == true) {
-            $('#log>div').last().hide().slideToggle(600, "easeInOutQuart");
-        }
         if (limitEnable == true) {
             if (msgParent.children.length > msgLimit) {
                 $('#log>div').not($('#log>div').slice(-msgLimit)).fadeOut();
@@ -37,6 +34,9 @@ document.addEventListener('onEventReceived', function (obj) {
             </svg> replying to @${reply_to} : ${new_parent_msg} </div>`);
 
             $('.wrapper:has(.reply_to)').addClass('border');
+            if (smoothscroll == true) {
+                $('#log>div').last().hide().slideToggle(600, "easeInOutQuart");
+            }
 
             /*
             "reply-parent-display-name": "jhooooooooobot",
@@ -45,7 +45,11 @@ document.addEventListener('onEventReceived', function (obj) {
             "reply-parent-user-id": "674193841",
             "reply-parent-user-login": "jhooooooooobot",
             */
-
+        }
+        else {
+            if (smoothscroll == true) {
+                $('#log>div').last().hide().slideToggle(600, "easeInOutQuart");
+            }
         }
 
 
