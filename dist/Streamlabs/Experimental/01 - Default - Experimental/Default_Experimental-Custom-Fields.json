@@ -15,6 +15,16 @@
         "steps": 1,
         "group": "◆ BASIC OPTIONS"
     },
+    "chat_line_height": {
+        "label": "Text Line Height",
+        "type": "slider",
+        "name": "",
+        "value": "0",
+        "max": 9,
+        "min": 0,
+        "steps": 1,
+        "group": "◆ BASIC OPTIONS"
+    },
     "text_transform": {
         "label": "Text Transform",
         "type": "dropdown",
@@ -31,6 +41,16 @@
         "label": "Chatbox Background Color",
         "type": "colorpicker",
         "value": "#40365C",
+        "group": "◆ BASIC OPTIONS"
+    },
+    "chatbox_padding": {
+        "label": "Chatbox Padding",
+        "type": "slider",
+        "name": "",
+        "value": "4",
+        "max": 50,
+        "min": 0,
+        "steps": 1,
         "group": "◆ BASIC OPTIONS"
     },
     "wrapper_border_style": {
@@ -157,6 +177,32 @@
         "max": 10,
         "min": 0,
         "steps": 1,
+        "group": "◆ MESSAGE OPTIONS"
+    },
+    "enable_reply": {
+        "label": "Show Replies?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "false",
+        "group": "◆ OTHER OPTIONS"
+    }, 
+    "reply_limit": {
+        "label": "➜ Replies Character Limit",
+        "type": "slider",
+        "name": "",
+        "value": 120,
+        "max": 420,
+        "min": 1,
+        "steps": 1,
+        "group": "◆ OTHER OPTIONS"
+    },
+    "reply_border_color": {
+        "label": "Reply Border Color",
+        "type": "colorpicker",
+        "value": "#F1EEED30",
         "group": "◆ MESSAGE OPTIONS"
     },
     "smoothscroll": {

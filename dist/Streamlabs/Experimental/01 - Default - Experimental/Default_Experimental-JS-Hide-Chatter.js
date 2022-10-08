@@ -1,3 +1,8 @@
+/*
+- Default Theme
+- Version 2.0
+- Last modified: Sunday, 9th October 2022, 12:40:35 am
+*/
 // Please use event listeners to run functions.
 document.addEventListener('onLoad', function(obj) {
     // obj will be empty for chat widget

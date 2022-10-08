@@ -1,0 +1,361 @@
+// Streamelement OBJ
+{
+    "priority": 10,
+    "pic": "",
+    "from": "streamelements",
+    "body": "@jhoooooooooooo, jhoooooooooooo has been offline for  1 month 15 days 11 hours",
+    "command": "PRIVMSG", //PING, COMMAND, USERSTATE, JOIN, CAP, UNDEFINED, CLEARMSG
+    "tags": {
+        "badge-info": "",
+        "badges": "moderator/1,partner/1",
+        "color": "#5B99FF",
+        "display-name": "StreamElements",
+        "emotes": "",
+        "flags": "",
+        "id": "5e6875c1-e91c-4e52-a36b-8eba9fb94a3d",
+        "mod": "1",
+        "room-id": "106972596",
+        "subscriber": "0", // if sub = 1 - don't know if tier existed here.
+        "tmi-sent-ts": "1622004827689",
+        "turbo": "0",
+        "user-id": "100135110",
+        "user-type": "mod"
+    },
+    "payload": {
+        "raw": "@badge-info=;badges=moderator/1,partner/1;color=#5B99FF;display-name=StreamElements;emotes=;flags=;id=5e6875c1-e91c-4e52-a36b-8eba9fb94a3d;mod=1;room-id=106972596;subscriber=0;tmi-sent-ts=1622004827689;turbo=0;user-id=100135110;user-type=mod :streamelements!streamelements@streamelements.tmi.twitch.tv PRIVMSG #jhoooooooooooo :@jhoooooooooooo, jhoooooooooooo has been offline for  1 month 15 days 11 hours",
+        "tags": {
+            "badge-info": "",
+            "badges": "moderator/1,partner/1",
+            "color": "#5B99FF",
+            "display-name": "StreamElements",
+            "emotes": "",
+            "flags": "",
+            "id": "5e6875c1-e91c-4e52-a36b-8eba9fb94a3d",
+            "mod": "1",
+            "room-id": "106972596",
+            "subscriber": "0",
+            "tmi-sent-ts": "1622004827689",
+            "turbo": "0",
+            "user-id": "100135110",
+            "user-type": "mod"
+        },
+        "prefix": "streamelements!streamelements@streamelements.tmi.twitch.tv",
+        "command": "PRIVMSG",
+        "params": [
+            "#jhoooooooooooo"
+        ],
+        "crlf": "@jhoooooooooooo, jhoooooooooooo has been offline for  1 month 15 days 11 hours"
+    },
+    "owner": false,
+    "subscriber": false,
+    "userType": "mod",
+    "platform": "twitch_account",
+    "platformAccountId": null,
+    "messageId": "5e6875c1-e91c-4e52-a36b-8eba9fb94a3d",
+    "access_token": null,
+    "to": "#jhoooooooooooo"
+}
+
+
+// SIMULATED Pleb User OBJ
+
+{
+    "priority": 10,
+    "pic": "",
+    "from": "stauswave",
+    "body": "yea that's life",
+    "command": "PRIVMSG",
+    "tags": {
+        "color": "",
+        "display-name": "Stauswave",
+        "emotes": "",
+        "id": "831c3696-a2ca-46b2-b417-52b772103d83",
+        "mod": "0",
+        "room-id": "23161357",
+        "subscriber": "0",
+        "tmi-sent-ts": "1534527869717",
+        "turbo": "0",
+        "user-id": "164325527",
+        "user-type": ""
+    },
+    "payload": {},
+    "owner": false,
+    "subscriber": false,
+    "userType": "user",
+    "platform": "twitch_account",
+    "platformAccountId": null,
+    "messageId": null,
+    "access_token": null
+}
+
+// Simulated Turbo & Sub Users
+
+{
+    "priority": 10,
+    "pic": "",
+    "from": "z4nn1n",
+    "body": "you always think that...",
+    "command": "PRIVMSG",
+    "tags": {
+        "badges": "subscriber/48,premium/1",
+        "color": "#8A2BE2",
+        "display-name": "Z4NN1N",
+        "emotes": "",
+        "id": "e06e3a7b-fdfe-47ea-a01b-b62a52fbc7d2",
+        "mod": "0",
+        "room-id": "23161357",
+        "subscriber": "1",
+        "tmi-sent-ts": "1534527867531",
+        "turbo": "0",
+        "user-id": "36959654",
+        "user-type": ""
+    },
+    "payload": {},
+    "owner": false,
+    "subscriber": true,
+    "userType": "user",
+    "platform": "twitch_account",
+    "platformAccountId": null,
+    "messageId": null,
+    "access_token": null
+}
+
+
+// 20 September 2022 - Latest Object 
+
+{
+    "priority": 10,
+    "pic": "",
+    "from": "jhooooooooobot",
+    "body": "Pog object this",
+    "command": "PRIVMSG",
+    "tags": {
+      "badge-info": "",
+      "badges": "",
+      "color": "",
+      "display-name": "jhooooooooobot",
+      "emotes": "",
+      "first-msg": "0",
+      "flags": "",
+      "id": "c0d1d4e0-2a62-449a-8179-63ebbb6dd351",
+      "mod": "0",
+      "returning-chatter": "0",
+      "room-id": "106972596",
+      "subscriber": "0",
+      "tmi-sent-ts": "1664541600924",
+      "turbo": "0",
+      "user-id": "674193841",
+      "user-type": ""
+    },
+    "payload": {
+      "raw": "@badge-info=;badges=;color=;display-name=jhooooooooobot;emotes=;first-msg=0;flags=;id=c0d1d4e0-2a62-449a-8179-63ebbb6dd351;mod=0;returning-chatter=0;room-id=106972596;subscriber=0;tmi-sent-ts=1664541600924;turbo=0;user-id=674193841;user-type= :jhooooooooobot!jhooooooooobot@jhooooooooobot.tmi.twitch.tv PRIVMSG #jhoooooooooooo :Pog object this",
+      "tags": {
+        "badge-info": "",
+        "badges": "",
+        "color": "",
+        "display-name": "jhooooooooobot",
+        "emotes": "",
+        "first-msg": "0",
+        "flags": "",
+        "id": "c0d1d4e0-2a62-449a-8179-63ebbb6dd351",
+        "mod": "0",
+        "returning-chatter": "0",
+        "room-id": "106972596",
+        "subscriber": "0",
+        "tmi-sent-ts": "1664541600924",
+        "turbo": "0",
+        "user-id": "674193841",
+        "user-type": ""
+      },
+      "prefix": "jhooooooooobot!jhooooooooobot@jhooooooooobot.tmi.twitch.tv",
+      "command": "PRIVMSG",
+      "params": [
+        "#jhoooooooooooo"
+      ],
+      "crlf": "Pog object this"
+    },
+    "owner": false,
+    "subscriber": false,
+    "userType": "",
+    "platform": "twitch_account",
+    "platformAccountId": null,
+    "messageId": "c0d1d4e0-2a62-449a-8179-63ebbb6dd351",
+    "access_token": null,
+    "to": "#jhoooooooooooo"
+  }
+
+
+  // Streamlabs Reply object
+
+  {
+    "priority": 10,
+    "pic": "",
+    "from": "jhoooooooooooo",
+    "body": "@jhooooooooobot this is a reply",
+    "command": "PRIVMSG",
+    "tags": {
+      "badge-info": "",
+      "badges": "broadcaster/1,glhf-pledge/1",
+      "client-nonce": "2460cc4329cb3fd02e6eb4a9ac58a8c5",
+      "color": "#DAA520",
+      "display-name": "jhoooooooooooo",
+      "emotes": "",
+      "first-msg": "0",
+      "flags": "",
+      "id": "3491ad34-f6d6-4d19-bd5b-44527e38c8d8",
+      "mod": "0",
+      "reply-parent-display-name": "jhooooooooobot",
+      "reply-parent-msg-body": "lorem\\sipsum",
+      "reply-parent-msg-id": "c1ef3be6-0f54-4531-ac1f-f03ddd4f4b06",
+      "reply-parent-user-id": "674193841",
+      "reply-parent-user-login": "jhooooooooobot",
+      "returning-chatter": "0",
+      "room-id": "106972596",
+      "subscriber": "0",
+      "tmi-sent-ts": "1664542438839",
+      "turbo": "0",
+      "user-id": "106972596",
+      "user-type": ""
+    },
+    "payload": {
+      "raw": "@badge-info=;badges=broadcaster/1,glhf-pledge/1;client-nonce=2460cc4329cb3fd02e6eb4a9ac58a8c5;color=#DAA520;display-name=jhoooooooooooo;emotes=;first-msg=0;flags=;id=3491ad34-f6d6-4d19-bd5b-44527e38c8d8;mod=0;reply-parent-display-name=jhooooooooobot;reply-parent-msg-body=lorem\\sipsum;reply-parent-msg-id=c1ef3be6-0f54-4531-ac1f-f03ddd4f4b06;reply-parent-user-id=674193841;reply-parent-user-login=jhooooooooobot;returning-chatter=0;room-id=106972596;subscriber=0;tmi-sent-ts=1664542438839;turbo=0;user-id=106972596;user-type= :jhoooooooooooo!jhoooooooooooo@jhoooooooooooo.tmi.twitch.tv PRIVMSG #jhoooooooooooo :@jhooooooooobot this is a reply",
+      "tags": {
+        "badge-info": "",
+        "badges": "broadcaster/1,glhf-pledge/1",
+        "client-nonce": "2460cc4329cb3fd02e6eb4a9ac58a8c5",
+        "color": "#DAA520",
+        "display-name": "jhoooooooooooo",
+        "emotes": "",
+        "first-msg": "0",
+        "flags": "",
+        "id": "3491ad34-f6d6-4d19-bd5b-44527e38c8d8",
+        "mod": "0",
+        "reply-parent-display-name": "jhooooooooobot",
+        "reply-parent-msg-body": "lorem\\sipsum",
+        "reply-parent-msg-id": "c1ef3be6-0f54-4531-ac1f-f03ddd4f4b06",
+        "reply-parent-user-id": "674193841",
+        "reply-parent-user-login": "jhooooooooobot",
+        "returning-chatter": "0",
+        "room-id": "106972596",
+        "subscriber": "0",
+        "tmi-sent-ts": "1664542438839",
+        "turbo": "0",
+        "user-id": "106972596",
+        "user-type": ""
+      },
+      "prefix": "jhoooooooooooo!jhoooooooooooo@jhoooooooooooo.tmi.twitch.tv",
+      "command": "PRIVMSG",
+      "params": [
+        "#jhoooooooooooo"
+      ],
+      "crlf": "@jhooooooooobot this is a reply"
+    },
+    "owner": true,
+    "subscriber": false,
+    "userType": "",
+    "platform": "twitch_account",
+    "platformAccountId": null,
+    "messageId": "3491ad34-f6d6-4d19-bd5b-44527e38c8d8",
+    "access_token": null,
+    "to": "#jhoooooooooooo"
+  }
+
+  // Streamlabs Youtube chat obj
+  {
+    "priority": 10,
+    "pic": "",
+    "from": "jho",
+    "body": "hello, this is a message with emotes:yt:",
+    "command": "youtube#liveChatMessage",
+    "tags": {
+      "channelId": "UC_xm_5jkapl4sanxuGgSfwA",
+      "channelUrl": "http://www.youtube.com/channel/UC_xm_5jkapl4sanxuGgSfwA",
+      "displayName": "jho",
+      "profileImageUrl": "https://yt3.ggpht.com/7-f9opE9P9T0IwYPkUihM3c9zAc0z1OYernj5PiGLwaftWgfywJ1nLF8b6Mc4TyfBfOCqEOmUw=s88-c-k-c0x00ffffff-no-rj",
+      "isVerified": false,
+      "isChatOwner": true,
+      "isChatSponsor": false,
+      "isChatModerator": false
+    },
+    "payload": {
+      "kind": "youtube#liveChatMessage",
+      "etag": "2QTJVVaS4FkjlflqHFl5dxPM2tg",
+      "id": "LCC.CikqJwoYVUNfeG1fNWprYXBsNHNhbnh1R2dTZndBEgswbWM0VG1VVjhZYxI5ChpDSVhoNXRlYnhQb0NGV0laZlFvZExIRUMtdxIbQ0lmdTVNZWJ4UG9DRlkyZTJBVWR0SlFIZ0Ew",
+      "snippet": {
+        "type": "textMessageEvent",
+        "liveChatId": "KicKGFVDX3htXzVqa2FwbDRzYW54dUdnU2Z3QRILMG1jNFRtVVY4WWM",
+        "authorChannelId": "UC_xm_5jkapl4sanxuGgSfwA",
+        "publishedAt": "2022-10-03T13:57:55.299507+00:00",
+        "hasDisplayContent": true,
+        "displayMessage": "hello, this is a message with emotes:yt:",
+        "textMessageDetails": {
+          "messageText": "hello, this is a message with emotes:yt:"
+        }
+      },
+      "authorDetails": {
+        "channelId": "UC_xm_5jkapl4sanxuGgSfwA",
+        "channelUrl": "http://www.youtube.com/channel/UC_xm_5jkapl4sanxuGgSfwA",
+        "displayName": "jho",
+        "profileImageUrl": "https://yt3.ggpht.com/7-f9opE9P9T0IwYPkUihM3c9zAc0z1OYernj5PiGLwaftWgfywJ1nLF8b6Mc4TyfBfOCqEOmUw=s88-c-k-c0x00ffffff-no-rj",
+        "isVerified": false,
+        "isChatOwner": true,
+        "isChatSponsor": false,
+        "isChatModerator": false
+      }
+    },
+    "owner": true,
+    "subscriber": false,
+    "userType": "",
+    "platform": "youtube_account",
+    "platformAccountId": null,
+    "messageId": null,
+    "access_token": null
+  }
+
+  // Streamelements Youtube Obj
+  {
+    "listener": "message",
+    "event": {
+        "service": "youtube",
+        "data": {
+            "kind": "youtube#liveChatMessage",
+            "etag": "G2T_cUI2B9mtxHViQGYENQplquE",
+            "id": "LCC.CikqJwoYVUNfeG1fNWprYXBsNHNhbnh1R2dTZndBEgtrNnNMT0dibV9DRRI5ChpDS0RpenRManh2b0NGUklHZlFvZENGMEk4dxIbQ05hSi1yRGh4dm9DRlNud09BWWRpdXNDdmc0",
+            "snippet": {
+                "type": "textMessageEvent",
+                "liveChatId": "KicKGFVDX3htXzVqa2FwbDRzYW54dUdnU2Z3QRILazZzTE9HYm1fQ0U",
+                "authorChannelId": "UC_xm_5jkapl4sanxuGgSfwA",
+                "publishedAt": "2022-10-04T14:25:11.250249+00:00",
+                "hasDisplayContent": true,
+                "displayMessage": "hell o?",
+                "textMessageDetails": {
+                    "messageText": "hell o?"
+                }
+            },
+            "authorDetails": {
+                "channelId": "UC_xm_5jkapl4sanxuGgSfwA",
+                "channelUrl": "http://www.youtube.com/channel/UC_xm_5jkapl4sanxuGgSfwA",
+                "displayName": "jho",
+                "profileImageUrl": "https://yt3.ggpht.com/7-f9opE9P9T0IwYPkUihM3c9zAc0z1OYernj5PiGLwaftWgfywJ1nLF8b6Mc4TyfBfOCqEOmUw=s88-c-k-c0x00ffffff-no-rj",
+                "isVerified": false,
+                "isChatOwner": true,
+                "isChatSponsor": false,
+                "isChatModerator": false
+            },
+            "msgId": "LCC.CikqJwoYVUNfeG1fNWprYXBsNHNhbnh1R2dTZndBEgtrNnNMT0dibV9DRRI5ChpDS0RpenRManh2b0NGUklHZlFvZENGMEk4dxIbQ05hSi1yRGh4dm9DRlNud09BWWRpdXNDdmc0",
+            "userId": "UC_xm_5jkapl4sanxuGgSfwA",
+            "nick": "jho",
+            "badges": [],
+            "displayName": "jho",
+            "isAction": false,
+            "time": 1664893516549,
+            "tags": [],
+            "displayColor": null,
+            "channel": "UC_xm_5jkapl4sanxuGgSfwA",
+            "text": "hell o?",
+            "emotes": [],
+            "avatar": "https://yt3.ggpht.com/7-f9opE9P9T0IwYPkUihM3c9zAc0z1OYernj5PiGLwaftWgfywJ1nLF8b6Mc4TyfBfOCqEOmUw=s88-c-k-c0x00ffffff-no-rj"
+        },
+        "renderedText": "<span>hell o?</span>"
+    }
+}
