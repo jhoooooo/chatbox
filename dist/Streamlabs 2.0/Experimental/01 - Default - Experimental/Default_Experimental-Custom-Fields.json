@@ -189,6 +189,86 @@
         "steps": 1,
         "group": "◆ MESSAGE OPTIONS"
     },
+    "display_announcement": {
+        "label": "Display Twitch's /announce ?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "false",
+        "group": "◆ /ANNOUNCE OPTIONS"
+    },
+    "announcement_name": {
+        "label": "Attach announcer name?",
+        "type": "dropdown",
+        "options": {
+            "inherit": "Enable",
+            "none": "Disable"
+        },
+        "value": "inherit",
+        "group": "◆ /ANNOUNCE OPTIONS"
+    },
+    "announce_primary_background_color": {
+        "label": "Primary Background Color",
+        "type": "colorpicker",
+        "value": "#150420",
+        "group": "◆ /ANNOUNCE OPTIONS"
+    },
+    "announce_primary_text_color": {
+        "label": "Primary Text Color",
+        "type": "colorpicker",
+        "value": "#F1EEED",
+        "group": "◆ /ANNOUNCE OPTIONS"
+    },
+    "announce_blue_background_color": {
+        "label": "Blue Background Color",
+        "type": "colorpicker",
+        "value": "#150420",
+        "group": "◆ /ANNOUNCE OPTIONS"
+    },
+    "announce_blue_text_color": {
+        "label": "Blue Text Color",
+        "type": "colorpicker",
+        "value": "#F1EEED",
+        "group": "◆ /ANNOUNCE OPTIONS"
+    },
+    "announce_green_background_color": {
+        "label": "Green Background Color",
+        "type": "colorpicker",
+        "value": "#150420",
+        "group": "◆ /ANNOUNCE OPTIONS"
+    },
+    "announce_green_text_color": {
+        "label": "Green Text Color",
+        "type": "colorpicker",
+        "value": "#F1EEED",
+        "group": "◆ /ANNOUNCE OPTIONS"
+    },
+    "announce_orange_background_color": {
+        "label": "Orange Background Color",
+        "type": "colorpicker",
+        "value": "#150420",
+        "group": "◆ /ANNOUNCE OPTIONS"
+    },
+    "announce_orange_text_color": {
+        "label": "Orange Text Color",
+        "type": "colorpicker",
+        "value": "#F1EEED",
+        "group": "◆ /ANNOUNCE OPTIONS"
+    },
+    "announce_purple_background_color": {
+        "label": "Purple background Color",
+        "type": "colorpicker",
+        "value": "#150420",
+        "group": "◆ /ANNOUNCE OPTIONS"
+    },
+    "announce_purple_text_color": {
+        "label": "Purple Text Color",
+        "type": "colorpicker",
+        "value": "#F1EEED",
+        "group": "◆ /ANNOUNCE OPTIONS"
+    },
     "enable_reply": {
         "label": "Show Replies?",
         "type": "dropdown",
@@ -198,7 +278,7 @@
         },
         "value": "false",
         "group": "◆ OTHER OPTIONS"
-    }, 
+    },
     "reply_limit": {
         "label": "➜ Replies Character Limit",
         "type": "slider",
@@ -213,7 +293,7 @@
         "label": "Reply Border Color",
         "type": "colorpicker",
         "value": "#F1EEED30",
-        "group": "◆ MESSAGE OPTIONS"
+        "group": "◆ OTHER OPTIONS"
     },
     "smoothscroll": {
         "label": "Smoothscroll Animation?",
@@ -244,25 +324,6 @@
         "min": 1,
         "steps": 1,
         "group": "◆ OTHER OPTIONS"
-    },
-    "display_announcement": {
-        "label": "Display Twitch's /announce ?",
-        "type": "dropdown",
-        "options": {
-            "false": "Disable",
-            "true": "Enable"
-        },
-        "value": "false",
-        "group": "◆ OTHER OPTIONS"
-    },
-    "announcement_name": {
-        "label": "➜ Attach announcer name?",
-        "type": "dropdown",
-        "options": {
-            "inherit": "Enable",
-            "none": "Disable"
-        },
-        "value": "inherit",
-        "group": "◆ OTHER OPTIONS"
     }
+
 }

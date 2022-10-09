@@ -1,7 +1,7 @@
 /*
 - Default Theme
 - Version 2.0
-- Last modified: Sunday, 9th October 2022, 1:07:34 pm
+- Last modified: Sunday, 9th October 2022, 9:49:16 pm
 */
 
 @import url('https://fonts.googleapis.com/css?family={font_picked}');
@@ -81,7 +81,7 @@ div#custom_html {
 .reply_to {
     display: inline-block;
     font-size: 0.8em;
-    opacity: 0.6;
+    opacity: 0.8;
     padding: 2px 8px; /* similar to message-box */
     margin-bottom: -5px;
 }
@@ -130,46 +130,42 @@ div#custom_html {
 /* Announcement */
 
 .announcement {
-    padding: 4px 4px 4px 4px;
-    border-radius: 2px;
+    padding: 4px;
+    border-radius: 6px;
     display: flex;
     align-items: center;
 }
 
 .svg_announcement {
-    margin-left: 2px;
+    margin-right: 2px;
+    vertical-align: middle;
 }
 
 .announcement_name {
     display: {announcement_name};
 }
-/*
 
-Announcement have 5 different colors attached to it. (Primary, Blue, Green, Purple & Orange).
-Announcement from third party apps (eg: Chatterino) might not have any color attached to it. Coded to automaticly fallback these to Primary's color.
-
-*/
 .announcement_primary {
-    background: #1a1826;
-    color: {message_color};
+    background: {announce_primary_background_color}!important;
+    color: {announce_primary_text_color}!important;
 }
 
 .announcement_blue {
-    background: blue; /* temporary */
-    color: {message_color};
+    background: {announce_primary_background_color}!important;
+    color: {announce_primary_text_color}!important;
 }
 
 .announcement_green {
-    background: blue; /* temporary */
-    color: {message_color};
+    background: {announce_primary_background_color}!important;
+    color: {announce_primary_text_color}!important;
 }
 
 .announcement_orange {
-    background: blue; /* temporary */
-    color: {message_color};
+    background: {announce_primary_background_color}!important;
+    color: {announce_primary_text_color}!important;
 }
 
 .announcement-purple {
-    background: blue; /* temporary */
-    color: {message_color};
+    background: {announce_primary_background_color}!important;
+    color: {announce_primary_text_color}!important;
 }
