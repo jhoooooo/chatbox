@@ -1,8 +1,9 @@
 /*
-- Default Theme
+- Jho Chatbox - Default Theme
 - Version 2.0
-- Last modified: Sunday, 9th October 2022, 12:40:35 am
+- Last modified: Sunday, 9th October 2022, 12:05:57 pm
 */
+
 // Please use event listeners to run functions.
 document.addEventListener('onLoad', function(obj) {
     // obj will be empty for chat widget

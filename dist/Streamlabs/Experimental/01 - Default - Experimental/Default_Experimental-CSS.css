@@ -1,7 +1,7 @@
 /*
 - Default Theme
 - Version 2.0
-- Last modified: Saturday, 8th October 2022, 11:52:30 pm
+- Last modified: Sunday, 9th October 2022, 1:07:34 pm
 */
 
 @import url('https://fonts.googleapis.com/css?family={font_picked}');
@@ -125,4 +125,51 @@ div#custom_html {
     display: inline-block;
     height: 1em;
     opacity: 0;
+}
+
+/* Announcement */
+
+.announcement {
+    padding: 4px 4px 4px 4px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.svg_announcement {
+    margin-left: 2px;
+}
+
+.announcement_name {
+    display: {announcement_name};
+}
+/*
+
+Announcement have 5 different colors attached to it. (Primary, Blue, Green, Purple & Orange).
+Announcement from third party apps (eg: Chatterino) might not have any color attached to it. Coded to automaticly fallback these to Primary's color.
+
+*/
+.announcement_primary {
+    background: #1a1826;
+    color: {message_color};
+}
+
+.announcement_blue {
+    background: blue; /* temporary */
+    color: {message_color};
+}
+
+.announcement_green {
+    background: blue; /* temporary */
+    color: {message_color};
+}
+
+.announcement_orange {
+    background: blue; /* temporary */
+    color: {message_color};
+}
+
+.announcement-purple {
+    background: blue; /* temporary */
+    color: {message_color};
 }

@@ -1,4 +1,14 @@
 {
+    "description": {
+        "name": "Jho Chat v2.0",
+        "owner": "@jhooo_o",
+        "links": {
+            "twitter": "https://twitter.com/jhooo_o",
+            "github": "https://github.com/jhoooooo/chatbox",
+            "twitch": "https://www.twitch.tv/jhoooooooooooo/",
+            "gumroad": "https://jhoo.gumroad.com/"
+        }
+    },
     "font_picked": {
         "label": "Font",
         "type": "fontpicker",
@@ -233,6 +243,26 @@
         "max": 999,
         "min": 1,
         "steps": 1,
+        "group": "◆ OTHER OPTIONS"
+    },
+    "display_announcement": {
+        "label": "Display Twitch's /announce ?",
+        "type": "dropdown",
+        "options": {
+            "false": "Disable",
+            "true": "Enable"
+        },
+        "value": "false",
+        "group": "◆ OTHER OPTIONS"
+    },
+    "announcement_name": {
+        "label": "➜ Attach announcer name?",
+        "type": "dropdown",
+        "options": {
+            "inherit": "Enable",
+            "none": "Disable"
+        },
+        "value": "inherit",
         "group": "◆ OTHER OPTIONS"
     }
 }
