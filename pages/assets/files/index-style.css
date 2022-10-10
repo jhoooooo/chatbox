@@ -1,6 +1,6 @@
 /*
 Jho.
-Last modified: Sunday, 31st July 2022, 4:24:29 pm
+Last modified: Monday, 10th October 2022, 9:16:19 pm
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -30,6 +30,8 @@ Last modified: Sunday, 31st July 2022, 4:24:29 pm
     --purple-01: #907effff;
     --purple-02: #9a8affff;
     --gray-01: #ececee;
+    --streamlabs2 : #dd9597;
+    --streamlabs2-01: #d9848d;
 }
 
 /* Style */
@@ -84,11 +86,26 @@ body {
 .streamlabs-title {
     color: var(--dark-02);
     font-weight: 700;
-    text-align: center;
 }
 
 .streamlabs a.btn.btn-sm {
     background: var(--yellow-02);
+    color: var(--dark-02);
+    border: none !important;
+    padding: 0.5em;
+}
+
+.streamlabs2 {
+    background: var(--streamlabs2);
+}
+
+.streamlabs2-title {
+    color: var(--dark-02);
+    font-weight: 700;
+}
+
+.streamlabs2 a.btn.btn-sm {
+    background: var(--streamlabs2-01);
     color: var(--dark-02);
     border: none !important;
     padding: 0.5em;
@@ -112,6 +129,7 @@ body {
 }
 
 .streamlabs a.btn.btn-sm:hover,
+.streamlabs2 a.btn.btn-sm:hover,
 .streamelements a.btn.btn-sm:hover {
     opacity: 0.8;
 }
