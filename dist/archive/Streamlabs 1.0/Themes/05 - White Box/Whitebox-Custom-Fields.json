@@ -4,6 +4,15 @@
         "type": "fontpicker",
         "value": "Open Sans"
     },
+    "font_size": {
+        "label": "Font Size",
+        "type": "slider",
+        "name": "",
+        "value": "12",
+        "max": 86,
+        "min": 0,
+        "steps": 1
+    },
     "messagebox_background": {
         "label": "Background Color",
         "type": "colorpicker",

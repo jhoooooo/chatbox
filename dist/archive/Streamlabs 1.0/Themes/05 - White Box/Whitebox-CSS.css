@@ -1,6 +1,6 @@
 /*
 - White Box
-- Last Update: 01 February 2022
+- Last Modified: Thursday, 13th October 2022, 8:18:16 pm
 */
 
 @import url('https://fonts.googleapis.com/css?family={font-choosen}');
@@ -16,6 +16,7 @@ html, body {
 
 body {
     font-family: '{font-choosen}', 'Helvetica Neue', sans-serif;
+    font-size: {font_size};
     line-height: 1.5em;
 }
 
@@ -45,7 +46,7 @@ body {
 
 .message-box {
     background-color: {messagebox_background};
-    padding: 6px;
+    padding:  2px 6px 6px 6px;
     border-radius: {border_radius}px;
 }
 
@@ -60,10 +61,12 @@ body {
 .name {
     color: {name_color};
     font-weight: 900;
+    vertical-align: middle;
 }
 
 .message {
     color: {message_color};
+    vertical-align: middle;
 }
 
 .badges {
@@ -72,6 +75,7 @@ body {
 
 .badge {
     margin-right: 2px;
+    max-height: 1em;
 }
 
 /* Emote */
