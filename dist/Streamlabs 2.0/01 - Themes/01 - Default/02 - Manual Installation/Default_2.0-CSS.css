@@ -1,7 +1,7 @@
 /*
 - Default Theme
 - Version 2.0
-- Last modified: Sunday, 9th October 2022, 9:49:16 pm
+- Last modified: Friday, 4th November 2022, 8:58:23 pm
 */
 
 @import url('https://fonts.googleapis.com/css?family={font_picked}');
@@ -130,10 +130,12 @@ div#custom_html {
 /* Announcement */
 
 .announcement {
-    padding: 4px;
+    padding: {announce_padding}px;
     border-radius: 6px;
     display: flex;
     align-items: center;
+    margin-bottom: {announce_margin}px!important;
+    margin-top: {announce_margin}px!important;
 }
 
 .svg_announcement {

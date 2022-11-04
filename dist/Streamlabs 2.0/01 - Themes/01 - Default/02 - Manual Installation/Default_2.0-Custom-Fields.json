@@ -19,7 +19,7 @@
         "label": "Font Size",
         "type": "slider",
         "name": "",
-        "value": "12",
+        "value": "22",
         "max": 24,
         "min": 0,
         "steps": 1,
@@ -29,7 +29,7 @@
         "label": "Text Line Height",
         "type": "slider",
         "name": "",
-        "value": "0",
+        "value": "5",
         "max": 9,
         "min": 0,
         "steps": 1,
@@ -57,7 +57,7 @@
         "label": "Chatbox Padding",
         "type": "slider",
         "name": "",
-        "value": "4",
+        "value": "14",
         "max": 50,
         "min": 0,
         "steps": 1,
@@ -96,7 +96,7 @@
         "label": "Chatbox Border Radius",
         "type": "slider",
         "name": "",
-        "value": "0",
+        "value": "6",
         "max": 20,
         "min": 0,
         "steps": 1,
@@ -196,7 +196,7 @@
             "false": "Disable",
             "true": "Enable"
         },
-        "value": "false",
+        "value": "true",
         "group": "◆ /ANNOUNCE OPTIONS"
     },
     "announcement_name": {
@@ -267,6 +267,26 @@
         "label": "Purple Text Color",
         "type": "colorpicker",
         "value": "#F1EEED",
+        "group": "◆ /ANNOUNCE OPTIONS"
+    },
+    "announce_padding": {
+        "label": "Announcement's Box Padding",
+        "type": "slider",
+        "name": "",
+        "value": "16",
+        "max": 30,
+        "min": 0,
+        "steps": 1,
+        "group": "◆ /ANNOUNCE OPTIONS"
+    },
+    "announce_margin": {
+        "label": "Announcement's Box Margin",
+        "type": "slider",
+        "name": "",
+        "value": "16",
+        "max": 30,
+        "min": 0,
+        "steps": 1,
         "group": "◆ /ANNOUNCE OPTIONS"
     },
     "enable_reply": {
