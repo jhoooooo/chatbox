@@ -34,6 +34,9 @@ body a {
 }
 
 /* Box */
+.f-20 {
+    font-size: 20px;
+}
 
 .box {
     padding: 14px;
@@ -45,10 +48,11 @@ body a {
 .box-icon,
 .box-text {
     padding: 10px;
+    align-self: center;
 }
 
 .box-warning {
-    background: #f9e85d;
+    background: #f7d739;
 }
 
 .box-danger {
