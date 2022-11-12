@@ -2,7 +2,7 @@
 <html lang="en">
 
 <!---
-    - Last modified: Monday, 7th November 2022, 3:17:00 am
+    - Last modified: Saturday, 12th November 2022, 8:42:09 pm
 -->
 
 <head>
@@ -47,7 +47,7 @@
 
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Jho Chatbox</a>
             <span class="navbar-text">
@@ -101,65 +101,58 @@
             <div class="col-lg-3 d-none d-lg-block">
                 <nav class="sidebar" id="" aria-label="Main navigation">
                     <ul class="list-unstyled">
-                        <li class="my-1 nav-style">
-                            <i class="fa-solid fa-fw fa-rocket"></i>
-                            <a class="d-inline-flex align-items-center fw-bolder text-decoration-none text-dark"
-                                href="#features" aria-current="true">Features</a>
+                        <li class="my-1 sidebar_nav">
+                            <a class="d-inline-flex align-items-center fw-bolder text-decoration-none"
+                                href="#features" aria-current="true"><i class="fa-solid fa-fw fa-rocket me-1"></i> Features</a>
                         </li>
-                        <li class="my-1 nav-style">
-                            <i class="fa-solid fa-fw fa-download"></i>
-                            <a class="d-inline-flex align-items-center fw-bolder text-decoration-none text-dark"
-                                href="#download" aria-current="true">Download</a>
+                        <li class="my-1 sidebar_nav">
+                            <a class="d-inline-flex align-items-center fw-bolder text-decoration-none"
+                                href="#download" aria-current="true"><i class="fa-solid fa-fw fa-download me-1"></i> Download</a>
                         </li>
-                        <li class="my-1 nav-style">
-                            <i class="fa-solid fa-fw fa-wand-magic-sparkles"></i>
-                            <a class="d-inline-flex align-items-center fw-bolder text-decoration-none text-dark"
+                        <li class="my-1 sidebar_nav">
+                            <a class="d-inline-flex align-items-center fw-bolder text-decoration-none"
                                 href="#oneclick" aria-current="true">
-                                One-click Installation
+                                <i class="fa-solid fa-fw fa-wand-magic-sparkles me-1"></i> One-click Installation
                             </a>
                         </li>
-                        <li class="my-1 nav-style">
-                            <i class="fa-regular fa-fw fa-file-code"></i>
-                            <a class="d-inline-flex align-items-center fw-bolder text-decoration-none text-dark"
+                        <li class="my-1 sidebar_nav">
+                            <a class="d-inline-flex align-items-center fw-bolder text-decoration-none"
                                 href="#manual" aria-current="true">
-                                Manual Installation
+                                <i class="fa-regular fa-fw fa-file-code me-1"></i> Manual Installation
                             </a>
 
                         </li>
-                        <li class="my-1 nav-style-no-link">
-                            <i class="fa-solid fa-hat-wizard fa-fw"></i>
-                            <strong class="d-inline-flex align-items-center fw-bolder text-decoration-none text-dark"
-                                href="#customization" aria-current="true">Customization</strong>
+                        <li class="my-1 sidebar_nav sidebar_nav_link">
+                            <strong class="d-inline-flex align-items-center fw-bolder text-decoration-none"
+                                href="#customization" aria-current="true"><i class="fa-solid fa-hat-wizard fa-fw me-1"></i> Customization</strong>
                             <ul class="list-unstyled small py-2">
-                                <li class="nav-style">
-                                    <a class="d-inline-flex align-items-center text-decoration-none text-dark"
+                                <li class="sidebar_nav">
+                                    <a class="d-inline-flex align-items-center text-decoration-none"
                                         href="#streamlabs" aria-current="true">
                                         Streamlabs Settings
                                     </a>
                                 </li>
-                                <li class="nav-style">
-                                    <a class="d-inline-flex align-items-center text-decoration-none text-dark"
+                                <li class="sidebar_nav">
+                                    <a class="d-inline-flex align-items-center text-decoration-none"
                                         href="#settings" aria-current="true">
                                         Theme Settings
                                     </a>
                                 </li>
-                                <li class="nav-style">
-                                    <a class="d-inline-flex align-items-center text-decoration-none text-dark"
+                                <li class="sidebar_nav">
+                                    <a class="d-inline-flex align-items-center text-decoration-none"
                                         href="#color-picker" aria-current="true">
                                         Color Picker
                                     </a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="my-1 nav-style">
-                            <i class="fa-solid fa-screwdriver-wrench fa-fw"></i>
-                            <a class="d-inline-flex align-items-center fw-bolder text-decoration-none text-dark"
-                                href="#extend" aria-current="true">Extend</a>
+                        <li class="my-1 sidebar_nav">
+                            <a class="d-inline-flex align-items-center fw-bolder text-decoration-none"
+                                href="#extend" aria-current="true"><i class="fa-solid fa-screwdriver-wrench fa-fw me-1"></i> Extend</a>
                         </li>
-                        <li class="my-1 nav-style">
-                            <i class="fa-solid fa-circle-question fa-fw"></i>
-                            <a class="d-inline-flex align-items-center fw-bolder text-decoration-none text-dark"
-                                href="#support" aria-current="true">Support</a>
+                        <li class="my-1 sidebar_nav">
+                            <a class="d-inline-flex align-items-center fw-bolder text-decoration-none"
+                                href="#support" aria-current="true"> <i class="fa-solid fa-circle-question fa-fw me-1"></i> Support</a>
                         </li>
                     </ul>
                 </nav>
@@ -248,7 +241,7 @@
                     <li>Open your Streamlabs web dashboard and proceed to <a
                             href="https://streamlabs.com/dashboard#/chatbox" target="_blank">chat widget section</a>.
                     </li>
-                    <li>Look for <mark>Enable Custom HTML/CSS </mark> and choose the <mark>enable</mark> option.</li>
+                    <li>Look for <mark>Enable Custom HTML/CSS</mark> and choose the <mark>enable</mark> option.</li>
                     <li>After that, few new fields will be available as shown below.</li>
                     <img src="../assets/images/streamlabs_01.png" class="img-fluid rounded mx-auto d-block my-4"
                         alt="Streamlabs custom fields section" title="Streamlabs custom fields section">
@@ -291,7 +284,7 @@
                     <li>Chat Delay <span class="badge bg-primary">Choose as you please</span></li>
                     <li id="hide_chatter">Hide Chatter <span class="badge bg-warning text-dark"><i
                                 class="bi bi-exclamation-triangle-fill me-1"></i>Recommended to disable</span></li>
-                    <div class="card bg-card border-0 my-3 pb-3 px-2">
+                    <div class="card box-warning border-0 my-3 pb-3 px-2">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <i class="bi bi-exclamation-triangle-fill"></i>
@@ -336,79 +329,79 @@
                     <dt class="col-sm-3">Font</dt>
                     <dd class="col-sm-9">You can choose font in the dropdown option or by entering any font name from <a
                             href="https://fonts.google.com/" target="_blank">Google Fonts</a></dd>
-                    <span class="border-bottom border-2"></span>
+                    <span class="border-bottom"></span>
 
 
                     <dt class="col-sm-3">Font Size</dt>
                     <dd class="col-sm-9">
                         <p>Font sizes may affect the how other element behave.</p>
                     </dd>
-                    <span class="border-bottom border-2"></span>
+                    <span class="border-bottom"></span>
 
 
                     <dt class="col-sm-3">Text Line Height</dt>
                     <dd class="col-sm-9">Sets the height of a line box, the distance between lines of text. Bigger font
                         require higher text line height.</dd>
-                    <span class="border-bottom border-2"></span>
+                    <span class="border-bottom"></span>
 
 
                     <dt class="col-sm-3">Chatbox Background Color</dt>
                     <dd class="col-sm-9">Chatbox background color. You can use <a href="#color-picker">8 digits Hex
                             color</a> for transparency.</dd>
-                    <span class="border-bottom border-2"></span>
+                    <span class="border-bottom"></span>
 
 
                     <dt class="col-sm-3">Chatbox Padding</dt>
                     <dd class="col-sm-9">Inner spacing between chatbox and it's content. higher resolution looks better
                         with bigger padding.</dd>
-                    <span class="border-bottom border-2"></span>
+                    <span class="border-bottom"></span>
 
 
                     <dt class="col-sm-3">Chatbox Border Style, Color, Width, Radius</dt>
                     <dd class="col-sm-9">Increase the border width if you want to have a border and tweaks it's style to
                         your own liking.</dd>
-                    <span class="border-bottom border-2"></span>
+                    <span class="border-bottom "></span>
 
                     <dt class="col-sm-3">Message Background Color</dt>
                     <dd class="col-sm-9">Individual messages background color. You can use <a href="#color-picker">8
                             digits Hex color</a> for transparency.</dd>
-                    <span class="border-bottom border-2"></span>
+                    <span class="border-bottom"></span>
 
                     <dt class="col-sm-3">Username Color</dt>
                     <dd class="col-sm-9">If you prefer different color for people's username.</dd>
-                    <span class="border-bottom border-2"></span>
+                    <span class="border-bottom"></span>
 
                     <dt class="col-sm-3">Message Color, Weight, Border Style, Border Color, Border Width, Border Radius
                     </dt>
                     <dd class="col-sm-9">If you choose to have different background color for individual messages,
                         tinker with these for further customization.</dd>
-                    <span class="border-bottom border-2"></span>
+                    <span class="border-bottom"></span>
 
                     <dt class="col-sm-3">Spacing Between Messages</dt>
                     <dd class="col-sm-9">Spacing between individual messages, and these is not spacing between text
                         lines (line height).</dd>
-                    <span class="border-bottom border-2"></span>
+                    <span class="border-bottom"></span>
 
                     <dt class="col-sm-3">/announce options</dt>
                     <dd class="col-sm-9">To enable Twitch's /announce feature. It has 5 different color option (Primary,
                         Blue, Green, Orange and Purple). If you prefer, you can also hide announcer's username. These
                         messages does not support emotes.</dd>
-                    <span class="border-bottom border-2"></span>
+                    <span class="border-bottom"></span>
 
                     <dt class="col-sm-3">Show replies?</dt>
                     <dd class="col-sm-9">To enable Twitch's replies feature. Does not support 'Hide Chatter' option. If
                         people replied to these hidden account (such as bots), it may ruin the chatbox behaviour. You
                         can limit the length of these replies so that it does not takes to much space.</dd>
-                    <span class="border-bottom border-2"></span>
+                    <span class="border-bottom"></span>
 
                     <dt class="col-sm-3">Smoothscroll Animation</dt>
                     <dd class="col-sm-9">To enable smoothscroll animation each time new messages arrived. Suitable for
                         slow chats.</dd>
-                    <span class="border-bottom border-2"></span>
+                    <span class="border-bottom"></span>
 
                     <dt class="col-sm-3">Limit Message Shown</dt>
                     <dd class="col-sm-9">If you prefer, you can limit how many messages displayed at a time.</dd>
-                    <span class="border-bottom border-2"></span>
+                    <span class="border-bottom"></span>
 
 
                 </dl>
@@ -484,19 +477,17 @@
                 <!-- Toast Body Ends-->
             </main>
             <div class="col-lg-2">
-                <nav class="mb-5 text-muted">
-                    <nav id="links">
+                <nav class="other-links mb-5 text-muted">
                         <ul class="list-unstyled">
-                            <li><a href="https://github.com/jhoooooo/chatbox" class="text-muted text-decoration-none"><i
+                            <li><a href="https://github.com/jhoooooo/chatbox" class="text-decoration-none"><i
                                         class="fa-brands fa-github fa-fw me-1"></i>Github</a></li>
                             <li><a href="https://github.com/jhoooooo/chatbox/blob/master/LICENSE"
-                                    class="text-muted text-decoration-none"><i
+                                    class="text-decoration-none"><i
                                         class="fa-solid fa-scale-balanced fa-fw me-1"></i>License</a></li>
                             <li><a href="https://github.com/jhoooooo/chatbox/issues" target="_blank"
-                                    class="text-muted text-decoration-none"><i
+                                    class="text-decoration-none"><i
                                         class="fa-solid fa-bug fa-fw me-1"></i>Reports Issues</a></li>
                         </ul>
-                    </nav>
                 </nav>
             </div>
         </div>

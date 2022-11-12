@@ -1,41 +1,108 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --background: #0d1117;
+    --theme: #f9e2af;
+    --text: #b4b4b4;
+    --text_hover: #e7e7e7;
+    --text_dark: #272b3bff;
+    --badge_danger: #920536;
+    --text_danger: #feb993;
+    --badge_warning: #ffd700;
+    --text_warning: #ac0f50;
+    --badge_primary: #1e90ff;
+    --text_primary: #222258;
+    --badge_success: #234c2f;
+    --text_success: #00ff7f;
+}
+
+
+html[data-theme='dark'] {
+    :root {
+        --background: #ebedefff;
+        --text: #272b3bff;
+    }
+}
+
 
 /* Style */
 
 html,
 body {
-    background: #ebedefff;;
-    color: #272b3bff;
+    background: var(--background);
+    color: var(--text);
     font-family: "Rubik", Arial, sans-serif;
     font-size: 16px;
 }
 
 body a {
+    color: var(--text);
     text-decoration-line: underline;
-    text-decoration-style: dotted;  
+    text-decoration-style: dotted;
 }
 
-/* Nav Links */
+body a:hover {
+    color: var(--text_hover);
+}
 
-.nav-style { 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--theme);
+    margin-top: 2rem;
+}
+
+.border-bottom {
+    border-color: var(--text)!important;
+    opacity: 15%;
+}
+
+/* Navbar */
+
+.navbar {
+    border-bottom: 2px solid var(--theme);
+}
+
+.navbar a {
+    color: var(--text);
+}
+
+.navbar a:hover{
+    color: var(--text_hover);
+}
+
+/* Sidebar */
+
+.sidebar {
+    position: fixed;
+}
+
+.sidebar a, .other-links a {
+    color: var(--text);
+}
+
+.sidebar a:hover, .other-links a:hover {
+    color: var(--text_hover);
+}
+
+.sidebar_nav {
     padding: 4px;
     border-radius: 4px;
 }
 
-.nav-style:hover { 
-    background-color: #f0f0f0;
-}
-
-.nav-style-no-link { 
+.sidebar_nav_no_link {
     padding: 4px;
     border-radius: 4px;
     cursor: context-menu;
 }
 
 /* Box */
+
 .f-20 {
-    font-size: 20px;
+    font-size: 1.1em;
 }
 
 .box {
@@ -43,6 +110,16 @@ body a {
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 4px;
+}
+
+.box a {
+    color: var(--text_dark);
+}
+
+.box a:hover {
+    color: var(--text_dark);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
 }
 
 .box-icon,
@@ -53,15 +130,23 @@ body a {
 
 .box-warning {
     background: #f7d739;
+    color: var(--text_dark);
 }
 
 .box-danger {
     background: #dd7878;
+    color: var(--text_dark);
 }
 
 .box-info {
     background: #7287fd;
+    color: var(--text_dark);
 }
+
+.card-body, .card-title {
+    color: var(--text_dark);
+}
+
 
 /* Button */
 
@@ -69,23 +154,31 @@ body a {
     background-color: #4c4f69;
 }
 
-/* Content */
-
-h2,h3,h4, h5, h6 {
-    margin-top: 2rem;
-}
-
-/* Background Colors */
-
-.bg-card {
-    background: #c2dddd;
-}
-
 /* Badges */
 
 .badge-version {
     font-size: 0.7rem;
     vertical-align: middle;
+}
+
+.bg-danger {
+    color: var(--text_danger)!important;
+    background: var(--badge_danger)!important;
+}
+
+.bg-warning {
+    color: var(--text_warning)!important;
+    background: var(--badge_warning)!important;
+}
+
+.bg-primary {
+    color: var(--text_primary)!important;
+    background: var(--badge_primary)!important;
+}
+
+.bg-success {
+    color: var(--text_success)!important;
+    background: var(--badge_success)!important;
 }
 
 /* Highlight JS */
@@ -166,23 +259,19 @@ div.highlight button:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--yellow-01);
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: var(--yellow-02);
+    background: var(--theme);
 }
 
 /* Scroll to top */
 /* Smooth scrolling IF user doesn't have a preference due to motion sensitivities */
 @media screen and (prefers-reduced-motion: no-preference) {
     html {
-      scroll-behavior: smooth;
+        scroll-behavior: smooth;
     }
-  }
+}
 
-  
-  .back-to-top-link {
+
+.back-to-top-link {
     position: fixed;
     position: sticky;
     pointer-events: all;
@@ -192,9 +281,10 @@ div.highlight button:hover {
     padding: 0.25rem;
     border: 1px solid #254568;
     background-color: #d6e3f0;
-  }
+}
 
-.text-muted.top a, .text-muted.top a {
+.text-muted.top a,
+.text-muted.top a {
     font-size: 0.5em;
-    color:#848484;
+    color: #848484;
 }
