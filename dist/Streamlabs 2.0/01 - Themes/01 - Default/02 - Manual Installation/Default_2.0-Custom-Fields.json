@@ -1,12 +1,13 @@
 {
     "description": {
-        "name": "Jho Chat v2.0",
+        "name": "Jho Chat  - Default v2.0",
         "owner": "@jhooo_o",
         "links": {
             "twitter": "https://twitter.com/jhooo_o",
             "github": "https://github.com/jhoooooo/chatbox",
             "twitch": "https://www.twitch.tv/jhoooooooooooo/",
-            "gumroad": "https://jhoo.gumroad.com/"
+            "gumroad": "https://jhoo.gumroad.com/",
+            "discord": "https://discord.gg/e5DQ8yKnj6"
         }
     },
     "font_picked": {
