@@ -35,7 +35,7 @@ Free open source customizable theme, template, custom coded CSS for Twitch, Stre
 - [Download](https://jhoo.gumroad.com/)
 
 ## Help / Support / Customizations
-No support will be provided. You can post your issue [here](https://github.com/jhoooooo/chatbox/issues) or on [Twitter](https://twitter.com/messages/compose?recipient_id=921976194953650176&text=Hi!) but, we make no promises or guarantees about providing any fixes. For custom paid request/help/commisions, you may inquire on [Twitter](https://twitter.com/messages/compose?recipient_id=921976194953650176&text=Hi!).
+No support will be provided. You can post your issue [here](https://github.com/jhoooooo/chatbox/issues), [Github](https://discord.gg/e5DQ8yKnj6) or on [Twitter](https://twitter.com/messages/compose?recipient_id=921976194953650176&text=Hi!) but, there is no promises or guarantees about providing any fixes.
 
 ## Contributors
 * [Curtis Geiger](https://github.com/curtissimo41)
