@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- 
     Jho.
-    Last modified: Wednesday, 23rd November 2022, 4:06:07 am
+    Last modified: Tuesday, 3rd January 2023, 10:35:20 pm
 -->
 
 <head>
@@ -22,7 +22,7 @@
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom styles -->
-    <link href="./pages/assets/files/index-style.css" rel="stylesheet" />
+    <link href="./pages/assets/files/style.css" rel="stylesheet" />
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9M06PF1QJQ"></script>
@@ -36,7 +36,7 @@
 
 </head>
 
-<body>
+<body id="index">
     <!-- Hero -->
 
     <div class="container">
@@ -55,7 +55,8 @@
                     widget, with smoothscroll animation, custom css, custom animation, extra functionalities & many
                     more.</p>
                 <a class="btn btn-download fw-bolder" href="#download" role="button"><i
-                    class="fa-solid fa-download me-1"></i>Download </a> <span class="ms-1 notice">🎉 More than 2140 downloads!</span>
+                        class="fa-solid fa-download me-1"></i>Download </a> <span class="ms-1 notice">🎉 More than 2140
+                    downloads!</span>
             </div>
         </div>
     </div>
@@ -63,119 +64,91 @@
     <!-- Download -->
     <div class="container my-3">
         <div id="download" class="row gy-2">
+    
             <!-- Streamlabs 2.0 -->
-            <div class="col-12 mb-4">
-                <div class="streamlabs2 h-100 p-4 rounded">
-                    <h2 class="streamlabs2-title">Streamlabs v2.0 Beta</h2>
-                    <p>This version introduces support for Youtube live chat, Twitch's /announce and reply function.
-                        Currently only "Default" theme are migrated over and available for download.</p>
-                    <div class="row">
-                        <!--
-                        <div class="col-12 col-lg-4">
-                            <a class="btn btn-sm d-block my-1"
-                                href="https://jhoooooo.github.io/chatbox/pages/streamlabs_oneclick"><i
-                                    class="bi bi-file-text me-1"></i>One Click Install</a>
-                        </div> -->
-                        <div class="col-12 col-lg-4">
-                            <a class="btn btn-sm d-block my-1 fw-bolder" href="https://gumroad.com/l/jxzKbA?wanted=true"
-                                target="_blank"><i class="fa-solid fa-download me-1"></i>Download</a>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <a class="btn btn-sm d-block my-1 fw-bolder"
-                                href="https://jhoooooo.github.io/chatbox/pages/streamlabs/default">
-                                <i class="fa-regular fa-file-lines me-1"></i>Installation Guide</a>
+            <div class="container-fluid">
+                <div class="row g-2">
+                    <!-- Card Start -->
+                    <div class="col-12 col-lg-4">
+                        <div class="d-flex flex-column p-3 border h-100 rounded rounded card_bg_1">
+                            <h6>Default <small class="tag">Streamlabs</small></h6>
+                            <p class="mt-1">Default themes for Streamlabs.</p>
+                                <div class="mt-auto">
+                                    <a class="btn btn-sm d-block my-1 fw-bolder" href="https://ko-fi.com/s/7666ce1e3d" target="_blank"><i
+                                            class="fa-solid fa-download me-1"></i>Download</a>
+                                    <a class="btn btn-sm d-block my-1 fw-bolder" href="https://jhoooooo.github.io/chatbox/pages/streamlabs/default">
+                                        <i class="fa-regular fa-file-lines me-1"></i>Installation Guide</a>
+                                    <a class="btn btn-sm d-block my-1 fw-bolder disabled" href="/"
+                                        target="_blank" aria-disabled="true"><i class="fab fa-youtube me-1"></i>Preview</a>
+                                </div>
                         </div>
                     </div>
+                    <!-- Card Ends -->
+                    <!-- Card Start -->
+                    <div class="col-12 col-lg-4">
+                        <div class="d-flex flex-column p-3 border h-100 rounded  card_bg_1">
+                            <h6>Instap <small class="tag">Streamlabs</small> <!-- <small class="tag">Coming soon</small> --></h6>
+                            <p class="mt-1">Upgraded version of Instapog v1 themes for Streamlabs. Added support for Youtube live chat, custom input text, hide-able ui elements.</p>
+                            <div class="mt-auto">
+                                <a class="btn btn-sm d-block my-1 fw-bolder" href="https://ko-fi.com/s/1baa87434e" target="_blank"><i
+                                        class="fa-solid fa-download me-1"></i>Buy $15</a>
+                                <a class="btn btn-sm d-block my-1 fw-bolder disabled" href="https://jhoooooo.github.io/chatbox/pages/streamlabs/instap">
+                                    <i class="fa-regular fa-file-lines me-1"></i>Installation Guide</a>
+                                <a class="btn btn-sm d-block my-1 fw-bolder disabled" href="/"
+                                    target="_blank" aria-disabled="true"><i class="fab fa-youtube me-1"></i>Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card Ends -->
+                    <!-- Card Start -->
+                    <div class="col-12 col-lg-4">
+                        <div class="d-flex flex-column p-3 border h-100 rounded card_bg_2">
+                            <h6>Default <small class="tag">Streamelements</small></h6>
+                            <p class="mt-1">Default theme for Streamelements.</p>
+                            <div class="mt-auto">
+                                <a class="btn btn-sm d-block my-1 fw-bolder" href="https://ko-fi.com/s/e61f2a3f83"
+                                    target="_blank"><i class="fa-solid fa-download me-1"></i>Download</a>
+                                <a class="btn btn-sm d-block my-1 fw-bolder"
+                                    href="https://jhoooooo.github.io/chatbox/pages/streamelements">
+                                    <i class="fa-regular fa-file-lines me-1"></i>Installation Guide</a>
+                                <a class="btn btn-sm d-block my-1 fw-bolder disabled" href="#"
+                                    target="_blank"><i class="fab fa-youtube me-1"></i>Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card Ends -->
+                    <!-- Card Start -->
+                    <div class="col-12 col-lg-4">
+                        <div class="d-flex flex-column p-3 border h-100 rounded card_bg_3">
+                            <h6>Streamlabs v1 <small class="tag">Streamlabs</small></h6>
+                            <p class="mt-1">10+ Original themes made for Streamlabs. Does not support Youtube Live.</p>
+                            <div class="mt-auto">
+                                <a class="btn btn-sm d-block my-1 fw-bolder" href="https://jhoo.gumroad.com/l/irzlw?wanted=true"
+                                    target="_blank"><i class="fa-solid fa-download me-1"></i>Download</a>
+                                <a class="btn btn-sm d-block my-1 fw-bolder"
+                                    href="https://jhoooooo.github.io/chatbox/pages/streamlabs">
+                                    <i class="fa-regular fa-file-lines me-1"></i>Installation Guide</a>
+                                <a class="btn btn-sm d-block my-1 fw-bolder disabled" href="#"
+                                    target="_blank"><i class="fab fa-youtube me-1"></i>Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card Ends -->
                 </div>
             </div>
         </div>
-        <!-- Streamlabs 1.0 -->
-        <div class="col-12 mb-4">
-            <div class="streamlabs h-100 p-4 rounded">
-                <h2 class="streamlabs-title">Streamlabs v1.0</h2>
-                <p>Contains all the previously made themes. If you are not sure which version to get, download this
-                    version. Does not support Youtube Live.</p>
-                <div class="row">
-                    <div class="col-12 col-lg-4">
-                        <a class="btn btn-sm d-block my-1 fw-bolder"
-                            href="https://jhoooooo.github.io/chatbox/pages/streamlabs_oneclick"><i
-                                class="fa-solid fa-wand-magic-sparkles me-1"></i>One Click Install</a>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <a class="btn btn-sm d-block my-1 fw-bolder" href="https://jhoo.gumroad.com/l/irzlw?wanted=true"
-                            target="_blank"><i class="fa-solid fa-download me-1"></i>Download (Manual Installation)</a>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <a class="btn btn-sm d-block my-1 fw-bolder"
-                            href="https://jhoooooo.github.io/chatbox/pages/streamlabs"><i
-                                class="fa-regular fa-file-lines me-1"></i>Manual Installation Guide</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Streamelements -->
-        <div class="col-12 mb-4">
-            <div class="streamelements h-100 p-4 rounded">
-                <h2 class="streamlabs-title">Streamelements</h2>
-                <p>If you are using StreamElements, download this version.</p>
-                <div class="row">
-                    <div class="col-12 col-lg-4">
-                        <a class="btn btn-sm d-block my-1 fw-bolder" href="https://jhoo.gumroad.com/l/wCzIp?wanted=true"
-                            target="_blank"><i class="fa-solid fa-download me-1"></i>Download (Manual Installation)</a>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <a class="btn btn-sm d-block my-1 fw-bolder"
-                            href="https://jhoooooo.github.io/chatbox/pages/streamelements"><i
-                                class="fa-regular fa-file-lines me-1"></i>Installation Guide</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- 
-            <div class="col-12">
-                <div class="h-100 p-4 rounded">
-                    <h2 class="changelog-title">Changelogs</h2>
-                    <p>Streamelements version. That's it.</p>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="h-100 p-4 rounded">
-                    <h2 class="changelog-title">Frequently asked questions.</h2>
-                    <ol class="faq">
-                        <li class="">
-                        <div class="ms-2 me-auto">
-                            <div class="fw-bold">Subheading</div>
-                            Content for list item
-                        </div>
-                        </li>
-                        <li class="">
-                        <div class="ms-2 me-auto">
-                            <div class="fw-bold">Subheading</div>
-                            Content for list item
-                        </div>
-                        </li>
-                        <li class="">
-                        <div class="ms-2 me-auto">
-                            <div class="fw-bold">Subheading</div>
-                            Content for list item
-                        </div>
-                        </li>
-                    </ol>
-                </div>    
-            </div> -->
-    </div>
     </div>
     <!-- Copyright -->
-    <div class="py-3 text-center footer-copyright">
+    <div class="py-3 text-center footer">
         <span>
             <small>
                 <img src="./pages/assets/images/hi.gif" height="18px">
                 Made by
                 <a href="https://twitter.com/intent/follow?screen_name=jhooo_o" target="_blank">jho</a>
                 <span class="px-1">·</span>
-                <i class="bi bi-github mx-1"></i><a href="https://github.com/jhoooooo/chatbox" target="_blank">View on
-                    Github</a>
+                <i class="fab fa-github mx-1"></i><a href="https://github.com/jhoooooo/chatbox" target="_blank"> Github</a>
+                <i class="fab fa-twitter mx-1"></i><a href="https://twitter.com/jhooo_o" target="_blank"> Twitter</a>
+                <i class="fab fa-discord mx-1"></i><a href="https://discord.gg/e5DQ8yKnj6" target="_blank"> Discord</a>
             </small>
         </span>
     </div>
