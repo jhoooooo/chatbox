@@ -1,7 +1,11 @@
 [Preview](https://user-images.githubusercontent.com/65335648/189489996-99d663ec-ef7b-4e9a-ad10-e9ced9146554.mp4)
 
+# Announcement
+
+Repo is archived and only will be use to host Github Pages. No update to the overlay code will be made.
+
 # Twitch Chatbox Widget Overlay
-Free open source customizable theme, template, custom coded CSS for Twitch, Streamlabs, Streamelements chat box widget & overlay.
+Customizable theme, template, custom coded CSS for Twitch, Streamlabs, Streamelements chat box widget & overlay.
 
 ## Available Features
 - Smoothscroll chat animation
@@ -32,10 +36,10 @@ Free open source customizable theme, template, custom coded CSS for Twitch, Stre
 - Streamlabs allows you to combine both Twitch & Youtube Chat. Streamelements does not.
 
 ## Download
-- [Download](https://jhoo.gumroad.com/)
+- [Download](https://ko-fi.com/jhooo/shop)
 
 ## Help / Support / Customizations
-No support will be provided. You can post your issue [here](https://github.com/jhoooooo/chatbox/issues), [Discord](https://discord.gg/e5DQ8yKnj6) or on [Twitter](https://twitter.com/messages/compose?recipient_id=921976194953650176&text=Hi!) but, there is no promises or guarantees about providing any fixes.
+You can post your issue [here](https://github.com/jhoooooo/chatbox/issues) or on [Discord](https://discord.gg/e5DQ8yKnj6).
 
 ## Contributors
 * [Curtis Geiger](https://github.com/curtissimo41)
