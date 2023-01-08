@@ -56,3 +56,8 @@ highlights.forEach((div) => {
   // append the copy button to each code block
   div.append(copy);
 });
+
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});

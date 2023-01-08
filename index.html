@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- 
     Jho.
-    Last modified: Tuesday, 3rd January 2023, 10:35:20 pm
+    Last modified: Sunday, 8th January 2023, 6:07:41 pm
 -->
 
 <head>
@@ -14,13 +14,15 @@
     <meta name="author" content="JHO" />
 
     <title>Free Twitch, Streamlabs & Streamelements Custom Chat Box Widget Overlay</title>
-
+    
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css' integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==' crossorigin='anonymous'/>
+    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Custom styles -->
     <link href="./pages/assets/files/style.css" rel="stylesheet" />
 
@@ -48,7 +50,7 @@
             </div>
 
             <div class="col-12 col-lg-6">
-                <h1 class="jho-title fw-bold pt-3 pt-md-0">Jho Chatbox 2.0 - Streamlabs & Streamelements Chat Box Widget
+                <h1 class="jho-title fw-bold pt-3 pt-md-0">Jho Chatbox - Streamlabs & Streamelements Chat Box Widget
                     Overlay for Twitch & Youtube
                 </h1>
                 <p class="description">Customizable overlay themes for Streamlabs and Streamelements chat box
@@ -70,16 +72,31 @@
                 <div class="row g-2">
                     <!-- Card Start -->
                     <div class="col-12 col-lg-4">
-                        <div class="d-flex flex-column p-3 border h-100 rounded rounded card_bg_1">
-                            <h6>Default <small class="tag">Streamlabs</small></h6>
-                            <p class="mt-1">Default themes for Streamlabs.</p>
+                        <div class="d-flex flex-column p-3 border h-100 rounded rounded card_bg_3">
+                            <h6>Classic Default <small class="tag">Streamlabs</small></h6>
+                            <p class="mt-1">Old version of default themes for Streamlabs. Does not support Youtube Live.</p>
                                 <div class="mt-auto">
                                     <a class="btn btn-sm d-block my-1 fw-bolder" href="https://ko-fi.com/s/7666ce1e3d" target="_blank"><i
                                             class="fa-solid fa-download me-1"></i>Download</a>
                                     <a class="btn btn-sm d-block my-1 fw-bolder" href="https://jhoooooo.github.io/chatbox/pages/streamlabs/default">
                                         <i class="fa-regular fa-file-lines me-1"></i>Installation Guide</a>
-                                    <a class="btn btn-sm d-block my-1 fw-bolder disabled" href="/"
+                                        <a class="btn btn-sm d-block my-1 fw-bolder disabled" href="/"
                                         target="_blank" aria-disabled="true"><i class="fab fa-youtube me-1"></i>Preview</a>
+                                    </div>
+                        </div>
+                    </div>
+                    <!-- Card Ends -->
+                    <!-- Card Start -->
+                    <div class="col-12 col-lg-4">
+                        <div class="d-flex flex-column p-3 border h-100 rounded rounded card_bg_1">
+                            <h6>Default <small class="tag">Streamlabs</small></h6>
+                            <p class="mt-1">Default themes for Streamlabs.</p>
+                                <div class="mt-auto">
+                                    <a class="btn btn-sm d-block my-1 fw-bolder disabled" href="https://ko-fi.com/s/7666ce1e3d" target="_blank"><i
+                                            class="fa-solid fa-download me-1"  aria-disabled="true"></i>Download</a>
+                                    <a class="btn btn-sm d-block my-1 fw-bolder" href="https://jhoooooo.github.io/chatbox/pages/streamlabs/default">
+                                        <i class="fa-regular fa-file-lines me-1"></i>Installation Guide</a>
+                                    <a class="btn btn-sm d-block my-1 fw-bolder" data-toggle="lightbox" href="https://www.youtube.com/watch?v=fVynJR32xrI"><i class="fab fa-youtube me-1"></i>Preview</a>
                                 </div>
                         </div>
                     </div>
@@ -120,7 +137,7 @@
                     <!-- Card Start -->
                     <div class="col-12 col-lg-4">
                         <div class="d-flex flex-column p-3 border h-100 rounded card_bg_3">
-                            <h6>Streamlabs v1 <small class="tag">Streamlabs</small></h6>
+                            <h6>Streamlabs Classic Archive <small class="tag">Streamlabs</small></h6>
                             <p class="mt-1">10+ Original themes made for Streamlabs. Does not support Youtube Live.</p>
                             <div class="mt-auto">
                                 <a class="btn btn-sm d-block my-1 fw-bolder" href="https://jhoo.gumroad.com/l/irzlw?wanted=true"
@@ -153,9 +170,9 @@
         </span>
     </div>
     <!-- Copyright -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-        integrity="sha256-m81NDyncZVbr7v9E6qCWXwx/cwjuWDlHCMzi9pjMobA=" crossorigin="anonymous"></script>
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js' integrity='sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==' crossorigin='anonymous'></script>
+    <!-- Bootstrap 5 Lightbox -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bs5-lightbox/1.8.2/index.bundle.min.js' integrity='sha512-WjcU4zl6+f3WT/vFRjhS8EVMxk+UKbcFcTfTlU1mt3FKCraj3JEOHUkFgzni1UBSPoK8wWbnpZnmzidjr8k9Lg==' crossorigin='anonymous'></script>
 </body>
 
 </html>
