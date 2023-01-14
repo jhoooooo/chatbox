@@ -103,7 +103,7 @@ h6 {
 }
 
 .btn-download {
-    display: none;
+    /* isplay: none; */
     color: var(--button_download_text);
     background: var(--button_download);
     border: none;
