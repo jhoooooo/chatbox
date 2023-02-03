@@ -103,7 +103,7 @@ h6 {
 }
 
 .btn-download {
-    /* isplay: none; */
+    /* display: none; */
     color: var(--button_download_text);
     background: var(--button_download);
     border: none;
@@ -287,7 +287,6 @@ div.highlight button:hover {
 .bi-clipboard::before {
     vertical-align: middle;
 }
-
 
 /* scrollbar */
 
